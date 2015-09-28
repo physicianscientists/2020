@@ -10,9 +10,6 @@ body {
     padding-top: 90px;
 }
 
-
-
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 /* Navbar tweaks */
@@ -80,7 +77,11 @@ body {
     transition: color .25s ease-in-out;
 }
 
-
+/* HEADER CUSTOMIZATIONS
+-------------------------------------------------- */
+.share-icons a {
+    margin-left: 4px;
+}
 
 /* CUSTOMIZE THE FOOTER
 -------------------------------------------------- */
