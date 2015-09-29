@@ -148,7 +148,7 @@
     "@navbar-collapse-max-height": "340px",
     "@navbar-default-color": "#ededed",
     "@navbar-default-bg": "@brand-primary",
-    "@navbar-default-border": "#f7e076",
+    "@navbar-default-border": "@brand-info",
     "@navbar-default-link-color": "#ededed",
     "@navbar-default-link-hover-color": "#fff",
     "@navbar-default-link-hover-bg": "transparent",
@@ -430,5 +430,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=be61bcf91066c447d147"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=f48ea1e2e18b553e8215"
 }
