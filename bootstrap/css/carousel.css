@@ -49,7 +49,11 @@ body {
 .carousel .item {
     height: 500px;
     background-color: #777;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
 .carousel-inner > .item > img {
     position: absolute;
     top: 0;
