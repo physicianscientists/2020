@@ -77,6 +77,19 @@ body {
     transition: color .25s ease-in-out;
 }
 
+/* CUSTOMIZE JUMBOTRONS
+-------------------------------------------------- */
+.jumbotron {
+    margin-top: -20px;
+    background-image: -webkit-linear-gradient(top, #719bdd 0%, #fff 100%);
+    background-image:      -o-linear-gradient(top, #719bdd 0%, #fff 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#719bdd), to(#fff));
+    background-image:         linear-gradient(to bottom, #719bdd 0%, #fff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff719bdd', endColorstr='#ffffffff', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+}
+
 /* HEADER CUSTOMIZATIONS
 -------------------------------------------------- */
 .share-icons a {
