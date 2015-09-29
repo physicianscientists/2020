@@ -113,6 +113,9 @@ body {
     width: 100px;
     border-radius: 100px;
     background-color: #777;
+
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .contact:hover {
