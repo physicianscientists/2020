@@ -101,6 +101,48 @@ body {
     margin-left: 4px;
 }
 
+/* SPONSOR CUSTOMIZATIONS
+-------------------------------------------------- */
+.sponsor {
+    /* Centering trick */
+    left: 0;
+    right: 0;
+    margin: 25px auto;
+
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    box-shadow: 5px 5px 5px 5px #777;
+}
+
+@media screen and (max-width: 767px) {
+    .sponsor {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+.sponsor-platinum {
+    background-color: #e5e4e2;
+}
+
+.sponsor-gold {
+    background-color: #fedb86;
+}
+
+.sponsor-silver {
+    background-color: #c0c0c0;
+}
+
+.sponsor-bronze {
+    background-color: #cd7f32;
+}
+
+.sponsor-support {
+    background-color: #c4c4ff;
+}
+
 /* CONTACT CUSTOMIZATIONS
 -------------------------------------------------- */
 .contact {
