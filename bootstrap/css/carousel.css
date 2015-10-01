@@ -166,8 +166,8 @@ body {
 
 @media screen and (max-width: 767px) {
     .sponsor {
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
     }
 }
 
