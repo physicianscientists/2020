@@ -21,8 +21,19 @@ body {
     height: 30px;
     position: relative;
     top: 50%;
-    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+/* This is a css hack and will need to be updated when safari utilizes normal transforms */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+    @media {
+        .nav-logo { 
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+
+        }
+    }
 }
 
 .navbar-btn.btn-lg {
@@ -101,7 +112,44 @@ body {
     margin-left: 4px;
 }
 
-/* SPONSOR CUSTOMIZATIONS
+/* IMAGE ICONS (for column decorations)
+-------------------------------------------------- */
+.img-icon {
+    display: block;
+    margin: auto;
+    height: 150px;
+}
+
+@media screen and (max-width: 767px) {
+    .img-icon {
+        height: 100px;
+        margin: 25px auto;
+    }
+}
+
+/* VERTICAL CENTERING
+-------------------------------------------------- */
+
+/* Vertical center all bootstrap columns in bootstrap rows */
+@media screen and (min-width: 768px) {
+    .vcenter > div {
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: -4px; /* Hack to prevent column from wrapping */
+    }
+}
+
+.extra-padding {
+    padding-bottom: 20px;
+}
+
+/* Vertical center all cells in bootstrap table */
+.vcenter-table th, .vcenter-table td {
+    vertical-align: middle !important;
+}
+
+/* SPONSORS
 -------------------------------------------------- */
 .sponsor {
     /* Centering trick */
@@ -118,8 +166,8 @@ body {
 
 @media screen and (max-width: 767px) {
     .sponsor {
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
     }
 }
 
@@ -158,7 +206,9 @@ body {
 
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
 }
+
 
 .contact:hover {
     opacity: 0.5;
@@ -170,7 +220,7 @@ body {
 /* page-wrapper class to adjust page content for footer */
 .page-wrapper {
     min-height: 100%;
-    margin-bottom: -100px;
+    margin-bottom: -120px;
 }
 
 /* Force space to be available after page content for footer */
@@ -181,5 +231,5 @@ body {
 
 /* fixed footer height */
 .site-footer, .page-wrapper:after {
-    height: 100px;
+    height: 120px;
 }
