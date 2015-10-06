@@ -29,9 +29,8 @@ body {
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
     @media {
         .nav-logo { 
-        transform: translateY(-100%);
-        -webkit-transform: translateY(-100%);
-
+            transform: translateY(-100%);
+            -webkit-transform: translateY(-100%);
         }
     }
 }
@@ -164,10 +163,72 @@ body {
     box-shadow: 5px 5px 5px 5px #777;
 }
 
+.sponsor .blur-background {
+    /* centering trick */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: white;
+
+    /* all this and more, just for a blur...*/
+    -webkit-filter: url("#blur");
+    -moz-filter: url("#blur");
+    -o-filter: url("#blur");
+    -ms-filter: url("#blur");
+    filter: url("#blur");
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    z-index: 0;
+}
+
+.sponsor img {
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    width: 150px;
+    vertical-align: middle;
+    z-index: 10;
+}
+
+/* This is a css hack and will need to be updated when safari utilizes normal transforms */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+    @media {
+        .sponsor img { 
+            transform: translateY(-100%);
+            -webkit-transform: translateY(-100%);
+        }
+    }
+}
+
+
 @media screen and (max-width: 767px) {
     .sponsor {
         height: 100px;
         width: 100px;
+    }
+
+    .sponsor .blur-background {
+        height: 90px;
+        width: 90px;
+    }
+
+    .sponsor img {
+        width: 75px;
     }
 }
 
