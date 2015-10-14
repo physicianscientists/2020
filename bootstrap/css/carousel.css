@@ -55,7 +55,7 @@ body {
     z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+/* Declare heights because of positioning of div element */
 .carousel .item {
     height: 500px;
     background-color: #777;
@@ -252,9 +252,9 @@ body {
     background-color: #c4c4ff;
 }
 
-/* CONTACT CUSTOMIZATIONS
+/* BUBBLE IMAGES
 -------------------------------------------------- */
-.contact {
+.bubble-image {
     /* Centering trick */
     left: 0;
     right: 0;
@@ -271,7 +271,7 @@ body {
 }
 
 
-.contact:hover {
+.bubble-image:hover {
     opacity: 0.5;
 }
 
