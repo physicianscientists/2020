@@ -135,7 +135,7 @@ body {
 /* VERTICAL CENTERING
 -------------------------------------------------- */
 
-/* Vertical center all bootstrap columns in bootstrap rows */
+/* Apply to bootstrap row to vertically center all bootstrap columns inside */
 @media screen and (min-width: 768px) {
     .vcenter > div {
         float: none;
