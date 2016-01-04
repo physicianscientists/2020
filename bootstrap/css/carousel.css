@@ -111,12 +111,6 @@ body {
     margin-left: 4px;
 }
 
-/* SECTION HEADERS
--------------------------------------------------- */
-.section-header {
-
-}
-
 /* IMAGE ICONS (for column decorations)
 -------------------------------------------------- */
 .img-icon {
@@ -152,6 +146,12 @@ body {
 /* Vertical center all cells in bootstrap table */
 .vcenter-table th, .vcenter-table td {
     vertical-align: middle !important;
+}
+
+/* KEYNOTES
+-------------------------------------------------- */
+.keynote-thumbnail {
+    height: 100px;
 }
 
 /* SPONSORS
