@@ -148,8 +148,14 @@ body {
     vertical-align: middle !important;
 }
 
-/* KEYNOTES
+/* AGENDA
 -------------------------------------------------- */
+@media screen and (max-width: 768px) {
+    .time-column tr td:first-child{
+        width: 100px;
+    }
+}
+
 .keynote-thumbnail {
     width: 80px;
     max-width: none;
