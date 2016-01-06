@@ -151,7 +151,14 @@ body {
 /* KEYNOTES
 -------------------------------------------------- */
 .keynote-thumbnail {
-    height: 100px;
+    width: 80px;
+    max-width: none;
+}
+
+@media screen and (max-width: 768px) {
+    .col-keynote {
+        text-align: center;
+    }
 }
 
 /* SPONSORS
