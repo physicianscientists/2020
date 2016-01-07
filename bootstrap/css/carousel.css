@@ -148,11 +148,31 @@ body {
     vertical-align: middle !important;
 }
 
-/* AGENDA
+/* AGENDA -- keeping the table columns even
 -------------------------------------------------- */
+.agenda-table tr td:nth-child(1) {
+    width: 20%;
+}
+
+.agenda-table tr td:nth-child(2) {
+    width: 60%;
+}
+
+.agenda-table tr td:nth-child(3) {
+    width: 20%;
+}
+
 @media screen and (max-width: 768px) {
-    .time-column tr td:first-child{
-        width: 100px;
+    .agenda-table tr td:nth-child(1) {
+        width: 30%;
+    }
+
+    .agenda-table tr td:nth-child(2) {
+        width: 50%;
+    }
+
+    .agenda-table tr td:nth-child(3) {
+        width: 20%;
     }
 }
 
