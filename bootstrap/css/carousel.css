@@ -150,6 +150,10 @@ body {
 
 /* AGENDA -- keeping the table columns even
 -------------------------------------------------- */
+.agenda-table {
+    margin-bottom: 75px;
+}
+
 .agenda-table tr td:nth-child(1) {
     width: 20%;
 }
@@ -160,20 +164,6 @@ body {
 
 .agenda-table tr td:nth-child(3) {
     width: 20%;
-}
-
-@media screen and (max-width: 768px) {
-    .agenda-table tr td:nth-child(1) {
-        width: 30%;
-    }
-
-    .agenda-table tr td:nth-child(2) {
-        width: 50%;
-    }
-
-    .agenda-table tr td:nth-child(3) {
-        width: 20%;
-    }
 }
 
 .keynote-thumbnail {
