@@ -196,11 +196,19 @@ body {
 
 /* SPONSORS
 -------------------------------------------------- */
+.sponsor-wrapper {
+    text-align: center;
+}
+
+.sponsor-wrapper > a {
+    display: inline-block;
+}
+
 .sponsor {
     /* Centering trick */
-    left: 0;
+/*    left: 0;
     right: 0;
-    margin: 25px auto;
+*/    margin: 25px auto;
 
     height: 200px;
     width: 200px;
@@ -300,12 +308,16 @@ body {
 
 /* BUBBLE IMAGES
 -------------------------------------------------- */
-.bubble-image {
-    /* Centering trick */
-    left: 0;
-    right: 0;
-    margin: 25px auto;
+.bubble-image-wrapper {
+    text-align: center;
+}
 
+.bubble-image-wrapper > a {
+    display: inline-block;
+}
+
+.bubble-image {
+    margin: 25px auto;
     height: 100px;
     width: 100px;
     border-radius: 100px;
