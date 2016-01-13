@@ -201,15 +201,11 @@ body {
 }
 
 .sponsor-wrapper > a {
+    margin: 25px auto;
     display: inline-block;
 }
 
 .sponsor {
-    /* Centering trick */
-/*    left: 0;
-    right: 0;
-*/    margin: 25px auto;
-
     height: 200px;
     width: 200px;
     border-radius: 20px;
@@ -314,10 +310,10 @@ body {
 
 .bubble-image-wrapper > a {
     display: inline-block;
+    margin: 25px auto;
 }
 
 .bubble-image {
-    margin: 25px auto;
     height: 100px;
     width: 100px;
     border-radius: 100px;
