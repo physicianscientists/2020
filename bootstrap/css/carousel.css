@@ -148,6 +148,20 @@ body {
     vertical-align: middle !important;
 }
 
+/* MEETING
+-------------------------------------------------- */
+.btn-img {
+    position: relative;
+}
+
+.btn-img-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* AGENDA -- keeping the table columns even
 -------------------------------------------------- */
 .agenda-table {
