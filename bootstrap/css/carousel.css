@@ -150,16 +150,14 @@ body {
 
 /* MEETING
 -------------------------------------------------- */
-.btn-img {
-    position: relative;
+.btn-hotel {
+    margin-top: 40px;
 }
 
-.btn-img-text {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+@media screen and (max-width: 767px) {
+    .btn-hotel {
+        margin-top: 20px;
+    }
 }
 
 /* AGENDA -- keeping the table columns even
