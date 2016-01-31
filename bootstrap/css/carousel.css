@@ -191,14 +191,13 @@ body {
     margin: 0 15px 15px 0;
 }
 
-#overflow-glitch,
-.keynote-name {
+#overflow-glitch {
     overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {
     .keynote-info {
-        float: left;
+        clear: both;
     }
 }
 
