@@ -205,6 +205,21 @@ body {
     color: #2a5dae;
 }
 
+@media screen and (min-width: 767px) {
+    .agenda-panel-col {
+        display: inline-block;
+    }
+}
+
+.panel-moderator {
+    border: 5px solid #2a5dae;
+}
+
+/* HIGHLIGHTS
+-------------------------------------------------- */
+
+
+
 /* SPONSORS
 -------------------------------------------------- */
 .sponsor-wrapper {
@@ -276,7 +291,6 @@ body {
     }
 }
 
-
 @media screen and (max-width: 767px) {
     .sponsor {
         height: 100px;
@@ -315,21 +329,8 @@ body {
 
 /* BUBBLE IMAGES
 -------------------------------------------------- */
-.bubble-image-wrapper {
-    text-align: center;
-}
-
-.bubble-image-wrapper > a {
-    display: inline-block;
-    margin: 25px auto;
-}
-
 .bubble-image {
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
     background-color: #777;
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -345,6 +346,32 @@ body {
 .bubble-image:hover {
     opacity: 0.5;
 }
+
+.bubble-sm,
+.bubble-md {
+    display: inline-block;
+}
+
+.bubble-sm {
+    margin: 10px 10px 10px 0;
+}
+
+.bubble-sm .bubble-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.bubble-md {
+    margin: 25px auto;
+}
+
+.bubble-md .bubble-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
 
 /* CUSTOMIZE THE FOOTER
 -------------------------------------------------- */
