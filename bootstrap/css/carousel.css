@@ -29,8 +29,8 @@ body {
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
     @media {
         .nav-logo { 
-            transform: translateY(-100%);
             -webkit-transform: translateY(-100%);
+                    transform: translateY(-100%);
         }
     }
 }
@@ -82,7 +82,7 @@ body {
     color: #fff;
     text-decoration: none;
     -webkit-transition: color .25s ease-in-out;
-    transition: color .25s ease-in-out;
+            transition: color .25s ease-in-out;
 }
 
 /* Give some indication that text is special */
@@ -98,7 +98,7 @@ body {
     margin-top: -20px;
     background-image: -webkit-linear-gradient(top, #719bdd 0%, #fff 100%);
     background-image:      -o-linear-gradient(top, #719bdd 0%, #fff 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#719bdd), to(#fff));
+    background-image:        -webkit-gradient(linear, left top, left bottom, from(#719bdd), to(#fff));
     background-image:         linear-gradient(to bottom, #719bdd 0%, #fff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff719bdd', endColorstr='#ffffffff', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -213,6 +213,29 @@ body {
 
 .panel-moderator {
     border: 5px solid #2a5dae;
+}
+
+/* Affix */
+.affix {
+    top: 50px;
+    width: inherit;
+    background-color: #fff;
+    z-index: 10;
+}
+
+@media screen and (max-width: 768px) {
+    .affix {
+        width: 100%;
+    }
+}
+
+.affix .page-header {
+    margin-bottom: 0;
+    font-size: 1.4em;
+}
+
+.affix-bottom {
+    position: absolute;
 }
 
 /* HIGHLIGHTS
