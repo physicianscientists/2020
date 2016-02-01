@@ -219,6 +219,7 @@ body {
 .affix {
     top: 50px;
     width: inherit;
+    padding-right: 30px;
     background-color: #fff;
     z-index: 10;
 }
