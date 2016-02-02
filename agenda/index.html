@@ -423,7 +423,7 @@
                   <a href="../highlights/index.html#huda-zoghbi"><img src="../images/keynotes/huda_zoghbi_thumb.jpg" class="keynote-thumbnail img-thumbnail" /></a>
                 </div>
                 <div class="keynote-info">
-                  <a href="../highlights/index.html#huda-zhogbi"><p><strong>APSA Keynote Speaker #5: Huda Zoghbi, MD, Baylor College of Medicine</strong></p></a>
+                  <a href="../highlights/index.html#huda-zoghbi"><p><strong>APSA Keynote Speaker #5: Huda Zoghbi, MD, Baylor College of Medicine</strong></p></a>
                   <p>Genetic Approaches to Tackle Neurodegenerative Disorders</p>
                   <p><em>International Ballroom</em></p>
                 </div>
@@ -928,22 +928,23 @@ $(function() {
 // Apply affix to each day's header in agenda to maintain view 
 // while scrolling through the whole day
 (function() {
+    var agendaDays = [];
     $('.agenda-day').each(function() {
+        var $agendaDay = $(this);
         var $table = $(this).next();
-        console.log($table);
-        var elementTop = $table.offset().top;
-        var elementHeight = $table.height();
+        var tableTop = $table.offset().top;
+        console.log(tableTop - 50);
+        var tableHeight = $table.height();
 
-        $(this).affix({
+        $agendaDay.affix({
             offset: {
-                top: $(this).offset().top - 50,
-                bottom: $(document).height() - elementTop - elementHeight
+                top: $agendaDay.offset().top - 50,
+                bottom: $(document).height() - tableTop - tableHeight
             }
         });
     });
 })();
 
-console.log($(document).height());
     </script>
   </body>
 </html>
