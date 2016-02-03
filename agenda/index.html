@@ -962,7 +962,7 @@ $(function() {
 
     $agendaDay.affix({
       offset: {
-        top: $agendaDay.offset().top - 50 + ($agendaDay.height()-totalH),
+        top: $agendaDay.offset().top - 50 - ($agendaDay.height()+totalH),
         bottom: $(document).height() - tableTop - tableHeight
       }
     });
