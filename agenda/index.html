@@ -933,7 +933,7 @@ $(function() {
   
   var adjustBuffer = function (h) {
     if (h >=0) {
-      buffer.height(tHeights[h] + 32 * (h+1));
+      buffer.height(tHeights[h] + 32);
     } else {
       buffer.height(0);
     }
@@ -955,6 +955,7 @@ $(function() {
       //adjust buffer as we move up the page as well
       element.on('affixed-top.bs.affix', function () {
         if (moved) {
+          console.log('adjusting from here...')
           adjustBuffer(index-1);
         }
       });
@@ -968,7 +969,6 @@ $(function() {
     });
   });
 })();
-
 
     </script>
   </body>
