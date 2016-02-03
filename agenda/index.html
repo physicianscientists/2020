@@ -58,7 +58,7 @@
       <!-- Main Body
       ================================================== -->
       <div class="jumbotron">
-        <div class="container">
+        <div class="container" id='mainPage'>
 
           <!-- Announcement Header -->
           <h1 class="text-center">Schedule</h1>
@@ -928,22 +928,48 @@ $(function() {
 // Apply affix to each day's header in agenda to maintain view 
 // while scrolling through the whole day
 (function() {
-    var agendaDays = [];
-    $('.agenda-day').each(function() {
-        var $agendaDay = $(this);
-        var $table = $(this).next();
-        var tableTop = $table.offset().top;
-        console.log(tableTop - 50);
-        var tableHeight = $table.height();
+  var buffer = $('<div style="position: relative; height:0px">').prependTo($('#mainPage')),
+    tHeights = {}, moved = false, totalH = 0, adjustBuffer;
+  
+  var adjustBuffer = function (h) {
+    if (h >=0) {
+      buffer.height(tHeights[h] + 32 * (h+1));
+    } else {
+      buffer.height(0);
+    }
+  };
 
-        $agendaDay.affix({
-            offset: {
-                top: $agendaDay.offset().top - 50,
-                bottom: $(document).height() - tableTop - tableHeight
-            }
-        });
+  $('.agenda-day').each(function(ind) {
+    var $agendaDay = $(this), $table = $(this).next(), 
+      tableTop = $table.offset().top, tableHeight = $table.height();
+
+    totalH = totalH + $agendaDay.height();
+    tHeights[ind]=totalH;
+
+    (function(element, index) {
+      //adjust buffer with each element affixed
+      element.on('affixed.bs.affix', function() {
+        adjustBuffer(index);
+        moved = true; // This is prevent a buffer from forming when the page is set up
+      });
+      //adjust buffer as we move up the page as well
+      element.on('affixed-top.bs.affix', function () {
+        if (moved) {
+          console.log('adjusting from here...')
+          adjustBuffer(index-1);
+        }
+      });
+    }($agendaDay, ind));
+
+    $agendaDay.affix({
+      offset: {
+        top: $agendaDay.offset().top - 50 - $agendaDay.height(),
+        bottom: $(document).height() - tableTop - tableHeight
+        }
+      });
     });
-})();
+  })();
+
 
     </script>
   </body>
