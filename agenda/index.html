@@ -955,7 +955,6 @@ $(function() {
       //adjust buffer as we move up the page as well
       element.on('affixed-top.bs.affix', function () {
         if (moved) {
-          console.log('adjusting from here...')
           adjustBuffer(index-1);
         }
       });
@@ -965,10 +964,10 @@ $(function() {
       offset: {
         top: $agendaDay.offset().top - 50 - $agendaDay.height(),
         bottom: $(document).height() - tableTop - tableHeight
-        }
-      });
+      }
     });
-  })();
+  });
+})();
 
 
     </script>
