@@ -185,6 +185,11 @@ body {
     }
 }
 
+.agenda-day {
+    display: inline-block;
+    width: 100%;
+}
+
 .keynote-thumbnail {
     width: 80px;
     max-width: none;
@@ -230,7 +235,8 @@ body {
     }
 }
 
-.affix .page-header {
+.affix .page-header,
+.affix-bottom .page-header {
     margin-bottom: 0;
     font-size: 1.4em;
 }

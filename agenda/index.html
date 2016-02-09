@@ -927,23 +927,50 @@ $(function() {
 
 // Apply affix to each day's header in agenda to maintain view 
 // while scrolling through the whole day
-(function() {
-    var agendaDays = [];
-    $('.agenda-day').each(function() {
-        var $agendaDay = $(this);
-        var $table = $(this).next();
-        var tableTop = $table.offset().top;
-        console.log(tableTop - 50);
-        var tableHeight = $table.height();
+// Note: waiting for window load to perform calculations so that
+//     heights are only calculated after all DOM object are in the page
+//     do that document height is correct
+$(window).load(function() {
+    // Used to cause affix to stop at navbar not page top
+    var navbarHeight = $('.navbar').height();
+    
+    // for each day's label in schedule
+    $('.agenda-day').each(function(index) {
+        var $agendaDay = $(this),
+            agendaDayHeight = $agendaDay.height(),
 
+            $table = $agendaDay.next(),
+            tableTop = $table.offset().top,
+            tableBottom = tableTop + $table.height(),
+            tableBottomBottom = $(document).height() - tableBottom,
+
+            // div to take place of page-header when pulled out of flow
+            //     with css position: fixed
+            $dummyDiv = $('<div></div>', {'class': 'dummy-div'});
+
+        $dummyDiv.height(agendaDayHeight);
+
+        // add div after affixing
+        $agendaDay.on('affixed.bs.affix', function() {
+            $dummyDiv.insertBefore($table);
+            console.log('Inserting div ' + $dummyDiv.height() + 'px high on ' + index);
+        });
+
+        // Remove div when ABOVE affix point
+        $agendaDay.on('affixed-top.bs.affix', function() {
+            $table.prev('.dummy-div').remove();
+            console.log('Removing div on ' + index);
+        });
+
+        // Set position for affixing and stopping
         $agendaDay.affix({
             offset: {
-                top: $agendaDay.offset().top - 50,
-                bottom: $(document).height() - tableTop - tableHeight
+                top: $agendaDay.offset().top - navbarHeight,
+                bottom: $(document).height() - tableBottom
             }
         });
     });
-})();
+});
 
     </script>
   </body>
