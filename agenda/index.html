@@ -930,7 +930,8 @@ $(function() {
 // Note: waiting for window load to perform calculations so that
 //     heights are only calculated after all DOM object are in the page
 //     do that document height is correct
-$(window).load(function() {
+$(window).on('load', function() {
+
     // Used to cause affix to stop at navbar not page top
     var navbarHeight = $('.navbar').height();
     
@@ -942,16 +943,19 @@ $(window).load(function() {
             $table = $agendaDay.next(),
             tableTop = $table.offset().top,
             tableBottom = tableTop + $table.height(),
-            tableBottomBottom = $(document).height() - tableBottom,
 
             // div to take place of page-header when pulled out of flow
             //     with css position: fixed
             $dummyDiv = $('<div></div>', {'class': 'dummy-div'});
 
+        console.log($table);
+
         $dummyDiv.height(agendaDayHeight);
 
-        // add div after affixing
-        $agendaDay.on('affixed.bs.affix', function() {
+        // add div after affixing and after affixing-bottom
+        // Note that the affix-bottom applies same div (its in the same iteration of the loop),
+        //     so this won't double up
+        $agendaDay.on('affixed.bs.affix affixed-bottom.bs.affix', function() {
             $dummyDiv.insertBefore($table);
             console.log('Inserting div ' + $dummyDiv.height() + 'px high on ' + index);
         });
