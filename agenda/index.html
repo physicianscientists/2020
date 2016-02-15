@@ -930,41 +930,40 @@ $(function() {
 // Note: waiting for window load to perform calculations so that
 //     heights are only calculated after all DOM object are in the page
 //     do that document height is correct
-$(window).on('load', function() {
+$(window).on('load resize', function(e) {
 
     // Used to cause affix to stop at navbar not page top
     var navbarHeight = $('.navbar').height();
     
     // for each day's label in schedule
     $('.agenda-day').each(function(index) {
-        var $agendaDay = $(this),
-            agendaDayHeight = $agendaDay.height(),
+        var $agendaDay = $(this);
 
-            $table = $agendaDay.next(),
+        // measure agenda label height and apply event listeners once on page load
+        if (e.type === 'load') {
+            var agendaDayHeight = $agendaDay.height(),
+
+                // div to take place of page-header when pulled out of flow
+                //     with css position: fixed
+                $dummyDiv = $('<div></div>', {'class': 'dummy-div'});
+
+            $dummyDiv.height(agendaDayHeight);
+
+            // add div after affixing and ending
+            $agendaDay.on('affixed.bs.affix affixed-bottom.bs.affix', function(e) {
+                $dummyDiv.insertBefore($table);
+            });
+
+            // Remove div when ABOVE affix point
+            $agendaDay.on('affixed-top.bs.affix', function() {
+                $table.prev('.dummy-div').remove();
+            });
+        }
+
+        // calculate table height values
+        var $table = $agendaDay.next(),
             tableTop = $table.offset().top,
-            tableBottom = tableTop + $table.height(),
-
-            // div to take place of page-header when pulled out of flow
-            //     with css position: fixed
-            $dummyDiv = $('<div></div>', {'class': 'dummy-div'});
-
-        console.log($table);
-
-        $dummyDiv.height(agendaDayHeight);
-
-        // add div after affixing and after affixing-bottom
-        // Note that the affix-bottom applies same div (its in the same iteration of the loop),
-        //     so this won't double up
-        $agendaDay.on('affixed.bs.affix affixed-bottom.bs.affix', function() {
-            $dummyDiv.insertBefore($table);
-            console.log('Inserting div ' + $dummyDiv.height() + 'px high on ' + index);
-        });
-
-        // Remove div when ABOVE affix point
-        $agendaDay.on('affixed-top.bs.affix', function() {
-            $table.prev('.dummy-div').remove();
-            console.log('Removing div on ' + index);
-        });
+            tableBottom = tableTop + $table.height();
 
         // Set position for affixing and stopping
         $agendaDay.affix({
@@ -973,6 +972,12 @@ $(window).on('load', function() {
                 bottom: $(document).height() - tableBottom
             }
         });
+
+        // Workaround for bootstrap bug that prevents setting offsets dynamically
+        if (e.type === 'resize') {
+            $agendaDay.data('bs.affix').options.offset.top = $agendaDay.offset().top - navbarHeight;
+            $agendaDay.data('bs.affix').options.offset.bottom = $(document).height() - tableBottom;
+        }
     });
 });
     </script>
