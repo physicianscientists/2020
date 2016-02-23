@@ -195,24 +195,24 @@
                   </div>
                   <div class="bubble-sm">
                     <a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-placement="top" data-html="true" title="Victor Dzau, MD" data-content="President, National Academy of Medicine (formerly the Institute of Medicine)">
-                      <div class="bubble-image" style="background-image: url('../images/panels/');"></div>
+                      <div class="bubble-image" style="background-image: url('../images/panels/victor_dzau_agenda.jpg');"></div>
                     </a>
                   </div>
                   <div class="bubble-sm">
                     <a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-placement="top" data-html="true" title="Stephen Ostroff, MD" data-content="Commissioner, Food and Drug Administration">
-                      <div class="bubble-image" style="background-image: url('../images/panels/');"></div>
+                      <div class="bubble-image" style="background-image: url('../images/panels/stephen_ostroff_agenda.png');"></div>
                     </a>
                   </div>
                 </div>
                 <div class="agenda-panel-col">
                   <div class="bubble-sm">
                     <a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-placement="bottom" data-html="true" title="Craig Basson, MD, PhD" data-content="Vice President &amp; Global Head, Translational Medicine (Cardiovascular and Metabolism), Novartis">
-                      <div class="bubble-image" style="background-image: url('../images/panels/');"></div>
+                      <div class="bubble-image" style="background-image: url('../images/panels/craig_basson_agenda.png');"></div>
                     </a>
                   </div>
                   <div class="bubble-sm">
                     <a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-placement="bottom" data-html="true" title="Jennifer Zeitzer" data-content="Director, Legislative Relations, FASEB">
-                      <div class="bubble-image" style="background-image: url('../images/panels/');"></div>
+                      <div class="bubble-image" style="background-image: url('../images/panels/jennifer_zeitzer_agenda.jpg');"></div>
                     </a>
                   </div>
                 </div>
@@ -590,24 +590,24 @@
                 <div class="agenda-panel-col">
                   <div class="bubble-sm">
                     <a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-placement="top" data-html="true" title="Parisa Lotfi, MD" data-content="Brigham &amp; Women's/Faulkner Hospital">
-                      <div class="bubble-image" style="background-image: url('../images/panels/');"></div>
+                      <div class="bubble-image" style="background-image: url('../images/panels/parisa_lotfi_agenda.png');"></div>
                     </a>
                   </div>
                   <div class="bubble-sm">
                     <a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-placement="top" data-html="true" title="Mehra Golshan, MD" data-content="Dana-Farber Cancer Institute">
-                      <div class="bubble-image" style="background-image: url('../images/panels/');"></div>
+                      <div class="bubble-image" style="background-image: url('../images/panels/mehra_golshan_agenda.jpg');"></div>
                     </a>
                   </div>
                 </div>
                 <div class="agenda-panel-col">
                   <div class="bubble-sm">
                     <a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-placement="bottom" data-html="true" title="Christine Seidman, MD" data-content="Harvard University">
-                      <div class="bubble-image" style="background-image: url('../images/panels/');"></div>
+                      <div class="bubble-image" style="background-image: url('../images/panels/christine_seidman_agenda.png');"></div>
                     </a>
                   </div>
                   <div class="bubble-sm">
                     <a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-placement="bottom" data-html="true" title="Jonathan Seidman, PhD" data-content="Harvard University">
-                      <div class="bubble-image" style="background-image: url('../images/panels/');"></div>
+                      <div class="bubble-image" style="background-image: url('../images/panels/jonathan_seidman_agenda.png');"></div>
                     </a>
                   </div>
                 </div>
@@ -786,8 +786,8 @@
                     </a>
                   </div>
                   <div class="bubble-sm">
-                    <a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-placement="top" data-html="true" title="TBA" data-content="TBA">
-                      <div class="bubble-image" style="background-image: url('../images/panels/');"></div>
+                    <a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-placement="top" data-html="true" title="Robert Nagele, PhD" data-content="Rowan University School of Osteopathic Medicine and New Jersey Institute for Successful Aging (NJISA).">
+                      <div class="bubble-image" style="background-image: url('../images/panels/robert_nagele_agenda.png');"></div>
                     </a>
                   </div>
                 </div>
@@ -924,6 +924,63 @@
 $(function() {
     $('[data-toggle="popover"]').popover();
 });
+
+$(window).on('load resize', function(e) {
+
+    // Used to cause affix to stop at navbar not page top
+    var navbarHeight = $('.navbar').height();
+    
+    // for each day's label in schedule
+    $('.agenda-day').each(function(index) {
+        var $agendaDay = $(this);
+
+        if (e.type === 'load') {
+            var agendaDayHeight = $agendaDay.height(),
+
+                // div to take place of page-header when pulled out of flow
+                //     with css position: fixed
+                $dummyDiv = $('<div></div>', {'class': 'dummy-div'});
+
+            $dummyDiv.height(agendaDayHeight);
+
+            // add div after affixing
+            $agendaDay.on('affixed.bs.affix affixed-bottom.bs.affix', function(e) {
+                $dummyDiv.insertBefore($table);
+                console.log('Inserting div ' + $dummyDiv.height() + 'px high on ' + index);
+                if (e.type === 'affixed') {
+                    console.log('Scroll position measured at ' + $(document).scrollTop());
+                }
+            });
+
+            // Remove div when ABOVE affix point
+            $agendaDay.on('affixed-top.bs.affix', function() {
+                $table.prev('.dummy-div').remove();
+                console.log('Removing div on ' + index);
+            });
+        }
+
+        var $table = $agendaDay.next(),
+            tableTop = $table.offset().top,
+            tableBottom = tableTop + $table.height();
+
+        console.log('Agenda label ' + index + '\'s top is ' + (tableTop - 103 - 70) + 'px from the top');
+        console.log('Agenda label ' + index + '\'s bottom is ' + (tableBottom) + 'px from the top');
+
+        // Set position for affixing and stopping
+        $agendaDay.affix({
+            offset: {
+                top: $agendaDay.offset().top - navbarHeight,
+                bottom: $(document).height() - tableBottom
+            }
+        });
+
+        if (e.type === 'resize') {
+            $agendaDay.data('bs.affix').options.offset.top = tableTop - 103 - navbarHeight;
+            $agendaDay.data('bs.affix').options.offset.bottom = $(document).height() - tableBottom;
+        }
+    });
+});
+
 
 // Apply affix to each day's header in agenda to maintain view 
 // while scrolling through the whole day
