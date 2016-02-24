@@ -305,7 +305,8 @@ a.anchor {
     z-index: 0;
 }
 
-.sponsor img {
+.sponsor img,
+.sponsor p {
     position: relative;
     right: 0;
     left: 0;
@@ -314,9 +315,16 @@ a.anchor {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 
-    width: 150px;
     vertical-align: middle;
     z-index: 10;
+}
+
+.sponsor img {
+    width: 150px;
+}
+
+.sponsor p {
+    font-size: 2.5em;
 }
 
 /* This is a css hack and will need to be updated when safari utilizes normal transforms */
@@ -342,6 +350,10 @@ a.anchor {
 
     .sponsor img {
         width: 75px;
+    }
+
+    .sponsor p {
+        font-size: 1.25em;
     }
 }
 
