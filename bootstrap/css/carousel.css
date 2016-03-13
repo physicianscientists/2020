@@ -10,6 +10,11 @@ body {
     padding-top: 90px;
 }
 
+/* Allows container to wrap position: absolute; elements */
+.container {
+    position: relative;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 /* Navbar tweaks */
