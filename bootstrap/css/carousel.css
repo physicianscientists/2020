@@ -10,11 +10,6 @@ body {
     padding-top: 90px;
 }
 
-/* Allows container to wrap position: absolute; elements */
-.container {
-    position: relative;
-}
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 /* Navbar tweaks */
@@ -223,6 +218,11 @@ body {
 
 .panel-moderator {
     border: 5px solid #2a5dae;
+}
+
+/* Allows container to wrap position: absolute; elements */
+.agenda-container {
+    position: relative;
 }
 
 /* Affix */
