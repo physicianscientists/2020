@@ -99,6 +99,14 @@
               </div>
             </a>
           </div>
+          <div class="col-md-3 col-xs-6 sponsor-wrapper">
+            <a tabindex="0" role="button" data-trigger="focus" data-toggle="popover" data-placement="bottom" data-html="true" title="National Institute of General Medical Practice" data-content="This meeting was supported by the National Institute Of General Medical Sciences of the National Institutes of Health under Award Number R13 GM-119342. The content is solely the responsibility of the organizers and does not necessarily represent the official views of the National Institutes of Health">
+              <div class="sponsor sponsor-gold text-center">
+                <div class="blur-background"></div>
+                <p>NIGMS</p>
+              </div>
+            </a>
+          </div>
         </div>
 
         <h2 class="page-header">Silver Sponsors ($5,000+)</h2>
@@ -216,5 +224,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../bootstrap/js/jquery-2.1.4.min.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+$(function() {
+    $('[data-toggle="popover"]').popover();
+});
+    </script>
   </body>
 </html>
