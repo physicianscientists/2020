@@ -40,11 +40,18 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="meeting/">Meeting</a></li>
-            <li><a href="participation/">Participation</a></li>
-            <li><a href="highlights/">Highlights</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meeting <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Registration and Venue</a></li>
+                <li><a href="#">Submission and Presentation Guidelines</a></li>
+                <li><a href="#">Travel Awards</a></li>
+              </ul>
+            </li>
+            <li><a href="highlights/">Speakers</a></li>
             <li><a href="agenda/">Agenda</a></li>
             <li><a href="sponsors/">Sponsors</a></li>
+            <li><a href="faq/">FAQ</a></li>
           </ul>
           <ul class="nav navbar-right">
             <li><button type="button" class="btn btn-info navbar-btn btn-lg" onclick='window.open("http://www.physicianscientists.org/events/register.aspx?id=666053")'>Register</button></li>
