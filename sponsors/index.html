@@ -12,21 +12,20 @@
     <title>APSA | Annual Meeting</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Font and Social Icons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="../bootstrap/css/bootstrap-social.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-social.css" rel="stylesheet">
     
     <!-- Custom styles for this template -->
-    <link href="../bootstrap/css/carousel.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/carousel.min.css" rel="stylesheet">
   </head>
 
   <!-- NAVBAR
   ================================================== -->
   <body>
-
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -36,15 +35,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../"><img class="nav-logo" src="../images/apsa_meeting_logo.png" /></a>
+          <a class="navbar-brand" href="/"><img class="nav-logo" src="/images/apsa_meeting_logo.png" /></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="../meeting/">Meeting</a></li>
-            <li><a href="../participation/">Participation</a></li>
-            <li><a href="../highlights/">Highlights</a></li>
-            <li><a href="../agenda/">Agenda</a></li>
-            <li class="active"><a href="../sponsors/">Sponsors</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meeting <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/meeting/">Registration and Venue</a></li>
+                <li><a href="#">Submission and Presentation Guidelines</a></li>
+                <li><a href="#">Travel Awards</a></li>
+              </ul>
+            </li>
+            <li><a href="/speakers/">Speakers</a></li>
+            <li><a href="/agenda/">Agenda</a></li>
+            <li class="active"><a href="/sponsors/">Sponsors</a></li>
+            <li><a href="/faq/">FAQ</a></li>
           </ul>
           <ul class="nav navbar-right">
             <li><button type="button" class="btn btn-info navbar-btn btn-lg" onclick='window.open("http://www.physicianscientists.org/events/register.aspx?id=666053")'>Register</button></li>
@@ -60,14 +66,14 @@
         <h1 class="page-header">Our Sponsors</h1>
         <p class="lead">We would like to acknowledge the organizations that made this possible through their generous donations.</p>
 
-        <!-- Place hyperlink to sponsor's homepage in <a href=""> and image of sponsor logo in <img src="../images/sponsors/" alt="" /> -->
+        <!-- Place hyperlink to sponsor's homepage in <a href=""> and image of sponsor logo in <img src="/images/sponsors/" alt="" /> -->
         <h2 class="page-header">Platinum Sponsors ($25,000+)</h2>
         <div class="row">
           <div class="col-md-3 col-xs-6 sponsor-wrapper">
             <a href="http://www.bwfund.org/" target="_blank">
               <div class="sponsor sponsor-platinum text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/bwf.png" alt="Burroughs Wellcome Fund" />
+                <img src="/images/sponsors/bwf.png" alt="Burroughs Wellcome Fund" />
               </div>
             </a>
           </div>
@@ -79,7 +85,7 @@
             <a href="https://www.the-asci.org/" target="_blank">
               <div class="sponsor sponsor-gold text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/asci.png" alt="The American Society for Clinical Investigation" />
+                <img src="/images/sponsors/asci.png" alt="The American Society for Clinical Investigation" />
               </div>
             </a>
           </div>
@@ -87,7 +93,7 @@
             <a href="https://aap-online.org/" target="_blank">
               <div class="sponsor sponsor-gold text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/aap.png" alt="Association of American Physicians" />
+                <img src="/images/sponsors/aap.png" alt="Association of American Physicians" />
               </div>
             </a>
           </div>
@@ -95,7 +101,7 @@
             <a href="http://www.laskerfoundation.org/" target="_blank">
               <div class="sponsor sponsor-gold text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/lasker.png" alt="Albert and Mary Lasker Foundation" />
+                <img src="/images/sponsors/lasker.png" alt="Albert and Mary Lasker Foundation" />
               </div>
             </a>
           </div>
@@ -115,7 +121,7 @@
             <a href="http://www.idsociety.org/Index.aspx" target="_blank">
               <div class="sponsor sponsor-silver text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/idsa.png" alt="Infectious Diseases Society of America" />
+                <img src="/images/sponsors/idsa.png" alt="Infectious Diseases Society of America" />
               </div>
             </a>
           </div>
@@ -123,7 +129,7 @@
             <a href="http://www.ddcf.org/" target="_blank">
               <div class="sponsor sponsor-silver text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/ddcf.png" alt="Doris Duke Charitable Foundation" />
+                <img src="/images/sponsors/ddcf.png" alt="Doris Duke Charitable Foundation" />
               </div>
             </a>
           </div>
@@ -143,7 +149,7 @@
             <a href="http://www.acep.org/" target="_blank">
               <div class="sponsor sponsor-bronze text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/acep.png" alt="American College of Emergency Physicians" />
+                <img src="/images/sponsors/acep.png" alt="American College of Emergency Physicians" />
               </div>
             </a>
           </div>
@@ -151,7 +157,7 @@
             <a href="https://www.asn-online.org/" target="_blank">
               <div class="sponsor sponsor-bronze text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/asn.png" alt="American Society of Nephrology" />
+                <img src="/images/sponsors/asn.png" alt="American Society of Nephrology" />
               </div>
             </a>
           </div>
@@ -159,7 +165,7 @@
             <a href="https://www.saem.org/" target="_blank">
               <div class="sponsor sponsor-bronze text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/saem.png" alt="Society for Academic Emergency Medicine" />
+                <img src="/images/sponsors/saem.png" alt="Society for Academic Emergency Medicine" />
               </div>
             </a>
           </div>
@@ -167,7 +173,7 @@
             <a href="http://www.heart.org/HEARTORG/" target="_blank">
               <div class="sponsor sponsor-bronze text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/aha.png" alt="American Heart Association" />
+                <img src="/images/sponsors/aha.png" alt="American Heart Association" />
               </div>
             </a>
           </div>
@@ -175,7 +181,7 @@
             <a href="http://www.aai.org/" target="_blank">
               <div class="sponsor sponsor-bronze text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/aai.png" alt="American Association of Immunologists" />
+                <img src="/images/sponsors/aai.png" alt="American Association of Immunologists" />
               </div>
             </a>
           </div>
@@ -187,7 +193,7 @@
             <a href="https://www.aps-spr.org/" target="_blank">
               <div class="sponsor sponsor-support text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/spr.png" alt="The Society for Pediatric Research" />
+                <img src="/images/sponsors/spr.png" alt="The Society for Pediatric Research" />
               </div>
             </a>
           </div>
@@ -195,7 +201,7 @@
             <a href="http://www.asip.org/" target="_blank">
               <div class="sponsor sponsor-support text-center">
                 <div class="blur-background"></div>
-                <img src="../images/sponsors/asip.png" alt="American Society for Investigative Pathology" />
+                <img src="/images/sponsors/asip.png" alt="American Society for Investigative Pathology" />
               </div>
             </a>
           </div>
@@ -229,8 +235,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../bootstrap/js/jquery-2.1.4.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/jquery-2.1.4.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript">
 $(function() {
     $('[data-toggle="popover"]').popover();

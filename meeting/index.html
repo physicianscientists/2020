@@ -12,21 +12,20 @@
     <title>APSA | Annual Meeting</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Font and Social Icons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="../bootstrap/css/bootstrap-social.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-social.css" rel="stylesheet">
     
     <!-- Custom styles for this template -->
-    <link href="../bootstrap/css/carousel.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/carousel.min.css" rel="stylesheet">
   </head>
 
   <!-- NAVBAR
   ================================================== -->
   <body>
-
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -36,15 +35,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../"><img class="nav-logo" src="../images/apsa_meeting_logo.png" /></a>
+          <a class="navbar-brand" href="/"><img class="nav-logo" src="/images/apsa_meeting_logo.png" /></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="../meeting/">Meeting</a></li>
-            <li><a href="../participation/">Participation</a></li>
-            <li><a href="../highlights/">Highlights</a></li>
-            <li><a href="../agenda/">Agenda</a></li>
-            <li><a href="../sponsors/">Sponsors</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meeting <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="meeting/">Registration and Venue</a></li>
+                <li><a href="#">Submission and Presentation Guidelines</a></li>
+                <li><a href="#">Travel Awards</a></li>
+              </ul>
+            </li>
+            <li><a href="/speakers/">Speakers</a></li>
+            <li><a href="/agenda/">Agenda</a></li>
+            <li><a href="/sponsors/">Sponsors</a></li>
+            <li><a href="/faq/">FAQ</a></li>
           </ul>
           <ul class="nav navbar-right">
             <li><button type="button" class="btn btn-info navbar-btn btn-lg" onclick='window.open("http://www.physicianscientists.org/events/register.aspx?id=666053")'>Register</button></li>
@@ -171,18 +177,11 @@
           </div>
 
           <div class="col-sm-6 hidden-xs text-center">
-            <img src="../images/accomodations.jpg" class="img-rounded text-center" alt="building" style="height: 300px" />
+            <img src="/images/accomodations.jpg" class="img-rounded text-center" alt="building" style="height: 300px" />
           </div>
         </div><!-- row -->
 
-      <p class="btn-hotel text-center"><a href="https://resweb.passkey.com/go/asciaap2016" class="btn btn-default btn-lg" target="_blank">Book Online</a></p>
-
-        <!-- Code of Conduct -->
-        <h1 class="page-header">Code of Conduct</h1>
-        <p>APSA is dedicated to hosting an Annual Meeting that is safe and positive for all.  No behavior which contributes to an unsafe or unwelcoming environment for anyone will be tolerated.  All participants in the Annual Meeting, including venue staff and guests, are expected to help ensure that the Annual Meeting is a welcoming environment for all.</p>
-        <p>We expect all participants to refrain from unacceptable behavior, which includes but is not limited to harassment, discrimination, intimidation (including threat of harm, physical or otherwise), inappropriate behavior, and physical assault (including unwelcome touching of any nature).  Treat your fellow participants at the Annual Meeting with respect and dignity.</p>
-        <p>Should you witness unacceptable behavior, please notify meeting staff at the Registration Desk outside of the International Ballroom or contact <a href="mailto:apsa@physicianscientists.org">APSA headquarters</a> (<a href="mailto:apsa@physicianscientists.org">apsa@physicianscientists.org</a>).  Conference staff will be glad to help anyone contact venue security or local law enforcement and otherwise assist those who have witnessed or were the target of unacceptable behavior.</p>
-        <p>Anyone found to be engaging in unacceptable behavior is expected to immediately comply when told to cease.  Additionally, anyone who engages in unacceptable behavior may be subject to immediate action by meeting leadership, including but not limited to immediate removal from the Annual Meeting, without refund; barring from future Annual Meetings; and/or referral to local law enforcement.</p>
+        <p class="btn-hotel text-center"><a href="https://resweb.passkey.com/go/asciaap2016" class="btn btn-default btn-lg" target="_blank">Book Online</a></p>
 
       </div><!-- container -->
     </div><!-- page-wrapper -->
@@ -212,7 +211,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../bootstrap/js/jquery-2.1.4.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/jquery-2.1.4.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>

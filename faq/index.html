@@ -12,21 +12,20 @@
     <title>APSA | Annual Meeting</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Font and Social Icons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="../bootstrap/css/bootstrap-social.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-social.css" rel="stylesheet">
     
     <!-- Custom styles for this template -->
-    <link href="../bootstrap/css/carousel.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/carousel.min.css" rel="stylesheet">
   </head>
 
   <!-- NAVBAR
   ================================================== -->
   <body>
-
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -36,15 +35,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../"><img class="nav-logo" src="../images/apsa_meeting_logo.png" /></a>
+          <a class="navbar-brand" href="/"><img class="nav-logo" src="/images/apsa_meeting_logo.png" /></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="../meeting/">Meeting</a></li>
-            <li><a href="../participation/">Participation</a></li>
-            <li><a href="../highlights/">Highlights</a></li>
-            <li><a href="../agenda/">Agenda</a></li>
-            <li><a href="../sponsors/">Sponsors</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meeting <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/meeting/">Registration and Venue</a></li>
+                <li><a href="#">Submission and Presentation Guidelines</a></li>
+                <li><a href="#">Travel Awards</a></li>
+              </ul>
+            </li>
+            <li><a href="/speakers/">Speakers</a></li>
+            <li><a href="/agenda/">Agenda</a></li>
+            <li><a href="/sponsors/">Sponsors</a></li>
+            <li class="active"><a href="/faq/">FAQ</a></li>
           </ul>
           <ul class="nav navbar-right">
             <li><button type="button" class="btn btn-info navbar-btn btn-lg" onclick='window.open("http://www.physicianscientists.org/events/register.aspx?id=666053")'>Register</button></li>
@@ -53,12 +59,159 @@
       </div>
     </nav>
 
+    <div class="page-wrapper">
+      <!-- Main Body
+      ================================================== -->
+      <div class="container">
+        <h1 class="page-header">Frequently Asked Question</h1>
 
+        <!-- FAQ Accordions
+        ================================================== -->
+        <!-- note: can remove data-parent to create individuality -->
+        <div class="panel-group" id="faq" role="tablist" aria-multiselectable="true">
+          
+        <!-- What to attend -->
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="what-to-attend-header">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#faq" href="#what-to-attend-body" aria-expanded="true" aria-controls="#what-to-attend-body">
+                  What are the mentorship breakfast, interest group breakfast, and residency luncheon, and what do I need to do to attend?
+                </a>
+              </h4>
+            </div>
+            <div id="what-to-attend-body" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="#what-to-attend-body">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id velit eu sapien volutpat ullamcorper. Fusce ipsum est, pretium a est nec, faucibus semper ante. Donec non nisl augue. Vestibulum efficitur est nec tellus placerat vehicula. Aliquam erat volutpat. Nam ut enim mattis, tristique ex sed, gravida urna. Maecenas fringilla suscipit imperdiet. Pellentesque quam augue, elementum sed volutpat et, venenatis sit amet metus. Aliquam a dolor malesuada, mattis dui non, elementum purus. Pellentesque laoreet nisi sit amet commodo volutpat. In ac orci turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies a nibh nec ultricies. Maecenas a congue velit. In nec tristique magna. Integer mattis arcu eu interdum varius.
+              </div>
+            </div>
+          </div>
+
+          <!-- Networking Opportunities -->
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="networking-opportunities-header">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#faq" href="#networking-opportunities-body" aria-expanded="true" aria-controls="#networking-opportunities-body">
+                  What networking opportunities are available?
+                </a>
+              </h4>
+            </div>
+            <div id="networking-opportunities-body" class="panel-collapse collapse" role="tabpanel" aria-labelledby="#networking-opportunities-body">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id velit eu sapien volutpat ullamcorper. Fusce ipsum est, pretium a est nec, faucibus semper ante. Donec non nisl augue. Vestibulum efficitur est nec tellus placerat vehicula. Aliquam erat volutpat. Nam ut enim mattis, tristique ex sed, gravida urna. Maecenas fringilla suscipit imperdiet. Pellentesque quam augue, elementum sed volutpat et, venenatis sit amet metus. Aliquam a dolor malesuada, mattis dui non, elementum purus. Pellentesque laoreet nisi sit amet commodo volutpat. In ac orci turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies a nibh nec ultricies. Maecenas a congue velit. In nec tristique magna. Integer mattis arcu eu interdum varius.
+              </div>
+            </div>
+          </div>
+
+          <!-- APSA Business Meeting -->
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="business-meeting-header">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#faq" href="#business-meeting-body" aria-expanded="true" aria-controls="#business-meeting-body">
+                  What happens at the APSA business meeting, and can I attend?
+                </a>
+              </h4>
+            </div>
+            <div id="business-meeting-body" class="panel-collapse collapse" role="tabpanel" aria-labelledby="#business-meeting-body">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id velit eu sapien volutpat ullamcorper. Fusce ipsum est, pretium a est nec, faucibus semper ante. Donec non nisl augue. Vestibulum efficitur est nec tellus placerat vehicula. Aliquam erat volutpat. Nam ut enim mattis, tristique ex sed, gravida urna. Maecenas fringilla suscipit imperdiet. Pellentesque quam augue, elementum sed volutpat et, venenatis sit amet metus. Aliquam a dolor malesuada, mattis dui non, elementum purus. Pellentesque laoreet nisi sit amet commodo volutpat. In ac orci turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies a nibh nec ultricies. Maecenas a congue velit. In nec tristique magna. Integer mattis arcu eu interdum varius.
+              </div>
+            </div>
+          </div>
+
+          <!-- Senior Scientists Interaction -->
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="scientist-interaction-header">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#faq" href="#scientist-interaction-body" aria-expanded="true" aria-controls="#scientist-interaction-body">
+                  When can I interact with senior scientists?
+                </a>
+              </h4>
+            </div>
+            <div id="scientist-interaction-body" class="panel-collapse collapse" role="tabpanel" aria-labelledby="#business-meeting-body">
+              <div class="panel-body">
+                Anytime! We have facilitated mentorship time at the mentorship breakfast, interest group breakfast, and residency luncheon. However, any time that you run across a senior scientist is an opportunity to interact. For example, the coffee breaks are a great time to do so. Just start by saying hi!
+              </div>
+            </div>
+          </div>
+
+          <!-- Roommate -->
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="roommate-header">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#faq" href="#roommate-body" aria-expanded="true" aria-controls="#roommate-body">
+                  I need a roommate. Where can I find one?
+                </a>
+              </h4>
+            </div>
+            <div id="roommate-body" class="panel-collapse collapse" role="tabpanel" aria-labelledby="#roommate-body">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id velit eu sapien volutpat ullamcorper. Fusce ipsum est, pretium a est nec, faucibus semper ante. Donec non nisl augue. Vestibulum efficitur est nec tellus placerat vehicula. Aliquam erat volutpat. Nam ut enim mattis, tristique ex sed, gravida urna. Maecenas fringilla suscipit imperdiet. Pellentesque quam augue, elementum sed volutpat et, venenatis sit amet metus. Aliquam a dolor malesuada, mattis dui non, elementum purus. Pellentesque laoreet nisi sit amet commodo volutpat. In ac orci turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies a nibh nec ultricies. Maecenas a congue velit. In nec tristique magna. Integer mattis arcu eu interdum varius.
+              </div>
+            </div>
+          </div>
+
+          <!-- Food -->
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="food-header">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#faq" href="#food-body" aria-expanded="true" aria-controls="#food-body">
+                  Will there be food provided / time to get food during the meeting?
+                </a>
+              </h4>
+            </div>
+            <div id="food-body" class="panel-collapse collapse" role="tabpanel" aria-labelledby="#food-body">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id velit eu sapien volutpat ullamcorper. Fusce ipsum est, pretium a est nec, faucibus semper ante. Donec non nisl augue. Vestibulum efficitur est nec tellus placerat vehicula. Aliquam erat volutpat. Nam ut enim mattis, tristique ex sed, gravida urna. Maecenas fringilla suscipit imperdiet. Pellentesque quam augue, elementum sed volutpat et, venenatis sit amet metus. Aliquam a dolor malesuada, mattis dui non, elementum purus. Pellentesque laoreet nisi sit amet commodo volutpat. In ac orci turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies a nibh nec ultricies. Maecenas a congue velit. In nec tristique magna. Integer mattis arcu eu interdum varius.
+              </div>
+            </div>
+          </div>
+
+          <!-- Dress Code -->
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="food-header">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#faq" href="#dress-code-body" aria-expanded="true" aria-controls="#dress-code-body">
+                  What is the dress code for the meeting?
+                </a>
+              </h4>
+            </div>
+            <div id="dress-code-body" class="panel-collapse collapse" role="tabpanel" aria-labelledby="#dress-code-body">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id velit eu sapien volutpat ullamcorper. Fusce ipsum est, pretium a est nec, faucibus semper ante. Donec non nisl augue. Vestibulum efficitur est nec tellus placerat vehicula. Aliquam erat volutpat. Nam ut enim mattis, tristique ex sed, gravida urna. Maecenas fringilla suscipit imperdiet. Pellentesque quam augue, elementum sed volutpat et, venenatis sit amet metus. Aliquam a dolor malesuada, mattis dui non, elementum purus. Pellentesque laoreet nisi sit amet commodo volutpat. In ac orci turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies a nibh nec ultricies. Maecenas a congue velit. In nec tristique magna. Integer mattis arcu eu interdum varius.
+              </div>
+            </div>
+          </div>
+        </div><!-- ./panel-group -->
+
+      </div><!-- ./container -->
+    </div><!-- ./page-wrapper -->
+
+    <div class="container site-footer">
+      <hr />
+      <div class="row">
+        <div class="col-xs-2">
+          <p><a href="http://www.physicianscientists.org/" target="_blank">APSA Home</a></p>
+          <p><a href="https://physicianscientists.site-ym.com/?page=pastEvents" target="_blank">Archives</a></p>
+        </div>
+        <div class="col-xs-4">
+          <p><a href="http://www.physicianscientists.org/general/default.asp?type=CONTACT" target="_blank">Contact</a></p>
+        </div>
+        <div class="col-xs-6 text-right">
+          Find us on:
+          <a href="https://www.facebook.com/physicianscientists" target="_blank" class="btn btn-social-icon btn-facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com/a_p_s_a" target="_blank" class="btn btn-social-icon btn-twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div><!-- container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../bootstrap/js/jquery-2.1.4.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/jquery-2.1.4.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
