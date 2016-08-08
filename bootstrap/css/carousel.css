@@ -96,6 +96,9 @@ body {
 -------------------------------------------------- */
 .jumbotron {
     margin-top: -20px;
+}
+
+.jumbotron-gradient {
     background-image: -webkit-linear-gradient(top, #719bdd 0%, #fff 100%);
     background-image:      -o-linear-gradient(top, #719bdd 0%, #fff 100%);
     background-image:        -webkit-gradient(linear, left top, left bottom, from(#719bdd), to(#fff));
@@ -105,25 +108,28 @@ body {
     background-repeat: repeat-x;
 }
 
+.jumbotron-img {
+    background-color: #777;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron-img h1,
+.jumbotron-img h2,
+.jumbotron-img h3 {
+    color: white;
+    text-shadow: 5px 5px 5px #262626;
+}
+
+.jumbotron .btn {
+    margin-top: 20px;
+}
+
 /* HEADER CUSTOMIZATIONS
 -------------------------------------------------- */
 .share-icons a {
     margin-left: 4px;
-}
-
-/* IMAGE ICONS (for column decorations)
--------------------------------------------------- */
-.img-icon {
-    display: block;
-    margin: auto;
-    height: 150px;
-}
-
-@media screen and (max-width: 767px) {
-    .img-icon {
-        height: 100px;
-        margin: 25px auto;
-    }
 }
 
 /* VERTICAL CENTERING
@@ -159,6 +165,14 @@ body {
         margin-top: 20px;
     }
 }
+
+/* SUBMISSIONS -- icon alignment
+-------------------------------------------------- */
+.poster-award {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 
 /* AGENDA -- keeping the table columns even
 -------------------------------------------------- */
