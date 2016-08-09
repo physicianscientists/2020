@@ -168,7 +168,11 @@ body {
 
 /* SUBMISSIONS -- icon alignment
 -------------------------------------------------- */
-.poster-award {
+.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.list-icon {
     vertical-align: middle;
     margin-right: 10px;
 }
