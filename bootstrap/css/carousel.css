@@ -311,6 +311,12 @@ a.anchor {
     visibility: hidden;
 }
 
+/* PANELS
+-------------------------------------------------- */
+.panel-participant-row {
+    margin-bottom: 50px;
+}
+
 /* SPONSORS
 -------------------------------------------------- */
 .sponsor-wrapper {
