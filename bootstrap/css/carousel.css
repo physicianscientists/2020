@@ -41,11 +41,11 @@ body {
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
+/* HOMEPAGE JUMBOTRON CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
+.jumbotron-carousel {
     height: 500px;
     margin-top: -20px; /* tikenn: clever hack to keep carousels butted against navbar, but everything else having a 20px spacing */
     margin-bottom: 60px;
@@ -56,7 +56,7 @@ body {
 }
 
 /* Declare heights because of positioning of div element */
-.carousel .item {
+.jumbotron-carousel .item {
     height: 500px;
     background-color: #777;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@ body {
     background-size: cover;
 }
 
-.carousel-inner > .item > img {
+.jumbotron-carousel .carousel-inner > .item > img {
     position: absolute;
     top: 0;
     left: 0;
@@ -73,12 +73,12 @@ body {
 }
 
 /* Left-align caption */
-.carousel-caption {
+.jumbotron-carousel .carousel-caption {
     text-align: left;
 }
 
 /* turn off the nasty href text-decoration */
-.carousel-caption a {
+.jumbotron-carousel .carousel-caption a {
     color: #fff;
     text-decoration: none;
     -webkit-transition: color .25s ease-in-out;
@@ -86,14 +86,14 @@ body {
 }
 
 /* Give some indication that text is special */
-.carousel-caption a:hover {
+.jumbotron-carousel.carousel-caption a:hover {
     color: #d0def4;
     -webkit-transition: color .25s ease-in-out;
     transition: color .25s ease-in-out;
 }
 
-.carousel-caption h1,
-.carousel-caption p {
+.jumbotron-carousel .carousel-caption h1,
+.jumbotron-carousel .carousel-caption p {
      text-shadow: 3px 3px 5px #262626;
 }
 
@@ -157,6 +157,43 @@ body {
 /* Vertical center all cells in bootstrap table */
 .vcenter-table th, .vcenter-table td {
     vertical-align: middle !important;
+}
+
+/* HOMEPAGE KEYNOTE CAROUSEL
+-------------------------------------------------- */
+.keynote-carousel .carousel-indicators {
+    position: relative;
+    bottom: 0;
+}
+
+.keynote-carousel .carousel-control {
+    background-image: none;
+}
+
+.keynote-carousel .carousel-control .icon-prev,
+.keynote-carousel .carousel-control .icon-next,
+.keynote-carousel .carousel-control .glyphicon-chevron-left,
+.keynote-carousel .carousel-control .glyphicon-chevron-right {
+    color: #9a9a9a;
+}
+
+.keynote-carousel .carousel-indicators li {
+    border: 1px solid #9a9a9a;
+}
+
+.keynote-carousel .carousel-indicators .active {
+    background-color: #9a9a9a;
+}
+
+.keynote-carousel .carousel-caption {
+    position: relative;
+    left: inherit;
+    right: inherit;
+    bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: inherit;
+    text-shadow: none;
 }
 
 /* MEETING
