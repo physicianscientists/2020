@@ -354,6 +354,12 @@ a.anchor {
     margin-bottom: 50px;
 }
 
+@media screen and (min-width: 767px) {
+    .panel-participant-row h4 {
+        margin-top: 0;
+    }
+}
+
 /* SPONSORS
 -------------------------------------------------- */
 .sponsor-wrapper {
