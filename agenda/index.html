@@ -1002,10 +1002,10 @@
 
 // Toggle More or Less panel descriptions
 $('.more-less').on("hide.bs.collapse", function() {
-    $(this).children().children('a').text('More');
+    $(this).children().children('a[data-toggle]').text('More');
 })
 .on("show.bs.collapse", function() {
-    $(this).children().children('a').text('Less');
+    $(this).children().children('a[data-toggle]').text('Less');
 });
 
 // Hover effect turning opacity on
