@@ -550,6 +550,47 @@ a.anchor {
     height: 120px;
 }
 
+/* Medstro social icon construct */
+.btn-medstro {
+    color: #fff;
+    background-color: #1b75bc;
+    border-color:rgba(0,0,0,0.2)
+}
+
+.btn-medstro:hover,
+.btn-medstro:focus,
+.btn-medstro:active,
+.btn-medstro.active,
+.open>.dropdown-toggle.btn-medstro {
+    color:#fff;
+    background-color: #15598f;
+    border-color:rgba(0,0,0,0.2);
+}
+
+.btn-medstro:active,
+.btn-medstro.active,
+.open>.dropdown-toggle.btn-medstro {
+    background-image:none;
+}
+
+.btn-medstro.disabled,
+.btn-medstro[disabled],
+fieldset[disabled] .btn-medstro,
+.btn-medstro.disabled:hover,
+.btn-medstro[disabled]:hover,fieldset[disabled] .btn-medstro:hover,
+.btn-medstro.disabled:focus,.btn-medstro[disabled]:focus,fieldset[disabled] .btn-medstro:focus,
+.btn-medstro.disabled:active,.btn-medstro[disabled]:active,fieldset[disabled] .btn-medstro:active,.btn-medstro.disabled.active,
+.btn-medstro[disabled].active,fieldset[disabled] .btn-medstro.active {
+    background-color: #1b75bc;
+    border-color:rgba(0,0,0,0.2);
+}
+
+.btn-medstro .badge{
+    color:#1b75bc;
+    background-color:#fff;
+}
+
+
 /* BOOTSTRAP CLEARFIX FIX (http://www.bluthemes.com/blog/3/clearing-bootstrap-3-columns)
 -------------------------------------------------- */
 @media (max-width:767px){
