@@ -1047,6 +1047,7 @@ var setParameters = function ($agendaDay, $table, $dummyDiv, index) {
 var toEachAgenda = function (tables) {
     return function(index) {
         var $agendaDay = $(this),
+            agendaDayHeight = $agendaDay.height(),
             $table = $(tables[index]),
             // div to take place of page-header when pulled out of flow
             //     with css position: fixed
