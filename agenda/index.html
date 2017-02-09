@@ -81,9 +81,21 @@
       <div class="container agenda-container">
 
         <p><i class="fa fa-user-md fa-lg"></i> = APSA sponsored event</p>
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="#1st-day" class="btn btn-block btn-lg btn-info btn-agenda-day">Friday, April 21th</a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#2nd-day" class="btn btn-block btn-lg btn-info btn-agenda-day">Saturday, April 22th</a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#3rd-day" class="btn btn-block btn-lg btn-info btn-agenda-day">Sunday, April 23th</a>
+          </div>
+        </div>
         
         <!-- Schedule
         ================================================== -->
+        <a id="1st-day" class="anchor"></a>
         <div class="agenda-day">
           <h2 class="page-header">Friday, April 21th</h2>
         </div>
@@ -365,6 +377,7 @@
         </table>
 
 
+        <a id="2nd-day" class="anchor"></a>
         <div class="agenda-day">
           <h2 class="page-header">Saturday, April 22th</h2>
         </div>
@@ -802,6 +815,7 @@
         </table>
         
 
+        <a id="3rd-day" class="anchor"></a>
         <div class="agenda-day">
           <h2 class="page-header">Sunday, April 23th</h2>
         </div>
@@ -1073,6 +1087,57 @@ $(window).load(function() {
         $('.page-wrapper').replaceWith(startPoint);
         $('.agenda-day').each(toEachAgenda($('.agenda-table')));
     };
+});
+
+// Code to add hashes where appropriate
+$(function () {
+    var addHashToUrl = function (hash) {
+        //If we can manipulate this
+        if (history) {
+            if (hash.length === 0) {
+                //No hash passed, set it to nothing
+                history.pushState(
+                    '',
+                    document.title,
+                    window.location.pathname
+                );
+            } else {
+                //Hash passed, set it to the appropriate value
+                history.pushState(
+                    '',
+                    document.title,
+                    window.location.pathname + '#' + hash
+                );
+            }
+        }
+    };
+
+
+
+    $(document).scroll(function () {
+        var i, top = window.pageYOffset, currentHash = window.location.hash,
+                //These last two values initialize the loop below
+                last_loc = -1, newHash = "", found = 0;
+
+        //Get each of the possibilities and see if that is where we are
+        $('.anchor').each(function (index) {
+            var this_loc = $(this).offset().top;
+            if (!found) {
+                if (top > last_loc && top < this_loc) {
+                    //We found it!
+                    found = 1;
+                } else {
+                    //If we are not there then change the values to be set
+                    last_loc = this_loc;
+                    newHash = $(this).attr('id');
+                }
+            }
+        });
+        //Now set the location if it has changed
+        if (newHash !== currentHash) {
+            addHashToUrl(newHash);
+        }
+    });
 });
     </script>
   </body>

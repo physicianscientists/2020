@@ -247,6 +247,11 @@ body {
 }
 /* AGENDA -- keeping the table columns even
 -------------------------------------------------- */
+.btn-agenda-day {
+    white-space: normal;
+    margin-top: 5px;
+}
+
 .agenda-table {
     margin-bottom: 75px;
 }
