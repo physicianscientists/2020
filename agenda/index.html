@@ -1040,60 +1040,138 @@ $('.bubble-md, .bubble-sm').mouseover(function() {
 });
 
 // Code to create the affix effect (complements of adussaq)
-var setParameters = function ($agendaDay, $table, $dummyDiv, index) {
-    var navbarHeight = $('.navbar').height(),
-            tableTop = $table.offset().top,
-            tableBottom = tableTop + $table.height();
+/*global $, window*/
+(function () {
+    'use strict';
 
-    //When it is affixed add in the dummy div
-    $agendaDay.on('affixed.bs.affix', function() {
-        $dummyDiv.insertBefore($table);
-    });
+    var setParameters, nestThem, resetParents, table$, originalHeader$;
 
-    //When it scrolls to the affix point bottom fire this 
-    $agendaDay.on('affixed-top.bs.affix', function () {
-        $dummyDiv.remove();
-    });
+    setParameters = function (index) {
+        var $agendaDay = $(this), navbarHeight = $('.navbar').height(),
+                $table = $(table$[index]), tableTop = $table.offset().top,
+                tableBottom = tableTop + $table.height();
 
-    //Actually set up the affix functions
-    $agendaDay.affix({
-        offset: {
-            top: $agendaDay.offset().top - navbarHeight,
-            bottom: $(document).height() - tableBottom
-        }
-    });
-};
+        //When it is affixed make sure the parent does not lose any height
+        $agendaDay.on('affix.bs.affix', function () {
+            //Maintian width
+            $agendaDay.css("width", $agendaDay.parent().width());
+            $agendaDay.parent().css("min-height", $agendaDay.height());
+        });
 
-var toEachAgenda = function (tables) {
-    return function(index) {
-        var $agendaDay = $(this),
-            agendaDayHeight = $agendaDay.height(),
-            $table = $(tables[index]),
-            // div to take place of page-header when pulled out of flow
-            //     with css position: fixed
-            $dummyDiv = $('<div></div>', {'class': 'dummy-div'});
-
-        //set the height of the dummy div
-        $dummyDiv.height(agendaDayHeight);
-
-        // With event based things the values can be overwritten during the
-        // loop, this can cause problems, creating a closure like this fixes
-        // that.
-
-        setParameters($agendaDay, $table, $dummyDiv, index);
+        //Actually set up the affix functions
+        $agendaDay.affix({
+            offset: {
+                top: $agendaDay.offset().top - navbarHeight,
+                bottom: $(document).height() - tableBottom
+            }
+        });
     };
-};
 
-$(window).load(function() {
-    // for each day's label in schedule
-    var startPoint = $('.page-wrapper')[0].outerHTML;
-    $('.agenda-day').each(toEachAgenda($('.agenda-table')));
-    window.onresize = function () {
-        //return to the start point as far as HTML goes
-        $('.page-wrapper').replaceWith(startPoint);
-        $('.agenda-day').each(toEachAgenda($('.agenda-table')));
+    nestThem = function () {
+        var $header = $(this), $temp;
+        $temp = $('<div>');
+        $header.wrap($temp);
+
+        //return the non jquery element
+        return $header.parent()[0];
     };
-});
+
+    resetParents = function (index) {
+        var $parent = $(this), $temp;
+        //Creates a new div out of the contained html, removing affix
+        $temp = $(originalHeader$[index]).clone();
+
+        //Removes old stuff and replaces it with the new
+        $parent.empty();
+        $parent.append($temp);
+
+        //Set new minimum height for the parent
+        $parent.css("min-height", $temp.height());
+
+        //return the non jquery element
+        return $temp[0];
+    };
+
+    $(window).load(function () {
+        var header$, parent$;
+        //Set the table array
+        table$ = $('.agenda-table');
+
+        //Get all of the headers that will be affixed
+        header$ = $('.agenda-day');
+        originalHeader$ = header$.clone();
+
+        //Now nest them, returning the parents
+        parent$ = header$.map(nestThem);
+
+        //Now set all the affix parameters
+        header$.each(setParameters);
+
+        $(window).on('resize', function () {
+            //return the headers to the start point as far as HTML goes, this is
+            // the only way to reset the affix points...
+            header$ = parent$.map(resetParents);
+
+            //set the new parameters
+            header$.each(setParameters);
+        });
+    });
+}());
+// // Code to create the affix effect (complements of adussaq)
+// var setParameters = function ($agendaDay, $table, $dummyDiv, index) {
+//     var navbarHeight = $('.navbar').height(),
+//             tableTop = $table.offset().top,
+//             tableBottom = tableTop + $table.height();
+
+//     //When it is affixed add in the dummy div
+//     $agendaDay.on('affixed.bs.affix', function() {
+//         $dummyDiv.insertBefore($table);
+//     });
+
+//     //When it scrolls to the affix point bottom fire this 
+//     $agendaDay.on('affixed-top.bs.affix', function () {
+//         $dummyDiv.remove();
+//     });
+
+//     //Actually set up the affix functions
+//     $agendaDay.affix({
+//         offset: {
+//             top: $agendaDay.offset().top - navbarHeight,
+//             bottom: $(document).height() - tableBottom
+//         }
+//     });
+// };
+
+// var toEachAgenda = function (tables) {
+//     return function(index) {
+//         var $agendaDay = $(this),
+//             agendaDayHeight = $agendaDay.height(),
+//             $table = $(tables[index]),
+//             // div to take place of page-header when pulled out of flow
+//             //     with css position: fixed
+//             $dummyDiv = $('<div></div>', {'class': 'dummy-div'});
+
+//         //set the height of the dummy div
+//         $dummyDiv.height(agendaDayHeight);
+
+//         // With event based things the values can be overwritten during the
+//         // loop, this can cause problems, creating a closure like this fixes
+//         // that.
+
+//         setParameters($agendaDay, $table, $dummyDiv, index);
+//     };
+// };
+
+// $(window).load(function() {
+//     // for each day's label in schedule
+//     var startPoint = $('.page-wrapper')[0].outerHTML;
+//     $('.agenda-day').each(toEachAgenda($('.agenda-table')));
+//     window.onresize = function () {
+//         //return to the start point as far as HTML goes
+//         $('.page-wrapper').replaceWith(startPoint);
+//         $('.agenda-day').each(toEachAgenda($('.agenda-table')));
+//     };
+// });
 
 // Code to add hashes where appropriate
 $(function () {
