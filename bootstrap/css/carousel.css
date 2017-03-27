@@ -280,10 +280,19 @@ body {
     width: 100%;
 }
 
+.agenda-thumbnail {
+    width: 150px;
+}
+
 .keynote-thumbnail {
     width: 80px;
+}
+
+.agenda-thumbnail,
+.keynote-thumbnail {
     max-width: none;
     margin: 0 15px 15px 0;
+
 }
 
 #overflow-glitch {
