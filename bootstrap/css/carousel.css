@@ -299,6 +299,10 @@ body {
     overflow: hidden;
 }
 
+.keynote-info {
+    overflow: hidden;
+}
+
 @media screen and (max-width: 768px) {
     .keynote-info {
         clear: both;
