@@ -10,6 +10,14 @@ body {
     padding-top: 90px;
 }
 
+/* Wrap a (anchor) in span with this class to change cursor while still having "pointer: no-events;" */
+.disabler {
+    content: '';
+    position: relative;
+    display: inline-block;
+    cursor: not-allowed;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 /* Navbar tweaks */
