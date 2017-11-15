@@ -138,7 +138,8 @@
         $('.top-navigation').click(function () {
             window.scrollTo(0, 0);
         });
-        appearHeight = $('.anchor').eq(1).offset().top;
+        // appearHeight = $('.anchor').eq(1).offset().top;
+        appearHeight = 500;
 
         //Set up the url hash location object
         getHashLocations();
