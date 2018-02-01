@@ -130,7 +130,10 @@ body {
 
 .jumbotron-img h1,
 .jumbotron-img h2,
-.jumbotron-img h3 {
+.jumbotron-img h3,
+.jumbotron-img h4,
+.jumbotron-img h5,
+.jumbotron-img h6 {
     color: white;
     text-shadow: 5px 5px 5px #262626;
 }
