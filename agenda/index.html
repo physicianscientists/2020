@@ -80,7 +80,10 @@
         </div>
       </div>
 
-      <div class="top-navigation">
+      <!-- <p class="lead text-center">Coming Soon</p> -->
+
+
+      <!-- <div class="top-navigation">
         <p>Top <span class="glyphicon glyphicon-chevron-up"></span></p>
       </div>
 
@@ -88,11 +91,11 @@
 
 
         <p><i class="fa fa-user-md fa-lg"></i> = APSA sponsored event</p>
-        <div class="row">
+        <div class="row"> -->
 <!--           <div class="col-sm-3">
             <a href="#1st-day" class="btn btn-block btn-lg btn-info btn-agenda-day">Thursday, April 20th</a>
           </div> -->
-          <div class="col-sm-4">
+          <!-- <div class="col-sm-4">
             <a href="#1st-day" class="btn btn-block btn-lg btn-info btn-agenda-day">Friday, April 20th</a>
           </div>
           <div class="col-sm-4">
@@ -101,7 +104,7 @@
           <div class="col-sm-4">
             <a href="#3rd-day" class="btn btn-block btn-lg btn-info btn-agenda-day">Sunday, April 22nd</a>
           </div>
-        </div>
+        </div> -->
         
         <!-- Schedule
         ================================================== -->
@@ -132,7 +135,7 @@
           </tbody>
         </table> -->
 
-        <a id="1st-day" class="anchor"></a>
+        <!-- <a id="1st-day" class="anchor"></a>
         <div class="agenda-day">
           <h2 class="page-header">Friday, April 20th</h2>
         </div>
@@ -140,7 +143,7 @@
           <thead>
             <tr>
               <th>Time</th>
-              <th>Event</th>
+              <th>Event</th>*
             </tr>
           </thead>
           <tbody>
@@ -185,7 +188,7 @@
               </td>
             </tr>
             <tr>
-              <td>1:00 pm &#8211; 3:00 pm</td>
+              <td>1:00 pm &#8211; 3:00 pm*/td>
               <td>
                 <p><strong>Poster Setup</strong></p>
                 <p>Location: <em>Imperial Ballroom</em></p>
@@ -213,8 +216,8 @@
               </td>
             </tr>
             <tr>
-              <td>1:30 pm &#8211; 2:00 pm</td>
-              <td>
+              <td>*</td>
+              <td>*
                 <div class="pull-left">
                   <a href="../speakers/#luigi-ferrucci"><img src="../images/keynotes/luigi_ferrucci_thumb.jpg" alt="Luigi ferrucci, MD, PhD" class="keynote-thumbnail img-thumbnail" /></a>
                 </div>
@@ -249,11 +252,11 @@
                       <p><a href="../speakers/#maria-abreu"><strong>AAP New Member</strong>: Maria T. Abreu, MD, University of Miami Miller School of Medicine</a></p>
                       <p>Time: <em>2:15 pm &#8211; 2:30 pm</em></p>
                     </div>
-                  </div>
-                </div><!-- /.row -->
-                <div class="row">
+                  </div> -->
+                <!-- </div> --><!-- /.row -->
+                <!-- <div class="row">
                   <div id="overflow-glitch" class="col-sm-6">
-                    <div class="pull-left">
+                    <div class="pull-le*t">
                       <p><a href="../speakers/#kathleen-burns"><img src="../images/keynotes/kathleen_burns_thumb.jpg" class="keynote-thumbnail img-thumbnail" /></a></p>
                     </div>
                     <div class="keynote-info">
@@ -271,15 +274,15 @@
                       <p><a href="../speakers/#levine-thumb"><strong>AAP New Member</strong>: Ross L. Levine, MD, Memorial Sloan Kettering Cancer Center</a></p>
                       <p>Time: <em>2:45 pm &#8211; 3:00 pm</em></p>
                     </div>
-                  </div>
-                </div><!-- /.row -->
-                <p>Location: <em>International Ballroom</em></p>
+                  </div> -->
+                <!-- </div> --><!-- /.row -->
+                <!-- <p>Location: <em>International Ballroom</em></p>
               </td>
             </tr>
             <tr>
               <td>3:00 pm &#8211; 3:30 pm</td>
               <td>
-                <p><strong>-- Break --</strong></p>
+                <p><strong>-- Break --<*/strong></p>
                 <p>Location: <em>International Foyer</em></p>
               </td>
             </tr>
@@ -330,7 +333,7 @@
                   <p><strong>ASCI Presidential Address</strong></p>
                   <p>Benjamin L. Ebert, MD, PhD, Brigham and Women’s Hospital</p>
                   <!-- <p>Believe the Miracles: Of Biomedical Science and Human Suffering</p> -->
-                  <p>Location: <em>International Ballroom</em></p>
+                  <!-- <p>Location: <em>International Ballroom</em></p>
                 </div>
               </td>
             </tr>
@@ -356,12 +359,12 @@
               </td>
             </tr>
             <tr>
-              <td>6:00 pm &#8211; 7:00 pm</td>
-              <td>
-                <p><strong>ASCI President’s Reception (invitation only)</strong></p>
-                <p>Location: <em>Gold Room</em></p>
-              </td>
-            </tr>
+              <td*pm</td>
+              <td*
+                <*nt’s Reception (invitation only)</strong></p>
+                <*oom</em></p>
+              </t*
+            </tr>*
             <tr>
               <td>6:15 pm &#8211; 7:15 pm</td>
               <td>
@@ -380,7 +383,15 @@
             <tr>
               <td>7:30 pm &#8211; 9:30 pm</td>
               <td>
-                <div class="pull-left">
+                <div class="pull-le        $.getJSON('../../meeting_info/meeting_info.json', function(events) {
+            if (events.length === 0) {
+                $PAGE.append($('p', {class: "lead text-center"}).text('Coming Soon!'));
+            } else {
+                createTopNavigator($('.agenda-container'));
+            }
+            
+        });
+ft">
                   <a href="../speakers/#george-daley">
                     <img src="../images/keynotes/george_daley_thumb.jpg" alt="George Daley, MD, PhD" class="keynote-thumbnail img-thumbnail">
                   </a>
@@ -424,12 +435,12 @@
                 <p>Location: <em>State Room, 2nd Level</em></p>
               </td>
             </tr>
-            <tr>
-              <td>7:00 am &#8211; 8:00 am <i class="fa fa-user-md"></i></td>
-              <td>
-                <p><strong>Mentoring Breakfast: Navigating the Physician Scientist Career</strong> (ticketed event)</p>
-                <!-- <p>ASCI and AAP members join APSA members for breakfast, sharing their career advice and answering trainee questions in an informal setting.</p> -->
-                <p>Location: <em>Rouge</em></p>
+            <tr>*
+              <td>7:00 am &#8211; 8:00* am <i class="fa fa-user-md"></i></td>
+              <td>*
+                <p><strong>Mentoring B*reakfast: Navigating the Physician Scientist Career</strong> (ticketed event)</p>
+                <!-- <p>ASCI and AAP m*embers join APSA members for breakfast, sharing their career advice and answering trainee questions in an informal setting.</p> -->
+                <!-- <p>Location: <em>*Rouge</em></p>
               </td>
             </tr>
             <tr>
@@ -447,8 +458,24 @@
               </td>
             </tr>
             <tr>
-              <td>9:00 am &#8211; 11:45 am</td>
-              <td>
+              <td>        $.getJSON('../../meeting_info/meeting_info.json', function(events) {
+            if (events.length === 0) {
+                $PAGE.append($('p', {class: "lead text-center"}).text('Coming Soon!'));
+            } else {
+                createTopNavigator($('.agenda-container'));
+            }
+            
+        });
+1:45 am</td>
+              <td>        $.getJSON('../../meeting_info/meeting_info.json', function(events) {
+            if (events.length === 0) {
+                $PAGE.append($('p', {class: "lead text-center"}).text('Coming Soon!'));
+            } else {
+                createTopNavigator($('.agenda-container'));
+            }
+            
+        });
+
                 <p><strong>AAP/ASCI/APSA Plenary Session II</strong></p>
                 <p>Session Moderators: Mary Klotman, W. Kimryn Rathmell, Jason Siu</p>
                 <p>Location: <em>International Ballroom</em></p>
@@ -466,7 +493,7 @@
                   <p>Location: <em>International Ballroom</em></p>
                 </div>
               </td>
-            </tr>
+            </tr>*
             <tr>
               <td>9:30 am &#8211; 9:45 am <i class="fa fa-user-md"></i></td>
               <td>
@@ -512,7 +539,7 @@
                   <p><a href="../speakers/#mary-armanios"><strong>Invited Speaker</strong>: Mary Yousry Armanios, MD, Johns Hopkins</a></p>
                   <p>Location: <em>International Ballroom</em></p>
                 </div>
-              </td>
+     top-navigation         </td>
             </tr>
             <tr>
               <td>11:00 am &#8211; 11:30 am</td>
@@ -529,11 +556,11 @@
             </tr>
             <tr>
               <td>11:30 am &#8211; 11:45 am</td>
-              <td>
+              <td> -->
 <!--                 <div class="pull-left">
                   <img src="../images/keynotes/omar_abdel-wahab_thumb.jpg" alt="Omar Abdel-Wahab, MD" class="keynote-thumbnail img-thumbnail" />
                 </div>
- -->                <div class="keynote-info" style="overflow: hidden">
+                <div class="keynote-info" style="overflow: hidden">
                   <p><strong>Presentation of the 2018 Donald Seldin~Holly Smith Award for Pioneering Research</strong></p>
                   <p><strong>Recipient</strong>: TBA</p>
                   <p><strong>Presentation</strong>: TBA</p>
@@ -636,7 +663,7 @@
               <td>3:15 pm &#8211; 3:45 pm</td>
               <td>
                 <div class="pull-left">
-                  <a href="../speakers#richard-lifton">
+       top-navigation           <a href="../speakers#richard-lifton">
                     <img src="../images/keynotes/richard_lifton_thumb.jpg" class="keynote-thumbnail img-thumbnail" />
                   </a>
                 </div>
@@ -655,9 +682,9 @@
                     <img src="../images/keynotes/helen_hobbs_thumb.jpg" class="keynote-thumbnail img-thumbnail" />
                   </a>
                 </div>
-                <div class="keynote-info">
+                <div class="keynote-info"> -->
                   <!-- <p><strong>Global Health Security: Urgent Protection Imperatives</strong></p> -->
-                  <p><a href="#"><strong>Kober Lecturer</strong>: Helen H. Hobbs, MD, University of Texas Southwestern Medical Center</a></p>
+                  <!-- <p><a href="#"><strong>Kober Lecturer</strong>: Helen H. Hobbs, MD, University of Texas Southwestern Medical Center</a></p>
                   <p>Location: <em>International Ballroom</em></p>
                 </div>
               </td>
@@ -674,7 +701,7 @@
                   <p><strong>AAP Presidential Address</strong></p>
                   <a href="../speakers/index.html#serpil-erzurum"><p><strong>Speaker</strong>: Serpil Erzurum, MD, Cleveland Clinic</p></a>
                   <!-- <p>AAP: 130 Years of Biomedical Research &amp; Much More Still to Do</p> -->
-                  <p>Location: <em>International Ballroom</em></p>
+                  <!-- <p>Location: <em>International Ballroom</em></p>
                 </div>
               </td>
             </tr>
@@ -702,9 +729,9 @@
                     <div class="keynote-name">
                       <a href="../speakers/#leonard-zon"><p><strong>Presenter</strong>: Leonard I. Zon, MD; Howard Hughes Medical Institute, Harvard Medical School</p></a>
                     </div>
-                  </div>
-                </div><!-- /.row -->
-                 <div class="keynote-info">
+                  </div> -->
+                <!-- </div> --><!-- /.row -->
+                 <!-- <div class="keynote-info">
                   <p>Location: <em>International Ballroom</em></p>
                 </div>
               </td>
@@ -719,18 +746,18 @@
             <tr>
               <td>5:45 pm &#8211; 7:00 pm <i class="fa fa-user-md"></i></td>
               <td>
-                <p><strong><a href="../panels/#social-science-panel">APSA Panel: Critical and Social Perspectives on Aging Panel</a></strong></p>
+                <p><strong><a href="../panels/#social-science-panel">APSA Panel: Critical and Social Perspectives on Aging Panel</a></strong></p> -->
 
                 <!-- Panelists -->
-                <div class="bubble-sm">
+                <!-- <div class="bubble-sm">
                   <a href="../panels/#josh-franklin">
                     <div class="bubble-image panel-moderator" style="background-image: url('../images/panels/josh_franklin_thumb.jpg');"></div>
                     <p>Moderator: Josh Franklin, BS</p>
                   </a>
                 </div>
-                <div class="bubble-sm">
+                <div class="bubble-sm"> -->
                   <!-- <a href="../panels/#janelle-taylor"> -->
-                  <a href="#">
+                  <!-- <a href="#">
                     <div class="bubble-image" style="background-image: url('../images/panels/janelle_taylor_thumb.jpg');"></div>
                     <p>Janelle Taylor, PhD</p>
                   </a>
@@ -746,26 +773,26 @@
                     <div class="bubble-image" style="background-image: url('../images/panels/carla_keirns_thumb.jpg');"></div>
                     <p>Carla Keirns, MD, PhD</p>
                   </a>
-                </div>
+                </div> -->
 
                <!-- Location -->
-                <p>Location: <em>Ambassador Room</em></p>
+                <!-- <p>Location: <em>Ambassador Room</em></p> -->
 
                 <!-- More info -->
 <!--                 <div class="more-less">
                   <p class="collapse" id="team-panel">The past several decades have witnessed a dramatic increase in the scale and complexity of scientific and translational research. As the complexity of today’s most pressing health issues and diseases is revealed, collaborations among scientists trained in different fields, from bioinformatics to molecular genetics to biomedical policy, have become essential for exploring and advancing biomedical research discoveries. Given their dual training in medicine and scientific research, physician-scientists are poised to lead team science and the multidisciplinary research initiatives. Our session aims to answer: What constitutes successful team science? What are examples physician-scientists have used in their research endeavors to promote team science productivity? Why do some research teams succeed while others do not? What factors maximize a research team’s productivity or effectiveness? What detracts from team science success?</p>
                   <p><a data-toggle="collapse" href="#team-panel" aria-expanded="false" aria-controls="issues-panel">More</a></p>
                 </div>
- -->              </td>
+              </td>
             </tr>
             <tr>
               <td>5:45 pm &#8211; 7:00 pm <i class="fa fa-user-md"></i></td>
               <td>
                 <!-- <p><strong><a href="../panels/#polich-advocacy-panel">APSA Panel: Policy and Advocacy Workshop</a></strong></p> -->
-                <p><strong><a href="../panels/#policy-advocacy-panel">APSA Panel: Policy and Advocacy Workshop</a></strong></p>
+                <!-- <p><strong><a href="../panels/#policy-advocacy-panel">APSA Panel: Policy and Advocacy Workshop</a></strong></p>
 
                 <!-- Panelists -->
-                <div class="bubble-sm">
+                <!-- <div class="bubble-sm">
                   <a href="../panels/#samantha-spellicy">
                     <div class="bubble-image panel-moderator" style="background-image: url('../images/panels/samantha_spellicy_thumb.jpg');"></div>
                     <p>Moderator: Samantha Spellicy, BS</p>
@@ -794,17 +821,17 @@
                     <div class="bubble-image" style="background-image: url('../images/panels/sharon_inouye_thumb.jpg');"></div>
                     <p>Sharon Inouye, MD, MPH</p>
                   </a>
-                </div>
+                </div> -->
 
                 <!-- Location -->
-                <p>Location: <em>Crystal Room</em></p>
+                <!-- <p>Location: <em>Crystal Room</em></p> -->
 
                 <!-- More info -->
 <!--                 <div class="more-less">
                   <p class="collapse" id="team-panel">The past several decades have witnessed a dramatic increase in the scale and complexity of scientific and translational research. As the complexity of today’s most pressing health issues and diseases is revealed, collaborations among scientists trained in different fields, from bioinformatics to molecular genetics to biomedical policy, have become essential for exploring and advancing biomedical research discoveries. Given their dual training in medicine and scientific research, physician-scientists are poised to lead team science and the multidisciplinary research initiatives. Our session aims to answer: What constitutes successful team science? What are examples physician-scientists have used in their research endeavors to promote team science productivity? Why do some research teams succeed while others do not? What factors maximize a research team’s productivity or effectiveness? What detracts from team science success?</p>
                   <p><a data-toggle="collapse" href="#team-panel" aria-expanded="false" aria-controls="issues-panel">More</a></p>
                 </div>
- -->              </td>
+              </td>
             </tr>
             <tr>
               <td>6:00 pm &#8211; 8:00 pm</td>
@@ -822,7 +849,7 @@
                   </a>
                 </div>
                 <div class="keynote-info">
-                  <!-- <p><strong>Can science avert the decline and fall of the American empire?</strong></p> -->
+                  <p><strong>Can science avert the decline and fall of the American empire?</strong></p>
                   <p><strong>AAP Banquet</strong></p>
                   <a href="../speakers/#jeffrey-drazen"><p><strong>Speaker</strong>: Jeffrey M. Drazen, MD: Editor-in-Chief, New England Journal of Medicine</p></a>
                   <p>Location: <em>Imperial Ballroom</em></p>
@@ -839,20 +866,20 @@
                       <p><a href="../speakers/#juliane-bubeck-wardenburg"><img src="../images/keynotes/juliane_bubeck-wardenburg_thumb.jpg" class="keynote-thumbnail img-thumbnail" /></a></p>
                     </div>
                     <div class="keynote-name">
-                      <!-- <p><strong>Charting Your Path as a Physician Scientist</strong></p> -->
+                      <p><strong>Charting Your Path as a Physician Scientist</strong></p>
                       <p><a href="../speakers/#juliane-bubeck-wardenburg"><strong>Speaker</strong>: Juliane Bubeck-Wardenburg, MD, PhD, Washington University School of Medicine</a></p>
                     </div>
                   </div>
                   <div class="col-sm-6">
-<!--                     <div class="pull-left">
+                    <div class="pull-left">
                       <p><img src="../images/keynotes/joseph_bast_thumb.jpg" class="keynote-thumbnail img-thumbnail" /></p>
                     </div>
- -->                    <div class="keynote-name">
+                    <div class="keynote-name">
                       <p><strong>Founder's Award Recipient</strong>: Dania Daye, MD, PhD, Massachusetts General Hospital</p>
                     </div>
                   </div>
                 </div><!-- /.row -->
-                 <div class="keynote-info">
+                 <!-- <div class="keynote-info">
                   <p>Location: <em>Rouge</em></p>
                 </div>
               </td>
@@ -907,9 +934,9 @@
                 <div class="pull-left">
                   <a href="../speakers/#sharon-inouye"><img src="../images/keynotes/sharon_inouye_thumb.jpg" class="keynote-thumbnail img-thumbnail" /></a>
                 </div>
-                <div class="keynote-info">
+                <div class="keynote-info"> -->
                   <!-- <p><strong>Genetic Influences on Rheumatoid Arthritis</strong></p> -->
-                  <p><a href="../speakers/#sharon-inouye"><strong>APSA Keynote Speaker</strong>: Sharon K. Inouye, MD, MPH, Hebrew SeniorLife/Harvard Medical School</a></p>
+                  <!-- <p><a href="../speakers/#sharon-inouye"><strong>APSA Keynote Speaker</strong>: Sharon K. Inouye, MD, MPH, Hebrew SeniorLife/Harvard Medical School</a></p>
                   <p>Location: <em>Gold Room</em></p>
                 </div>
               </td>
@@ -923,12 +950,12 @@
             </tr>
             <tr>
               <td>10:00 am &#8211; 11:00 am <i class="fa fa-user-md"></i></td>
-              <td>
+              <td> -->
                 <!-- Event: Title or Speaker -->
-                <p><strong><a href="../panels/#alternative-careers-panel">APSA Panel: Alternative Careers</a></strong></p>
+                <!-- <p><strong><a href="../panels/#alternative-careers-panel">APSA Panel: Alternative Careers</a></strong></p> -->
 
                 <!-- Panelists -->
-                <div class="bubble-sm">
+                <!-- <div class="bubble-sm">
                   <a href="../panels/#eileen-hu">
                     <div class="bubble-image panel-moderator" style="background-image: url('../images/panels/eileen_hu_thumb.jpg');"></div>
                     <p>Moderator: Eileen Hu</p>
@@ -952,25 +979,25 @@
                     <p>Andrew Chan, MD, PhD</p>
                   </a>
                 </div>
-
+ -->
                 <!-- Location -->
-                <p>Location: <em>Gold Room</em></p>
+                <!-- <p>Location: <em>Gold Room</em></p> -->
 
                 <!-- More info -->
 <!--                 <div class="more-less">
                   <p class="collapse" id="work-life-panel">This panel will discuss how to balance work responsibilities and career building with aspects of social and family life in the context of a physician-scientist lifestyle.</p>
                   <p><a data-toggle="collapse" href="#work-life-panel" aria-expanded="false" aria-controls="issues-panel">More</a></p>
                 </div>
- -->              </td>
+              </td>
             </tr>
             <tr>
               <td>11:00 am &#8211; 12:00 pm <i class="fa fa-user-md"></i></td>
               <td>
                 <!-- Event: Title or Speaker -->
-                <p><strong><a href="../panels/#mstp-admissions-panel">APSA Panel: The Do's and Don'ts of MSTP Admissions</a></strong></p>
+                <!-- <p><strong><a href="../panels/#mstp-admissions-panel">APSA Panel: The Do's and Don'ts of MSTP Admissions</a></strong></p> -->
 
                 <!-- Panelists -->
-                <div class="bubble-sm">
+                <!-- <div class="bubble-sm">
                   <a href="../panels/#jose-rodrigues">
                     <div class="bubble-image panel-moderator" style="background-image: url('../images/panels/jose_rodrigues.jpg');"></div>
                     <p>Moderator: Jose Rodrigues</p>
@@ -994,29 +1021,29 @@
                     <p>Paul Utz, MD</p>
                   </a>
                 </div>
-
+ -->
                 <!-- Location -->
-                <p>Location: <em>Ambassador Room</em></p>
+                <!-- <p>Location: <em>Ambassador Room</em></p> -->
 
                 <!-- More info -->
 <!--                 <div class="more-less">
                   <p class="collapse" id="transitioning-panel">Mirroring the shift from medical to graduate school, the return to- and finishing of- medical school prompts medical scientist trainees to address one glaring challenge: starting the next chapter of our professional lives. The purpose of this panel is to enlighten audience members on how to smoothly navigate the often-stressful and seemingly complicated process of transitioning from the later phase of the MD/PhD curriculum towards your own, personal career trajectory. Consisting of a 4th year medical student, PSTP residency director, and resident/fellow on the panel, the intention is to open the entire room up for discussion. Though the focus is on transitions, all topics are highly encouraged for debate, ranging from questions about the traditional academic sequence (e.g., residency, interviewing, match, fellowship, etc.) to the more provocative consideration of non-academic career paths.</p>
                   <p><a data-toggle="collapse" href="#transitioning-panel" aria-expanded="false" aria-controls="issues-panel">More</a></p>
                 </div>
- -->              </td>
+              </td>
             </tr>
             <tr>
               <td>11:00 am &#8211; 12:30 pm <i class="fa fa-user-md"></i></td>
               <td>
-                <!-- <p><strong><a href="../panels/#mstp-admissions-panel">APSA Panel: The Dos and Don'ts of MSTP Admissions</a></strong></p> -->
-                <p><strong><a href="../panels/#resilience-panel">APSA Panel: Resilience Workshop</a></strong></p>
+                <p><st        $.getJSON('../../meeting_info/meeting_info.json', function(events) {g><a href="../panels/#mstp-admissions-panel">APSA Panel: The Dos and Don'ts of MSTP Admissions</a></strong></p>
+                <p><st            if (events.length === 0) {g><a href="../panels/#resilience-panel">APSA Panel: Resilience Workshop</a></strong></p>
 
-                <!-- Panelists -->
-                <div class="bubble-sm">
-                  <a href="../panels/#audra-iness">
-                    <div class="bubble-image panel-moderator" style="background-image: url('../images/panels/audra_iness_thumb.jpg');"></div>
-                    <p>Moderator: Audra Iness, BS</p>
-                  </a>
+                <!-- P                $PAGE.append($('p', {class: "lead text-center"}).text('Coming Soon!'));lists -->
+                <!-- <            } else { class="bubble-sm">
+                  <a h                createTopNavigator($('.agenda-container'));="../panels/#audra-iness">
+                    <d            }class="bubble-image panel-moderator" style="background-image: url('../images/panels/audra_iness_thumb.jpg');"></div>
+                    <p            derator: Audra Iness, BS</p>
+                  </a>        });
                 </div>
                 <div class="bubble-sm">
                   <a href="../panels/#kay-lund">
@@ -1035,17 +1062,17 @@
                     <div class="bubble-image" style="background-image: url('../images/panels/michael_helmrath_thumb.jpg');"></div>
                     <p>Michael Helmrath, MD, MS</p>
                   </a>
-                </div>
+                </div> -->
 
                 <!-- Location -->
-                <p>Location: <em>Gold Room</em></p>
+                <!-- <p>Location: <em>Gold Room</em></p> -->
 
                 <!-- More info -->
 <!--                 <div class="more-less">
                   <p class="collapse" id="mstp-admissions-panel">Come visit with the MSTP directors to learn about how you can become a competitive applicant. The application process can be daunting so this is a great opportunity to be able to ask your questions directly to those with the inside scoop.</p>
                   <p><a data-toggle="collapse" href="#mstp-admissions-panel" aria-expanded="false" aria-controls="issues-panel">More</a></p>
                 </div>
- -->              </td>
+              </td>
             </tr>
             <tr>
               <td>12:30 pm &#8211; 2:30 pm <i class="fa fa-user-md"></i></td>
@@ -1054,15 +1081,15 @@
                 <p>Location: <em>International Ballroom</em></p>
 
                 <!-- More info -->
-                <div class="more-less">
+                <!-- <div class="more-less">
                   <p class="collapse" id="residency-luncheon">Come get your questions answered by the experts about specific programs and the nature of physician-scientist training after medical and graduate school. If you are applying to residency soon, this is an unrivaled opportunity to directly connect with program directors.  Find a list of all the programs <a href="../luncheon/">here</a></p>
-                  <p><a data-toggle="collapse" href="#residency-luncheon" aria-expanded="false" aria-controls="issues-panel">More</a></p>
-                </div><!-- /.more-less -->
-              </td>
+                  <p><a data-toggle="collapse" href="#residency-luncheon" aria-expanded="false" aria-controls="issues-panel">More</a></p> -->
+                <!-- </div><!-- /.more-less -->
+              <!-- </td>
             </tr>
           </tbody>
-        </table>
-      </div>
+        </table> 
+      </div> -->
     </div>
 
     <div class="container site-footer">
@@ -1095,7 +1122,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../bootstrap/js/jquery-2.1.4.min.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
-    <script src="../bootstrap/js/agenda_ui.min.js"></script>
+    <script src="../bootstrap/js/agenda_creator.js"></script>
+    <script src="../bootstrap/js/agenda_ui.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
