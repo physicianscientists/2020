@@ -355,6 +355,10 @@
         }
 
         $eventInfoHtml.append($('<p>Location: <em>' + eventLocation + '</em></p>'));
+        
+        if (event.description) {
+            $eventInfoHtml.append(createEventDescription(event.description));
+        }
 
         return $eventInfoHtml;
     };
@@ -424,9 +428,6 @@
                     // console.log('i', i);
                     // console.log('previous date', previousDate);
                     // console.log('event date', events[i].date);
-                    if (! events[i].date) {
-                        throw new Error("The " + formatPositionalNumber(i) + " event must have a date");
-                    }
 
                     // create new html table for each day of the agenda
                     if (events[i].date !== previousDate) {
@@ -439,19 +440,23 @@
                     }
 
 
-                    console.log('agenda day', $agendaDay);
-                    // determine how to format the event info
-                    if (events[i].type.toLowerCase() === "normal") {
-                        eventInfo = createNormalEventInfoHtml;
-                    } else if (events[i].type.toLowerCase() === "session") {
-                        eventInfo = createSessionEventInfo;
-                    } else if (events[i].type.toLowerCase() === "keynote") {
-                        eventInfo = createKeynoteEventInfo;
-                    } else if (events[i].type.toLowerCase() === "panel") {
-                        eventInfo = createPanelEventInfo;
-                    }
-                    if (eventInfo) {
+                    // console.log('agenda day', $agendaDay);
+                    if (events[i].date && events[i].time) {
+                        // determine how to format the event info
+                        if (events[i].type.toLowerCase() === "normal") {
+                            eventInfo = createNormalEventInfoHtml;
+                        } else if (events[i].type.toLowerCase() === "session") {
+                            eventInfo = createSessionEventInfo;
+                        } else if (events[i].type.toLowerCase() === "keynote") {
+                            eventInfo = createKeynoteEventInfo;
+                        } else if (events[i].type.toLowerCase() === "panel") {
+                            eventInfo = createPanelEventInfo;
+                        }
+
                         createEventRow(events[i], $agendaDay, eventTime, eventInfo);
+
+                    } else {
+                        console.error("The " + formatPositionalNumber(i) + " event must have a date and time");
                     }
 
                 }

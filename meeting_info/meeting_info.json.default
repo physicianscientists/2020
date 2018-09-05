@@ -14,7 +14,6 @@
         "date": "",
         "time": "",
         "location": "",
-        "description": "",
         "apsa": true
     },
     {
@@ -34,7 +33,6 @@
         "date": "",
         "time": "",
         "location": "",
-        "description": "",
         "apsa": true
     },
     {
@@ -74,11 +72,6 @@
     {
         "type": "panel",
         "title": "",
-        "date": "",
-        "time": "",
-        "location": "",
-        "description": "",
-        "apsa": true,
         "participant": [
             {
                 "moderator": false,
@@ -88,5 +81,10 @@
                 "bio": ""
             }
         ]
+        "date": "",
+        "time": "",
+        "location": "",
+        "description": "",
+        "apsa": true,
     }
 ]
