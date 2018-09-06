@@ -1,5 +1,7 @@
 // Creates the agenda's UI from a JSON object
 (function() {
+    'use strict';
+
     var $PAGE = $('.page-wrapper'),
         $AGENDA_CONTAINER = $('<div class="container agenda-container"></div>');
     
@@ -137,14 +139,15 @@
      * @param {Object} event The object containing the event information
      */
     var createEventTimeHtml = function(event) {
-        var $eventTimeHtml = $('<td></td>');
+        var $eventTimeHtml = $('<td></td>'),
+            eventTime;
 
-        eventTimeHtml = event.time;
+            eventTime = event.time;
         if (event.apsa) {
-            eventTimeHtml += ' <i class="fa fa-user-md"></i>';
+            eventTime += ' <i class="fa fa-user-md"></i>';
         }
 
-        return $eventTimeHtml.html(eventTimeHtml);
+        return $eventTimeHtml.html(eventTime);
     };
 
     /**
@@ -280,7 +283,7 @@
         // speaker image might not be available immediately
         if (speaker.agenda_image) {
             $speaker.append($imgDiv);
-            $speakerImg = $('<img src="../images/keynotes/' + speaker.agenda_image + '" class="keynote-thumbnail img-thumbnail" />');
+            $speakerImg = $('<img src="../images/keynotes/' + speaker.agenda_image + '" alt="' + speaker.name + '" class="keynote-thumbnail img-thumbnail" />');
 
             // only create the link if the bio exists because the bio page won't exist without a bio
             if (speaker.bio) {
@@ -322,15 +325,15 @@
         return $speaker;
     };
 
-    /**
-     * Creates a quicky ID for DOM for the speaker for use as an anchor in HTML
-     * @param {String} speakerName The name of the speaker
-     */
-    var createSpeakerId = function(speakerName) {
-        return speakerName
-            ? speakerName.toLowerCase().replace(/ |, |\./g, '-')
-            : '';
-    };
+    // /**
+    //  * Creates a quicky ID for DOM for the speaker for use as an anchor in HTML
+    //  * @param {String} speakerName The name of the speaker
+    //  */
+    // var createSpeakerId = function(speakerName) {
+    //     return speakerName
+    //         ? speakerName.toLowerCase().replace(/ |, |\./g, '-')
+    //         : '';
+    // };
 
     /**
      * Creates a panel event on the agenda
@@ -392,13 +395,13 @@
         return $participant;
     }
 
-    /**
-     * Creates an ID for an HTML anchor of the panel
-     * @param {String} panelName The name of the panel
-     */
-    var createPanelId = function(panelName) {
-        return panelName.toLowerCase().replace(/ |, |\./g, '-');
-    }
+    // /**
+    //  * Creates an ID for an HTML anchor of the panel
+    //  * @param {String} panelName The name of the panel
+    //  */
+    // var createPanelId = function(panelName) {
+    //     return panelName.toLowerCase().replace(/ |, |\./g, '-');
+    // }
 
     // Create Agenda
     $(document).ready(function() {
@@ -438,7 +441,6 @@
                         $agendaDay = createAgendaDay(conferenceDate, dayNumber, $AGENDA_CONTAINER);
                         previousDate = events[i].date;
                     }
-
 
                     // console.log('agenda day', $agendaDay);
                     if (events[i].date && events[i].time) {

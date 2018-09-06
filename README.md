@@ -81,6 +81,7 @@ This event if for any event that has a speaker **minus** panels (see [below](#pa
     * `agenda_image` (optional): filename of speaker's image located in images/keynotes, displayed on **/agenda/index.html** webpage
     * `lab_url` (optional): URL of speaker's lab or university page
     * `bio`: free text speaker's bio
+    * `time` (optional): time for specific speaker in a multi-speaker event
 * `date`: date of the event (e.g. April 21, 2019)
 * `time`: time of the event (e.g. 2:00 - 3:00 pm)
 * `location`: location of the event (defaults to "TBA" if ommitted)
