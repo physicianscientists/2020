@@ -80,7 +80,7 @@ This event if for any event that has a speaker **minus** panels (see [below](#pa
     * `image`: filename of speaker's image located in images/keynotes, displayed on **/speakers/index.html** webpage
     * `agenda_image` (optional): filename of speaker's image located in images/keynotes, displayed on **/agenda/index.html** webpage
     * `lab_url` (optional): URL of speaker's lab or university page
-    * `bio`: free text speaker's bio
+    * `bio`: free text speaker's bio; paragraphs can be created by wrapping them in `<p></p>` HTML tags
     * `time` (optional): time for specific speaker in a multi-speaker event
 * `date`: date of the event (e.g. April 21, 2019)
 * `time`: time of the event (e.g. 2:00 - 3:00 pm)
@@ -97,7 +97,7 @@ This event if for any event that has a speaker **minus** panels (see [below](#pa
     * `affiliation`: speaker's affiliation (keep it brief)
     * `image`: filename of participant's image located in images/panels, displayed on **/panels/index.html** webpage
     * `agenda_image`: filename of speaker's image located in images/panels, displayed on **/agenda/index.html** webpage
-    * `bio`: free text speaker's bio
+    * `bio`: free text speaker's bio; paragraphs can be created by wrapping them in `<p></p>` HTML tags
 * `date`: date of the event (e.g. April 21, 2019)
 * `time`: time of the event (e.g. 2:00 - 3:00 pm)
 * `location`: location of the event (defaults to "TBA" if ommitted)

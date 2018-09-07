@@ -41,7 +41,11 @@
                     eventSpeakers[j].location = events[i].location;
 
                     if (eventSpeakers[j].image && eventSpeakers[j].bio) {
-                        speakers.push(eventSpeakers[j]);
+                         if (eventSpeakers[j].date && eventSpeakers[j].time) {
+                            speakers.push(eventSpeakers[j]);
+                         } else {
+                             console.error("A time and date must be associated with the event or all speakers associated with event " + (i+1));
+                         }
                     }
                 }
             }
@@ -93,11 +97,12 @@
      * @return {jQuery DOM Object} The DOM object of the column to be attached to the speaker row
      */
     var createSpeakerImageColumn = function(speaker) {
-        var $imageCol = $('<div class="col-sm-3 text-center"></div>');
+        var $imageCol = $('<div class="col-sm-3 text-center"></div>'),
+            location = speaker.location || "TBA";
 
         $imageCol.append($('<p><img src="../images/keynotes/' + speaker.image + '" alt="' + speaker.image + '" class="img-responsive img-rounded center-block" /></p>'));
         $imageCol.append($('<p><strong>' + formatDateString(new Date(speaker.date)) + '<br />' + speaker.time + '</strong></p>'));
-        $imageCol.append($('<p><em>' + speaker.location + '</em></p>'));
+        $imageCol.append($('<p><em>' + location + '</em></p>'));
 
         return $imageCol;
     };

@@ -325,16 +325,6 @@
         return $speaker;
     };
 
-    // /**
-    //  * Creates a quicky ID for DOM for the speaker for use as an anchor in HTML
-    //  * @param {String} speakerName The name of the speaker
-    //  */
-    // var createSpeakerId = function(speakerName) {
-    //     return speakerName
-    //         ? speakerName.toLowerCase().replace(/ |, |\./g, '-')
-    //         : '';
-    // };
-
     /**
      * Creates a panel event on the agenda
      * @param {Object} event The object containing all of the event information
@@ -395,20 +385,12 @@
         return $participant;
     }
 
-    // /**
-    //  * Creates an ID for an HTML anchor of the panel
-    //  * @param {String} panelName The name of the panel
-    //  */
-    // var createPanelId = function(panelName) {
-    //     return panelName.toLowerCase().replace(/ |, |\./g, '-');
-    // }
-
     // Create Agenda
     $(document).ready(function() {
         $.getJSON('../../meeting_info/meeting_info.json', function(events) {
             // console.log(events);
             if (events.length === 0) {
-                $PAGE.append($('p', {class: "lead text-center"}).text('Coming Soon!'));
+                $PAGE.append($('<p class="lead text-center">Coming Soon!</p>'));
             } else {
                 var previousDate = '',
                     dayNumber = 0,

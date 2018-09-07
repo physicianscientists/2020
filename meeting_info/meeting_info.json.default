@@ -14,6 +14,10 @@
         "date": "",
         "time": "",
         "location": "",
+        "moderators": [
+            "",
+            ""
+        ],
         "apsa": true
     },
     {
@@ -33,11 +37,11 @@
         "date": "",
         "time": "",
         "location": "",
+        "description": "",
         "apsa": true
     },
     {
         "type": "keynote",
-        "award": "",
         "title": "",
         "speaker": [
             {
@@ -61,7 +65,7 @@
                 "lab_url": "",
                 "bio": "",
                 "time": ""
-           }
+            }
         ],
         "date": "",
         "time": "",
@@ -72,7 +76,19 @@
     {
         "type": "panel",
         "title": "",
+        "date": "",
+        "time": "",
+        "location": "",
+        "description": "",
+        "apsa": true,
         "participant": [
+            {
+                "moderator": true,
+                "name": "",
+                "image": "",
+                "agenda_image": "",
+                "bio": ""
+            },
             {
                 "moderator": false,
                 "name": "",
@@ -81,10 +97,5 @@
                 "bio": ""
             }
         ]
-        "date": "",
-        "time": "",
-        "location": "",
-        "description": "",
-        "apsa": true,
     }
 ]
