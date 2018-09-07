@@ -52,7 +52,7 @@
                 "image": "omar_abdel-wahab.jpg",
                 "agenda_image": "omar_abdel-wahab_thumb.jpg",
                 "lab_url": "",
-                "bio": "blah",
+                "bio": "<p>blah</p><p>blah</p>",
                 "time": "2:00 pm – 2:15 pm"
             },
             {
