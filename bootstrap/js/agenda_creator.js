@@ -201,7 +201,7 @@
      */
     var createSessionEventInfo = function(event) {
         var $eventInfoHtml = $('<td>'),
-            moderators = '',
+            moderators = 'TBA',
             eventLocation = event.location || "TBA";
 
         $eventInfoHtml.append($('<p><strong>' + event.title + '</strong></p>'));
@@ -244,7 +244,7 @@
 
         // Events with one speaker
         if (event.speaker.length === 1) {
-            $eventInfoHtml.append(createSpeakerInfo(event.speaker[0]));
+            $eventInfoHtml.append(createSpeakerInfo(event.speaker[0], event.apsa));
 
         // events with multiple speakers
         } else if (event.speaker.length > 1) {
@@ -252,7 +252,7 @@
             for (var i = 0; i < event.speaker.length; i++) {
                 $speakerRow.append(
                     $('<div class="col-sm-6"></div>').append(
-                        createSpeakerInfo(event.speaker[i])
+                        createSpeakerInfo(event.speaker[i], event.apsa)
                     )
                 );
             }
@@ -266,19 +266,38 @@
     /**
      * Creates all of the speaker information including image, links, talk title, and name; NO location
      * @param {Object} speaker The single object that contains the speaker information 
+     * @param {Boolean} apsaSpeaker Indicates whether the speaker is for an apsa event or not 
      * @return {jQuery DOM Object} The DOM object containing the speaker information
      */
-    var createSpeakerInfo = function(speaker) {
+    var createSpeakerInfo = function(speaker, apsaSpeaker) {
         var $speaker = $('<div>'),
             $imgDiv = $('<div class="pull-left"></div>'),
             $infoDiv = $('<div class="keynote-info"></div>'),
             $speakerImg,
             $speakerLink,
             $speakerName,
-            speakerType = speaker.speaker_type || "Invited Speaker";
+            speakerNameString,
+            speakerType = speaker.speaker_type;
+
+        // set default speaker type if not set in the JSON object
+        if (! speaker.speaker_type && apsaSpeaker) {
+            speakerType = "APSA Keynote Speaker";
+        } else if (! speaker.speaker_type && ! apsaSpeaker) {
+            speakerType = "Invited Speaker";
+        }
 
         $speakerLink = $('<a href="../speakers/#' + createSpeakerId(speaker.name) + '"></a>');
-        $speakerName = $('<p><strong>' + speakerType + '</strong>: ' + speaker.name + '; ' + speaker.affiliation + '</p>');
+
+        // Only add an affiliation if present (mainly to get rid of the semi-colon if one is not present)
+        if (speaker.name && speaker.affiliation) {
+            speakerNameString = speaker.name + '; ' + speaker.affiliation;
+        } else if (speaker.name) {
+            speakerNameString = speaker.name;
+        } else {
+            speakerNameString = 'TBA';
+        }
+
+        $speakerName = $('<p><strong>' + speakerType + '</strong>: ' + speakerNameString + '</p>');
 
         // speaker image might not be available immediately
         if (speaker.agenda_image) {
