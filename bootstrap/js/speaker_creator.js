@@ -41,6 +41,7 @@
                     eventSpeakers[j].location = events[i].location;
                     eventSpeakers[j].apsa = events[i].apsa;
 
+                    // insure the presence of an image and bio for adding to the list of speakers to display
                     if (eventSpeakers[j].image && eventSpeakers[j].bio) {
                          if (eventSpeakers[j].date && eventSpeakers[j].time) {
                             speakers.push(eventSpeakers[j]);
@@ -75,7 +76,7 @@
         $speakerAnchor = $('<a id="' + createSpeakerId(speaker.name) + '" class="anchor"></a>');
         element.append($speakerAnchor);
 
-        $speakerHeader = $('<h3 class="page-header">Helen H. Hobbs, MD (' + speakerOrganization + ')</h3>');
+        $speakerHeader = $('<h3 class="page-header">' + speaker.name + ' (' + speakerOrganization + ')</h3>');
 
         // wrap presenter's name in lab url if present, otherwise just attach presenter's name
         if (speaker.lab_url) {
