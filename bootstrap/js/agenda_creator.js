@@ -275,6 +275,7 @@
             $infoDiv = $('<div class="keynote-info"></div>'),
             $speakerImg,
             $speakerLink,
+            $speakerImgLink,
             $speakerName,
             speakerNameString,
             speakerType = speaker.speaker_type;
@@ -287,6 +288,7 @@
         }
 
         $speakerLink = $('<a href="../speakers/#' + createSpeakerId(speaker.name) + '"></a>');
+        $speakerImgLink = $speakerLink.clone();
 
         // Only add an affiliation if present (mainly to get rid of the semi-colon if one is not present)
         if (speaker.name && speaker.affiliation) {
@@ -307,7 +309,7 @@
             // only create the link if the bio exists because the bio page won't exist without a bio
             if (speaker.bio) {
                 $imgDiv.append(
-                    $speakerLink.append(
+                    $speakerImgLink.append(
                         $speakerImg
                     )
                 )

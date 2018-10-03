@@ -36,9 +36,10 @@
                         eventSpeakers[j].time = events[i].time;
                     }
 
-                    // add speaker date and location from main event date
+                    // add speaker date, location, and apsa flag from main event date
                     eventSpeakers[j].date = events[i].date;
                     eventSpeakers[j].location = events[i].location;
+                    eventSpeakers[j].apsa = events[i].apsa;
 
                     if (eventSpeakers[j].image && eventSpeakers[j].bio) {
                          if (eventSpeakers[j].date && eventSpeakers[j].time) {
