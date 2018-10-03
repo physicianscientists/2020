@@ -1,5 +1,6 @@
 (function() {
     'use strict';
+
     /**
      * Formats a date object into the following: Friday, April 23
      * @param {DateObject} date
@@ -148,6 +149,9 @@
             } else {
                 $pageContainer.append($('<p class="lead text-center">Coming Soon</p>'));
             }
+
+            // Force hash navigation after page is created
+            window.location.href = window.location.hash;
         });
     });
 }());

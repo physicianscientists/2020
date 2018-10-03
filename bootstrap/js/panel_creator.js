@@ -171,6 +171,9 @@
             } else {
                 $pageContainer.append($('<p class="lead text-center">Coming Soon</p>'));
             }
+
+            // Force URL hash navigation after page is created (otherwise page attempts to navigate to hash that hasn't been created yet)
+            window.location.href = window.location.hash;
         });
     });
 }());

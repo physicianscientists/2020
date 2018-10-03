@@ -467,6 +467,8 @@
                 }
             }
 
+            // Force URL hash navigation after page is created (otherwise page attempts to navigate to hash that hasn't been created yet)
+            window.location.href = window.location.hash;
         })
 
         // Catch JSON format errors (error printout is not very informative unfortunately)
