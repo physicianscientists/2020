@@ -175,7 +175,7 @@
             // Force URL hash navigation after page is created (otherwise page attempts to navigate to hash that hasn't been created yet)
             // Force URL hash navigation after page is created (otherwise page attempts to navigate to hash that hasn't been created yet)
             if (location.hash) {
-                document.getElementById(location.hash.slice(1)).scrollIntoView({
+                document.getElementById(location.hash.slice(1)).scrollIntoView(true, {
                     behavior: 'smooth'
                 });
             }
