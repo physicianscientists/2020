@@ -2,7 +2,7 @@
     {
         "type": "normal",
         "title": "APSA Business Meeting",
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "8:30 am - 11:00 am",
         "location": "Rouge",
         "description": "",
@@ -11,7 +11,7 @@
     {
         "type": "session",
         "title": "APSA Session I",
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "11:00 am - 1:00 pm",
         "location": "International Ballroom",
         "moderators": [],
@@ -30,7 +30,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "11:00 am - 11:45 am",
         "location": "International Ballroom",
         "description": "",
@@ -49,7 +49,7 @@
             "lab_url": "",
             "bio": "<p>Dorry Segev, MD, PhD, is the Marjory K. and Thomas Pozefsky Professor of Surgery and Epidemiology and Associate Vice Chair of Surgery at Johns Hopkins University. With a graduate degree in biostatistics, he focuses on novel statistical and mathematical methods for simulation of medical data, analysis of large healthcare datasets, and outcomes research. Dr. Segev was the first to demonstrate the survival benefit of incompatible kidney transplantation, the first to estimate attributable risk of ESRD in live kidney donors, and is responsible for the first HIV-to-HIV transplants in the United States. His NIH-funded research includes kidney exchange, desensitization, long-term donor risk, access to transplantation, expanding transplantation including HIV+ donors, geographic disparities, and the intersection between transplantation and gerontology. Dr. Segev received the American Society of Transplantation's Clinical Science Investigator Award. He is a councilor of the American Society of Transplant Surgeons and former chair of the American Transplant Congress. His work has directly influenced policy, including two Congressional bills (the Norwood Act for kidney exchange and the HOPE Act for HIV-to-HIV transplants). Dr. Segev is most inspired by his role as a mentor, having mentored over 100 students, residents, and faculty, and is the only general surgeon in the US funded by an NIH/NIDDK Mentoring Grant.</p>"
         }],
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "12:00 pm - 12:45 pm",
         "location": "International Ballroom",
         "description": "",
@@ -58,7 +58,7 @@
     {
         "type": "normal",
         "title": "Poster Setup",
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "1:00 pm - 3:00 pm",
         "location": "Imperial Ballroom",
         "description": "",
@@ -67,7 +67,7 @@
     {
         "type": "session",
         "title": "Plenary Session I",
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "1:00 pm - 6:00 pm",
         "location": "International Ballroom",
         "moderators": [],
@@ -87,7 +87,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "1:00 pm – 1:30 pm",
         "location": "",
         "description": "",
@@ -107,7 +107,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "1:30 pm – 2:00 pm",
         "location": "",
         "description": "",
@@ -117,7 +117,7 @@
         "type": "keynote",
         "title": "ASCI and AAP New Member Presentations",
         "speaker": [],
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "2:00 pm - 3:00 pm",
         "location": "International Ballroom",
         "description": "",
@@ -126,7 +126,7 @@
     {
         "type": "normal",
         "title": "-- Break --",
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "3:00 pm - 3:30 pm",
         "location": "",
         "description": "",
@@ -135,7 +135,7 @@
     {
         "type": "session",
         "title": "Plenary Session I",
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "3:30 pm - 6:00 pm",
         "location": "International Ballroom",
         "moderators": [],
@@ -145,7 +145,7 @@
         "type": "keynote",
         "title": "ASCI Harrington Award Presentation",
         "speaker": [],
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "3:30 pm - 4:00 pm",
         "location": "International Ballroom",
         "description": "",
@@ -164,7 +164,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "4:00 pm - 4:30 pm",
         "location": "International Ballroom",
         "description": "",
@@ -184,7 +184,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "4:30 pm - 5:00 pm",
         "location": "International Ballroom",
         "description": "",
@@ -204,7 +204,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "5:00 pm - 5:30 pm",
         "location": "International Ballroom",
         "description": "",
@@ -213,7 +213,7 @@
     {
         "type": "normal",
         "title": "APSA Local Chapter and Institutional Representative Meeting",
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "5:45 pm - 7:00 pm",
         "location": "State",
         "description": "",
@@ -222,7 +222,7 @@
     {
         "type": "normal",
         "title": "ASCI President's Reception",
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "6:00 pm - 7:00 pm",
         "location": "Gold Room",
         "description": "",
@@ -231,7 +231,7 @@
     {
         "type": "normal",
         "title": "Poster Viewing Only",
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "6:15 pm - 9:30 pm",
         "location": "Imperial Ballroom",
         "description": "",
@@ -241,7 +241,7 @@
         "type": "keynote",
         "title": "ASCI Annual Dinner/Introduction of New Members Speaker",
         "speaker": [],
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "7:00 pm - 9:45 pm",
         "location": "Rouge",
         "apsa": false
@@ -249,7 +249,7 @@
     {
         "type": "normal",
         "title": "APSA Welcome Reception",
-        "date": "April 5, 2018",
+        "date": "April 5, 2019",
         "time": "9:00 pm - 12:00 am",
         "location": "Mid-America Club",
         "description": "",
@@ -258,7 +258,7 @@
     {
         "type": "normal",
         "title": "AAP Council Meeting",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "7:00 am - 8:00 am",
         "location": "State Room, 2nd Level",
         "description": "",
@@ -267,7 +267,7 @@
     {
         "type": "normal",
         "title": "Mentoring Breakfast",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "7:00 am - 8:00 am",
         "location": "State Room, 2nd Level",
         "description": "",
@@ -276,7 +276,7 @@
     {
         "type": "normal",
         "title": "APSA Board of Directors Meeting",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "8:00 am - 9:00 am",
         "location": "Embassy Room",
         "description": "",
@@ -285,7 +285,7 @@
     {
         "type": "normal",
         "title": "Poster Session and Continental Breakfast",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "8:00 am - 9:00 am",
         "location": "",
         "description": "",
@@ -294,7 +294,7 @@
     {
         "type": "session",
         "title": "Plenary Session II",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "9:00 am - 11:45 am",
         "location": "International Ballroom",
         "moderators": [],
@@ -314,7 +314,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "9:00 am – 9:30 am",
         "location": "International Ballroom",
         "description": "",
@@ -325,7 +325,7 @@
         "award": "",
         "title": "APSA trainee oral abstract presentation",
         "speaker": [],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "9:30 am - 9:45 am",
         "location": "International Ballroom",
         "apsa": true
@@ -344,7 +344,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "9:45 am – 10:15 am",
         "location": "International Ballroom",
         "apsa": false
@@ -352,7 +352,7 @@
     {
         "type": "normal",
         "title": "-- Break --",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "10:15 am - 10:30 am",
         "location": "",
         "description": "",
@@ -372,7 +372,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "10:30 am - 11:00  am",
         "location": "International Ballroom",
         "apsa": false
@@ -391,7 +391,7 @@
             "lab_url": "",
             "bio": "<p>Aimee Payne is the Albert M. Kligman Associate Professor of Dermatology, Associate Director of the Medical Scientist Training Program, and Core Director of the Skin Biology and Diseases Resource-based Center at the University of Pennsylvania. Dr. Payne received her BS in Biology from Stanford University, her MD and PhD in Molecular and Cellular Biology from Washington University School of Medicine, and her dermatology training at the University of Pennsylvania. Her laboratory has focused on B cell repertoire cloning from patients with the autoimmune disease pemphigus vulgaris to better understand how autoreactivity develops and to develop better targeted therapies for disease. Recently, her laboratory developed a novel genetically engineered cellular immunotherapy for autoimmune disease treatment known as chimeric autoantibody receptor T cell (CAART) therapy, which she is currently advancing toward clinical trials in pemphigus to assess its safety and curative potential. Dr. Payne’s work has been recognized with the Charles and Daneen Stiefel Scholar Award in Autoimmune Diseases, the Top 10 Clinical Research Forum Award, and election to the American Society for Clinical Investigation.</p>"
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "11:00 am - 11:30 am",
         "location": "International Ballroom",
         "apsa": true
@@ -410,7 +410,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "11:30 am - 11:45 am",
         "location": "International Ballroom",
         "apsa": false
@@ -418,7 +418,7 @@
     {
         "type": "normal",
         "title": "Poster Session with Lunch",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "11:45 am - 1:30 pm",
         "location": "Imperial Ballroom",
         "description": "",
@@ -427,7 +427,7 @@
     {
         "type": "normal",
         "title": "Poster Reviewer Meeting",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "12:45 pm  - 1:30 pm",
         "location": "Royal Room, level B2",
         "description": "",
@@ -436,7 +436,7 @@
     {
         "type": "normal",
         "title": "Poster Dismantle",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "1:30 pm – 2:00 pm",
         "location": "Royal Room, level B2",
         "description": "",
@@ -445,7 +445,7 @@
     {
         "type": "session",
         "title": "Plenary Session III",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "1:30 pm - 3:00 pm",
         "location": "International Ballroom",
         "moderators":[
@@ -467,7 +467,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "1:30 pm – 2:00 pm",
         "location": "International Ballroom",
         "apsa": false
@@ -477,7 +477,7 @@
         "award": "",
         "title": "APSA trainee oral abstract presentation",
         "speaker": [],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "2:00 pm - 2:15 pm ",
         "location": "International Ballroom",
         "apsa": true
@@ -496,7 +496,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "2:15 pm - 2:45 pm",
         "location": "International Ballroom",
         "apsa": false
@@ -504,7 +504,7 @@
     {
         "type": "normal",
         "title": "-- Break --",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "2:45 pm - 3:15 pm",
         "location": "",
         "description": "",
@@ -513,7 +513,7 @@
     {
         "type": "session",
         "title": "Plenary Session III",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "3:30 pm - 5:45 pm",
         "location": "International Ballroom",
         "moderators":[
@@ -535,7 +535,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "3:15 pm - 3:45 pm",
         "location": "International Ballroom",
         "apsa": false
@@ -554,7 +554,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "3:45 pm. - 4:15 pm",
         "location": "International Ballroom",
         "apsa": false
@@ -573,7 +573,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "4:15 pm - 4:45 pm",
         "location": "International Ballroom",
         "apsa": false
@@ -602,7 +602,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "4:45 p.m - 5:15 pm.",
         "location": "International Ballroom",
         "apsa": false
@@ -610,7 +610,7 @@
     {
         "type": "normal",
         "title": "AAP Business Meeting",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "5:15 pm - 5:30 pm",
         "location": "",
         "description": "",
@@ -619,7 +619,7 @@
     {
         "type": "panel",
         "title": "PSTP Directors Panel",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "5:45 pm. - 7:00 pm ",
         "location": "",
         "description": "",
@@ -629,7 +629,7 @@
     {
         "type": "panel",
         "title": "The Dos and Don'ts of MSTP Admissions",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "5:45 pm. - 7:00 pm",
         "location": "Crystal Room",
         "description": "",
@@ -639,7 +639,7 @@
     {
         "type": "normal",
         "title": "ASCI Food and Science: Featuring Poster Presentations by the ASCI’s 2018 Young hysician-Scientist Award Recipients",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "6:30 pm. - 9:00 pm",
         "location": "Mid America Club",
         "description": "",
@@ -659,7 +659,7 @@
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "7:00 pm – 9:30 pm",
         "location": "Imperial Ballroom",
         "apsa": false
@@ -678,7 +678,7 @@
             "lab_url": "",
             "bio": "<p>Arturo Casadevall, M.D., Ph.D., is Bloomberg Distinguished Professor and Chair of the W. Harry Feinstone Department of Molecular Microbiology and Immunology at the Johns Hopkins Bloomberg School of Public Health.  Dr. Casadevall’s major research interests are in fungal pathogenesis and the mechanisms of antibody action. In the area of biodefense, he has an active research program to understand the mechanisms of antibody-mediated neutralization of Bacillus anthracis toxins.  Dr. Casadevall is the editor-in-chief of mBio and Deputy Editor for the Journal of Clinical Investigation and is on the editorial board of several journals including the Journal of Infectious Diseases and the Journal of Experimental Medicine. He has also served in numerous NIH committees including those that drafted the NIAID Strategic Plan and the Blue Ribbon Panel on Biodefense Research.  He served on the National Academy of Sciences panel that reviewed the science on the FBI investigation of the anthrax terror attacks of 2001, the National Science Advisory Board for Biosecurity from 2005-2014 and from 2015-2017 and as a Commissioner to the National Commission on Forensic Science, the United States Department of Justice.  Dr. Casadevall has received numerous honors including election to the American Society for Clinical investigation, American Academy of Physicians, Fellow of the American Association for Advancement of Science, National Academy of Medicine and the American Academy of Arts and Sciences.</p>"
         }],
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "7:30 pm - 9:00 pm",
         "location": "Rouge",
         "apsa": true
@@ -686,7 +686,7 @@
     {
         "type": "normal",
         "title": "Dessert Reception and Best Poster Awards (open to all attendees)",
-        "date": "April 6, 2018",
+        "date": "April 6, 2019",
         "time": "9:45 pm – 11:30 pm",
         "location": "Imperial Lobby",
         "description": "",
@@ -695,7 +695,7 @@
     {
         "type": "session",
         "title": "APSA Session II",
-        "date": "April 7, 2018",
+        "date": "April 7, 2019",
         "time": "8:00 am - 12:00 pm",
         "location": "International Ballroom",
         "moderators": [],
@@ -704,7 +704,7 @@
     {
         "type": "normal",
         "title": "Specialty Interest Breakfast",
-        "date": "April 7, 2018",
+        "date": "April 7, 2019",
         "time": "8:00 am - 9:30 am",
         "location": "Rouge",
         "description": "",
@@ -713,7 +713,7 @@
     {
         "type": "normal",
         "title": "Society Leadership Wrap Up Meeting",
-        "date": "April 7, 2018",
+        "date": "April 7, 2019",
         "time": "8:30 am - 9:30 am",
         "location": "State Room",
         "description": "",
@@ -733,7 +733,7 @@
             "lab_url": "",
             "bio": "<p>Dr. Donna Martin, MD, PhD, is Interim Chair, Department of Pediatrics and the Donita B. Sullivan, MD Research Professor of Pediatrics.  She also holds a secondary appointment as Professor of Human Genetics. She is a graduate of Michigan Technological University (BS in Mathematics and Foreign Languages) and received her PhD in Neuroscience (1992) and MD (1996) from the University of Michigan.  She completed internship and residency training in Pediatrics (1999) and Medical Genetics (2001) at Mott Children’s Hospital in Ann Arbor, and served as Associate Director of the Medical Scientist Training Program from 2012 through 2018. Her research focus is on developmental disorders of the nervous system. Her laboratory has contributed to the understanding of roles for the ATP dependent chromatin remodeler, CHD7, in the pathogenesis of CHARGE Syndrome, the most common monogenic cause of deaf-blindness. Dr. Martin is a member of the Cellular & Molecular Biology Graduate Program and the Neuroscience Graduate Program. She is an Attending Physician in the Division of Medical Genetics, Metabolism, and Genomic Medicine in the Department of Pediatrics, where she cares for children and adults with a wide variety of developmental, metabolic, and genetic disorders on the inpatient and outpatient services, as well as providing outreach clinical care twice yearly in Marquette and Traverse City, Michigan. She also teaches in the third year medical school pediatrics curriculum, and mentors residents and genetics fellows in outpatient clinics and on the inpatient consultation service. Dr. Martin has trained 5 PhD students (including one MSTP student) and 8 postdoctoral fellows. Dr. Martin is a former member of the NIH Developmental Brain Disorders Study Section (2009-2015). She is a Taubman Scholar and serves on the Taubman Medical Institute Scientific Advisory Board. Nationally, she serves on the council of the American Society for Clinical Investigation (2018-2011) and the board of the American Society of Human Genetics (2018-2011).</p>"
         }],
-        "date": "April 7, 2018",
+        "date": "April 7, 2019",
         "time": "9:30 am - 10:00 am",
         "location": "Gold Room",
         "description": "",
@@ -742,7 +742,7 @@
     {
         "type": "panel",
         "title": "Women in Science",
-        "date": "April 7, 2018",
+        "date": "April 7, 2019",
         "time": "10:00 am - 11:00 am",
         "location": "Gold Room",
         "description": "",
@@ -752,7 +752,7 @@
     {
         "type": "normal",
         "title": "APSA Research Residency Directors' Meeting",
-        "date": "April 7, 2018",
+        "date": "April 7, 2019",
         "time": "10:00 am - 12:00 pm",
         "location": "",
         "description": "",
@@ -761,7 +761,7 @@
     {
         "type": "panel",
         "title": "Policy",
-        "date": "April 7, 2018",
+        "date": "April 7, 2019",
         "time": "11:00 am - 12:00 pm",
         "location": "Gold Room",
         "description": "",
@@ -771,7 +771,7 @@
     {
         "type": "panel",
         "title": "Social Sciences and Humanities",
-        "date": "April 7, 2018",
+        "date": "April 7, 2019",
         "time": "11:00 am - 12:00 pm",
         "location": "Embassy Room",
         "description": "",
@@ -781,7 +781,7 @@
     {
         "type": "normal",
         "title": "Residency Luncheon",
-        "date": "April 7, 2018",
+        "date": "April 7, 2019",
         "time": "12:30 pm - 2:30 pm",
         "location": "Rouge",
         "description": "",
