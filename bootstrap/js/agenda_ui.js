@@ -1,12 +1,19 @@
 /*global $, Jquery, window, console, onscroll*/
 // Code to create the affix effect (complements of adussaq)
 // Please note: this code is designed to run after the html has loaded
-(function () {
+/**
+ * creates a main object with the following functions
+ * * createTopScrollButton:  should be attached to the window.onscroll event
+ * * createUiAnimations:  creates all of the animations that make the UI more navigable (sticky headers, etc.)
+ */
+var agenda_ui = function () {
     'use strict';
 
-    var appearHeight, setParameters, nestThem, resetParents, table$,
+    var main, appearHeight, setParameters, nestThem, resetParents, table$,
             originalHeader$, currentHash = window.location.hash,
             getHashLocations, addHashToUrl, anchorLocations;
+
+    main = {};
 
     addHashToUrl = function (hash) {
         //If we can manipulate this
@@ -91,10 +98,12 @@
         return $temp[0];
     };
 
-    //Set up the onscroll event
-    window.onscroll = function () {
+    /**
+     * creates the "top" navigation button that shows up at the bottom of the page after scrolling a little bit
+     */
+    main.createTopScrollButton = function() {
         var top = window.pageYOffset, i, found = false,
-                newHash = anchorLocations[anchorLocations.length - 1].id;
+        newHash = anchorLocations[anchorLocations.length - 1].id;
 
         //First check to see if 'top button' should be there
         if (top >= appearHeight) {
@@ -114,12 +123,14 @@
 
         if (newHash !== currentHash) {
             addHashToUrl(newHash);
-			currentHash = newHash;
+            currentHash = newHash;
         }
     };
 
-    //Actually sets up all the elements
-    $(window).load(function () {
+    /**
+     * Main function that set up all of the animations
+     */
+    main.createUiAnimations = function() {
         var header$, parent$;
         //Set the table array
         table$ = $('.agenda-table');
@@ -174,5 +185,8 @@
             //Set up the url hash location object
             getHashLocations();
         });
-    });
-}());
+    };
+
+    // gives the 2 big functions back for use after page is built
+    return main;
+};

@@ -473,6 +473,12 @@
                     behavior: 'smooth'
                 });
             }
+
+            // pulls in the animations from agenda_ui.js and runs them
+            var animations = agenda_ui();
+            window.onscroll = animations.createTopScrollButton;
+            animations.createUiAnimations();
+
         })
 
         // Catch JSON format errors (error printout is not very informative unfortunately)
