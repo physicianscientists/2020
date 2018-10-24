@@ -25,10 +25,10 @@
             "title": "The Transformation of Cystic Fibrosis Therapy (and Opportunities for Other Disease of Mucus)",
             "name": "Steven Rowe, MD MSPH",
             "affiliation": "University of Alabama at Birmingham",
-            "image": "",
-            "agenda_image": "",
-            "lab_url": "",
-            "bio": ""
+            "image": "steven_rowe.jpg",
+            "agenda_image": "steven_rowe_thumb.jpg",
+            "lab_url": "https://www.uab.edu/medicine/pulmonary/faculty/rowe",
+            "bio": "<p>Dr. Rowe is a respected academic physician scientist – a pioneer in the field of personalized therapeutics for CF, cutting-edge discovery in airway disease biology, and translational research in COPD.  He is an international authority in the design and conduct of clinical trials targeting the basic CF defect, and has made key advances in the measurement and interpretation of CFTR function in humans and animals.  He has characterized that COPD patients with chronic bronchitis exhibit ‘acquired CFTR dysfunction’ through a pathway that causes delayed mucociliary clearance and confers chronic bronchitis. The approach establishes how a single gene in a rare disorder can contribute to the 3rd leading cause of death and has led to new efforts by his group to evaluate CFTR modulators in patients with chronic bronchitis, potentially leading to a new paradigm for COPD treatment.</p><p>Additionally, he is a Professor with tenure in the Departments of Medicine (Pulmonary, Allergy, and Critical Care Medicine), Pediatrics (Pediatric Pulmonology), and Cell Developmental and Integrative Biology at the University of Alabama at Birmingham (UAB). He is also the Director of the Gregory Fleming Cystic Fibrosis Research Center at UAB, which involves over 100 faculty members and has been continuously funded for over 25 years.</p>"
         }],
         "date": "April 5, 2019",
         "time": "11:00 am - 11:45 am",
@@ -46,7 +46,7 @@
             "affiliation": "Johns Hopkins University",
             "image": "dorry_segev.jpg",
             "agenda_image": "dorry_segev_thumb.jpg",
-            "lab_url": "",
+            "lab_url": "https://www.hopkinsmedicine.org/profiles/results/directory/profile/0008001/dorry-segev",
             "bio": "<p>Dorry Segev, MD, PhD, is the Marjory K. and Thomas Pozefsky Professor of Surgery and Epidemiology and Associate Vice Chair of Surgery at Johns Hopkins University. With a graduate degree in biostatistics, he focuses on novel statistical and mathematical methods for simulation of medical data, analysis of large healthcare datasets, and outcomes research. Dr. Segev was the first to demonstrate the survival benefit of incompatible kidney transplantation, the first to estimate attributable risk of ESRD in live kidney donors, and is responsible for the first HIV-to-HIV transplants in the United States. His NIH-funded research includes kidney exchange, desensitization, long-term donor risk, access to transplantation, expanding transplantation including HIV+ donors, geographic disparities, and the intersection between transplantation and gerontology. Dr. Segev received the American Society of Transplantation's Clinical Science Investigator Award. He is a councilor of the American Society of Transplant Surgeons and former chair of the American Transplant Congress. His work has directly influenced policy, including two Congressional bills (the Norwood Act for kidney exchange and the HOPE Act for HIV-to-HIV transplants). Dr. Segev is most inspired by his role as a mentor, having mentored over 100 students, residents, and faculty, and is the only general surgeon in the US funded by an NIH/NIDDK Mentoring Grant.</p>"
         }],
         "date": "April 5, 2019",
@@ -79,9 +79,9 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
+            "title": "Medicine in the 4th industrial revolution",
+            "name": "Robert M. Califf, MD MACC",
+            "affiliation": "Duke University",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
@@ -89,7 +89,7 @@
         }],
         "date": "April 5, 2019",
         "time": "1:00 pm – 1:30 pm",
-        "location": "",
+        "location": "International Ballroom",
         "description": "",
         "apsa": false
     },
@@ -99,9 +99,9 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
+            "title": "Mitochondria and cardiovascular complications of diabetes",
+            "name": "E. Dale Abel, MD, PhD",
+            "affiliation": "University of Iowa",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
@@ -109,7 +109,7 @@
         }],
         "date": "April 5, 2019",
         "time": "1:30 pm – 2:00 pm",
-        "location": "",
+        "location": "International Ballroom",
         "description": "",
         "apsa": false
     },
@@ -156,13 +156,13 @@
         "title": "APSA Lasker Award Winner Lecture",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
+            "title": "Controlling HPV-Associated Cancers by Vaccination and Screening",
             "name": "Douglas Lowy, MD",
             "affiliation": "National Cancer Institute",
-            "image": "",
-            "agenda_image": "",
-            "lab_url": "",
-            "bio": ""
+            "image": "douglas_lowy.jpg",
+            "agenda_image": "douglas_lowy_thumb.jpg",
+            "lab_url": "https://irp.nih.gov/pi/douglas-lowy",
+            "bio": "<p>A cancer researcher for more than 40 years, Dr. Lowy received the National Medal of Technology and Innovation from President Obama in 2014 for his research that led to the development of the human papillomavirus (HPV) vaccine. As chief of the Laboratory of Cellular Oncology in the Center for Cancer Research at NCI, Lowy’s research includes the biology of papillomaviruses and the regulation of normal and neoplastic growth. His laboratory, in close collaboration with John T. Schiller, Ph.D., was involved in the initial development, characterization, and clinical testing of the preventive virus-like particle-based HPV vaccines that are now used in the three U.S. Food and Drug Administration-approved HPV vaccines.</p><p>Dr. Lowy is a member of the National Academy of Sciences (NAS), as well as the Institute of Medicine of the NAS. For their pioneering work, Lowy and Schiller have received numerous honors in addition to the National Medal, including the Federal Employee of the Year Award in 2007 from the Partnership for Public Service, the 2011 Albert B. Sabin Gold Medal Award, and the 2017 Lasker~DeBakey Clinical Medical Research Award.</p>"
         }],
         "date": "April 5, 2019",
         "time": "4:00 pm - 4:30 pm",
@@ -287,7 +287,7 @@
         "title": "Poster Session and Continental Breakfast",
         "date": "April 6, 2019",
         "time": "8:00 am - 9:00 am",
-        "location": "",
+        "location": "International Ballroom",
         "description": "",
         "apsa": true
     },
@@ -306,9 +306,9 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
+            "title": "Translating a trillion points of data into therapies, diagnostics, and new insights into disease",
+            "name": "Atul Butte, MD, PhD",
+            "affiliation": "University of California San Francisco",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
@@ -322,30 +322,60 @@
     },
     {
         "type": "keynote",
+        "title": "NAM Report on sexual harrassment and gender diversification",
         "award": "",
-        "title": "APSA trainee oral abstract presentation",
-        "speaker": [],
-        "date": "April 6, 2019",
-        "time": "9:30 am - 9:45 am",
-        "location": "International Ballroom",
-        "apsa": true
-    },
-    {
-        "type": "keynote",
-        "award": "",
-        "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
+            "title": "Why the National Academies sponsored the report",
+            "name": "Victor Dzau, MD",
+            "affiliation": "National Academy of Sciences",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
-            "bio": ""
+            "bio": "",
+            "time": "9:30 am - 9:40 am"
+        }, {
+            "speaker_type": "",
+            "title": "Sexual harassment: Definitions and methods of measurement",
+            "name": "Reshma Jagsi, MD, Dphil",
+            "affiliation": "University of Michigan",
+            "image": "",
+            "agenda_image": "",
+            "lab_url": "",
+            "bio": "",
+            "time": "9:40 am - 9:46 am"
+        }, {
+            "speaker_type": "",
+            "title": "Addressing sexual harassment and unconscious bias",
+            "name": "Nancy Brown, MD",
+            "affiliation": "Vanderbilt University",
+            "image": "",
+            "agenda_image": "",
+            "lab_url": "",
+            "bio": "",
+            "time": "9:47 am - 9:53 am"
+        }, {
+            "speaker_type": "",
+            "title": "Changing the culture and climate",
+            "name": "Timothy Johnson, MD",
+            "affiliation": "University of Michigan",
+            "image": "",
+            "agenda_image": "",
+            "lab_url": "",
+            "bio": "",
+            "time": "9:54 am - 10:00 am"
         }],
         "date": "April 6, 2019",
-        "time": "9:45 am – 10:15 am",
+        "time": "9:30 am - 10:30 am",
+        "location": "International Ballroom",
+        "description": "",
+        "apsa": false
+    },
+    {
+        "type": "normal",
+        "title": "Panel Discussion of NAM Report on sexual harrassment and gender diversification Panel Discussion (continued from previous)",
+        "date": "April 6, 2019",
+        "time": "10:00 am - 10:30 am",
         "location": "International Ballroom",
         "apsa": false
     },
@@ -353,7 +383,7 @@
         "type": "normal",
         "title": "-- Break --",
         "date": "April 6, 2019",
-        "time": "10:15 am - 10:30 am",
+        "time": "10:30 am - 10:45 am",
         "location": "",
         "description": "",
         "apsa": true
@@ -361,21 +391,12 @@
     {
         "type": "keynote",
         "award": "",
-        "title": "",
-        "speaker": [{
-            "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
-            "image": "",
-            "agenda_image": "",
-            "lab_url": "",
-            "bio": ""
-        }],
+        "title": "APSA trainee oral abstract presentation",
+        "speaker": [],
         "date": "April 6, 2019",
-        "time": "10:30 am - 11:00  am",
+        "time": "10:45 am - 11:00 am",
         "location": "International Ballroom",
-        "apsa": false
+        "apsa": true
     },
     {
         "type": "keynote",
@@ -388,7 +409,7 @@
             "affiliation": "University of Pennsylvania",
             "image": "aimee_payne.jpg",
             "agenda_image": "aimee_payne_thumb.jpg",
-            "lab_url": "",
+            "lab_url": "https://www.aimeepaynelab.org/people.html",
             "bio": "<p>Aimee Payne is the Albert M. Kligman Associate Professor of Dermatology, Associate Director of the Medical Scientist Training Program, and Core Director of the Skin Biology and Diseases Resource-based Center at the University of Pennsylvania. Dr. Payne received her BS in Biology from Stanford University, her MD and PhD in Molecular and Cellular Biology from Washington University School of Medicine, and her dermatology training at the University of Pennsylvania. Her laboratory has focused on B cell repertoire cloning from patients with the autoimmune disease pemphigus vulgaris to better understand how autoreactivity develops and to develop better targeted therapies for disease. Recently, her laboratory developed a novel genetically engineered cellular immunotherapy for autoimmune disease treatment known as chimeric autoantibody receptor T cell (CAART) therapy, which she is currently advancing toward clinical trials in pemphigus to assess its safety and curative potential. Dr. Payne’s work has been recognized with the Charles and Daneen Stiefel Scholar Award in Autoimmune Diseases, the Top 10 Clinical Research Forum Award, and election to the American Society for Clinical Investigation.</p>"
         }],
         "date": "April 6, 2019",
@@ -459,9 +480,9 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
+            "title": "Diet and the Gut Microbiome in Health and Disease",
+            "name": "Gary D. Wu, MD",
+            "affiliation": "University of Pennsylvania",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
@@ -488,9 +509,9 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
+            "title": "Big Science, big data and HIV vaccine development",
+            "name": "Barton F. Haynes, MD",
+            "affiliation": "Duke University",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
@@ -527,9 +548,9 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
+            "title": "Inflammation and atherosclerosis: From theory to proven intervention",
+            "name": "Paul M. Ridker, MD, MPH",
+            "affiliation": "Brigham and Women’s",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
@@ -546,9 +567,9 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
+            "title": "Engineering T cells for cancer therapy",
+            "name": "Stanley R. Riddell, MD",
+            "affiliation": "Fred Hutchinson Cancer Research Center",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
@@ -585,8 +606,8 @@
         "speaker": [{
             "speaker_type": "Recipient",
             "title": "",
-            "name": "",
-            "affiliation": "",
+            "name": "C. Ronald Kahn, MD",
+            "affiliation": "Harvard Medical School",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
@@ -595,8 +616,8 @@
         {
             "speaker_type": "Presenter",
             "title": "",
-            "name": "",
-            "affiliation": "",
+            "name": "Jeffrey Flier, MD",
+            "affiliation": "Harvard Medical School",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
@@ -652,8 +673,8 @@
         "speaker": [{
             "speaker_type": "",
             "title": "",
-            "name": "",
-            "affiliation": "",
+            "name": "Claire Pomeroy, MD, MBA",
+            "affiliation": "Albert and Mary Lasker Foundation",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
@@ -675,7 +696,7 @@
             "affiliation": "Johns Hopkins University",
             "image": "arturo_casadevall.jpg",
             "agenda_image": "arturo_casadevall_thumb.jpg",
-            "lab_url": "",
+            "lab_url": "https://www.jhsph.edu/faculty/directory/profile/3126/arturo-casadevall",
             "bio": "<p>Arturo Casadevall, M.D., Ph.D., is Bloomberg Distinguished Professor and Chair of the W. Harry Feinstone Department of Molecular Microbiology and Immunology at the Johns Hopkins Bloomberg School of Public Health.  Dr. Casadevall’s major research interests are in fungal pathogenesis and the mechanisms of antibody action. In the area of biodefense, he has an active research program to understand the mechanisms of antibody-mediated neutralization of Bacillus anthracis toxins.  Dr. Casadevall is the editor-in-chief of mBio and Deputy Editor for the Journal of Clinical Investigation and is on the editorial board of several journals including the Journal of Infectious Diseases and the Journal of Experimental Medicine. He has also served in numerous NIH committees including those that drafted the NIAID Strategic Plan and the Blue Ribbon Panel on Biodefense Research.  He served on the National Academy of Sciences panel that reviewed the science on the FBI investigation of the anthrax terror attacks of 2001, the National Science Advisory Board for Biosecurity from 2005-2014 and from 2015-2017 and as a Commissioner to the National Commission on Forensic Science, the United States Department of Justice.  Dr. Casadevall has received numerous honors including election to the American Society for Clinical investigation, American Academy of Physicians, Fellow of the American Association for Advancement of Science, National Academy of Medicine and the American Academy of Arts and Sciences.</p>"
         }],
         "date": "April 6, 2019",
@@ -730,7 +751,7 @@
             "affiliation": "University of Michigan",
             "image": "donna_martin.jpg",
             "agenda_image": "donna_martin_thumb.jpg",
-            "lab_url": "",
+            "lab_url": "https://medicine.umich.edu/dept/human-genetics/donna-martin-md-phd",
             "bio": "<p>Dr. Donna Martin, MD, PhD, is Interim Chair, Department of Pediatrics and the Donita B. Sullivan, MD Research Professor of Pediatrics.  She also holds a secondary appointment as Professor of Human Genetics. She is a graduate of Michigan Technological University (BS in Mathematics and Foreign Languages) and received her PhD in Neuroscience (1992) and MD (1996) from the University of Michigan.  She completed internship and residency training in Pediatrics (1999) and Medical Genetics (2001) at Mott Children’s Hospital in Ann Arbor, and served as Associate Director of the Medical Scientist Training Program from 2012 through 2018. Her research focus is on developmental disorders of the nervous system. Her laboratory has contributed to the understanding of roles for the ATP dependent chromatin remodeler, CHD7, in the pathogenesis of CHARGE Syndrome, the most common monogenic cause of deaf-blindness. Dr. Martin is a member of the Cellular & Molecular Biology Graduate Program and the Neuroscience Graduate Program. She is an Attending Physician in the Division of Medical Genetics, Metabolism, and Genomic Medicine in the Department of Pediatrics, where she cares for children and adults with a wide variety of developmental, metabolic, and genetic disorders on the inpatient and outpatient services, as well as providing outreach clinical care twice yearly in Marquette and Traverse City, Michigan. She also teaches in the third year medical school pediatrics curriculum, and mentors residents and genetics fellows in outpatient clinics and on the inpatient consultation service. Dr. Martin has trained 5 PhD students (including one MSTP student) and 8 postdoctoral fellows. Dr. Martin is a former member of the NIH Developmental Brain Disorders Study Section (2009-2015). She is a Taubman Scholar and serves on the Taubman Medical Institute Scientific Advisory Board. Nationally, she serves on the council of the American Society for Clinical Investigation (2018-2011) and the board of the American Society of Human Genetics (2018-2011).</p>"
         }],
         "date": "April 7, 2019",
