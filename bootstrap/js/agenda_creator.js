@@ -251,10 +251,17 @@
             $eventInfoHtml.append($speakerRow);
             for (var i = 0; i < event.speaker.length; i++) {
                 $speakerRow.append(
-                    $('<div class="col-sm-6"></div>').append(
+                    $('<div class="col-sm-6" style="clear: none;"></div>').append(
                         createSpeakerInfo(event.speaker[i], event.apsa)
                     )
                 );
+
+                if (i > 0 && i % 2 === 1) {
+                    console.log('more than 2 speakers');
+                    $speakerRow.append(
+                        $('<div class="clearfix hidden-xs"></div>')
+                    )
+                }
             }
         }
 
