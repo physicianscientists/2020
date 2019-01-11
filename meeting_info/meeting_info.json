@@ -642,10 +642,31 @@
         "title": "PSTP Directors Panel",
         "date": "April 6, 2019",
         "time": "5:45 pm. - 7:00 pm ",
-        "location": "",
+        "location": "Crystal Room",
         "description": "",
         "apsa": true,
-        "participant": []
+        "participant": [{
+            "moderator": false,
+            "name": "Kenneth Ramos, MD, PhD",
+            "affiliation": "University of Arizona Health Sciences",
+            "image": "",
+            "agenda_image": "",
+            "bio": ""
+        }, {
+            "moderator": false,
+            "name": "Richard Steinman, MD, PhD",
+            "affiliation": "University of Pittsburgh",
+            "image": "",
+            "agenda_image": "",
+            "bio": ""
+        }, {
+            "moderator": false,
+            "name": "Sandra Lemmon, PhD",
+            "affiliation": "University of Miami",
+            "image": "",
+            "agenda_image": "",
+            "bio": ""
+        }]
     },
     {
         "type": "panel",
@@ -768,7 +789,59 @@
         "location": "Gold Room",
         "description": "",
         "apsa": true,
-        "participant": []
+        "participant": [{
+            "moderator": false,
+            "name": "Vineet Arora, MD",
+            "affiliation": "University of Chicago Medicine",
+            "image": "vineet_arora.jpg",
+            "agenda_image": "vineet_arora_thumb.jpg",
+            "bio": "<p>Vineet Arora, MD, MAPP, a board certified internist, is an academic hospitalist, Assistant Dean of Scholarship & Discovery, and Director of GME Clinical Learning Environment and Innovation at University of Chicago.  Through her leadership roles, she bridges educational and hospital leadership to integrate trainees and frontline staff into the quality, safety, and value missions of the institution.  An accomplished researcher, she is current PI of FDA and NIH grants to developed and evaluated novel interventions that combine systems change with adult learning theory to improve care and learning in healthcare with a focus on interprofessional quality improvement projects.  She is PI of an FDA U01 to improve generic prescribing among primary care physicians and nurse practitioners.  In addition, with NIH funding, she has developed an implemented an interprofessional intervention to improve patient sleep in hospitals through engaging residents, hospitalists and nurses.  Lastly, with funding from AMA and ACGME, she is leading innovations to engage trainees in interprofessional QI and learning through projects like IGNITE (Improving GME Nursing Interprofessional Team Experiences).   She has authored over 100 peer-reviewed publications, with widespread coverage in the New York Times, NPR, and the Associated Press.</p><p>She currently serves on the Board of Directors for the American Board of Internal Medicine. In 2011, she was named to “20 People Who Make American Healthcare Better” by HealthLeaders Magazine.  Dr. Arora earned her medical degree at the Washington University in St. Louis and completed her residency, chief residency, and Masters in Public Policy at the University of Chicago.</p>"
+        }, {
+            "moderator": false,
+            "name": "Sara Shalin, MD, PhD",
+            "affiliation": "University of Arkansas for Medical Sciences",
+            "image": "sara_shalin.jpg",
+            "agenda_image": "sara_shalin_thumb.jpg",
+            "bio": "<p>Sara C. Shalin, M.D., Ph.D., is an Associate Professor in the Departments of Pathology and Dermatology at the University of Arkansas for Medical Sciences. She serves as the director of the UAMS MD/PhD program and as associate program director of the Dermatopathology fellowship.</p><p>Dr. Shalin graduated from a combined M.D./Ph.D. program at Baylor College of Medicine in Houston, TX in 2007, with a PhD in neuroscience. She remained in Houston at Baylor College of Medicine where she completed a residency in anatomic and clinical pathology and served as chief resident in 2010-2011.  She then completed her dermatopathology fellowship training in Boston at the Harvard Hospitals Combined Dermatopathology program. Dr. Shalin was recruited to UAMS in 2012. Her involvement in the MD/PhD program at UAMS led to her appointment as the program director in 2017, which has turned into one of her most meaningful positions to date. Her academic position is predominantly clinical, but she maintains an active involvement in translational research projects and research collaborations in melanoma pathogenesis and biology and other cutaneous malignancies. Dr. Shalin’s daily life is a mix of diagnosing skin disease, teaching and mentoring residents, medical students, and graduate students, and managing operations in the hospital anatomic pathology lab.</p>"
+        }, {
+            "moderator": false,
+            "name": "Susan Smyth, MD, PhD",
+            "affiliation": "University of Kentucky",
+            "image": "susan_smyth.jpg",
+            "agenda_image": "susan_smyth_thumb.jpg",
+            "bio": "<p>Susan S. Smyth, MD PhD is the Jeff Gill Professor of Cardiology, Chief of the Division of Cardiovascular Medicine, Director of the Linda and Jack Gill Heart and Vascular Institute, and Director of the MD/PhD Program at the University of Kentucky. She also has a part-time appointment as a cardiologist and funded investigator at the Lexington VA Medical Center.</p><p>Smyth is a physician scientist who combines clinical practice in cardiology with NIH- , VA-, and industry-funded research focused on the interplay between inflammation and thrombosis in vascular biology.  She has authored more than 200 publications and contributed to over a dozen textbooks.</p><p>Smyth received her A.B. in Biology, summa cum laude, from Mount Holyoke College (South Hadley, Massachusetts), and graduated from the MD/PhD Program at the University of North Carolina (Chapel Hill). After completing training in Internal Medicine, she performed cardiology subspecialty fellowship training at the Mount Sinai School of Medicine (New York, New York) and at the University of North Carolina.  She is a member of the American Society of Clinical Investigation, on the council for the Association of University Cardiologists, on the steering committee of the Board of Governors for the American College of Cardiology, and the steering committee for the National Center for Advancing Translational Science CTSA program.</p>"
+        }]
+    },
+    {
+        "type": "panel",
+        "title": "Fellowship and Specialties Panel",
+        "date": "April 7, 2019",
+        "time": "10:00 am - 11:00 am",
+        "location": "",
+        "description": "",
+        "apsa": true,
+        "participant": [{
+            "moderator": false,
+            "name": "Todd Florin, MD",
+            "affiliation": "Children's Hospital of Chicago",
+            "image": "",
+            "agenda_image": "",
+            "bio": ""
+        }, {
+            "moderator": false,
+            "name": "Bruce Bochner, MD",
+            "affiliation": "Northwestern - Feinburg School of Medicine",
+            "image": "",
+            "agenda_image": "",
+            "bio": "<p>Dr. Bochner's primary clinical interests are in eosinophil- and mast-cell associated diseases.</p><p>Dr. Bochner's lab's primary research interest is on Siglec-8, a receptor expressed on human eosinophils and mast cells, how it signals and functions, what are its natural sialoside ligands, and whether it can be leveraged as a therapeutic target. Regarding the latter, we have generated Siglec-8 knock-in mice for preclinical studies of Siglec-8 biology and targeting in mouse models. We have also initiated studies on Siglec-6 function in human mast cells, and how pharmacologic inhibition of Bruton's tyrosi...[Read full text]Dr. Bochner's lab's primary research interest is on Siglec-8, a receptor expressed on human eosinophils and mast cells, how it signals and functions, what are its natural sialoside ligands, and whether it can be leveraged as a therapeutic target. Regarding the latter, we have generated Siglec-8 knock-in mice for preclinical studies of Siglec-8 biology and targeting in mouse models. We have also initiated studies on Siglec-6 function in human mast cells, and how pharmacologic inhibition of Bruton's tyrosine kinase (BTK) in mast cells and basophils protects from anaphylaxis in vitro and in vivo.[Shorten text]</p><p>Dr. Bochner's primary clinical interests are in eosinophil- and mast-cell associated diseases, including hypereosinophilic syndromes and systemic mastocytosis. I am also interested in anaphylaxis and other allergic diseases.</p>"
+        }, {
+            "moderator": false,
+            "name": "Kenneth Cohen, MD",
+            "affiliation": "University of Chicago Medicine",
+            "image": "",
+            "agenda_image": "",
+            "bio": "<p>Kenneth Cohen, MD, specializes in treating adult patients with lymphoma and blood clotting disorders.</p><p>Dr. Cohen is the program director for the Section of Hematology/Oncology fellowship program. His research projects have studied how tumor blood vessels regulate immune cells. He has also studied factors that control blood cells that play a role in tumor blood vessel development.</p><p>Dr. Cohen has been an ad hoc reviewer for several medical journals including Blood, Leukemia and Lymphoma, and Molecular Cancer Research. He serves on the editorial board of Analytical Cellular Pathology: Cellular Oncology.</p>"
+        }]
     },
     {
         "type": "normal",
@@ -787,7 +860,14 @@
         "location": "Gold Room",
         "description": "",
         "apsa": true,
-        "participant": []
+        "participant": [{
+            "moderator": false,
+            "name": "Susan L. Erikson, PhD",
+            "affiliation": "Simon Fraser University",
+            "image": "",
+            "agenda_image": "",
+            "bio": ""
+        }]
     },
     {
         "type": "panel",
