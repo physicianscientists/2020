@@ -141,6 +141,16 @@ The main function of the website is to display basic information about the meeti
       </td>
     </tr>
     <tr>
+      <td><code>/prospectus/index.html</code></td>
+      <td>html</td>
+      <td>
+        <ol>
+          <li>Detailed information for potential sponsors</li>
+          <li>Links out to mains website's donation page</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
       <td><code>/speakers/index.html</code></td>
       <td>html</td>
       <td>
@@ -263,12 +273,12 @@ This is an artificial event that merely indicates the start of a session of even
 ### Keynote
 A complex event that holds event information for keynote speaker events.  The agenda adapts to the number of speakers, displaying events consisting of one speaker differently than events with two or more.  Additionally, many pieces of information for this event are optional.  The final event on the agenda will adapt to what is provided.
 
-All of the speakers across all events are individually listed in a carousel on the homepage and a page highlighting them.  However, images are required for display in the homepage carousel, and both an image and a bio are required for display on the speaker page.
+All of the speakers across all events are individually listed in a carousel on the homepage and the speaker page (`/speakers/index.html`) highlighting them.  However, images are required for display in the homepage carousel, and both an image and a bio are required for display on the speaker page.
 
 ### Panel
 Another complex event that displays a panel and all associated participants.  Similar to the keynote, some information components are optional.  The display will adapt if they are missing.
 
-The panels and their participants are also displayed in a special page highlighting the event.
+The panels and their participants are also displayed in a separate page (`/panels/index.html`) highlighting the event.
 
 ## JSON Structure
 An example of the JSON structure can be found in [`meeting_info/meeting_info.json`](https://github.com/APSA-meeting/2019/blob/gh-pages/meeting_info/meeting_info.json.default).  It's structure is broken down into the 4 key event types:  *normal*, *session*, *keynote*, and *panel*.  All events **must** have a `type` property indicating the type of event in order for the event to display.
@@ -295,7 +305,7 @@ This event is an artificial event that marks the beginning of sessions and moder
 * `apsa`: boolean indicating if the event is an APSA-sponsored event
 
 ### Keynote
-This event if for any event that has a speaker **minus** panels (see [below](#panel)).  It will adapt to one or many speakers.
+This event is for any event that has a speaker **except** panels (see [below](#panel)).  It will adapt to one or many speakers.
 
 * `type`:  *keynote*
 * `award` (optional): extra raw text title for award events
@@ -304,11 +314,11 @@ This event if for any event that has a speaker **minus** panels (see [below](#pa
     * `speaker_type`: raw text placed in front of speaker name on agenda (defaults to *Invited Speaker*)
     * `title` (optional): speaker's talk title in raw text
     * `name`: speaker's name and degree(s)
-    * `affiliation`: speaker's affiliFuture Meeting Website Deploymentation (keep it brief)
-    * `image`: filename of speaker's image located in images/keynotes, displayed on **/speakers/index.html** webpage
-    * `agenda_image` (optional): filename of speaker's image located in images/keynotes, displayed on **/agenda/index.html** webpage
+    * `affiliation`: speaker's affililiation (keep it brief)
+    * `image` (optional): filename of speaker's image located in images/keynotes, displayed on **/speakers/index.html** webpage (just the name, path is hard-coded)
+    * `agenda_image` (optional): filename of speaker's image located in images/keynotes, displayed on **/agenda/index.html** webpage (just the name, path is hard-coded)
     * `lab_url` (optional): URL of speaker's lab or university page
-    * `bio`: free text speaker's bio; paragraphs can be created by wrapping them in `<p></p>` HTML tags
+    * `bio` (optional): free text speaker's bio; paragraphs can be created by wrapping them in `<p></p>` HTML tags
     * `time` (optional): time for specific speaker in a multi-speaker event
 * `date`: date of the event (e.g. April 21, 2019)
 * `time`: time of the event (e.g. 2:00 - 3:00 pm)
@@ -316,7 +326,7 @@ This event if for any event that has a speaker **minus** panels (see [below](#pa
 * `apsa`: boolean indicating if the event is an APSA-sponsored event
 
 ### Panel
-* `type`:  *keynote*
+* `type`:  *panel*
 * `award` (optional): extra raw text title for award events
 * `title`: name of the event in raw text
 * `participant`: **array** of **objects** (can have multiple) (properties below)
@@ -333,7 +343,7 @@ This event if for any event that has a speaker **minus** panels (see [below](#pa
 * `apsa`: boolean indicating if the event is an APSA-sponsored event
 
 ## JSON Event Propogation
-Each event event type affects a different number of pages.  Some are limited to only the agenda, while others are responsible for a large portion of the website's content.  The webpages affected and the impact on each are listed below.
+Each event type affects a different number of pages.  Some are limited to only the agenda, while others are responsible for a large portion of the website's content.  The event types are list below along with the webpages that they modify and what the effect is.
 
 ### Normal
 * `/agenda/index.html`:  creates a normal event
