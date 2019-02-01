@@ -596,8 +596,11 @@ a.anchor {
 
 /* PROSPECTUS
 -------------------------------------------------- */
-
-
+@media screen and (max-width: 767px) {
+    .responsive-margin-bottom {
+        margin-bottom: 40px;
+    }
+}
 
 /* BUBBLE IMAGES
 -------------------------------------------------- */
