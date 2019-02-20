@@ -22,7 +22,7 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "The Transformation of Cystic Fibrosis Therapy (and Opportunities for Other Disease of Mucus)",
+            "title": "The Transformation of Cystic Fibrosis Therapy (and Opportunities for Other Diseases of Mucus)",
             "name": "Steven Rowe, MD MSPH",
             "affiliation": "University of Alabama at Birmingham",
             "image": "steven_rowe.jpg",
@@ -390,8 +390,8 @@
     },
     {
         "type": "keynote",
-        "award": "",
-        "title": "APSA trainee oral abstract presentation",
+        "award": "APSA Trainee Oral Abstract",
+        "title": "T Cells Promote Peripheral Nerve Regeneration via Regulation of IL-4",
         "speaker": [],
         "date": "April 6, 2019",
         "time": "10:45 am - 11:00 am",
@@ -495,8 +495,8 @@
     },
     {
         "type": "keynote",
-        "award": "",
-        "title": "APSA trainee oral abstract presentation",
+        "award": "APSA Trainee Oral Abstract",
+        "title": "Skeletal Muscle Krüppel-like Factor 15 and PPARδ Cooperate to Regulate Skeletal Muscle Lipid Metabolism",
         "speaker": [],
         "date": "April 6, 2019",
         "time": "2:00 pm - 2:15 pm ",
@@ -713,7 +713,7 @@
         "speaker": [{
             "speaker_type": "",
             "title": "On Virulence",
-            "name": "Arturo Casadevall, MD PhD",
+            "name": "Arturo Casadevall, MD, PhD",
             "affiliation": "Johns Hopkins University",
             "image": "arturo_casadevall.jpg",
             "agenda_image": "arturo_casadevall_thumb.jpg",
@@ -723,6 +723,14 @@
         "date": "April 6, 2019",
         "time": "7:30 pm - 9:00 pm",
         "location": "Rouge",
+        "apsa": true
+    },
+    {
+        "type": "normal",
+        "title": "APSA Trainees Join AAP Banquet for After Dinner Speaker",
+        "date": "April 6, 2019",
+        "time": "9:00 pm - 9:30 pm",
+        "location": "Imperial Ballroom",
         "apsa": true
     },
     {
@@ -791,6 +799,15 @@
         "apsa": true
     },
     {
+        "type": "normal",
+        "title": "APSA Research Residency Directors' Meeting",
+        "date": "April 7, 2019",
+        "time": "10:00 am - 12:00 pm",
+        "location": "",
+        "description": "",
+        "apsa": true
+    },
+    {
         "type": "panel",
         "title": "Women in Science",
         "date": "April 7, 2019",
@@ -853,15 +870,6 @@
         }]
     },
     {
-        "type": "normal",
-        "title": "APSA Research Residency Directors' Meeting",
-        "date": "April 7, 2019",
-        "time": "10:00 am - 12:00 pm",
-        "location": "",
-        "description": "",
-        "apsa": true
-    },
-    {
         "type": "panel",
         "title": "Policy",
         "date": "April 7, 2019",
@@ -900,7 +908,7 @@
         "title": "Residency Luncheon",
         "date": "April 7, 2019",
         "time": "12:30 pm - 2:30 pm",
-        "location": "Rouge",
+        "location": "International Ballroom",
         "description": "",
         "apsa": true
     }
