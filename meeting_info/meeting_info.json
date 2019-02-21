@@ -642,30 +642,30 @@
         "title": "Research in Residency (RiR)/Physician Scientist Training Program (PSTP) Panel",
         "date": "April 6, 2019",
         "time": "5:45 pm. - 7:00 pm ",
-        "location": "Crystal Room",
+        "location": "Ambassador Room",
         "description": "",
         "apsa": true,
         "participant": [{
             "moderator": false,
-            "name": "Kenneth Ramos, MD, PhD",
-            "affiliation": "University of Arizona Health Sciences",
-            "image": "",
-            "agenda_image": "",
-            "bio": ""
+            "name": "Robert Baiocchi, MD, PhD",
+            "affiliation": "Ohio State University",
+            "image": "robert_baiocchi.jpg",
+            "agenda_image": "robert_baiocchi_thumb.jpg",
+            "bio": "<p>Robert Baiocchi, MD, PhD joined The Ohio State University in 2005, and he is Professor of Internal Medicine, a member of the viral oncogenesis group of the Comprehensive Cancer Center, and the Institutional PI for the NIH AIDS Malignancy Consortium. He is the Associate Division Director of Clinical and Translational Research, Associate Residency Program Director for Research in the Department of Internal Medicine and the Director of the Physician Scientist Training Program at Ohio State.</p><p>Dr. Baiocchi’s laboratory focuses on three major areas: (1) epigenetics of B-cell transformation; (2) experimental therapeutics of cancer and (3) immune surveillance of EBV-associated disease. Since his arrival at OSU, Dr. Baiocchi's efforts to commercialize his discoveries have led to the filing of more than ten patent applications. The focus of Dr. Baiocchi’s clinical research is dedicated to patients with mantle cell lymphoma, post-transplant lymphoproliferative disease (PTLD) and AIDS-malignancies. He is a member of the National Marrow Donor Program and Bone Marrow Transplant Clinical Trials Network protocol team that has completed two treatment protocols for treating HIV+ patients with autologous and allogeneic stem cell transplantation. His laboratory was recently granted funds to perform correlative immunology work for these trials.</p>"
         }, {
             "moderator": false,
-            "name": "Richard Steinman, MD, PhD",
-            "affiliation": "University of Pittsburgh",
-            "image": "",
-            "agenda_image": "",
-            "bio": ""
+            "name": "Patrick Hu, MD, PhD",
+            "affiliation": "Vanderbilt University",
+            "image": "patrick_hu.jpg",
+            "agenda_image": "patrick_hu_thumb.jpg",
+            "bio": "<p>Patrick Hu, M.D., Ph.D., is an Associate Professor of Medicine and Cell and Developmental Biology and Director of the Physician-Scientist Training Program/Harrison Society in the Department of Medicine at Vanderbilt University Medical Center. He earned an A.B. from Harvard College and M.D. and Ph.D. degrees from New York University, where he studied PI 3-kinase signaling in Joseph Schlessinger’s lab. After completing clinical training in Internal Medicine at The Johns Hopkins Hospital and Adult Oncology at the Dana-Farber Cancer Institute and Massachusetts General Hospital, he did postdoctoral research on insulin-like growth factor signaling in the nematode Caenorhabditis elegans in Gary Ruvkun’s lab. He spent eleven years on the faculty of the University of Michigan Medical School prior to his recruitment to Vanderbilt in 2016. Dr. Hu is a member of the American Society for Clinical Investigation.</p>            "
         }, {
             "moderator": false,
-            "name": "Sandra Lemmon, PhD",
-            "affiliation": "University of Miami",
-            "image": "",
-            "agenda_image": "",
-            "bio": ""
+            "name": "Rebecca Baron, MD",
+            "affiliation": "Brigham and Women's Hospital",
+            "image": "rebecca_baron.jpg",
+            "agenda_image": "rebecca_baron_thumb.jpg",
+            "bio": "Dr. Baron is a physician-scientist with clinical and research interests in sepsis and lung injury.  Her clinical work is in the Medical Intensive Care Unit, and her laboratory focuses on pathways underlying initiation and resolution of inflammation in ARDS.  She studies pre-clinical models of lung injury, as well as clinical studies with the goal of identifying novel therapeutic targets and functional biomarkers in critical illness.  She attended college at Stanford University, obtained her M.D. from Harvard Medical School, and completed internship, residency, and fellowship at Brigham and Women's Hospital, where she is currently an Associate Program Director for the Internal Medicine Residency Program focusing on residency related research activities."
         }]
     },
     {
@@ -674,9 +674,37 @@
         "date": "April 6, 2019",
         "time": "5:45 pm. - 7:00 pm",
         "location": "Crystal Room",
-        "description": "",
+        "description": "Interested in learning more about applying to a dual degree program? Join faculty experts from the University of Pittsburgh/Carnegie Mellon, University of Arizona, and the University of Miami as they discuss the application process and different training programs. You'll learn about their own paths, and what life is like as a physician-scientist.",
         "apsa": true,
-        "participant": []
+        "participant": [{
+            "moderator": false,
+            "name": "Kenneth Ramos, MD, PhD",
+            "affiliation": "University of Arizona Health Sciences",
+            "image": "kenneth_ramos.jpg",
+            "agenda_image": "kenneth_ramos_thumb.jpg",
+            "bio": "Kenneth S. Ramos, MD, PhD, PharmB, is an accomplished physician-scientist and transformational leader, designated as an associate of the National Academy of Sciences in 2008 and elected to the National Academy of Medicine in 2015. Dr. Ramos obtained his medical degree from the University of Louisville Health Sciences Center and his Ph.D. from the University of Texas at Austin in Biochemical Pharmacology. He has vast depth of experience across the tripartite mission areas of education, research and clinical service, and he is recognized throughout the world for his scientific contributions in the areas of genomics, precision medicine, environmental health sciences and toxicology. Dr. Ramos served as the MD-PhD director for the University of Arizona College of Medicine from 2014 – 2019 where mentored students interested in careers as research-intensive physicians. Recently, Dr. Ramos joined Texas A&M University Health Science Center in Houston where he serves as the assistant vice chancellor for health services and executive director of the Institute of Biosciences and Technology."
+        }, {
+            "moderator": false,
+            "name": "Richard Steinman, MD, PhD",
+            "affiliation": "University of Pittsburgh",
+            "image": "richard_steinman.jpg",
+            "agenda_image": "richard_steinman_thumb.jpg",
+            "bio": "Richard Steinman, MD, Ph.D. is Associate Professor of Medicine and Pharmacology at the University of Pittsburgh School of Medicine. He completed his undergraduate degree at Haverford College then went on to complete his MD-PhD training at University of Pennsylvania. Dr. Steinman has a longstanding interest in the education of physician scientists, directing the University of Pittsburgh’s Physician Scientist Incubator and serving as Director of Pitt’s Medical Scientist Training Program since 2012. He has also directed the University of Pittsburgh Physician Scientist Training Program since 2008.   Diversity in the physician scientist workforce is another interest; he has initiated and directed a multi-year NIH supported collaborative education and training program between the University of Pittsburgh Cancer Institute and Hampton University, a minority-serving institution. Dr. Steinman’s dedication to mentorship and education have earned him several awards including the University of Pittsburgh Chancellor’s Distinguished Teaching Award, AAMC Award for Innovations in Research Training and Education, Fraley Award for Mentoring, and the Philip Troen MD Excellence Mentoring Award. Dr. Steinman's laboratory studies the cancer microenvironment with a focus on the molecular and functional interactions between cancer cells, fibroblasts and platelets. He also studies tumor dormancy, modeling factors in host stromal cells that could contribute to breast cancer recurrence and conversion to estrogen receptor negativity in bone."
+        }, {
+            "moderator": false,
+            "name": "Lawrence (Skip) Brass, MD, PhD",
+            "affiliation": "University of Pennsylvania",
+            "image": "lawrence_brass.jpg",
+            "agenda_image": "lawrence_brass_thumb.jpg",
+            "bio": "Lawrence (Skip) Brass, MD PhD is a graduate of Harvard College and Case Western Reserve University, where he received his MD and a PhD in biochemistry. After residency training in internal medicine he became a fellow in Hematology-Oncology at the University of Pennsylvania where he served as Vice Chair for Research in the Department of Medicine from 2004 to 2007, and is currently Professor of Medicine and Professor of Systems Pharmacology and Translational Therapeutics. He has led the NHLBI-funded Hematology Research Training Program since 1994 and became Associate Dean for Combined Degree and Physician Scholars Programs and Director of Penn’s MSTP in 1998. He has been active at the national level in the development of training programs for physician-scientists, has served as President of the National Association of MD-PhD Programs, Chair of the AAMC GREAT section on MD-PhD training and was a member of the NIH Physician-Scientist Workforce advisory group in 2013-2014. He is also a practicing hematologist whose research and clinical interests are in the fields of hemostasis and vascular biology. He has been continuously funded by the NIH HLBI since the mid-1980’s, has been elected to the American Society for Clinical Investigation and the Association of American Physicians, was an Established Investigator of the American Heart Association and has received numerous awards including the inaugural Bert Shapiro Award for Leadership, Dedication and Service to the Physician-Scientist Community from the National Association of MD/PhD Programs (2015) and the Distinguished Educator Award from the Association of Clinical and Translational Science (2018), and numerous teaching awards from students at the Perelman School of Medicine."
+        }, {
+            "moderator": false,
+            "name": "Sandra Lemmon, PhD",
+            "affiliation": "University of Miami",
+            "image": "sandra_lemmon.jpg",
+            "agenda_image": "sandra_lemmon_thumb.jpg",
+            "bio": "<p>Sandra K. Lemmon, PhD received her BA from the Univ. of Rochester and her PhD from Washington Univ., St. Louis.  She did postdoctoral training at Carnegie Mellon Univ. (1983-1985) and continued at CMU as Research Assistant Professor (1985-1988).  She is currently Professor of Molecular & Cellular Pharmacology at the Univ. of Miami Miller School of Medicine (UMMSM).  She has been on the editorial board of Molecular Biology of the Cell since 2006. She has been federally funded for over 30 years.  Dr. Lemmon is a cell biologist whose research focuses on the molecular mechanisms of membrane traffic.</p><p>Dr. Lemmon has been involved in MD/PhD training since 1994.  While at CWRU Dr Lemmon was on the Steering Committee of the MSTP, and served as Associate Director from 1999-2003. When she moved to the University of Miami in 2003, she joined the MD/PhD Program Committee and was appointed MD/PhD Program Director in 2006.  Under her leadership, in 2017 the UMMSM MD/PhD program was awarded a MSTP T32 training grant from the NIH. She has been on the program organizing committee for several meetings of the AAMC Group on Graduate Education and Training (GREAT) and MD/PhD Section of GREAT where she has served since 2014 and is currently serving as Chair (2018-2019).</p>"
+        }]
     },
     {
         "type": "normal",
@@ -813,7 +841,7 @@
         "date": "April 7, 2019",
         "time": "10:00 am - 11:00 am",
         "location": "Gold Room",
-        "description": "",
+        "description": "As of 2017, women represent >50% of matriculants in MD programs. However, MD/PhD training programs have lagged behind this trend, with women only making up 1/3 of recent matriculants. Additionally, this disparity increases when ascending the academic ladder, with the percentage of women holding full-time academic appointments considerably smaller than the percentage of men. The WIS panel provides a forum to identify challenges that female physician-scientists face throughout their careers and how mentors and mentees – of all genders and backgrounds – can work to overcome these obstacles. ",
         "apsa": true,
         "participant": [{
             "moderator": false,
@@ -843,23 +871,30 @@
         "title": "Fellowship and Specialties Panel",
         "date": "April 7, 2019",
         "time": "10:00 am - 11:00 am",
-        "location": "",
-        "description": "",
+        "location": "Ambassador Room",
+        "description": "The goal of the Fellowship and Specialties panel is to promote an open discussion between fellowship directors and prospective applicants. Specific discussions will include the importance of research experience prior to and during the fellowship program, curricular tracks, and questions from the audience. In addition, the panel will help residents gather information on what subspecialty they may be interested in, a timeline for the application process, interviewing for fellowship, and strategies for success in fellowship.",
         "apsa": true,
         "participant": [{
             "moderator": false,
             "name": "Todd Florin, MD",
             "affiliation": "Children's Hospital of Chicago",
-            "image": "",
-            "agenda_image": "",
-            "bio": ""
+            "image": "todd_florin.jpg",
+            "agenda_image": "todd_florin_thumb.jpg",
+            "bio": "Dr. Todd Florin, MD, MSCE is Associate Professor of Pediatrics and Director of Research in the Division of Pediatric Emergency Medicine at Ann and Robert H. Lurie Children’s Hospital of Chicago and Northwestern University Feinberg School of Medicine.  He is the principal investigator of Catalyzing Ambulatory Research in Pneumonia Etiology and Diagnostic Innovations in Emergency Medicine (CARPE DIEM), a prospective cohort study of children who present to the ED with community-acquired pneumonia with the overall objectives of using clinical and translational methodology to understand CAP pathophysiology, improve prediction of CAP severity, and enhance differentiation of CAP etiology. This work has been funded by a KL2 mentored career development award through the University of Cincinnati Center for Clinical and Translational Science and Training (CCTST), a grant from the Gerber Foundation and a K23 from the National Institute of Allergy and Infectious Diseases.His work has also centered on resource utilization, variation in care, and use of clinical trials to improve treatments for respiratory tract infections."
         }, {
             "moderator": false,
             "name": "Bruce Bochner, MD",
             "affiliation": "Northwestern - Feinburg School of Medicine",
             "image": "bruce_bochner.jpg",
             "agenda_image": "bruce_bochner_thumb.jpg",
-            "bio": "<p>Dr. Bochner's primary clinical interests are in eosinophil- and mast-cell associated diseases.</p><p>Dr. Bochner's lab's primary research interest is on Siglec-8, a receptor expressed on human eosinophils and mast cells, how it signals and functions, what are its natural sialoside ligands, and whether it can be leveraged as a therapeutic target. Regarding the latter, we have generated Siglec-8 knock-in mice for preclinical studies of Siglec-8 biology and targeting in mouse models. We have also initiated studies on Siglec-6 function in human mast cells, and how pharmacologic inhibition of Bruton's tyrosi...[Read full text]Dr. Bochner's lab's primary research interest is on Siglec-8, a receptor expressed on human eosinophils and mast cells, how it signals and functions, what are its natural sialoside ligands, and whether it can be leveraged as a therapeutic target. Regarding the latter, we have generated Siglec-8 knock-in mice for preclinical studies of Siglec-8 biology and targeting in mouse models. We have also initiated studies on Siglec-6 function in human mast cells, and how pharmacologic inhibition of Bruton's tyrosine kinase (BTK) in mast cells and basophils protects from anaphylaxis in vitro and in vivo.[Shorten text]</p><p>Dr. Bochner's primary clinical interests are in eosinophil- and mast-cell associated diseases, including hypereosinophilic syndromes and systemic mastocytosis. I am also interested in anaphylaxis and other allergic diseases.</p>"
+            "bio": "<p>Dr. Bochner's primary clinical interests are in eosinophil- and mast-cell associated diseases.</p><p>Dr. Bochner's lab's primary research interest is on Siglec-8, a receptor expressed on human eosinophils and mast cells, how it signals and functions, what are its natural sialoside ligands, and whether it can be leveraged as a therapeutic target. Regarding the latter, we have generated Siglec-8 knock-in mice for preclinical studies of Siglec-8 biology and targeting in mouse models. We have also initiated studies on Siglec-6 function in human mast cells, and how pharmacologic inhibition of Bruton's tyrosi.  His lab's primary research interest is on Siglec-8, a receptor expressed on human eosinophils and mast cells, how it signals and functions, what are its natural sialoside ligands, and whether it can be leveraged as a therapeutic target. Regarding the latter, we have generated Siglec-8 knock-in mice for preclinical studies of Siglec-8 biology and targeting in mouse models. We have also initiated studies on Siglec-6 function in human mast cells, and how pharmacologic inhibition of Bruton's tyrosine kinase (BTK) in mast cells and basophils protects from anaphylaxis in vitro and in vivo.[Shorten text]</p><p>Dr. Bochner's primary clinical interests are in eosinophil- and mast-cell associated diseases, including hypereosinophilic syndromes and systemic mastocytosis. I am also interested in anaphylaxis and other allergic diseases.</p>"
+        }, {
+            "moderator": false,
+            "name": "Anisha Dua, MD, MPH",
+            "affiliation": "University of Chicago- Rheumatology",
+            "image": "anisha_dua.jpg",
+            "agenda_image": "anisha_dua_thumb.jpg",
+            "bio": "Dr. Dua is an Associate Professor of Rheumatology at Northwestern University where she is the Director of the Rheumatology fellowship Program and Associate Director of the Vasculitis Center. She has previously served as the Rheumatology Fellowship Program Director at The University of Chicago and the Director of Medical Education at Allegheny Health Network in Pittsburgh. Dr. Dua has been focused on education throughout her career, serving as the secretary/treasurer for the Chicago Rheumatism society and volunteering for the American College of Rheumatology Committee on Training and Workforce as well as the In-Training Exam committee. She completed her Rheumatology training at Rush Medical Center as well as a fellowship in medical education (Medical Education Research, Innovation, Teaching and Scholarship) at The University of Chicago. Her clinical interests are in vasculitis, where she is the PI of ongoing clinical trials and is a member of the Vasculitis guidelines committee for the American College of Rheumatology."
         }, {
             "moderator": false,
             "name": "Kenneth Cohen, MD",
@@ -871,37 +906,58 @@
     },
     {
         "type": "panel",
-        "title": "Policy",
+        "title": "Social Sciences and Humanities (Big Data: Social and Cultural Perspectives)",
         "date": "April 7, 2019",
         "time": "11:00 am - 12:00 pm",
-        "location": "Gold Room",
-        "description": "",
+        "location": "Ambassador Room",
+        "description": "This panel will focus on critical and social perspectives on big data in healthcare. The panel will feature two medical anthropologists who will explore the ways that social, cultural, and historical factors shape how data is produced and interpreted. Drawing from the humanities and social sciences, this discussion will examine the challenges of using data to make sense of complex health problems.",
         "apsa": true,
         "participant": [{
             "moderator": false,
             "name": "Susan L. Erikson, PhD",
             "affiliation": "Simon Fraser University",
-            "image": "",
-            "agenda_image": "",
-            "bio": ""
+            "image": "susan_erikson.jpg",
+            "agenda_image": "susan_erikson_thumb.jpg",
+            "bio": "Dr. Erikson is an anthropologist and former international affairs expert who has worked in Africa, Europe, Central Asia, and North America. She is currently an Associate Professor at Simon Fraser University in British Columbia. Global Health Data and Global Health Financialization are Dr. Erikson's two current research foci. Dr. Erikson is the founding director of the Global Health Affairs Program at the Korbel School of International Studies at the University of Denver, and was voted Best Professor there in 2004. She joined the Faculty of Health Sciences at Simon Fraser University in 2007, where she was awarded the Graduate Teaching and Mentorship Excellence Award in 2012. In 2013, she was awarded the Society for Medical Anthropology's (SMA) Virchow Prize for her publication, \"Global Health Business: The Production and Performativity of Statistics in Germany and Sierra Leone.\" As an academic, Dr. Erikson combines her practical work experience with a critical study of the relations of power informing global health scenarios. Early in her research career, Dr. Erikson's findings showed that health outcomes are inextricable from economic, political and techno-scientific interests. Since 2013, Dr. Erikson has conducted fieldwork research in Sierra Leone on the production, use, and global circulation of health data. She was in Freetown in February 2014 studying local and global data use when news of Ebola infections in neighboring Guinea first reached the capital city. Findings from that research led to a project on the financialization of humanitarian response, specifically the ‘Ebola bond.’"
         }, {
             "moderator": false,
-            "name": "Robert Garofalo, MD, MPH",
-            "affiliation": "Northwestern University’s Feinberg School of Medicine",
-            "image": "robert_garofalo.jpg",
-            "agenda_image": "robert_garofalo.jpg",
-            "bio": "Dr. Robert Garofalo is a Professor of Pediatrics and Preventive Medicine at Northwestern University’s Feinberg School of Medicine in Chicago, Illinois. He is also an attending physician at the Ann & Robert H. Lurie Children’s Hospital, where he serves as the Director of the Research Center of Excellence for Gender, Sexuality, and HIV Prevention and as the Division Chief of Adolescent Medicine. He co-directs the gender and sexual development clinical program at Lurie Children’s Hospital — the first comprehensive program providing multidisciplinary care to transgender/gender-nonconforming children and adolescents in the Midwest. His research focuses on HIV prevention, mostly targeting either young men who have sex with men (MSM) or transgender individuals. He has more than 25 years of research experience in this field and is a national authority on LGBT health issues, adolescent sexuality, and HIV clinical care and prevention. In 2010, he was appointed to the National Academy of Science/ Institute of Medicine on LGBT Health Issues and Research Gaps and Opportunities. Dr. Garofalo’s research has been generously funded by the National Institutes of Health. He is or has been the Principal Investigator on 13 NIH-funded Investigator initiated research grants and a Co-Investigator on an additional 14 other NIH-funded research projects. He is currently a member of a number of professional organizations and scientific associations including the American Academy of Pediatrics, the Society for Adolescent Medicine, the American Medical Association, and the World Professional Association for Transgender Health. Dr. Garofalo is the Editor-in-Chief of the journal Transgender Health. He has over 150 publications in scholarly journals. In addition to his academic work, Dr. Garofalo is founder of Fred Says (named after his dog), a 501©3 non-profit charity that since 2013 has raised and donated back to the community over $300.000 to support care and services for HIV+ youth. "
+            "name": "Lauren Carruth, PhD",
+            "affiliation": "American University",
+            "image": "lauren_carruth.jpg",
+            "agenda_image": "lauren_carruth_thumb.jpg",
+            "bio": "Professor Lauren Carruth is a medical anthropologist specializing in humanitarian assistance, global health, nutrition, food security, and displacement. Her ongoing research focuses on emerging infectious diseases as well as the lasting social, political, and health effects of episodic humanitarian interventions. She is currently writing a book tentatively titled, \"Saving lives and making a living: local aid workers and humanitarian labor in the Horn of Africa\" highlighting, for one, the important but invisible contributions local aid workers make to relief operations and the collection of scientific and programmatic data in humanitarian emergencies. "
         }]
     },
     {
         "type": "panel",
-        "title": "Social Sciences and Humanities",
+        "title": "Policy (Addressing Sex and Gender Health Disparities in Medical Research)",
         "date": "April 7, 2019",
         "time": "11:00 am - 12:00 pm",
-        "location": "Embassy Room",
-        "description": "",
+        "location": "Gold Room",
+        "description": "Ingrained in the biological and psychological makeup of an individual, gender identities, sex identities, and sexual orientations are essential considerations in clinical decision-making. While NIH guidelines stipulate inclusion of sex differences in biomedical research design and analysis, legislative barriers and financial constraints hinder implementation of best practices -  giving rise to inherent gender bias and sex bias in both clinical and pre-clinical medical research. For example, sociocultural shifts have increased public and scientific knowledge of lesbian, gay, bisexual, and transgender (LGBT) patient care, but the need for LGBT content in medical curricula and research studies is evident in the health disparities observed in LGBT patient populations. Guidelines for clinical care have often been developed based on studies of men, contributing to poorer health outcomes for women. This panel calls attention to sex and gender health disparities that exist in medical research, clinical practice, and health policy. We aim to ignite a discussion on policy-driven strategies to address these barriers.",
         "apsa": true,
-        "participant": []
+        "participant": [{
+            "moderator": false,
+            "name": "Lauren Walter, MD",
+            "affiliation": "University of Alabama at Birmingham",
+            "image": "lauren_walter.jpg",
+            "agenda_image": "lauren_walter_thumb.jpg",
+            "bio": "Dr. Lauren Walter graduated from the University of Michigan Medical School in 2005.  She completed her residency training in Emergency Medicine in 2009, subsequently staying on as faculty at the University of Alabama at Birmingham (UAB) where she is currently an Associate Professor and Assistant Residency Program Director. Dr. Walter’s research interests include the development and integration of sex and gender-based medical education curriculum for both UME and GME. She has created and implemented novel SGBM didactics for medical students, residents, and faculty and in addition, she has lectured regionally and nationally on this topic. Dr. Walter is on the board of the Sex and Gender Health Collaborative, a national, interdisciplinary group aimed at increasing SGBM awareness and integration into medication education. In addition, Dr. Walter is a national research collaborator with the Society for Academic Emergency Medicine’s (SAEM) Sex and Gender in Emergency Medicine Interest Group and is on the executive planning team for the upcoming 2020 Sex and Gender in Health Education Summit."
+        }, {
+            "moderator": false,
+            "name": "Robert Garofolo, MD, MPH",
+            "affiliation": "University of Chicago",
+            "image": "robert_garofalo.jpg",
+            "agenda_image": "robert_garofalo.jpg",
+            "bio": "Dr. Robert Garofalo is a Professor of Pediatrics and Preventive Medicine at Northwestern University’s Feinberg School of Medicine in Chicago, Illinois. He is also an attending physician at the Ann & Robert H. Lurie Children’s Hospital, where he serves as the Director of the Research Center of Excellence for Gender, Sexuality, and HIV Prevention and as the Division Chief of Adolescent Medicine. He co-directs the gender and sexual development clinical program at Lurie Children’s Hospital — the first comprehensive program providing multidisciplinary care to transgender/gender-nonconforming children and adolescents in the Midwest. His research focuses on HIV prevention, mostly targeting either young men who have sex with men (MSM) or transgender individuals. He has more than 25 years of research experience in this field and is a national authority on LGBT health issues, adolescent sexuality, and HIV clinical care and prevention. In 2010, he was appointed to the National Academy of Science/ Institute of Medicine on LGBT Health Issues and Research Gaps and Opportunities. Dr. Garofalo’s research has been generously funded by the National Institutes of Health. He is or has been the Principal Investigator on 13 NIH-funded Investigator initiated research grants and a Co-Investigator on an additional 14 other NIH-funded research projects. He is currently a member of a number of professional organizations and scientific associations including the American Academy of Pediatrics, the Society for Adolescent Medicine, the American Medical Association, and the World Professional Association for Transgender Health. Dr. Garofalo is the Editor-in-Chief of the journal Transgender Health. He has over 150 publications in scholarly journals. In addition to his academic work, Dr. Garofalo is founder of Fred Says (named after his dog), a 501©3 non-profit charity that since 2013 has raised and donated back to the community over $300.000 to support care and services for HIV+ youth. "
+        }, {
+            "moderator": false,
+            "name": "Kim Templeton, MD",
+            "affiliation": "University of Kansas",
+            "image": "",
+            "agenda_image": "",
+            "bio": ""
+        }]
     },
     {
         "type": "normal",

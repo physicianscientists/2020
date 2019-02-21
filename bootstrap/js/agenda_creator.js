@@ -164,6 +164,7 @@
         randomId = Math.floor((Math.random() * 1000000) + 1);
 
         $description.attr('id', randomId);
+        console.log('event description', event);
         $description.html(event.description);
 
         $moreLessButton.append(
@@ -378,7 +379,7 @@
         $eventInfoHtml.append($('<p>Location: <em>' + eventLocation + '</em></p>'));
         
         if (event.description) {
-            $eventInfoHtml.append(createEventDescription(event.description));
+            $eventInfoHtml.append(createEventDescription(event));
         }
 
         return $eventInfoHtml;
