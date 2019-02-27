@@ -266,7 +266,7 @@
     },
     {
         "type": "normal",
-        "title": "Mentoring Breakfast",
+        "title": "Research Mentoring Breakfast",
         "date": "April 6, 2019",
         "time": "7:00 am - 8:00 am",
         "location": "Rouge Room",
@@ -646,9 +646,23 @@
         "description": "",
         "apsa": true,
         "participant": [{
+            "moderator": true,
+            "name": "Abhik Banerjee, BS",
+            "affiliation": "",
+            "image": "",
+            "agenda_image": "",
+            "bio": ""
+        }, {
+            "moderator": true,
+            "name": "Audra Iness Christovich, BS",
+            "affiliation": "Virginia Commonwealth University School of Medicine",
+            "image": "audra_iness.jpg",
+            "agenda_image": "audra_iness_thumb.jpg",
+            "bio": "Audra Iness is a fifth year MD-PhD student at Virginia Commonwealth University (VCU) School of Medicine. She graduated Summa Cum Laude with a B.S. in Biology from California State University, Fresno's Smittcamp Honors Program in 2013. Audra earned membership in the Association of Clinical Pathologists & The Intersociety Council for Pathology Information, Inc. Pathology Honor Society for her medical school performance. She has also been a coordinator for the Mattaponi Healing Eagle Clinic, serving the Native Americans of Virginia, and is an active member of the medical school Admissions Committee. Currently, Audra is studying the DREAM complex and its role in cell cycle regulation in Dr. Larisa Litovchick's lab at VCU. Additionally, she enjoys playing soccer and has been a part of a community league for several years. Her involvement in APSA began when she founded a local chapter at VCU and held roles as President and Institutional Representative. She has enjoyed working to unify the physician-scientist community in her roles on the Executive Council for the past three years. This year, Audra has established and Chaired the Physician Scientist Trainee Diversity Working Group, including representatives from five national medical organizations, aimed at supporting women and underrepresented groups in their pursuit of physician scientist careers. Working with her enthusiastic APSA colleagues, she plans to expand this initiative over her Presidential term in 2018-2019."
+        }, {
             "moderator": false,
             "name": "Robert Baiocchi, MD, PhD",
-            "affiliation": "Ohio State University",
+            "affiliation": "The Ohio State University",
             "image": "robert_baiocchi.jpg",
             "agenda_image": "robert_baiocchi_thumb.jpg",
             "bio": "<p>Robert Baiocchi, MD, PhD joined The Ohio State University in 2005, and he is Professor of Internal Medicine, a member of the viral oncogenesis group of the Comprehensive Cancer Center, and the Institutional PI for the NIH AIDS Malignancy Consortium. He is the Associate Division Director of Clinical and Translational Research, Associate Residency Program Director for Research in the Department of Internal Medicine and the Director of the Physician Scientist Training Program at Ohio State.</p><p>Dr. Baiocchi’s laboratory focuses on three major areas: (1) epigenetics of B-cell transformation; (2) experimental therapeutics of cancer and (3) immune surveillance of EBV-associated disease. Since his arrival at OSU, Dr. Baiocchi's efforts to commercialize his discoveries have led to the filing of more than ten patent applications. The focus of Dr. Baiocchi’s clinical research is dedicated to patients with mantle cell lymphoma, post-transplant lymphoproliferative disease (PTLD) and AIDS-malignancies. He is a member of the National Marrow Donor Program and Bone Marrow Transplant Clinical Trials Network protocol team that has completed two treatment protocols for treating HIV+ patients with autologous and allogeneic stem cell transplantation. His laboratory was recently granted funds to perform correlative immunology work for these trials.</p>"
@@ -677,6 +691,13 @@
         "description": "Interested in learning more about applying to a dual degree program? Join faculty experts from the University of Pittsburgh/Carnegie Mellon, University of Arizona, and the University of Miami as they discuss the application process and different training programs. You'll learn about their own paths, and what life is like as a physician-scientist.",
         "apsa": true,
         "participant": [{
+            "moderator": true,
+            "name": "Jose Rodrigues, BS",
+            "affiliation": "",
+            "image": "",
+            "agenda_image": "",
+            "bio": ""
+        }, {
             "moderator": false,
             "name": "Kenneth Ramos, MD, PhD",
             "affiliation": "University of Arizona Health Sciences",
@@ -790,7 +811,7 @@
     },
     {
         "type": "normal",
-        "title": "Mentoring Breakfast",
+        "title": "Specialty Interest Mentoring Breakfast",
         "date": "April 7, 2019",
         "time": "8:00 am - 9:30 am",
         "location": "Rouge",
@@ -844,6 +865,13 @@
         "description": "As of 2017, women represent >50% of matriculants in MD programs. However, MD/PhD training programs have lagged behind this trend, with women only making up 1/3 of recent matriculants. Additionally, this disparity increases when ascending the academic ladder, with the percentage of women holding full-time academic appointments considerably smaller than the percentage of men. The WIS panel provides a forum to identify challenges that female physician-scientists face throughout their careers and how mentors and mentees – of all genders and backgrounds – can work to overcome these obstacles. ",
         "apsa": true,
         "participant": [{
+            "moderator": true,
+            "name": "Francesca LoBianco",
+            "affiliation": "",
+            "image": "",
+            "agenda_image": "",
+            "bio": ""
+        }, {
             "moderator": false,
             "name": "Vineet Arora, MD",
             "affiliation": "University of Chicago Medicine",
@@ -875,23 +903,37 @@
         "description": "The goal of the Fellowship and Specialties panel is to promote an open discussion between fellowship directors and prospective applicants. Specific discussions will include the importance of research experience prior to and during the fellowship program, curricular tracks, and questions from the audience. In addition, the panel will help residents gather information on what subspecialty they may be interested in, a timeline for the application process, interviewing for fellowship, and strategies for success in fellowship.",
         "apsa": true,
         "participant": [{
+            "moderator": true,
+            "name": "Abhik Banerjee, BS",
+            "affiliation": "",
+            "image": "",
+            "agenda_image": "",
+            "bio": ""
+        }, {
+            "moderator": true,
+            "name": "Audra Iness Christovich, BS",
+            "affiliation": "Virginia Commonwealth University School of Medicine",
+            "image": "audra_iness.jpg",
+            "agenda_image": "audra_iness_thumb.jpg",
+            "bio": "Audra Iness is a fifth year MD-PhD student at Virginia Commonwealth University (VCU) School of Medicine. She graduated Summa Cum Laude with a B.S. in Biology from California State University, Fresno's Smittcamp Honors Program in 2013. Audra earned membership in the Association of Clinical Pathologists & The Intersociety Council for Pathology Information, Inc. Pathology Honor Society for her medical school performance. She has also been a coordinator for the Mattaponi Healing Eagle Clinic, serving the Native Americans of Virginia, and is an active member of the medical school Admissions Committee. Currently, Audra is studying the DREAM complex and its role in cell cycle regulation in Dr. Larisa Litovchick's lab at VCU. Additionally, she enjoys playing soccer and has been a part of a community league for several years. Her involvement in APSA began when she founded a local chapter at VCU and held roles as President and Institutional Representative. She has enjoyed working to unify the physician-scientist community in her roles on the Executive Council for the past three years. This year, Audra has established and Chaired the Physician Scientist Trainee Diversity Working Group, including representatives from five national medical organizations, aimed at supporting women and underrepresented groups in their pursuit of physician scientist careers. Working with her enthusiastic APSA colleagues, she plans to expand this initiative over her Presidential term in 2018-2019."
+        }, {
             "moderator": false,
             "name": "Todd Florin, MD",
-            "affiliation": "Children's Hospital of Chicago",
+            "affiliation": "Ann and Robert H. Lurie Children’s Hospital of Chicago",
             "image": "todd_florin.jpg",
             "agenda_image": "todd_florin_thumb.jpg",
             "bio": "Dr. Todd Florin, MD, MSCE is Associate Professor of Pediatrics and Director of Research in the Division of Pediatric Emergency Medicine at Ann and Robert H. Lurie Children’s Hospital of Chicago and Northwestern University Feinberg School of Medicine.  He is the principal investigator of Catalyzing Ambulatory Research in Pneumonia Etiology and Diagnostic Innovations in Emergency Medicine (CARPE DIEM), a prospective cohort study of children who present to the ED with community-acquired pneumonia with the overall objectives of using clinical and translational methodology to understand CAP pathophysiology, improve prediction of CAP severity, and enhance differentiation of CAP etiology. This work has been funded by a KL2 mentored career development award through the University of Cincinnati Center for Clinical and Translational Science and Training (CCTST), a grant from the Gerber Foundation and a K23 from the National Institute of Allergy and Infectious Diseases.His work has also centered on resource utilization, variation in care, and use of clinical trials to improve treatments for respiratory tract infections."
         }, {
             "moderator": false,
             "name": "Bruce Bochner, MD",
-            "affiliation": "Northwestern - Feinburg School of Medicine",
+            "affiliation": "Northwestern - Feinberg School of Medicine",
             "image": "bruce_bochner.jpg",
             "agenda_image": "bruce_bochner_thumb.jpg",
             "bio": "<p>Dr. Bochner's primary clinical interests are in eosinophil- and mast-cell associated diseases.</p><p>Dr. Bochner's lab's primary research interest is on Siglec-8, a receptor expressed on human eosinophils and mast cells, how it signals and functions, what are its natural sialoside ligands, and whether it can be leveraged as a therapeutic target. Regarding the latter, we have generated Siglec-8 knock-in mice for preclinical studies of Siglec-8 biology and targeting in mouse models. We have also initiated studies on Siglec-6 function in human mast cells, and how pharmacologic inhibition of Bruton's tyrosi.  His lab's primary research interest is on Siglec-8, a receptor expressed on human eosinophils and mast cells, how it signals and functions, what are its natural sialoside ligands, and whether it can be leveraged as a therapeutic target. Regarding the latter, we have generated Siglec-8 knock-in mice for preclinical studies of Siglec-8 biology and targeting in mouse models. We have also initiated studies on Siglec-6 function in human mast cells, and how pharmacologic inhibition of Bruton's tyrosine kinase (BTK) in mast cells and basophils protects from anaphylaxis in vitro and in vivo.[Shorten text]</p><p>Dr. Bochner's primary clinical interests are in eosinophil- and mast-cell associated diseases, including hypereosinophilic syndromes and systemic mastocytosis. I am also interested in anaphylaxis and other allergic diseases.</p>"
         }, {
             "moderator": false,
             "name": "Anisha Dua, MD, MPH",
-            "affiliation": "University of Chicago- Rheumatology",
+            "affiliation": "Northwestern University",
             "image": "anisha_dua.jpg",
             "agenda_image": "anisha_dua_thumb.jpg",
             "bio": "Dr. Dua is an Associate Professor of Rheumatology at Northwestern University where she is the Director of the Rheumatology fellowship Program and Associate Director of the Vasculitis Center. She has previously served as the Rheumatology Fellowship Program Director at The University of Chicago and the Director of Medical Education at Allegheny Health Network in Pittsburgh. Dr. Dua has been focused on education throughout her career, serving as the secretary/treasurer for the Chicago Rheumatism society and volunteering for the American College of Rheumatology Committee on Training and Workforce as well as the In-Training Exam committee. She completed her Rheumatology training at Rush Medical Center as well as a fellowship in medical education (Medical Education Research, Innovation, Teaching and Scholarship) at The University of Chicago. Her clinical interests are in vasculitis, where she is the PI of ongoing clinical trials and is a member of the Vasculitis guidelines committee for the American College of Rheumatology."
@@ -913,6 +955,13 @@
         "description": "This panel will focus on critical and social perspectives on big data in healthcare. The panel will feature two medical anthropologists who will explore the ways that social, cultural, and historical factors shape how data is produced and interpreted. Drawing from the humanities and social sciences, this discussion will examine the challenges of using data to make sense of complex health problems.",
         "apsa": true,
         "participant": [{
+            "moderator": true,
+            "name": "Trevor Hunt, BS",
+            "affiliation": "",
+            "image": "",
+            "agenda_image": "",
+            "bio": ""
+        }, {
             "moderator": false,
             "name": "Susan L. Erikson, PhD",
             "affiliation": "Simon Fraser University",
@@ -937,6 +986,13 @@
         "description": "Ingrained in the biological and psychological makeup of an individual, gender identities, sex identities, and sexual orientations are essential considerations in clinical decision-making. While NIH guidelines stipulate inclusion of sex differences in biomedical research design and analysis, legislative barriers and financial constraints hinder implementation of best practices -  giving rise to inherent gender bias and sex bias in both clinical and pre-clinical medical research. For example, sociocultural shifts have increased public and scientific knowledge of lesbian, gay, bisexual, and transgender (LGBT) patient care, but the need for LGBT content in medical curricula and research studies is evident in the health disparities observed in LGBT patient populations. Guidelines for clinical care have often been developed based on studies of men, contributing to poorer health outcomes for women. This panel calls attention to sex and gender health disparities that exist in medical research, clinical practice, and health policy. We aim to ignite a discussion on policy-driven strategies to address these barriers.",
         "apsa": true,
         "participant": [{
+            "moderator": true,
+            "name": "Jeff Chen, BS",
+            "affiliation": "",
+            "image": "",
+            "agenda_image": "",
+            "bio": ""
+        }, {
             "moderator": false,
             "name": "Lauren Walter, MD",
             "affiliation": "University of Alabama at Birmingham",
@@ -946,7 +1002,7 @@
         }, {
             "moderator": false,
             "name": "Robert Garofolo, MD, MPH",
-            "affiliation": "University of Chicago",
+            "affiliation": "Ann and Robert H. Lurie Children’s Hospital of Chicago",
             "image": "robert_garofalo.jpg",
             "agenda_image": "robert_garofalo.jpg",
             "bio": "Dr. Robert Garofalo is a Professor of Pediatrics and Preventive Medicine at Northwestern University’s Feinberg School of Medicine in Chicago, Illinois. He is also an attending physician at the Ann & Robert H. Lurie Children’s Hospital, where he serves as the Director of the Research Center of Excellence for Gender, Sexuality, and HIV Prevention and as the Division Chief of Adolescent Medicine. He co-directs the gender and sexual development clinical program at Lurie Children’s Hospital — the first comprehensive program providing multidisciplinary care to transgender/gender-nonconforming children and adolescents in the Midwest. His research focuses on HIV prevention, mostly targeting either young men who have sex with men (MSM) or transgender individuals. He has more than 25 years of research experience in this field and is a national authority on LGBT health issues, adolescent sexuality, and HIV clinical care and prevention. In 2010, he was appointed to the National Academy of Science/ Institute of Medicine on LGBT Health Issues and Research Gaps and Opportunities. Dr. Garofalo’s research has been generously funded by the National Institutes of Health. He is or has been the Principal Investigator on 13 NIH-funded Investigator initiated research grants and a Co-Investigator on an additional 14 other NIH-funded research projects. He is currently a member of a number of professional organizations and scientific associations including the American Academy of Pediatrics, the Society for Adolescent Medicine, the American Medical Association, and the World Professional Association for Transgender Health. Dr. Garofalo is the Editor-in-Chief of the journal Transgender Health. He has over 150 publications in scholarly journals. In addition to his academic work, Dr. Garofalo is founder of Fred Says (named after his dog), a 501©3 non-profit charity that since 2013 has raised and donated back to the community over $300.000 to support care and services for HIV+ youth. "
