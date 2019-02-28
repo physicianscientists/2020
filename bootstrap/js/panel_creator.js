@@ -52,7 +52,9 @@
 
         element.append(
             $('<ul>').append(
-                $('<li><strong>Schedule</strong>: ' + formatDateString(new Date(panel.date)) + '</li>')
+                $('<li><strong>Date</strong>: ' + formatDateString(new Date(panel.date)) + '</li>')
+            ).append(
+                $('<li><strong>Time</strong>: ' + panel.time + '</li>')
             ).append(
                 $('<li><strong>Location</strong>: ' + location + '</li>')
             )

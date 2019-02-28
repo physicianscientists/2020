@@ -643,7 +643,7 @@
         "date": "April 6, 2019",
         "time": "5:45 pm. - 7:00 pm ",
         "location": "Ambassador Room",
-        "description": "",
+        "description": "This meeting is designed as an introduction for prospective applicants to Physician Scientist Training Program and Research in Residency programs (PSTP/RiR). It will include an informal Q & A and panel discussions moderated by an APSA representative. Discussions from this panel will be followed up and expanded during the subsequent Directors Meeting on Sunday. Please come and take advantage of the opportunity to participate in an open discussion between trainees and directors!",
         "apsa": true,
         "participant": [{
             "moderator": true,
@@ -672,7 +672,14 @@
             "affiliation": "Vanderbilt University",
             "image": "patrick_hu.jpg",
             "agenda_image": "patrick_hu_thumb.jpg",
-            "bio": "<p>Patrick Hu, M.D., Ph.D., is an Associate Professor of Medicine and Cell and Developmental Biology and Director of the Physician-Scientist Training Program/Harrison Society in the Department of Medicine at Vanderbilt University Medical Center. He earned an A.B. from Harvard College and M.D. and Ph.D. degrees from New York University, where he studied PI 3-kinase signaling in Joseph Schlessinger’s lab. After completing clinical training in Internal Medicine at The Johns Hopkins Hospital and Adult Oncology at the Dana-Farber Cancer Institute and Massachusetts General Hospital, he did postdoctoral research on insulin-like growth factor signaling in the nematode Caenorhabditis elegans in Gary Ruvkun’s lab. He spent eleven years on the faculty of the University of Michigan Medical School prior to his recruitment to Vanderbilt in 2016. Dr. Hu is a member of the American Society for Clinical Investigation.</p>            "
+            "bio": "<p>Patrick Hu, M.D., Ph.D., is an Associate Professor of Medicine and Cell and Developmental Biology and Director of the Physician-Scientist Training Program/Harrison Society in the Department of Medicine at Vanderbilt University Medical Center. He earned an A.B. from Harvard College and M.D. and Ph.D. degrees from New York University, where he studied PI 3-kinase signaling in Joseph Schlessinger’s lab. After completing clinical training in Internal Medicine at The Johns Hopkins Hospital and Adult Oncology at the Dana-Farber Cancer Institute and Massachusetts General Hospital, he did postdoctoral research on insulin-like growth factor signaling in the nematode Caenorhabditis elegans in Gary Ruvkun’s lab. He spent eleven years on the faculty of the University of Michigan Medical School prior to his recruitment to Vanderbilt in 2016. Dr. Hu is a member of the American Society for Clinical Investigation.</p>"
+        }, {
+            "moderator": false,
+            "name": "Andrea Burns, PhD",
+            "affiliation": "Baylor College of Medicine",
+            "image": "andrea_burns.jpg",
+            "agenda_image": "andrea_burns_thumb.jpg",
+            "bio": ""
         }, {
             "moderator": false,
             "name": "Rebecca Baron, MD",
@@ -703,7 +710,7 @@
             "affiliation": "University of Arizona Health Sciences",
             "image": "kenneth_ramos.jpg",
             "agenda_image": "kenneth_ramos_thumb.jpg",
-            "bio": "Kenneth S. Ramos, MD, PhD, PharmB, is an accomplished physician-scientist and transformational leader, designated as an associate of the National Academy of Sciences in 2008 and elected to the National Academy of Medicine in 2015. Dr. Ramos obtained his medical degree from the University of Louisville Health Sciences Center and his Ph.D. from the University of Texas at Austin in Biochemical Pharmacology. He has vast depth of experience across the tripartite mission areas of education, research and clinical service, and he is recognized throughout the world for his scientific contributions in the areas of genomics, precision medicine, environmental health sciences and toxicology. Dr. Ramos served as the MD-PhD director for the University of Arizona College of Medicine from 2014 – 2019 where mentored students interested in careers as research-intensive physicians. Recently, Dr. Ramos joined Texas A&M University Health Science Center in Houston where he serves as the assistant vice chancellor for health services and executive director of the Institute of Biosciences and Technology."
+            "bio": "Kenneth S. Ramos, MD, PhD, PharmB, is an accomplished physician-scientist and transformational leader, designated as an associate of the National Academy of Sciences and elected to the National Academy of Medicine. Dr. Ramos obtained his medical degree from the University of Louisville Health Sciences Center and his Ph.D. from the University of Texas at Austin in Biochemical Pharmacology. He has vast depth of experience across the tripartite mission areas of education, research and clinical service, and he is recognized throughout the world for his scientific contributions in the areas of genomics, precision medicine and toxicology. Dr. Ramos served as the MD-PhD director for the University of Arizona College of Medicine from 2014 – 2019 where he mentored students interested in careers as research-intensive physicians. Recently, Dr. Ramos joined Texas A&M University Health Science Center in Houston where he serves as the assistant vice chancellor for health services and executive director of the Institute of Biosciences and Technology. He is the Margaret M. Alkek Chair in Medical Genetics and a distinguished Governors University Research Initiative investigator."
         }, {
             "moderator": false,
             "name": "Richard Steinman, MD, PhD",
@@ -814,7 +821,7 @@
         "title": "Specialty Interest Mentoring Breakfast",
         "date": "April 7, 2019",
         "time": "8:00 am - 9:30 am",
-        "location": "Rouge",
+        "location": "International Ballroom",
         "description": "",
         "apsa": true
     },
@@ -1010,9 +1017,9 @@
             "moderator": false,
             "name": "Kim Templeton, MD",
             "affiliation": "University of Kansas",
-            "image": "",
-            "agenda_image": "",
-            "bio": ""
+            "image": "kim_templeton.jpg",
+            "agenda_image": "kim_templeton_thumb.jpg",
+            "bio": "Dr. Kim Templeton, MD is Professor of orthopaedic surgery at the University of Kansas Medical Center in Kansas City, specializing in orthopaedic oncology. Dr. Templeton’s research interests include women’s health, medical education, and long-term impact of treatment of pediatric sarcomas on bone health. In 2017, Dr. Templeton was elected to a second term on the National Board of Medical Examiners, after spending several years on various committees and task forces, and is now leading part of the research arm of the RENEW task force, to address stress among medical students related to the USMLE exams. Dr. Templeton is a past-president of the American Medical Women’s Association.  She has also served on the executive committee and chaired the Sex and Gender Women’s Health Collaborative, whose mission is to improve the translation of research into sex- and gender-based differences into clinical practice through education and evaluation.  Dr. Templeton is an invited founding board member of the Academy of Women’s Health.  In 2013, Dr. Templeton was named by the National Academy of Sciences to the musculoskeletal work group, reviewing and recommending new venues for sex and gender research for the National Aeronautic and Space Administration (NASA).  Dr. Templeton has spoken at venues around the country in the area of sex and gender medicine.  She has and continues to serve on expert committees that are working to incorporate this information into health professionals’ education. "
         }]
     },
     {
