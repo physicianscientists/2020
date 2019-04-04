@@ -14,7 +14,10 @@
         "date": "April 5, 2019",
         "time": "11:00 am - 1:00 pm",
         "location": "International Ballroom",
-        "moderators": [],
+        "moderators": [
+            "Abhik Banerjee, BS",
+            "Jeremie Lever, BS"
+        ],
         "apsa": true
     },
     {
@@ -70,7 +73,11 @@
         "date": "April 5, 2019",
         "time": "1:00 pm - 6:00 pm",
         "location": "International Ballroom",
-        "moderators": [],
+        "moderators": [
+            "Mary Klotman, BS",
+            "Kieren Marr, BS",
+            "Lillian Zhang, BS"
+        ],
         "apsa": true
     },
     {
@@ -83,7 +90,7 @@
             "name": "Robert M. Califf, MD MACC",
             "affiliation": "Duke University",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "robert_califf_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -103,7 +110,7 @@
             "name": "E. Dale Abel, MD, PhD",
             "affiliation": "University of Iowa",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "dale_abel_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -116,9 +123,57 @@
     {
         "type": "keynote",
         "title": "ASCI and AAP New Member Presentations",
-        "speaker": [],
+        "speaker": [{
+            "speaker_type": "",
+            "title": "Inherited Susceptibility to Breast Cancer: Risk Prediction to Therapy",
+            "name": "Susan M. Domchek, MD",
+            "affiliation": "University of Pennsylvania",
+            "image": "",
+            "agenda_image": "susan_domchek_thumb.jpg",
+            "time": "2:00 pm - 2:15 pm ",
+            "lab_url": "",
+            "bio": ""
+        }, {
+            "speaker_type": "",
+            "title": "Sexual Violence Prevention in the #MeToo Era",
+            "name": "Elizabeth Miller, MD",
+            "affiliation": "University of Pittsburgh School of Medicine",
+            "image": "",
+            "agenda_image": "elizabeth_miller_thumb.jpg",
+            "time": "2:00 pm - 2:30 pm",
+            "lab_url": "",
+            "bio": ""
+        }],
         "date": "April 5, 2019",
-        "time": "2:00 pm - 3:00 pm",
+        "time": "2:00 pm - 2:30 pm",
+        "location": "International Ballroom",
+        "description": "",
+        "apsa": false
+    },
+    {
+        "type": "keynote",
+        "title": "Presentations from the 2018 Donald Seldin-Holly Smith Award for Pioneering Research Recipients",
+        "speaker": [{
+            "speaker_type": "",
+            "title": "Using Chemistry To Identify New Cancer Targets",
+            "name": "Deepak Nijhawan, MD, PhD",
+            "affiliation": "UT Southwestern Medical Center",
+            "image": "",
+            "agenda_image": "deepak_nijhawan_thumb.jpg",
+            "lab_url": "",
+            "bio": ""
+        }, {
+            "speaker_type": "",
+            "title": "Never Say Never Again: Toward Targeted Therapies for Kidney Diseases",
+            "name": "Anna Greka, MD, PhD",
+            "affiliation": "Brigham and Women's Hospital, Harvard Medical School",
+            "image": "",
+            "agenda_image": "anna_greka_thumb.jpg",
+            "lab_url": "",
+            "bio": ""
+        }],
+        "date": "April 5, 2019",
+        "time": "2:00 pm - 2:30 pm",
         "location": "International Ballroom",
         "description": "",
         "apsa": false
@@ -128,7 +183,7 @@
         "title": "-- Break --",
         "date": "April 5, 2019",
         "time": "3:00 pm - 3:30 pm",
-        "location": "",
+        "location": "International Foyer",
         "description": "",
         "apsa": true
     },
@@ -138,13 +193,26 @@
         "date": "April 5, 2019",
         "time": "3:30 pm - 6:00 pm",
         "location": "International Ballroom",
-        "moderators": [],
+        "moderators": [
+            "Daniel Barnett, BS",
+            "Mitch Lazar, BS",
+            "W. Kimryn Rathmell, BS"
+        ],
         "apsa": true
     },
     {
         "type": "keynote",
         "title": "ASCI Harrington Award Presentation",
-        "speaker": [],
+        "speaker": [{
+            "speaker_type": "",
+            "title": "CAR T Cells: New Kid On The Block For Cancer Therapy And Beyond?",
+            "name": "Carl H. June, MD",
+            "affiliation": "Perelman School of Medicine, University of Pennsylvania",
+            "image": "",
+            "agenda_image": "carl_june_thumb.jpg",
+            "lab_url": "",
+            "bio": ""
+        }],
         "date": "April 5, 2019",
         "time": "3:30 pm - 4:00 pm",
         "location": "International Ballroom",
@@ -180,7 +248,7 @@
             "name": "Kieren Marr, MD",
             "affiliation": "John Hopkins School of Medicine",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "kieren_marr_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -197,10 +265,10 @@
         "speaker": [{
             "speaker_type": "",
             "title": "ASCI/Stanley J. Korsmeyer Award Lecture",
-            "name": "",
-            "affiliation": "",
+            "name": "Michael S. Diamond, MD, PhD",
+            "affiliation": "Washington University School of Medicine in St. Louis",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "michael_diamond_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -239,10 +307,19 @@
     },
     {
         "type": "keynote",
-        "title": "ASCI Annual Dinner/Introduction of New Members Speaker",
-        "speaker": [],
+        "title": "ASCI Dinner and New Member Induction Ceremony",
+        "speaker": [{
+            "speaker_type": "After-Dinner Speaker",
+            "title": "",
+            "name": "Speaker:Victor J. Dzau, MD",
+            "affiliation": "National Academy of Medicine",
+            "image": "",
+            "agenda_image": "victor_dzau_thumb.jpg",
+            "lab_url": "",
+            "bio": ""
+        }],
         "date": "April 5, 2019",
-        "time": "7:00 pm - 9:45 pm",
+        "time": "7:30 pm - 9:45 pm",
         "location": "Rouge",
         "apsa": false
     },
@@ -293,11 +370,15 @@
     },
     {
         "type": "session",
-        "title": "Plenary Session II",
+        "title": "Plenary Session II: Big Data II and the Scientific Workplace",
         "date": "April 6, 2019",
-        "time": "9:00 am - 11:45 am",
+        "time": "9:00 am - 10:45 am",
         "location": "International Ballroom",
-        "moderators": [],
+        "moderators": [
+            "Abhik Banerjee, BS",
+            "John Carethers, MD",
+            "Kieren Marr, BS"
+        ],
         "apsa": true
     },
     {
@@ -310,7 +391,7 @@
             "name": "Atul Butte, MD, PhD",
             "affiliation": "University of California San Francisco",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "atul_butte_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -340,7 +421,7 @@
             "name": "Reshma Jagsi, MD, Dphil",
             "affiliation": "University of Michigan",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "reshma_jagsi_thumb.jpg",
             "lab_url": "",
             "bio": "",
             "time": "9:40 am - 9:46 am"
@@ -350,7 +431,7 @@
             "name": "Nancy Brown, MD",
             "affiliation": "Vanderbilt University",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "nancy_brown_thumb.jpg",
             "lab_url": "",
             "bio": "",
             "time": "9:47 am - 9:53 am"
@@ -360,7 +441,7 @@
             "name": "Timothy Johnson, MD",
             "affiliation": "University of Michigan",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "timothy_johnson_thumb.jpg",
             "lab_url": "",
             "bio": "",
             "time": "9:54 am - 10:00 am"
@@ -385,14 +466,36 @@
         "date": "April 6, 2019",
         "time": "10:30 am - 10:45 am",
         "location": "",
-        "description": "",
+        "description": "International Foyer",
+        "apsa": true
+    },
+    {
+        "type": "session",
+        "title": "Plenary Session II: Big Data II and Teh Scientific Workplace",
+        "date": "April 6, 2019",
+        "time": "10:45 am - 1:30 pm",
+        "location": "International Ballroom",
+        "moderators": [
+            "Hossein Ardehali, BS",
+            "Robert Brown, BS",
+            "Tyler McCaw, BS"
+        ],
         "apsa": true
     },
     {
         "type": "keynote",
         "award": "APSA Trainee Oral Abstract",
-        "title": "T Cells Promote Peripheral Nerve Regeneration via Regulation of IL-4",
-        "speaker": [],
+        "title": "",
+        "speaker": [{
+            "speaker_type": "",
+            "title": "T Cells Promote Peripheral Nerve Regeneration via Regulation of IL-4",
+            "name": "Deng Pan",
+            "affiliation": "Washington University in St. Louis",
+            "image": "",
+            "agenda_image": "deng_pan_thumb.jpg",
+            "lab_url": "",
+            "bio": ""
+        }],
         "date": "April 6, 2019",
         "time": "10:45 am - 11:00 am",
         "location": "International Ballroom",
@@ -470,7 +573,9 @@
         "time": "1:30 pm - 3:00 pm",
         "location": "Imperial Ballroom",
         "moderators":[
-            
+            "Audra Iness Christovich, BS",
+            "Mary Klotman, BS",
+            "Lorraine Ware, BS"
         ],
         "apsa": true
     },
@@ -484,7 +589,7 @@
             "name": "Gary D. Wu, MD",
             "affiliation": "University of Pennsylvania",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "gary_wu_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -496,8 +601,17 @@
     {
         "type": "keynote",
         "award": "APSA Trainee Oral Abstract",
-        "title": "Skeletal Muscle Krüppel-like Factor 15 and PPARδ Cooperate to Regulate Skeletal Muscle Lipid Metabolism",
-        "speaker": [],
+        "title": "",
+        "speaker": [{
+            "speaker_type": "",
+            "title": "Skeletal Muscle Krüppel-like Factor 15 and PPARδ Cooperate to Regulate Skeletal Muscle Lipid Metabolism",
+            "name": "Liyan Fan",
+            "affiliation": "Case Western Reserve University",
+            "image": "",
+            "agenda_image": "liyan_fan_thumb.jpg",
+            "lab_url": "",
+            "bio": ""
+        }],
         "date": "April 6, 2019",
         "time": "2:00 pm - 2:15 pm ",
         "location": "International Ballroom",
@@ -513,7 +627,7 @@
             "name": "Barton F. Haynes, MD",
             "affiliation": "Duke University",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "barton_haynes_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -527,7 +641,7 @@
         "title": "-- Break --",
         "date": "April 6, 2019",
         "time": "2:45 pm - 3:15 pm",
-        "location": "",
+        "location": "International Foyer",
         "description": "",
         "apsa": true
     },
@@ -538,7 +652,9 @@
         "time": "3:30 pm - 5:45 pm",
         "location": "International Ballroom",
         "moderators":[
-            
+            "David Ginsburg, BS",
+            "Sarah Groover, BS",
+            "W. Kimryn Rathmell, BS"
         ],
         "apsa": true
     },
@@ -552,7 +668,7 @@
             "name": "Paul M. Ridker, MD, MPH",
             "affiliation": "Brigham and Women’s",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "paul_ridker_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -571,7 +687,7 @@
             "name": "Stanley R. Riddell, MD",
             "affiliation": "Fred Hutchinson Cancer Research Center",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "stanley_riddell_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -590,7 +706,7 @@
             "name": "John Carethers, MD",
             "affiliation": "University of Michigan",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "john_carethers_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -609,7 +725,7 @@
             "name": "C. Ronald Kahn, MD",
             "affiliation": "Harvard Medical School",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "ronald_kahn_thumb.jpg",
             "lab_url": "",
             "bio": ""
         },
@@ -619,7 +735,7 @@
             "name": "Jeffrey Flier, MD",
             "affiliation": "Harvard Medical School",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "jeffrey_flier_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -633,7 +749,7 @@
         "title": "AAP Business Meeting",
         "date": "April 6, 2019",
         "time": "5:15 pm - 5:30 pm",
-        "location": "",
+        "location": "International Ballroom",
         "description": "",
         "apsa": true
     },
@@ -648,17 +764,17 @@
         "participant": [{
             "moderator": true,
             "name": "Abhik Banerjee, BS",
-            "affiliation": "",
-            "image": "",
-            "agenda_image": "",
-            "bio": ""
+            "affiliation": "University of Southern California/California Institute of Technology",
+            "image": "abhik_banerjee.jpg",
+            "agenda_image": "abhik_banerjee_thumb.jpg",
+            "bio": "Abhik Banerjee is a sixth-year MD/PhD student in the University of Southern California/California Institute of Technology MD/PhD Program. He attended the University of California, Los Angeles, where he graduated with a BS in Molecular, Cell, and Developmental Biology, and a BA in Music Performance in 2012. As a fourth year graduate student in the laboratories of Drs. Mitchell Guttman and Ellen Rothenberg, his research focuses on characterizing the roles of long non-coding RNA in the regulation of gene expression and differentiation in early T-cell development. Abhik previously served as the MD-PhD/DO-PhD Member at Large and Vice Chair for the Membership Committee for the 2016-2017 year, the Chair of the Membership Committee during 2017-2018 year, and served on the APSA West Regional Meeting Planning Committee from 2015-2017. As the 2018-2019 President-Elect, he is interested in promoting communication between organization leadership and its members, including further expansion of grassroots policy efforts and support for regional meetings across the country, as well as expanding further educational outreach efforts through APSA’s Undergraduate Mentorship Program to support and excite students at the earliest stages of the physician scientist training pipeline."
         }, {
             "moderator": true,
             "name": "Audra Iness Christovich, BS",
             "affiliation": "Virginia Commonwealth University School of Medicine",
             "image": "audra_iness.jpg",
             "agenda_image": "audra_iness_thumb.jpg",
-            "bio": "Audra Iness is a fifth year MD-PhD student at Virginia Commonwealth University (VCU) School of Medicine. She graduated Summa Cum Laude with a B.S. in Biology from California State University, Fresno's Smittcamp Honors Program in 2013. Audra earned membership in the Association of Clinical Pathologists & The Intersociety Council for Pathology Information, Inc. Pathology Honor Society for her medical school performance. She has also been a coordinator for the Mattaponi Healing Eagle Clinic, serving the Native Americans of Virginia, and is an active member of the medical school Admissions Committee. Currently, Audra is studying the DREAM complex and its role in cell cycle regulation in Dr. Larisa Litovchick's lab at VCU. Additionally, she enjoys playing soccer and has been a part of a community league for several years. Her involvement in APSA began when she founded a local chapter at VCU and held roles as President and Institutional Representative. She has enjoyed working to unify the physician-scientist community in her roles on the Executive Council for the past three years. This year, Audra has established and Chaired the Physician Scientist Trainee Diversity Working Group, including representatives from five national medical organizations, aimed at supporting women and underrepresented groups in their pursuit of physician scientist careers. Working with her enthusiastic APSA colleagues, she plans to expand this initiative over her Presidential term in 2018-2019."
+            "bio": "Audra Iness Christovich is starting her seventh year of the MD-PhD program at Virginia Commonwealth University where she recently obtained a PhD in the Clinical and Translational Research, Cancer and Molecular Medicine. Her research focuses on the oncoprotein B-Myb and its impact on cell cycle regulation by the transcriptional repressor complex, DREAM, in ovarian cancer. During her PhD years, Audra became increasingly passionate about advocating for physician scientist trainees and more involved in APSA. She is now the current President of the organization, supporting initiatives related to diversifying the physician scientist trainee pipeline, encouraging crosstalk between Research in Residency (RiR)/Physician Scientist Training Programs (PSTP) and physician scientist trainees, as well as fostering international collaborations across numerous physician scientist trainee organizations. Audra looks forward to further upholding APSA’s mission throughout the rest of her training, career, and life."
         }, {
             "moderator": false,
             "name": "Robert Baiocchi, MD, PhD",
@@ -700,10 +816,10 @@
         "participant": [{
             "moderator": true,
             "name": "Jose Rodrigues, BS",
-            "affiliation": "",
-            "image": "",
-            "agenda_image": "",
-            "bio": ""
+            "affiliation": "Michigan State University",
+            "image": "jose_rodrigues.jpg",
+            "agenda_image": "jose_rodrigues_thumb.jpg",
+            "bio": "Jose A. Rodrigues is a 4th year DO/PhD Student at Michigan State University.  Currently, as a second year graduate student, with his mentor Dr. Shannon Manning, Jose studies the moelcular epidemology of antibiotic resistant Campylobacter jejuni (C. jejuni), an important foodborne pathogen. Jose is also collobrating with Dr. Victor DiRita, to understand bacterial pathogensis of C. jejuni multidrug resistant infections. Jose hopes to pursue a career in academic medicine, in particular would like to become a pediatric infectious disease physician.   "
         }, {
             "moderator": false,
             "name": "Kenneth Ramos, MD, PhD",
@@ -753,7 +869,7 @@
             "name": "Claire Pomeroy, MD, MBA",
             "affiliation": "Albert and Mary Lasker Foundation",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "claire_pomeroy_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -804,7 +920,9 @@
         "date": "April 7, 2019",
         "time": "8:00 am - 12:00 pm",
         "location": "International Ballroom",
-        "moderators": [],
+        "moderators": [
+            "Jose Rodrigues, BS"
+        ],
         "apsa": true
     },
     {
@@ -859,7 +977,7 @@
         "title": "APSA Research Residency Directors' Meeting",
         "date": "April 7, 2019",
         "time": "10:00 am - 12:00 pm",
-        "location": "",
+        "location": "State Room",
         "description": "",
         "apsa": true
     },
@@ -874,10 +992,10 @@
         "participant": [{
             "moderator": true,
             "name": "Francesca LoBianco",
-            "affiliation": "",
+            "affiliation": "University of Arkansas for Medical Sciences",
             "image": "",
             "agenda_image": "",
-            "bio": ""
+            "bio": "Francesca V. LoBianco is a 2nd year medical student at the University of Arkansas for Medical Sciences (UAMS) in the MD/PhD program. She will be joining the lab of Dr. Nukhet Aykin-Burns in the Division of Radiation Health with the College of Pharmacy. In 2017, Francesca received her Masters of Science from UAMS researching the role of Sirtuin 3 in Radiation Induced Liver Injury and plans to continue this field of research for her PhD. She will be further classifying this mouse model and investigating the involvement of reactive oxygen species in liver injury. Her research interest lead her to be involved in collaboration with Dr. Ron Gaba at University of Illinois at Chicago (UIC) in developing and classifying animal models for hepatocellular carcinoma. "
         }, {
             "moderator": false,
             "name": "Vineet Arora, MD",
@@ -912,17 +1030,17 @@
         "participant": [{
             "moderator": true,
             "name": "Abhik Banerjee, BS",
-            "affiliation": "",
-            "image": "",
-            "agenda_image": "",
-            "bio": ""
+            "affiliation": "University of Southern California/California Institute of Technology",
+            "image": "abhik_banerjee.jpg",
+            "agenda_image": "abhik_banerjee_thumb.jpg",
+            "bio": "Abhik Banerjee is a sixth-year MD/PhD student in the University of Southern California/California Institute of Technology MD/PhD Program. He attended the University of California, Los Angeles, where he graduated with a BS in Molecular, Cell, and Developmental Biology, and a BA in Music Performance in 2012. As a fourth year graduate student in the laboratories of Drs. Mitchell Guttman and Ellen Rothenberg, his research focuses on characterizing the roles of long non-coding RNA in the regulation of gene expression and differentiation in early T-cell development. Abhik previously served as the MD-PhD/DO-PhD Member at Large and Vice Chair for the Membership Committee for the 2016-2017 year, the Chair of the Membership Committee during 2017-2018 year, and served on the APSA West Regional Meeting Planning Committee from 2015-2017. As the 2018-2019 President-Elect, he is interested in promoting communication between organization leadership and its members, including further expansion of grassroots policy efforts and support for regional meetings across the country, as well as expanding further educational outreach efforts through APSA’s Undergraduate Mentorship Program to support and excite students at the earliest stages of the physician scientist training pipeline."
         }, {
             "moderator": true,
             "name": "Audra Iness Christovich, BS",
             "affiliation": "Virginia Commonwealth University School of Medicine",
             "image": "audra_iness.jpg",
             "agenda_image": "audra_iness_thumb.jpg",
-            "bio": "Audra Iness is a fifth year MD-PhD student at Virginia Commonwealth University (VCU) School of Medicine. She graduated Summa Cum Laude with a B.S. in Biology from California State University, Fresno's Smittcamp Honors Program in 2013. Audra earned membership in the Association of Clinical Pathologists & The Intersociety Council for Pathology Information, Inc. Pathology Honor Society for her medical school performance. She has also been a coordinator for the Mattaponi Healing Eagle Clinic, serving the Native Americans of Virginia, and is an active member of the medical school Admissions Committee. Currently, Audra is studying the DREAM complex and its role in cell cycle regulation in Dr. Larisa Litovchick's lab at VCU. Additionally, she enjoys playing soccer and has been a part of a community league for several years. Her involvement in APSA began when she founded a local chapter at VCU and held roles as President and Institutional Representative. She has enjoyed working to unify the physician-scientist community in her roles on the Executive Council for the past three years. This year, Audra has established and Chaired the Physician Scientist Trainee Diversity Working Group, including representatives from five national medical organizations, aimed at supporting women and underrepresented groups in their pursuit of physician scientist careers. Working with her enthusiastic APSA colleagues, she plans to expand this initiative over her Presidential term in 2018-2019."
+            "bio": "Audra Iness Christovich is starting her seventh year of the MD-PhD program at Virginia Commonwealth University where she recently obtained a PhD in the Clinical and Translational Research, Cancer and Molecular Medicine. Her research focuses on the oncoprotein B-Myb and its impact on cell cycle regulation by the transcriptional repressor complex, DREAM, in ovarian cancer. During her PhD years, Audra became increasingly passionate about advocating for physician scientist trainees and more involved in APSA. She is now the current President of the organization, supporting initiatives related to diversifying the physician scientist trainee pipeline, encouraging crosstalk between Research in Residency (RiR)/Physician Scientist Training Programs (PSTP) and physician scientist trainees, as well as fostering international collaborations across numerous physician scientist trainee organizations. Audra looks forward to further upholding APSA’s mission throughout the rest of her training, career, and life."
         }, {
             "moderator": false,
             "name": "Todd Florin, MD",
@@ -948,8 +1066,8 @@
             "moderator": false,
             "name": "Kenneth Cohen, MD",
             "affiliation": "University of Chicago Medicine",
-            "image": "",
-            "agenda_image": "",
+            "image": "kenneth_cohen.jpg",
+            "agenda_image": "kenneth_cohen_thumb.jpg",
             "bio": "<p>Kenneth Cohen, MD, specializes in treating adult patients with lymphoma and blood clotting disorders.</p><p>Dr. Cohen is the program director for the Section of Hematology/Oncology fellowship program. His research projects have studied how tumor blood vessels regulate immune cells. He has also studied factors that control blood cells that play a role in tumor blood vessel development.</p><p>Dr. Cohen has been an ad hoc reviewer for several medical journals including Blood, Leukemia and Lymphoma, and Molecular Cancer Research. He serves on the editorial board of Analytical Cellular Pathology: Cellular Oncology.</p>"
         }]
     },
@@ -964,10 +1082,10 @@
         "participant": [{
             "moderator": true,
             "name": "Trevor Hunt, BS",
-            "affiliation": "",
-            "image": "",
-            "agenda_image": "",
-            "bio": ""
+            "affiliation": "Brody School of Medicine at East Carolina University",
+            "image": "trevor_hunt.jpg",
+            "agenda_image": "trevor_hunt_thumb.jpg",
+            "bio": "Trevor C. Hunt is a 3rd year MD student pursuing urology at the Brody School of Medicine at East Carolina University. Trevor is a member of Brody's Research Distinction Track in the lab of Dr. Johanna Hannan and his primary research focus is investigating the role of mitochondrial dysfunction in bladder disease. He also studies the socioeconomic factors contributing to medical and surgical discharges against medical advice under Dr. J.E. Betsy Tuttle-Newhall, and will be completing a one-year research fellowship in urologic oncology at the University of Utah School of Medicine with Dr. Brock O'Neil and Dr. William Lowrance prior to beginning 4th year. His undergraduate degree was in sociology from Wake Forest University, where he developed a passion for the social determinants of health. He is an avid skier, golfer, and writer, authoring the monthly column \"Research for the Rest of Us\" on the medical advising website Student Doctor Network. Find him on Twitter: @TrevorHunt_ECU"
         }, {
             "moderator": false,
             "name": "Susan L. Erikson, PhD",
@@ -995,10 +1113,10 @@
         "participant": [{
             "moderator": true,
             "name": "Jeff Chen, BS",
-            "affiliation": "",
-            "image": "",
-            "agenda_image": "",
-            "bio": ""
+            "affiliation": "University of Kentucky",
+            "image": "jeff_chen.jpg",
+            "agenda_image": "jeff_chen_thumb.jpg",
+            "bio": "Jeff Chen is a 3rd year PhD student in the University of Kentucky MDPhD program. Under his mentor, Alan Daugherty PhD Dsc, Jeff research focus is on the effect of ligand dependent angiotensin signaling in Marfan syndrome associated thoracic aortic aneurysms. As part of the University of Kentucky – Baylor College of Medicine Aortic Research Center (an American Heart Association’s Strategically Focused Research Network in Vascular Disease),  Jeff is also investigating the contribution of endogenous estrogens and testosterone on development of thoracic aortic aneurysms."
         }, {
             "moderator": false,
             "name": "Lauren Walter, MD",

@@ -207,9 +207,10 @@
 
         $eventInfoHtml.append($('<p><strong>' + event.title + '</strong></p>'));
         if (event.moderators && event.moderators.length > 0) {
+            moderators = '';
             for (var i = 0; i < event.moderators.length; i++) {
                 if (i < event.moderators.length - 1) {
-                    moderators += event.moderators[i] + ', ';
+                    moderators += event.moderators[i] + '; ';
                 } else {
                     moderators += event.moderators[i];
                 }
