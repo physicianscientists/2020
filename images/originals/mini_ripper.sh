@@ -2,8 +2,8 @@
 STORAGE_LOCATION='.'
 DESTINATION_LOCATION='../keynotes'
 
-IMAGE_URL='https://www.jointmeeting.org/resource/resmgr/2019_headshots_resized/claire_pomeroy.jpg'
-KEYNOTE_NAME='claire_pomeroy'
+IMAGE_URL='https://pbs.twimg.com/profile_images/833863863120433152/OErWkyXy_400x400.jpg'
+KEYNOTE_NAME='vijay_sankaran'
 
 original_file_extension=${IMAGE_URL##*.}
 original_image="$STORAGE_LOCATION/$KEYNOTE_NAME.$original_file_extension"
