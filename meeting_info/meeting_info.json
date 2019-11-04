@@ -2,7 +2,7 @@
     {
         "type": "normal",
         "title": "APSA Business Meeting",
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "8:30 am - 11:00 am",
         "location": "Rouge",
         "description": "",
@@ -10,13 +10,12 @@
     },
     {
         "type": "session",
-        "title": "APSA Session I",
-        "date": "April 5, 2019",
+        "title": "APSA Session I: Disrupting Precision Medicine",
+        "date": "April 3, 2020",
         "time": "11:00 am - 1:00 pm",
         "location": "International Ballroom",
         "moderators": [
-            "Abhik Banerjee, BS",
-            "Jeremie Lever, BS"
+            ""
         ],
         "apsa": true
     },
@@ -25,16 +24,16 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "The Transformation of Cystic Fibrosis Therapy (and Opportunities for Other Diseases of Mucus)",
-            "name": "Steven Rowe, MD MSPH",
-            "affiliation": "University of Alabama at Birmingham",
-            "image": "steven_rowe.jpg",
-            "agenda_image": "steven_rowe_thumb.jpg",
-            "lab_url": "https://www.uab.edu/medicine/pulmonary/faculty/rowe",
-            "bio": "<p>Dr. Rowe is a respected academic physician scientist – a pioneer in the field of personalized therapeutics for CF, cutting-edge discovery in airway disease biology, and translational research in COPD.  He is an international authority in the design and conduct of clinical trials targeting the basic CF defect, and has made key advances in the measurement and interpretation of CFTR function in humans and animals.  He has characterized that COPD patients with chronic bronchitis exhibit ‘acquired CFTR dysfunction’ through a pathway that causes delayed mucociliary clearance and confers chronic bronchitis. The approach establishes how a single gene in a rare disorder can contribute to the 3rd leading cause of death and has led to new efforts by his group to evaluate CFTR modulators in patients with chronic bronchitis, potentially leading to a new paradigm for COPD treatment.</p><p>Additionally, he is a Professor with tenure in the Departments of Medicine (Pulmonary, Allergy, and Critical Care Medicine), Pediatrics (Pediatric Pulmonology), and Cell Developmental and Integrative Biology at the University of Alabama at Birmingham (UAB). He is also the Director of the Gregory Fleming Cystic Fibrosis Research Center at UAB, which involves over 100 faculty members and has been continuously funded for over 25 years.</p>"
+            "title": "",
+            "name": "Jennifer Wargo, MD, MMSc",
+            "affiliation": "MD Anderson Cancer Center",
+            "image": "jennifer_wargo.jpg",
+            "agenda_image": "jennifer_wargo_thumb.jpg",
+            "lab_url": "https://faculty.mdanderson.org/profiles/jennifer_wargo.html",
+            "bio": ""
         }],
         "date": "April 5, 2019",
-        "time": "11:00 am - 11:45 am",
+        "time": "11:00 am - 11:30 am",
         "location": "International Ballroom",
         "description": "",
         "apsa": true
@@ -44,24 +43,33 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Of Math and Medicine: Big Data in Action",
-            "name": "Dorry Segev, MD PhD",
-            "affiliation": "Johns Hopkins University",
-            "image": "dorry_segev.jpg",
-            "agenda_image": "dorry_segev_thumb.jpg",
-            "lab_url": "https://www.hopkinsmedicine.org/profiles/results/directory/profile/0008001/dorry-segev",
-            "bio": "<p>Dorry Segev, MD, PhD, is the Marjory K. and Thomas Pozefsky Professor of Surgery and Epidemiology and Associate Vice Chair of Surgery at Johns Hopkins University. With a graduate degree in biostatistics, he focuses on novel statistical and mathematical methods for simulation of medical data, analysis of large healthcare datasets, and outcomes research. Dr. Segev was the first to demonstrate the survival benefit of incompatible kidney transplantation, the first to estimate attributable risk of ESRD in live kidney donors, and is responsible for the first HIV-to-HIV transplants in the United States. His NIH-funded research includes kidney exchange, desensitization, long-term donor risk, access to transplantation, expanding transplantation including HIV+ donors, geographic disparities, and the intersection between transplantation and gerontology. Dr. Segev received the American Society of Transplantation's Clinical Science Investigator Award. He is a councilor of the American Society of Transplant Surgeons and former chair of the American Transplant Congress. His work has directly influenced policy, including two Congressional bills (the Norwood Act for kidney exchange and the HOPE Act for HIV-to-HIV transplants). Dr. Segev is most inspired by his role as a mentor, having mentored over 100 students, residents, and faculty, and is the only general surgeon in the US funded by an NIH/NIDDK Mentoring Grant.</p>"
+            "title": "",
+            "name": "Katalin Susztak, MD, PhD",
+            "affiliation": "University of Pennsylvania",
+            "image": "katalin_susztak.jpg",
+            "agenda_image": "katalin_susztak_thumb.jpg",
+            "lab_url": "https://www.med.upenn.edu/susztaklab/",
+            "bio": ""
         }],
-        "date": "April 5, 2019",
-        "time": "12:00 pm - 12:45 pm",
+        "date": "April 3, 2020",
+        "time": "11:30 am - 12:00 pm",
         "location": "International Ballroom",
+        "description": "",
+        "apsa": true
+    },
+        {
+        "type": "normal",
+        "title": "-- Break --",
+        "date": "April 3, 2020",
+        "time": "12:00 pm - 1:00 pm",
+        "location": "",
         "description": "",
         "apsa": true
     },
     {
         "type": "normal",
         "title": "Poster Setup",
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "1:00 pm - 3:00 pm",
         "location": "Imperial Ballroom",
         "description": "",
@@ -70,13 +78,11 @@
     {
         "type": "session",
         "title": "Plenary Session I: Big Data",
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "1:00 pm - 6:00 pm",
         "location": "International Ballroom",
         "moderators": [
-            "Mary Klotman, BS",
-            "Kieren Marr, BS",
-            "Lillian Zhang, BS"
+            "",
         ],
         "apsa": true
     },
@@ -86,15 +92,15 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Medicine in the 4th industrial revolution",
-            "name": "Robert M. Califf, MD MACC",
-            "affiliation": "Duke University",
+            "title": "",
+            "name": "Cornelia Weyand, MD, PhD",
+            "affiliation": "Stanford University",
             "image": "",
-            "agenda_image": "robert_califf_thumb.jpg",
-            "lab_url": "",
+            "agenda_image": "cornelia_weyand_thumb.jpg",
+            "lab_url": "https://profiles.stanford.edu/cornelia-weyand?tab=bio",
             "bio": ""
         }],
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "1:00 pm – 1:30 pm",
         "location": "International Ballroom",
         "description": "",
@@ -106,114 +112,53 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Mitochondria and cardiovascular complications of diabetes",
-            "name": "E. Dale Abel, MD, PhD",
-            "affiliation": "University of Iowa",
+            "title": "Assessing cancer metabolism in human tumors <i>in vivo</i>",
+            "name": "Ralph DeBerardinis, MD, PhD",
+            "affiliation": "UT Southwestern",
             "image": "",
-            "agenda_image": "dale_abel_thumb.jpg",
-            "lab_url": "",
+            "agenda_image": "",
+            "lab_url": "https://profiles.utsouthwestern.edu/profile/99018/ralph-deberardinis.html",
             "bio": ""
         }],
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "1:30 pm – 2:00 pm",
         "location": "International Ballroom",
         "description": "",
         "apsa": false
     },
     {
-        "type": "keynote",
+        "type": "normal",
         "title": "ASCI and AAP New Member Presentations",
-        "speaker": [{
-            "speaker_type": "",
-            "title": "Inherited Susceptibility to Breast Cancer: Risk Prediction to Therapy",
-            "name": "Susan M. Domchek, MD",
-            "affiliation": "University of Pennsylvania",
-            "image": "",
-            "agenda_image": "susan_domchek_thumb.jpg",
-            "time": "2:00 pm - 2:15 pm ",
-            "lab_url": "",
-            "bio": ""
-        }, {
-            "speaker_type": "",
-            "title": "Sexual Violence Prevention in the #MeToo Era",
-            "name": "Elizabeth Miller, MD",
-            "affiliation": "University of Pittsburgh School of Medicine",
-            "image": "",
-            "agenda_image": "elizabeth_miller_thumb.jpg",
-            "time": "2:00 pm - 2:30 pm",
-            "lab_url": "",
-            "bio": ""
-        }],
-        "date": "April 5, 2019",
-        "time": "2:00 pm - 2:30 pm",
+        "date": "April 3, 2020",
+        "time": "2:00 pm - 3:00 pm",
         "location": "International Ballroom",
         "description": "",
         "apsa": false
     },
-    {
-        "type": "keynote",
-        "title": "Presentations from the 2018 Donald Seldin-Holly Smith Award for Pioneering Research Recipients",
-        "speaker": [{
-            "speaker_type": "",
-            "title": "Using Chemistry To Identify New Cancer Targets",
-            "name": "Deepak Nijhawan, MD, PhD",
-            "affiliation": "UT Southwestern Medical Center",
-            "image": "",
-            "agenda_image": "deepak_nijhawan_thumb.jpg",
-            "lab_url": "",
-            "bio": ""
-        }, {
-            "speaker_type": "",
-            "title": "Never Say Never Again: Toward Targeted Therapies for Kidney Diseases",
-            "name": "Anna Greka, MD, PhD",
-            "affiliation": "Brigham and Women's Hospital, Harvard Medical School",
-            "image": "",
-            "agenda_image": "anna_greka_thumb.jpg",
-            "lab_url": "",
-            "bio": ""
-        }],
-        "date": "April 5, 2019",
-        "time": "2:00 pm - 2:30 pm",
-        "location": "International Ballroom",
-        "description": "",
-        "apsa": false
-    },
-    {
+        {
         "type": "normal",
         "title": "-- Break --",
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "3:00 pm - 3:30 pm",
-        "location": "International Foyer",
+        "location": "",
         "description": "",
         "apsa": true
     },
-    {
-        "type": "session",
-        "title": "Plenary Session I: Big Data",
-        "date": "April 5, 2019",
-        "time": "3:30 pm - 6:00 pm",
-        "location": "International Ballroom",
-        "moderators": [
-            "Daniel Barnett, BS",
-            "Mitch Lazar, BS",
-            "W. Kimryn Rathmell, BS"
-        ],
-        "apsa": true
-    },
+   
     {
         "type": "keynote",
         "title": "ASCI Harrington Award Presentation",
         "speaker": [{
             "speaker_type": "",
-            "title": "CAR T Cells: New Kid On The Block For Cancer Therapy And Beyond?",
-            "name": "Carl H. June, MD",
-            "affiliation": "Perelman School of Medicine, University of Pennsylvania",
+            "title": "",
+            "name": "",
+            "affiliation": "",
             "image": "",
-            "agenda_image": "carl_june_thumb.jpg",
+            "agenda_image": "",
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "3:30 pm - 4:00 pm",
         "location": "International Ballroom",
         "description": "",
@@ -224,15 +169,15 @@
         "title": "APSA Lasker Award Winner Lecture",
         "speaker": [{
             "speaker_type": "",
-            "title": "Preventing HPV-Associated Cancers by Vaccination",
-            "name": "Douglas Lowy, MD",
-            "affiliation": "National Cancer Institute",
-            "image": "douglas_lowy.jpg",
-            "agenda_image": "douglas_lowy_thumb.jpg",
-            "lab_url": "https://irp.nih.gov/pi/douglas-lowy",
-            "bio": "<p>A cancer researcher for more than 40 years, Dr. Lowy received the National Medal of Technology and Innovation from President Obama in 2014 for his research that led to the development of the human papillomavirus (HPV) vaccine. As chief of the Laboratory of Cellular Oncology in the Center for Cancer Research at NCI, Lowy’s research includes the biology of papillomaviruses and the regulation of normal and neoplastic growth. His laboratory, in close collaboration with John T. Schiller, Ph.D., was involved in the initial development, characterization, and clinical testing of the preventive virus-like particle-based HPV vaccines that are now used in the three U.S. Food and Drug Administration-approved HPV vaccines.</p><p>Dr. Lowy is a member of the National Academy of Sciences (NAS), as well as the Institute of Medicine of the NAS. For their pioneering work, Lowy and Schiller have received numerous honors in addition to the National Medal, including the Federal Employee of the Year Award in 2007 from the Partnership for Public Service, the 2011 Albert B. Sabin Gold Medal Award, and the 2017 Lasker~DeBakey Clinical Medical Research Award.</p>"
+            "title": "",
+            "name": "",
+            "affiliation": "",
+            "image": "",
+            "agenda_image": "",
+            "lab_url": "",
+            "bio": ""
         }],
-        "date": "April 5, 2019",
+        "date": "April 3, 2030",
         "time": "4:00 pm - 4:30 pm",
         "location": "International Ballroom",
         "description": "",
@@ -245,14 +190,14 @@
         "speaker": [{
             "speaker_type": "",
             "title": "ASCI  Presidential Address",
-            "name": "Kieren Marr, MD",
-            "affiliation": "John Hopkins School of Medicine",
+            "name": "Kimryn Rathmell, MD, PhD",
+            "affiliation": "Vanderbilt University",
             "image": "",
-            "agenda_image": "kieren_marr_thumb.jpg",
+            "agenda_image": "",
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "4:30 pm - 5:00 pm",
         "location": "International Ballroom",
         "description": "",
@@ -265,14 +210,14 @@
         "speaker": [{
             "speaker_type": "",
             "title": "ASCI/Stanley J. Korsmeyer Award Lecture",
-            "name": "Michael S. Diamond, MD, PhD",
-            "affiliation": "Washington University School of Medicine in St. Louis",
+            "name": "",
+            "affiliation": "",
             "image": "",
-            "agenda_image": "michael_diamond_thumb.jpg",
+            "agenda_image": "",
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "5:00 pm - 5:30 pm",
         "location": "International Ballroom",
         "description": "",
@@ -280,8 +225,8 @@
     },
     {
         "type": "normal",
-        "title": "Inaugural Resident, Fellow, and Junior Faculty Committee Working Session",
-        "date": "April 5, 2019",
+        "title": "APSA Resident, Fellow, and Junior Faculty Committee Working Session",
+        "date": "April 3, 2020",
         "time": "5:45 pm - 7:00 pm",
         "location": "State",
         "description": "",
@@ -290,7 +235,7 @@
     {
         "type": "normal",
         "title": "ASCI President's Reception",
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "6:00 pm - 7:00 pm",
         "location": "Gold Room",
         "description": "",
@@ -299,7 +244,7 @@
     {
         "type": "normal",
         "title": "Poster Viewing Only",
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "6:15 pm - 9:30 pm",
         "location": "Imperial Ballroom",
         "description": "",
@@ -311,14 +256,14 @@
         "speaker": [{
             "speaker_type": "After-Dinner Speaker",
             "title": "",
-            "name": "Speaker:Victor J. Dzau, MD",
-            "affiliation": "National Academy of Medicine",
+            "name": "",
+            "affiliation": "",
             "image": "",
-            "agenda_image": "victor_dzau_thumb.jpg",
+            "agenda_image": "",
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "7:30 pm - 9:45 pm",
         "location": "Rouge",
         "apsa": false
@@ -326,7 +271,7 @@
     {
         "type": "normal",
         "title": "APSA Networking Reception with AAP and ASCI (previously Welcome Reception)",
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "9:00 pm - 12:00 am",
         "location": "Mid-America Club",
         "description": "",
@@ -335,7 +280,7 @@
     {
         "type": "normal",
         "title": "AAP Council Meeting",
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "7:00 am - 8:00 am",
         "location": "State Room, 2nd Level",
         "description": "",
@@ -344,7 +289,7 @@
     {
         "type": "normal",
         "title": "Research Mentoring Breakfast",
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "7:00 am - 8:00 am",
         "location": "Rouge Room",
         "description": "",
@@ -353,7 +298,7 @@
     {
         "type": "normal",
         "title": "APSA Board of Directors Meeting",
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "8:00 am - 9:00 am",
         "location": "Embassy Room",
         "description": "",
@@ -362,7 +307,7 @@
     {
         "type": "normal",
         "title": "Poster Session and Continental Breakfast",
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "8:00 am - 9:00 am",
         "location": "Imperial Ballroom",
         "description": "",
@@ -370,14 +315,12 @@
     },
     {
         "type": "session",
-        "title": "Plenary Session II: Big Data II and the Scientific Workplace",
-        "date": "April 6, 2019",
-        "time": "9:00 am - 10:45 am",
+        "title": "Plenary Session II: Disruption in Physician Scientist Resident Training",
+        "date": "April 4, 2020",
+        "time": "9:00 am - 11:45 am",
         "location": "International Ballroom",
         "moderators": [
-            "Abhik Banerjee, BS",
-            "John Carethers, MD",
-            "Kieren Marr, BS"
+            "",
         ],
         "apsa": true
     },
@@ -387,15 +330,15 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Translating a trillion points of data into therapies, diagnostics, and new insights into disease",
-            "name": "Atul Butte, MD, PhD",
-            "affiliation": "University of California San Francisco",
+            "title": "",
+            "name": "Kafui Dzirasa, MD, PhD",
+            "affiliation": "Duke University",
             "image": "",
-            "agenda_image": "atul_butte_thumb.jpg",
-            "lab_url": "",
+            "agenda_image": "",
+            "lab_url": "https://www.neuro.duke.edu/research/faculty-labs/dzirasa-lab",
             "bio": ""
         }],
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "9:00 am – 9:30 am",
         "location": "International Ballroom",
         "description": "",
@@ -403,50 +346,50 @@
     },
     {
         "type": "keynote",
-        "title": "NAM Report on sexual harrassment and gender diversification",
+        "title": "",
         "award": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Why the National Academies sponsored the report",
-            "name": "Victor Dzau, MD",
-            "affiliation": "National Academy of Sciences",
-            "image": "victor_dzau.jpg",
-            "agenda_image": "victor_dzau_thumb.jpg",
-            "lab_url": "",
+            "title": "",
+            "name": "Christopher S. Williams, MD, PhD",
+            "affiliation": "Vanderbilt University",
+            "image": "",
+            "agenda_image": "",
+            "lab_url": "https://www.vumc.org/williams-lab/person/christopher-s-williams-md-phd",
             "bio": "",
             "time": "9:30 am - 9:40 am"
         }, {
             "speaker_type": "",
-            "title": "Sexual harassment: Definitions and methods of measurement",
-            "name": "Reshma Jagsi, MD, Dphil",
-            "affiliation": "University of Michigan",
+            "title": "Disrupting Residency Training for Coordinated Physician Scientist Development ",
+            "name": "Sallie Permar, MD, PhD",
+            "affiliation": "Duke University",
             "image": "",
-            "agenda_image": "reshma_jagsi_thumb.jpg",
-            "lab_url": "",
+            "agenda_image": "",
+            "lab_url": "https://pediatrics.duke.edu/faculty/sallie-robey-permar-md-phd",
             "bio": "",
             "time": "9:40 am - 9:46 am"
         }, {
             "speaker_type": "",
-            "title": "Addressing sexual harassment and unconscious bias",
-            "name": "Nancy Brown, MD",
-            "affiliation": "Vanderbilt University",
+            "title": "",
+            "name": "Rebecca M. Baron, MD",
+            "affiliation": "Brigham and Women's Hospital",
             "image": "",
-            "agenda_image": "nancy_brown_thumb.jpg",
+            "agenda_image": "",
             "lab_url": "",
             "bio": "",
-            "time": "9:47 am - 9:53 am"
+            "time": "9:46 am - 9:52 am"
         }, {
             "speaker_type": "",
-            "title": "Changing the culture and climate",
-            "name": "Timothy Johnson, MD",
-            "affiliation": "University of Michigan",
+            "title": "",
+            "name": "Kafui Dzirasa, MD, PhD",
+            "affiliation": "Duke University",
             "image": "",
-            "agenda_image": "timothy_johnson_thumb.jpg",
-            "lab_url": "",
-            "bio": "",
-            "time": "9:54 am - 10:00 am"
+            "agenda_image": "",
+            "lab_url": "https://www.neuro.duke.edu/research/faculty-labs/dzirasa-lab",
+            "bio": ""
+            "time": "9:52 am - 10:00 am"
         }],
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "9:30 am - 10:30 am",
         "location": "International Ballroom",
         "description": "",
@@ -454,8 +397,8 @@
     },
     {
         "type": "normal",
-        "title": "Panel Discussion of NAM Report on sexual harrassment and gender diversification Panel Discussion (continued from previous)",
-        "date": "April 6, 2019",
+        "title": "Panel Discussion and Audience Questions (continued from previous)",
+        "date": "April 4, 2020",
         "time": "10:00 am - 10:30 am",
         "location": "International Ballroom",
         "apsa": false
@@ -463,86 +406,75 @@
     {
         "type": "normal",
         "title": "-- Break --",
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "10:30 am - 10:45 am",
-        "location": "International Foyer",
+        "location": "",
         "description": "",
         "apsa": true
-    },
-    {
-        "type": "session",
-        "title": "Plenary Session II: Big Data II and Teh Scientific Workplace",
-        "date": "April 6, 2019",
-        "time": "10:45 am - 1:30 pm",
-        "location": "International Ballroom",
-        "moderators": [
-            "Hossein Ardehali, BS",
-            "Robert Brown, BS",
-            "Tyler McCaw, BS"
-        ],
-        "apsa": true
-    },
+    },    
     {
         "type": "keynote",
-        "award": "APSA Trainee Oral Abstract",
+        "award": "APSA Trainee Oral Abstract Presentation I",
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "T Cells Promote Peripheral Nerve Regeneration via Regulation of IL-4",
-            "name": "Deng Pan",
-            "affiliation": "Washington University in St. Louis",
+            "title": "",
+            "name": "",
+            "affiliation": "",
             "image": "",
-            "agenda_image": "deng_pan_thumb.jpg",
+            "agenda_image": "",
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "10:45 am - 11:00 am",
         "location": "International Ballroom",
         "apsa": true
     },
+        {
+        "type": "keynote",
+        "award": "APSA Trainee Oral Abstract Presentation II",
+        "title": "",
+        "speaker": [{
+            "speaker_type": "",
+            "title": "",
+            "name": "",
+            "affiliation": "",
+            "image": "",
+            "agenda_image": "",
+            "lab_url": "",
+            "bio": ""
+        }],
+        "date": "April 4, 2020",
+        "time": "11:00 am - 11:15 am",
+        "location": "International Ballroom",
+        "apsa": true
+    },
+
     {
         "type": "keynote",
         "award": "",
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "On Target: Cellular Immunotherapy for Pemphigus",
-            "name": "Aimee Payne, MD PhD",
-            "affiliation": "University of Pennsylvania",
-            "image": "aimee_payne.jpg",
-            "agenda_image": "aimee_payne_thumb.jpg",
-            "lab_url": "https://www.aimeepaynelab.org/people.html",
-            "bio": "<p>Aimee Payne is the Albert M. Kligman Associate Professor of Dermatology, Associate Director of the Medical Scientist Training Program, and Core Director of the Skin Biology and Diseases Resource-based Center at the University of Pennsylvania. Dr. Payne received her BS in Biology from Stanford University, her MD and PhD in Molecular and Cellular Biology from Washington University School of Medicine, and her dermatology training at the University of Pennsylvania. Her laboratory has focused on B cell repertoire cloning from patients with the autoimmune disease pemphigus vulgaris to better understand how autoreactivity develops and to develop better targeted therapies for disease. Recently, her laboratory developed a novel genetically engineered cellular immunotherapy for autoimmune disease treatment known as chimeric autoantibody receptor T cell (CAART) therapy, which she is currently advancing toward clinical trials in pemphigus to assess its safety and curative potential. Dr. Payne’s work has been recognized with the Charles and Daneen Stiefel Scholar Award in Autoimmune Diseases, the Top 10 Clinical Research Forum Award, and election to the American Society for Clinical Investigation.</p>"
+            "title": "Personal Regulome Navigation",
+            "name": "Howard Y. Chang, MD, PhD",
+            "affiliation": "Stanford University",
+            "image": "",
+            "agenda_image": "",
+            "lab_url": "https://profiles.stanford.edu/howard-chang",
+            "bio": ""
         }],
-        "date": "April 6, 2019",
-        "time": "11:00 am - 11:30 am",
+        "date": "April 4, 2020",
+        "time": "11:15 am - 11:45 am",
         "location": "International Ballroom",
         "apsa": true
     },
-    {
-        "type": "keynote",
-        "award": "Seldin/Smith Award Recipient",
-        "title": "",
-        "speaker": [{
-            "speaker_type": "",
-            "title": "",
-            "name": "Vijay Sankaran, MD, PhD",
-            "affiliation": "Harvard Medical School",
-            "image": "",
-            "agenda_image": "vijay_sankaran_thumb.jpg",
-            "lab_url": "",
-            "bio": ""
-        }],
-        "date": "April 6, 2019",
-        "time": "11:30 am - 11:45 am",
-        "location": "International Ballroom",
-        "apsa": false
-    },
+   
     {
         "type": "normal",
         "title": "Poster Session with Lunch",
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "11:45 am - 1:30 pm",
         "location": "Imperial Ballroom",
         "description": "",
@@ -551,31 +483,21 @@
     {
         "type": "normal",
         "title": "Poster Reviewer Meeting",
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "12:45 pm  - 1:30 pm",
         "location": "Royal Room, level B2",
         "description": "",
         "apsa": true
     },
-    {
-        "type": "normal",
-        "title": "Poster Dismantle",
-        "date": "April 6, 2019",
-        "time": "1:30 pm – 2:00 pm",
-        "location": "Imperial Ballroom",
-        "description": "",
-        "apsa": true
-    },
+
     {
         "type": "session",
-        "title": "Plenary Session III: Immunology, Immune Therapy, and Inflammation",
-        "date": "April 6, 2019",
+        "title": "Plenary Session III: Disruptive Technology",
+        "date": "April 4, 2020",
         "time": "1:30 pm - 3:00 pm",
         "location": "Imperial Ballroom",
         "moderators":[
-            "Audra Iness Christovich, BS",
-            "Mary Klotman, BS",
-            "Lorraine Ware, BS"
+            "",
         ],
         "apsa": true
     },
@@ -585,35 +507,35 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Diet and the Gut Microbiome in Health and Disease",
-            "name": "Gary D. Wu, MD",
-            "affiliation": "University of Pennsylvania",
+            "title": "",
+            "name": "Robert (Chip) Schooley, MD",
+            "affiliation": "UC San Diego",
             "image": "",
-            "agenda_image": "gary_wu_thumb.jpg",
-            "lab_url": "",
+            "agenda_image": "",
+            "lab_url": "https://global.ucsd.edu/deans-office/staff/chip-schooley.html",
             "bio": ""
         }],
-        "date": "April 6, 2019",
-        "time": "1:30 pm – 2:00 pm",
+        "date": "April 4, 2020",
+        "time": "1:30 pm – 1:45 pm",
         "location": "International Ballroom",
         "apsa": false
     },
     {
         "type": "keynote",
-        "award": "APSA Trainee Oral Abstract",
+        "award": "",
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Skeletal Muscle Krüppel-like Factor 15 and PPARδ Cooperate to Regulate Skeletal Muscle Lipid Metabolism",
-            "name": "Liyan Fan",
-            "affiliation": "Case Western Reserve University",
+            "title": "",
+            "name": "Graham F. Hatfull, PhD",
+            "affiliation": "University of Pittsburgh",
             "image": "",
-            "agenda_image": "liyan_fan_thumb.jpg",
-            "lab_url": "",
+            "agenda_image": "",
+            "lab_url": "https://www.biology.pitt.edu/person/graham-hatfull",
             "bio": ""
         }],
-        "date": "April 6, 2019",
-        "time": "2:00 pm - 2:15 pm ",
+        "date": "April 4, 2020",
+        "time": "1:45 pm - 2:15 pm ",
         "location": "International Ballroom",
         "apsa": true
     },
@@ -623,15 +545,15 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Big Science, big data and HIV vaccine development",
-            "name": "Barton F. Haynes, MD",
-            "affiliation": "Duke University",
+            "title": "Novel genomics perspectives on cancer evolution - from basic principles to therapeutic optimization",
+            "name": "Daniel Landau, MD, PhD",
+            "affiliation": "Weill Cornell Medical College",
             "image": "",
-            "agenda_image": "barton_haynes_thumb.jpg",
-            "lab_url": "",
+            "agenda_image": "",
+            "lab_url": "https://www.landaulab.org/",
             "bio": ""
         }],
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "2:15 pm - 2:45 pm",
         "location": "International Ballroom",
         "apsa": false
@@ -639,22 +561,20 @@
     {
         "type": "normal",
         "title": "-- Break --",
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "2:45 pm - 3:15 pm",
-        "location": "International Foyer",
+        "location": "",
         "description": "",
         "apsa": true
     },
     {
         "type": "session",
-        "title": "Plenary Session III: Immunology, Immune Therapy, and Inflammation",
-        "date": "April 6, 2019",
-        "time": "3:30 pm - 5:45 pm",
+        "title": "Plenary Session III: Disruptive Data Engineering",
+        "date": "April 4, 2020",
+        "time": "3:15 pm - 5:30 pm",
         "location": "International Ballroom",
         "moderators":[
-            "David Ginsburg, BS",
-            "Sarah Groover, BS",
-            "W. Kimryn Rathmell, BS"
+            "",
         ],
         "apsa": true
     },
@@ -664,15 +584,15 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Inflammation and atherosclerosis: From theory to proven intervention",
-            "name": "Paul M. Ridker, MD, MPH",
-            "affiliation": "Brigham and Women’s",
+            "title": "",
+            "name": "Joshua C. Denny, MD, MS, FACMI",
+            "affiliation": "Vanderbilt University",
             "image": "",
-            "agenda_image": "paul_ridker_thumb.jpg",
+            "agenda_image": "",
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "3:15 pm - 3:45 pm",
         "location": "International Ballroom",
         "apsa": false
@@ -683,15 +603,15 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Engineering T cells for cancer therapy",
-            "name": "Stanley R. Riddell, MD",
-            "affiliation": "Fred Hutchinson Cancer Research Center",
+            "title": "",
+            "name": "Dianna M. Milewicz, MD, PhD",
+            "affiliation": "UT Health Science Center at Houston ",
             "image": "",
-            "agenda_image": "stanley_riddell_thumb.jpg",
-            "lab_url": "",
+            "agenda_image": "",
+            "lab_url": "https://med.uth.edu/internalmedicine/faculty/dianna-m-milewicz-md-phd/",
             "bio": ""
         }],
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "3:45 pm. - 4:15 pm",
         "location": "International Ballroom",
         "apsa": false
@@ -703,14 +623,14 @@
         "speaker": [{
             "speaker_type": "",
             "title": "AAP Presidential Address",
-            "name": "John Carethers, MD",
-            "affiliation": "University of Michigan",
+            "name": "Mary E. Klotman, MD",
+            "affiliation": "Duke University",
             "image": "",
-            "agenda_image": "john_carethers_thumb.jpg",
+            "agenda_image": "",
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "4:15 pm - 4:45 pm",
         "location": "International Ballroom",
         "apsa": false
@@ -722,24 +642,24 @@
         "speaker": [{
             "speaker_type": "Recipient",
             "title": "",
-            "name": "C. Ronald Kahn, MD",
-            "affiliation": "Harvard Medical School",
+            "name": "Michael J. Welsh, MD",
+            "affiliation": "University of Iowa",
             "image": "",
-            "agenda_image": "ronald_kahn_thumb.jpg",
+            "agenda_image": "",
             "lab_url": "",
             "bio": ""
         },
         {
             "speaker_type": "Presenter",
             "title": "",
-            "name": "Jeffrey Flier, MD",
-            "affiliation": "Harvard Medical School",
+            "name": "Joseph Zabner, MD, PhD",
+            "affiliation": "University of Iowa",
             "image": "",
-            "agenda_image": "jeffrey_flier_thumb.jpg",
+            "agenda_image": "",
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "4:45 p.m - 5:15 pm.",
         "location": "International Ballroom",
         "apsa": false
@@ -747,7 +667,7 @@
     {
         "type": "normal",
         "title": "AAP Business Meeting",
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "5:15 pm - 5:30 pm",
         "location": "International Ballroom",
         "description": "",
@@ -755,105 +675,20 @@
     },
     {
         "type": "panel",
-        "title": "Research in Residency (RiR)/Physician Scientist Training Program (PSTP) Panel",
-        "date": "April 6, 2019",
+        "title": "Team-Based Science",
+        "date": "April 4, 2020",
         "time": "5:45 pm. - 7:00 pm ",
-        "location": "Ambassador Room",
-        "description": "This meeting is designed as an introduction for prospective applicants to Physician Scientist Training Program and Research in Residency programs (PSTP/RiR). It will include an informal Q & A and panel discussions moderated by an APSA representative. Discussions from this panel will be followed up and expanded during the subsequent Directors Meeting on Sunday. Please come and take advantage of the opportunity to participate in an open discussion between trainees and directors!",
-        "apsa": true,
-        "participant": [{
-            "moderator": true,
-            "name": "Abhik Banerjee, BS",
-            "affiliation": "University of Southern California/California Institute of Technology",
-            "image": "abhik_banerjee.jpg",
-            "agenda_image": "abhik_banerjee_thumb.jpg",
-            "bio": "Abhik Banerjee is a sixth-year MD/PhD student in the University of Southern California/California Institute of Technology MD/PhD Program. He attended the University of California, Los Angeles, where he graduated with a BS in Molecular, Cell, and Developmental Biology, and a BA in Music Performance in 2012. As a fourth year graduate student in the laboratories of Drs. Mitchell Guttman and Ellen Rothenberg, his research focuses on characterizing the roles of long non-coding RNA in the regulation of gene expression and differentiation in early T-cell development. Abhik previously served as the MD-PhD/DO-PhD Member at Large and Vice Chair for the Membership Committee for the 2016-2017 year, the Chair of the Membership Committee during 2017-2018 year, and served on the APSA West Regional Meeting Planning Committee from 2015-2017. As the 2018-2019 President-Elect, he is interested in promoting communication between organization leadership and its members, including further expansion of grassroots policy efforts and support for regional meetings across the country, as well as expanding further educational outreach efforts through APSA’s Undergraduate Mentorship Program to support and excite students at the earliest stages of the physician scientist training pipeline."
-        }, {
-            "moderator": true,
-            "name": "Audra Iness Christovich, BS",
-            "affiliation": "Virginia Commonwealth University School of Medicine",
-            "image": "audra_iness.jpg",
-            "agenda_image": "audra_iness_thumb.jpg",
-            "bio": "Audra Iness Christovich is starting her seventh year of the MD-PhD program at Virginia Commonwealth University where she recently obtained a PhD in the Clinical and Translational Research, Cancer and Molecular Medicine. Her research focuses on the oncoprotein B-Myb and its impact on cell cycle regulation by the transcriptional repressor complex, DREAM, in ovarian cancer. During her PhD years, Audra became increasingly passionate about advocating for physician scientist trainees and more involved in APSA. She is now the current President of the organization, supporting initiatives related to diversifying the physician scientist trainee pipeline, encouraging crosstalk between Research in Residency (RiR)/Physician Scientist Training Programs (PSTP) and physician scientist trainees, as well as fostering international collaborations across numerous physician scientist trainee organizations. Audra looks forward to further upholding APSA’s mission throughout the rest of her training, career, and life."
-        }, {
-            "moderator": false,
-            "name": "Robert Baiocchi, MD, PhD",
-            "affiliation": "The Ohio State University",
-            "image": "robert_baiocchi.jpg",
-            "agenda_image": "robert_baiocchi_thumb.jpg",
-            "bio": "<p>Robert Baiocchi, MD, PhD joined The Ohio State University in 2005, and he is Professor of Internal Medicine, a member of the viral oncogenesis group of the Comprehensive Cancer Center, and the Institutional PI for the NIH AIDS Malignancy Consortium. He is the Associate Division Director of Clinical and Translational Research, Associate Residency Program Director for Research in the Department of Internal Medicine and the Director of the Physician Scientist Training Program at Ohio State.</p><p>Dr. Baiocchi’s laboratory focuses on three major areas: (1) epigenetics of B-cell transformation; (2) experimental therapeutics of cancer and (3) immune surveillance of EBV-associated disease. Since his arrival at OSU, Dr. Baiocchi's efforts to commercialize his discoveries have led to the filing of more than ten patent applications. The focus of Dr. Baiocchi’s clinical research is dedicated to patients with mantle cell lymphoma, post-transplant lymphoproliferative disease (PTLD) and AIDS-malignancies. He is a member of the National Marrow Donor Program and Bone Marrow Transplant Clinical Trials Network protocol team that has completed two treatment protocols for treating HIV+ patients with autologous and allogeneic stem cell transplantation. His laboratory was recently granted funds to perform correlative immunology work for these trials.</p>"
-        }, {
-            "moderator": false,
-            "name": "Patrick Hu, MD, PhD",
-            "affiliation": "Vanderbilt University",
-            "image": "patrick_hu.jpg",
-            "agenda_image": "patrick_hu_thumb.jpg",
-            "bio": "<p>Patrick Hu, M.D., Ph.D., is an Associate Professor of Medicine and Cell and Developmental Biology and Director of the Physician-Scientist Training Program/Harrison Society in the Department of Medicine at Vanderbilt University Medical Center. He earned an A.B. from Harvard College and M.D. and Ph.D. degrees from New York University, where he studied PI 3-kinase signaling in Joseph Schlessinger’s lab. After completing clinical training in Internal Medicine at The Johns Hopkins Hospital and Adult Oncology at the Dana-Farber Cancer Institute and Massachusetts General Hospital, he did postdoctoral research on insulin-like growth factor signaling in the nematode Caenorhabditis elegans in Gary Ruvkun’s lab. He spent eleven years on the faculty of the University of Michigan Medical School prior to his recruitment to Vanderbilt in 2016. Dr. Hu is a member of the American Society for Clinical Investigation.</p>"
-        }, {
-            "moderator": false,
-            "name": "Audrea Burns, PhD",
-            "affiliation": "Baylor College of Medicine",
-            "image": "audrea_burns.jpg",
-            "agenda_image": "audrea_burns_thumb.jpg",
-            "bio": ""
-        }, {
-            "moderator": false,
-            "name": "Rebecca Baron, MD",
-            "affiliation": "Brigham and Women's Hospital",
-            "image": "rebecca_baron.jpg",
-            "agenda_image": "rebecca_baron_thumb.jpg",
-            "bio": "Dr. Baron is a physician-scientist with clinical and research interests in sepsis and lung injury.  Her clinical work is in the Medical Intensive Care Unit, and her laboratory focuses on pathways underlying initiation and resolution of inflammation in ARDS.  She studies pre-clinical models of lung injury, as well as clinical studies with the goal of identifying novel therapeutic targets and functional biomarkers in critical illness.  She attended college at Stanford University, obtained her M.D. from Harvard Medical School, and completed internship, residency, and fellowship at Brigham and Women's Hospital, where she is currently an Associate Program Director for the Internal Medicine Residency Program focusing on residency related research activities."
-        }]
-    },
-    {
-        "type": "panel",
-        "title": "The Dos and Don'ts of MSTP Admissions",
-        "date": "April 6, 2019",
-        "time": "5:45 pm. - 7:00 pm",
         "location": "Crystal Room",
-        "description": "Interested in learning more about applying to a dual degree program? Join faculty experts from the University of Pittsburgh/Carnegie Mellon, University of Arizona, and the University of Miami as they discuss the application process and different training programs. You'll learn about their own paths, and what life is like as a physician-scientist.",
+        "description": "",
         "apsa": true,
         "participant": [{
-            "moderator": true,
-            "name": "Jose Rodrigues, BS",
-            "affiliation": "Michigan State University",
-            "image": "jose_rodrigues.jpg",
-            "agenda_image": "jose_rodrigues_thumb.jpg",
-            "bio": "Jose A. Rodrigues is a 4th year DO/PhD Student at Michigan State University.  Currently, as a second year graduate student, with his mentor Dr. Shannon Manning, Jose studies the moelcular epidemology of antibiotic resistant Campylobacter jejuni (C. jejuni), an important foodborne pathogen. Jose is also collobrating with Dr. Victor DiRita, to understand bacterial pathogensis of C. jejuni multidrug resistant infections. Jose hopes to pursue a career in academic medicine, in particular would like to become a pediatric infectious disease physician.   "
-        }, {
-            "moderator": false,
-            "name": "Kenneth Ramos, MD, PhD",
-            "affiliation": "University of Arizona Health Sciences",
-            "image": "kenneth_ramos.jpg",
-            "agenda_image": "kenneth_ramos_thumb.jpg",
-            "bio": "Kenneth S. Ramos, MD, PhD, PharmB, is an accomplished physician-scientist and transformational leader, designated as an associate of the National Academy of Sciences and elected to the National Academy of Medicine. Dr. Ramos obtained his medical degree from the University of Louisville Health Sciences Center and his Ph.D. from the University of Texas at Austin in Biochemical Pharmacology. He has vast depth of experience across the tripartite mission areas of education, research and clinical service, and he is recognized throughout the world for his scientific contributions in the areas of genomics, precision medicine and toxicology. Dr. Ramos served as the MD-PhD director for the University of Arizona College of Medicine from 2014 – 2019 where he mentored students interested in careers as research-intensive physicians. Recently, Dr. Ramos joined Texas A&M University Health Science Center in Houston where he serves as the assistant vice chancellor for health services and executive director of the Institute of Biosciences and Technology. He is the Margaret M. Alkek Chair in Medical Genetics and a distinguished Governors University Research Initiative investigator."
-        }, {
-            "moderator": false,
-            "name": "Richard Steinman, MD, PhD",
-            "affiliation": "University of Pittsburgh",
-            "image": "richard_steinman.jpg",
-            "agenda_image": "richard_steinman_thumb.jpg",
-            "bio": "Richard Steinman, MD, Ph.D. is Associate Professor of Medicine and Pharmacology at the University of Pittsburgh School of Medicine. He completed his undergraduate degree at Haverford College then went on to complete his MD-PhD training at University of Pennsylvania. Dr. Steinman has a longstanding interest in the education of physician scientists, directing the University of Pittsburgh’s Physician Scientist Incubator and serving as Director of Pitt’s Medical Scientist Training Program since 2012. He has also directed the University of Pittsburgh Physician Scientist Training Program since 2008.   Diversity in the physician scientist workforce is another interest; he has initiated and directed a multi-year NIH supported collaborative education and training program between the University of Pittsburgh Cancer Institute and Hampton University, a minority-serving institution. Dr. Steinman’s dedication to mentorship and education have earned him several awards including the University of Pittsburgh Chancellor’s Distinguished Teaching Award, AAMC Award for Innovations in Research Training and Education, Fraley Award for Mentoring, and the Philip Troen MD Excellence Mentoring Award. Dr. Steinman's laboratory studies the cancer microenvironment with a focus on the molecular and functional interactions between cancer cells, fibroblasts and platelets. He also studies tumor dormancy, modeling factors in host stromal cells that could contribute to breast cancer recurrence and conversion to estrogen receptor negativity in bone."
-        }, {
-            "moderator": false,
-            "name": "Lawrence (Skip) Brass, MD, PhD",
-            "affiliation": "University of Pennsylvania",
-            "image": "lawrence_brass.jpg",
-            "agenda_image": "lawrence_brass_thumb.jpg",
-            "bio": "Lawrence (Skip) Brass, MD PhD is a graduate of Harvard College and Case Western Reserve University, where he received his MD and a PhD in biochemistry. After residency training in internal medicine he became a fellow in Hematology-Oncology at the University of Pennsylvania where he served as Vice Chair for Research in the Department of Medicine from 2004 to 2007, and is currently Professor of Medicine and Professor of Systems Pharmacology and Translational Therapeutics. He has led the NHLBI-funded Hematology Research Training Program since 1994 and became Associate Dean for Combined Degree and Physician Scholars Programs and Director of Penn’s MSTP in 1998. He has been active at the national level in the development of training programs for physician-scientists, has served as President of the National Association of MD-PhD Programs, Chair of the AAMC GREAT section on MD-PhD training and was a member of the NIH Physician-Scientist Workforce advisory group in 2013-2014. He is also a practicing hematologist whose research and clinical interests are in the fields of hemostasis and vascular biology. He has been continuously funded by the NIH HLBI since the mid-1980’s, has been elected to the American Society for Clinical Investigation and the Association of American Physicians, was an Established Investigator of the American Heart Association and has received numerous awards including the inaugural Bert Shapiro Award for Leadership, Dedication and Service to the Physician-Scientist Community from the National Association of MD/PhD Programs (2015) and the Distinguished Educator Award from the Association of Clinical and Translational Science (2018), and numerous teaching awards from students at the Perelman School of Medicine."
-        }, {
-            "moderator": false,
-            "name": "Sandra Lemmon, PhD",
-            "affiliation": "University of Miami",
-            "image": "sandra_lemmon.jpg",
-            "agenda_image": "sandra_lemmon_thumb.jpg",
-            "bio": "<p>Sandra K. Lemmon, PhD received her BA from the Univ. of Rochester and her PhD from Washington Univ., St. Louis.  She did postdoctoral training at Carnegie Mellon Univ. (1983-1985) and continued at CMU as Research Assistant Professor (1985-1988).  She is currently Professor of Molecular & Cellular Pharmacology at the Univ. of Miami Miller School of Medicine (UMMSM).  She has been on the editorial board of Molecular Biology of the Cell since 2006. She has been federally funded for over 30 years.  Dr. Lemmon is a cell biologist whose research focuses on the molecular mechanisms of membrane traffic.</p><p>Dr. Lemmon has been involved in MD/PhD training since 1994.  While at CWRU Dr Lemmon was on the Steering Committee of the MSTP, and served as Associate Director from 1999-2003. When she moved to the University of Miami in 2003, she joined the MD/PhD Program Committee and was appointed MD/PhD Program Director in 2006.  Under her leadership, in 2017 the UMMSM MD/PhD program was awarded a MSTP T32 training grant from the NIH. She has been on the program organizing committee for several meetings of the AAMC Group on Graduate Education and Training (GREAT) and MD/PhD Section of GREAT where she has served since 2014 and is currently serving as Chair (2018-2019).</p>"
-        }]
+           "",
+        }, ]
     },
     {
         "type": "normal",
-        "title": "ASCI Food and Science: Featuring Poster Presentations by the ASCI’s 2018 Young Physician-Scientist Award Recipients",
-        "date": "April 6, 2019",
+        "title": "ASCI Food and Science: Featuring Poster Presentations by the ASCI’s 2019 Young Physician-Scientist Award Recipients",
+        "date": "April 4, 2020",
         "time": "6:30 pm. - 9:00 pm",
         "location": "Mid America Club",
         "description": "",
@@ -866,14 +701,14 @@
         "speaker": [{
             "speaker_type": "",
             "title": "",
-            "name": "Claire Pomeroy, MD, MBA",
-            "affiliation": "Albert and Mary Lasker Foundation",
+            "name": "",
+            "affiliation": "",
             "image": "",
-            "agenda_image": "claire_pomeroy_thumb.jpg",
+            "agenda_image": "",
             "lab_url": "",
             "bio": ""
         }],
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "7:00 pm – 9:30 pm",
         "location": "Imperial Ballroom",
         "apsa": false
@@ -884,31 +719,23 @@
         "title": "APSA Dinner and Founder's Award Presentation",
         "speaker": [{
             "speaker_type": "",
-            "title": "On Virulence",
-            "name": "Arturo Casadevall, MD, PhD",
-            "affiliation": "Johns Hopkins University",
-            "image": "arturo_casadevall.jpg",
-            "agenda_image": "arturo_casadevall_thumb.jpg",
-            "lab_url": "https://www.jhsph.edu/faculty/directory/profile/3126/arturo-casadevall",
-            "bio": "<p>Arturo Casadevall, M.D., Ph.D., is Bloomberg Distinguished Professor and Chair of the W. Harry Feinstone Department of Molecular Microbiology and Immunology at the Johns Hopkins Bloomberg School of Public Health.  Dr. Casadevall’s major research interests are in fungal pathogenesis and the mechanisms of antibody action. In the area of biodefense, he has an active research program to understand the mechanisms of antibody-mediated neutralization of Bacillus anthracis toxins.  Dr. Casadevall is the editor-in-chief of mBio and Deputy Editor for the Journal of Clinical Investigation and is on the editorial board of several journals including the Journal of Infectious Diseases and the Journal of Experimental Medicine. He has also served in numerous NIH committees including those that drafted the NIAID Strategic Plan and the Blue Ribbon Panel on Biodefense Research.  He served on the National Academy of Sciences panel that reviewed the science on the FBI investigation of the anthrax terror attacks of 2001, the National Science Advisory Board for Biosecurity from 2005-2014 and from 2015-2017 and as a Commissioner to the National Commission on Forensic Science, the United States Department of Justice.  Dr. Casadevall has received numerous honors including election to the American Society for Clinical investigation, American Academy of Physicians, Fellow of the American Association for Advancement of Science, National Academy of Medicine and the American Academy of Arts and Sciences.</p>"
+            "title": "",
+            "name": "",
+            "affiliation": "",
+            "image": "",
+            "agenda_image": "",
+            "lab_url": "",
+            "bio": ""
         }],
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "7:30 pm - 9:00 pm",
         "location": "Rouge",
         "apsa": true
     },
     {
         "type": "normal",
-        "title": "APSA Trainees Join AAP Banquet for After Dinner Speaker",
-        "date": "April 6, 2019",
-        "time": "9:00 pm - 9:30 pm",
-        "location": "Imperial Ballroom",
-        "apsa": true
-    },
-    {
-        "type": "normal",
         "title": "Dessert Reception and Best Poster Awards (open to all attendees)",
-        "date": "April 6, 2019",
+        "date": "April 4, 2020",
         "time": "9:45 pm – 11:30 pm",
         "location": "Imperial Lobby",
         "description": "",
@@ -917,36 +744,36 @@
     {
         "type": "session",
         "title": "APSA Session II",
-        "date": "April 7, 2019",
+        "date": "April 5, 2020",
         "time": "8:00 am - 12:00 pm",
         "location": "International Ballroom",
         "moderators": [
-            "Jose Rodrigues, BS"
+            ""
         ],
         "apsa": true
     },
     {
         "type": "normal",
-        "title": "Board Meeting",
-        "date": "April 7, 2019",
-        "time": "8:00 am - 9:15 am",
+        "title": "ASCI IR",
+        "date": "April 5, 2020",
+        "time": "8:00 am - 9:30 am",
         "location": "Regal Room",
         "description": "",
         "apsa": true
     },
     {
         "type": "normal",
-        "title": "Specialty Interest Mentoring Breakfast",
-        "date": "April 7, 2019",
+        "title": "Specialty Interest Breakfast",
+        "date": "April 5, 2020",
         "time": "8:00 am - 9:30 am",
-        "location": "International Ballroom",
+        "location": "Rouge",
         "description": "",
         "apsa": true
     },
     {
         "type": "normal",
         "title": "Society Leadership Wrap Up Meeting",
-        "date": "April 7, 2019",
+        "date": "April 5, 2020",
         "time": "8:30 am - 9:30 am",
         "location": "State Room",
         "description": "",
@@ -958,194 +785,84 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Reflections on Physician-Scientist Training and Careers",
-            "name": "Donna Martin, MD PhD",
-            "affiliation": "University of Michigan",
-            "image": "donna_martin.jpg",
-            "agenda_image": "donna_martin_thumb.jpg",
-            "lab_url": "https://medicine.umich.edu/dept/human-genetics/donna-martin-md-phd",
-            "bio": "<p>Dr. Donna Martin, MD, PhD, is Interim Chair, Department of Pediatrics and the Donita B. Sullivan, MD Research Professor of Pediatrics.  She also holds a secondary appointment as Professor of Human Genetics. She is a graduate of Michigan Technological University (BS in Mathematics and Foreign Languages) and received her PhD in Neuroscience (1992) and MD (1996) from the University of Michigan.  She completed internship and residency training in Pediatrics (1999) and Medical Genetics (2001) at Mott Children’s Hospital in Ann Arbor, and served as Associate Director of the Medical Scientist Training Program from 2012 through 2018. Her research focus is on developmental disorders of the nervous system. Her laboratory has contributed to the understanding of roles for the ATP dependent chromatin remodeler, CHD7, in the pathogenesis of CHARGE Syndrome, the most common monogenic cause of deaf-blindness. Dr. Martin is a member of the Cellular & Molecular Biology Graduate Program and the Neuroscience Graduate Program. She is an Attending Physician in the Division of Medical Genetics, Metabolism, and Genomic Medicine in the Department of Pediatrics, where she cares for children and adults with a wide variety of developmental, metabolic, and genetic disorders on the inpatient and outpatient services, as well as providing outreach clinical care twice yearly in Marquette and Traverse City, Michigan. She also teaches in the third year medical school pediatrics curriculum, and mentors residents and genetics fellows in outpatient clinics and on the inpatient consultation service. Dr. Martin has trained 5 PhD students (including one MSTP student) and 8 postdoctoral fellows. Dr. Martin is a former member of the NIH Developmental Brain Disorders Study Section (2009-2015). She is a Taubman Scholar and serves on the Taubman Medical Institute Scientific Advisory Board. Nationally, she serves on the council of the American Society for Clinical Investigation (2018-2011) and the board of the American Society of Human Genetics (2018-2011).</p>"
+            "title": "",
+            "name": "",
+            "affiliation": "",
+            "image": "",
+            "agenda_image": "",
+            "lab_url": "",
+            "bio": ""
         }],
-        "date": "April 7, 2019",
+        "date": "April 5, 2020",
         "time": "9:30 am - 10:00 am",
         "location": "Gold Room",
         "description": "",
         "apsa": true
     },
-    {
-        "type": "normal",
-        "title": "APSA Research Residency Directors' Meeting",
-        "date": "April 7, 2019",
-        "time": "10:00 am - 12:00 pm",
-        "location": "State Room",
-        "description": "",
-        "apsa": true
-    },
+
     {
         "type": "panel",
         "title": "Women in Science",
-        "date": "April 7, 2019",
+        "date": "April 5, 2020",
         "time": "10:00 am - 11:00 am",
-        "location": "Gold Room",
+        "location": "",
         "description": "As of 2017, women represent >50% of matriculants in MD programs. However, MD/PhD training programs have lagged behind this trend, with women only making up 1/3 of recent matriculants. Additionally, this disparity increases when ascending the academic ladder, with the percentage of women holding full-time academic appointments considerably smaller than the percentage of men. The WIS panel provides a forum to identify challenges that female physician-scientists face throughout their careers and how mentors and mentees – of all genders and backgrounds – can work to overcome these obstacles. ",
         "apsa": true,
         "participant": [{
-            "moderator": true,
-            "name": "Francesca LoBianco",
-            "affiliation": "University of Arkansas for Medical Sciences",
-            "image": "francesca_lobianco.jpg",
-            "agenda_image": "francesca_lobianco_thumb.jpg",
-            "bio": "Francesca V. LoBianco is a 2nd year medical student at the University of Arkansas for Medical Sciences (UAMS) in the MD/PhD program. She will be joining the lab of Dr. Nukhet Aykin-Burns in the Division of Radiation Health with the College of Pharmacy. In 2017, Francesca received her Masters of Science from UAMS researching the role of Sirtuin 3 in Radiation Induced Liver Injury and plans to continue this field of research for her PhD. She will be further classifying this mouse model and investigating the involvement of reactive oxygen species in liver injury. Her research interest lead her to be involved in collaboration with Dr. Ron Gaba at University of Illinois at Chicago (UIC) in developing and classifying animal models for hepatocellular carcinoma. "
-        }, {
-            "moderator": false,
-            "name": "Vineet Arora, MD",
-            "affiliation": "University of Chicago Medicine",
-            "image": "vineet_arora.jpg",
-            "agenda_image": "vineet_arora_thumb.jpg",
-            "bio": "<p>Vineet Arora, MD, MAPP, a board certified internist, is an academic hospitalist, Assistant Dean of Scholarship & Discovery, and Director of GME Clinical Learning Environment and Innovation at University of Chicago.  Through her leadership roles, she bridges educational and hospital leadership to integrate trainees and frontline staff into the quality, safety, and value missions of the institution.  An accomplished researcher, she is current PI of FDA and NIH grants to developed and evaluated novel interventions that combine systems change with adult learning theory to improve care and learning in healthcare with a focus on interprofessional quality improvement projects.  She is PI of an FDA U01 to improve generic prescribing among primary care physicians and nurse practitioners.  In addition, with NIH funding, she has developed an implemented an interprofessional intervention to improve patient sleep in hospitals through engaging residents, hospitalists and nurses.  Lastly, with funding from AMA and ACGME, she is leading innovations to engage trainees in interprofessional QI and learning through projects like IGNITE (Improving GME Nursing Interprofessional Team Experiences).   She has authored over 100 peer-reviewed publications, with widespread coverage in the New York Times, NPR, and the Associated Press.</p><p>She currently serves on the Board of Directors for the American Board of Internal Medicine. In 2011, she was named to “20 People Who Make American Healthcare Better” by HealthLeaders Magazine.  Dr. Arora earned her medical degree at the Washington University in St. Louis and completed her residency, chief residency, and Masters in Public Policy at the University of Chicago.</p>"
-        }, {
-            "moderator": false,
-            "name": "Sara Shalin, MD, PhD",
-            "affiliation": "University of Arkansas for Medical Sciences",
-            "image": "sara_shalin.jpg",
-            "agenda_image": "sara_shalin_thumb.jpg",
-            "bio": "<p>Sara C. Shalin, M.D., Ph.D., is an Associate Professor in the Departments of Pathology and Dermatology at the University of Arkansas for Medical Sciences. She serves as the director of the UAMS MD/PhD program and as associate program director of the Dermatopathology fellowship.</p><p>Dr. Shalin graduated from a combined M.D./Ph.D. program at Baylor College of Medicine in Houston, TX in 2007, with a PhD in neuroscience. She remained in Houston at Baylor College of Medicine where she completed a residency in anatomic and clinical pathology and served as chief resident in 2010-2011.  She then completed her dermatopathology fellowship training in Boston at the Harvard Hospitals Combined Dermatopathology program. Dr. Shalin was recruited to UAMS in 2012. Her involvement in the MD/PhD program at UAMS led to her appointment as the program director in 2017, which has turned into one of her most meaningful positions to date. Her academic position is predominantly clinical, but she maintains an active involvement in translational research projects and research collaborations in melanoma pathogenesis and biology and other cutaneous malignancies. Dr. Shalin’s daily life is a mix of diagnosing skin disease, teaching and mentoring residents, medical students, and graduate students, and managing operations in the hospital anatomic pathology lab.</p>"
-        }, {
-            "moderator": false,
-            "name": "Susan Smyth, MD, PhD",
-            "affiliation": "University of Kentucky",
-            "image": "susan_smyth.jpg",
-            "agenda_image": "susan_smyth_thumb.jpg",
-            "bio": "<p>Susan S. Smyth, MD PhD is the Jeff Gill Professor of Cardiology, Chief of the Division of Cardiovascular Medicine, Director of the Linda and Jack Gill Heart and Vascular Institute, and Director of the MD/PhD Program at the University of Kentucky. She also has a part-time appointment as a cardiologist and funded investigator at the Lexington VA Medical Center.</p><p>Smyth is a physician scientist who combines clinical practice in cardiology with NIH- , VA-, and industry-funded research focused on the interplay between inflammation and thrombosis in vascular biology.  She has authored more than 200 publications and contributed to over a dozen textbooks.</p><p>Smyth received her A.B. in Biology, summa cum laude, from Mount Holyoke College (South Hadley, Massachusetts), and graduated from the MD/PhD Program at the University of North Carolina (Chapel Hill). After completing training in Internal Medicine, she performed cardiology subspecialty fellowship training at the Mount Sinai School of Medicine (New York, New York) and at the University of North Carolina.  She is a member of the American Society of Clinical Investigation, on the council for the Association of University Cardiologists, on the steering committee of the Board of Governors for the American College of Cardiology, and the steering committee for the National Center for Advancing Translational Science CTSA program.</p>"
+            ""
         }]
     },
     {
         "type": "panel",
         "title": "Fellowship and Specialties Panel",
-        "date": "April 7, 2019",
+        "date": "April 5, 2020",
         "time": "10:00 am - 11:00 am",
-        "location": "Ambassador Room",
+        "location": "Gold Room",
         "description": "The goal of the Fellowship and Specialties panel is to promote an open discussion between fellowship directors and prospective applicants. Specific discussions will include the importance of research experience prior to and during the fellowship program, curricular tracks, and questions from the audience. In addition, the panel will help residents gather information on what subspecialty they may be interested in, a timeline for the application process, interviewing for fellowship, and strategies for success in fellowship.",
         "apsa": true,
         "participant": [{
-            "moderator": true,
-            "name": "Abhik Banerjee, BS",
-            "affiliation": "University of Southern California/California Institute of Technology",
-            "image": "abhik_banerjee.jpg",
-            "agenda_image": "abhik_banerjee_thumb.jpg",
-            "bio": "Abhik Banerjee is a sixth-year MD/PhD student in the University of Southern California/California Institute of Technology MD/PhD Program. He attended the University of California, Los Angeles, where he graduated with a BS in Molecular, Cell, and Developmental Biology, and a BA in Music Performance in 2012. As a fourth year graduate student in the laboratories of Drs. Mitchell Guttman and Ellen Rothenberg, his research focuses on characterizing the roles of long non-coding RNA in the regulation of gene expression and differentiation in early T-cell development. Abhik previously served as the MD-PhD/DO-PhD Member at Large and Vice Chair for the Membership Committee for the 2016-2017 year, the Chair of the Membership Committee during 2017-2018 year, and served on the APSA West Regional Meeting Planning Committee from 2015-2017. As the 2018-2019 President-Elect, he is interested in promoting communication between organization leadership and its members, including further expansion of grassroots policy efforts and support for regional meetings across the country, as well as expanding further educational outreach efforts through APSA’s Undergraduate Mentorship Program to support and excite students at the earliest stages of the physician scientist training pipeline."
-        }, {
-            "moderator": true,
-            "name": "Audra Iness Christovich, BS",
-            "affiliation": "Virginia Commonwealth University School of Medicine",
-            "image": "audra_iness.jpg",
-            "agenda_image": "audra_iness_thumb.jpg",
-            "bio": "Audra Iness Christovich is starting her seventh year of the MD-PhD program at Virginia Commonwealth University where she recently obtained a PhD in the Clinical and Translational Research, Cancer and Molecular Medicine. Her research focuses on the oncoprotein B-Myb and its impact on cell cycle regulation by the transcriptional repressor complex, DREAM, in ovarian cancer. During her PhD years, Audra became increasingly passionate about advocating for physician scientist trainees and more involved in APSA. She is now the current President of the organization, supporting initiatives related to diversifying the physician scientist trainee pipeline, encouraging crosstalk between Research in Residency (RiR)/Physician Scientist Training Programs (PSTP) and physician scientist trainees, as well as fostering international collaborations across numerous physician scientist trainee organizations. Audra looks forward to further upholding APSA’s mission throughout the rest of her training, career, and life."
-        }, {
-            "moderator": false,
-            "name": "Todd Florin, MD",
-            "affiliation": "Ann and Robert H. Lurie Children’s Hospital of Chicago",
-            "image": "todd_florin.jpg",
-            "agenda_image": "todd_florin_thumb.jpg",
-            "bio": "Dr. Todd Florin, MD, MSCE is Associate Professor of Pediatrics and Director of Research in the Division of Pediatric Emergency Medicine at Ann and Robert H. Lurie Children’s Hospital of Chicago and Northwestern University Feinberg School of Medicine.  He is the principal investigator of Catalyzing Ambulatory Research in Pneumonia Etiology and Diagnostic Innovations in Emergency Medicine (CARPE DIEM), a prospective cohort study of children who present to the ED with community-acquired pneumonia with the overall objectives of using clinical and translational methodology to understand CAP pathophysiology, improve prediction of CAP severity, and enhance differentiation of CAP etiology. This work has been funded by a KL2 mentored career development award through the University of Cincinnati Center for Clinical and Translational Science and Training (CCTST), a grant from the Gerber Foundation and a K23 from the National Institute of Allergy and Infectious Diseases.His work has also centered on resource utilization, variation in care, and use of clinical trials to improve treatments for respiratory tract infections."
-        }, {
-            "moderator": false,
-            "name": "Bruce Bochner, MD",
-            "affiliation": "Northwestern - Feinberg School of Medicine",
-            "image": "bruce_bochner.jpg",
-            "agenda_image": "bruce_bochner_thumb.jpg",
-            "bio": "<p>Dr. Bochner's primary clinical interests are in eosinophil- and mast-cell associated diseases.</p><p>Dr. Bochner's lab's primary research interest is on Siglec-8, a receptor expressed on human eosinophils and mast cells, how it signals and functions, what are its natural sialoside ligands, and whether it can be leveraged as a therapeutic target. Regarding the latter, we have generated Siglec-8 knock-in mice for preclinical studies of Siglec-8 biology and targeting in mouse models. We have also initiated studies on Siglec-6 function in human mast cells, and how pharmacologic inhibition of Bruton's tyrosi.  His lab's primary research interest is on Siglec-8, a receptor expressed on human eosinophils and mast cells, how it signals and functions, what are its natural sialoside ligands, and whether it can be leveraged as a therapeutic target. Regarding the latter, we have generated Siglec-8 knock-in mice for preclinical studies of Siglec-8 biology and targeting in mouse models. We have also initiated studies on Siglec-6 function in human mast cells, and how pharmacologic inhibition of Bruton's tyrosine kinase (BTK) in mast cells and basophils protects from anaphylaxis in vitro and in vivo.[Shorten text]</p><p>Dr. Bochner's primary clinical interests are in eosinophil- and mast-cell associated diseases, including hypereosinophilic syndromes and systemic mastocytosis. I am also interested in anaphylaxis and other allergic diseases.</p>"
-        }, {
-            "moderator": false,
-            "name": "Anisha Dua, MD, MPH",
-            "affiliation": "Northwestern University",
-            "image": "anisha_dua.jpg",
-            "agenda_image": "anisha_dua_thumb.jpg",
-            "bio": "Dr. Dua is an Associate Professor of Rheumatology at Northwestern University where she is the Director of the Rheumatology fellowship Program and Associate Director of the Vasculitis Center. She has previously served as the Rheumatology Fellowship Program Director at The University of Chicago and the Director of Medical Education at Allegheny Health Network in Pittsburgh. Dr. Dua has been focused on education throughout her career, serving as the secretary/treasurer for the Chicago Rheumatism society and volunteering for the American College of Rheumatology Committee on Training and Workforce as well as the In-Training Exam committee. She completed her Rheumatology training at Rush Medical Center as well as a fellowship in medical education (Medical Education Research, Innovation, Teaching and Scholarship) at The University of Chicago. Her clinical interests are in vasculitis, where she is the PI of ongoing clinical trials and is a member of the Vasculitis guidelines committee for the American College of Rheumatology."
-        }, {
-            "moderator": false,
-            "name": "Kenneth Cohen, MD",
-            "affiliation": "University of Chicago Medicine",
-            "image": "kenneth_cohen.jpg",
-            "agenda_image": "kenneth_cohen_thumb.jpg",
-            "bio": "<p>Kenneth Cohen, MD, specializes in treating adult patients with lymphoma and blood clotting disorders.</p><p>Dr. Cohen is the program director for the Section of Hematology/Oncology fellowship program. His research projects have studied how tumor blood vessels regulate immune cells. He has also studied factors that control blood cells that play a role in tumor blood vessel development.</p><p>Dr. Cohen has been an ad hoc reviewer for several medical journals including Blood, Leukemia and Lymphoma, and Molecular Cancer Research. He serves on the editorial board of Analytical Cellular Pathology: Cellular Oncology.</p>"
-        }]
+            ""
+           }]
     },
     {
         "type": "panel",
         "title": "Social Sciences and Humanities (Big Data: Social and Cultural Perspectives)",
-        "date": "April 7, 2019",
+        "date": "April 5, 2020",
         "time": "11:00 am - 12:00 pm",
-        "location": "Ambassador Room",
+        "location": "Embassy Room",
         "description": "This panel will focus on critical and social perspectives on big data in healthcare. The panel will feature two medical anthropologists who will explore the ways that social, cultural, and historical factors shape how data is produced and interpreted. Drawing from the humanities and social sciences, this discussion will examine the challenges of using data to make sense of complex health problems.",
         "apsa": true,
         "participant": [{
-            "moderator": true,
-            "name": "Trevor Hunt, BS",
-            "affiliation": "Brody School of Medicine at East Carolina University",
-            "image": "trevor_hunt.jpg",
-            "agenda_image": "trevor_hunt_thumb.jpg",
-            "bio": "Trevor C. Hunt is a 3rd year MD student pursuing urology at the Brody School of Medicine at East Carolina University. Trevor is a member of Brody's Research Distinction Track in the lab of Dr. Johanna Hannan and his primary research focus is investigating the role of mitochondrial dysfunction in bladder disease. He also studies the socioeconomic factors contributing to medical and surgical discharges against medical advice under Dr. J.E. Betsy Tuttle-Newhall, and will be completing a one-year research fellowship in urologic oncology at the University of Utah School of Medicine with Dr. Brock O'Neil and Dr. William Lowrance prior to beginning 4th year. His undergraduate degree was in sociology from Wake Forest University, where he developed a passion for the social determinants of health. He is an avid skier, golfer, and writer, authoring the monthly column \"Research for the Rest of Us\" on the medical advising website Student Doctor Network. Find him on Twitter: @TrevorHunt_ECU"
-        }, {
-            "moderator": false,
-            "name": "Susan L. Erikson, PhD",
-            "affiliation": "Simon Fraser University",
-            "image": "susan_erikson.jpg",
-            "agenda_image": "susan_erikson_thumb.jpg",
-            "bio": "Dr. Erikson is an anthropologist and former international affairs expert who has worked in Africa, Europe, Central Asia, and North America. She is currently an Associate Professor at Simon Fraser University in British Columbia. Global Health Data and Global Health Financialization are Dr. Erikson's two current research foci. Dr. Erikson is the founding director of the Global Health Affairs Program at the Korbel School of International Studies at the University of Denver, and was voted Best Professor there in 2004. She joined the Faculty of Health Sciences at Simon Fraser University in 2007, where she was awarded the Graduate Teaching and Mentorship Excellence Award in 2012. In 2013, she was awarded the Society for Medical Anthropology's (SMA) Virchow Prize for her publication, \"Global Health Business: The Production and Performativity of Statistics in Germany and Sierra Leone.\" As an academic, Dr. Erikson combines her practical work experience with a critical study of the relations of power informing global health scenarios. Early in her research career, Dr. Erikson's findings showed that health outcomes are inextricable from economic, political and techno-scientific interests. Since 2013, Dr. Erikson has conducted fieldwork research in Sierra Leone on the production, use, and global circulation of health data. She was in Freetown in February 2014 studying local and global data use when news of Ebola infections in neighboring Guinea first reached the capital city. Findings from that research led to a project on the financialization of humanitarian response, specifically the ‘Ebola bond.’"
-        }, {
-            "moderator": false,
-            "name": "Lauren Carruth, PhD",
-            "affiliation": "American University",
-            "image": "lauren_carruth.jpg",
-            "agenda_image": "lauren_carruth_thumb.jpg",
-            "bio": "Professor Lauren Carruth is a medical anthropologist specializing in humanitarian assistance, global health, nutrition, food security, and displacement. Her ongoing research focuses on emerging infectious diseases as well as the lasting social, political, and health effects of episodic humanitarian interventions. She is currently writing a book tentatively titled, \"Saving lives and making a living: local aid workers and humanitarian labor in the Horn of Africa\" highlighting, for one, the important but invisible contributions local aid workers make to relief operations and the collection of scientific and programmatic data in humanitarian emergencies. "
+            ""
         }]
     },
     {
         "type": "panel",
         "title": "Policy (Addressing Sex and Gender Health Disparities in Medical Research)",
-        "date": "April 7, 2019",
+        "date": "April 5, 2020",
         "time": "11:00 am - 12:00 pm",
         "location": "Gold Room",
         "description": "Ingrained in the biological and psychological makeup of an individual, gender identities, sex identities, and sexual orientations are essential considerations in clinical decision-making. While NIH guidelines stipulate inclusion of sex differences in biomedical research design and analysis, legislative barriers and financial constraints hinder implementation of best practices -  giving rise to inherent gender bias and sex bias in both clinical and pre-clinical medical research. For example, sociocultural shifts have increased public and scientific knowledge of lesbian, gay, bisexual, and transgender (LGBT) patient care, but the need for LGBT content in medical curricula and research studies is evident in the health disparities observed in LGBT patient populations. Guidelines for clinical care have often been developed based on studies of men, contributing to poorer health outcomes for women. This panel calls attention to sex and gender health disparities that exist in medical research, clinical practice, and health policy. We aim to ignite a discussion on policy-driven strategies to address these barriers.",
         "apsa": true,
         "participant": [{
-            "moderator": true,
-            "name": "Jeff Chen, BS",
-            "affiliation": "University of Kentucky",
-            "image": "jeff_chen.jpg",
-            "agenda_image": "jeff_chen_thumb.jpg",
-            "bio": "Jeff Chen is a 3rd year PhD student in the University of Kentucky MDPhD program. Under his mentor, Alan Daugherty PhD Dsc, Jeff research focus is on the effect of ligand dependent angiotensin signaling in Marfan syndrome associated thoracic aortic aneurysms. As part of the University of Kentucky – Baylor College of Medicine Aortic Research Center (an American Heart Association’s Strategically Focused Research Network in Vascular Disease),  Jeff is also investigating the contribution of endogenous estrogens and testosterone on development of thoracic aortic aneurysms."
-        }, {
-            "moderator": false,
-            "name": "Lauren Walter, MD",
-            "affiliation": "University of Alabama at Birmingham",
-            "image": "lauren_walter.jpg",
-            "agenda_image": "lauren_walter_thumb.jpg",
-            "bio": "Dr. Lauren Walter graduated from the University of Michigan Medical School in 2005.  She completed her residency training in Emergency Medicine in 2009, subsequently staying on as faculty at the University of Alabama at Birmingham (UAB) where she is currently an Associate Professor and Assistant Residency Program Director. Dr. Walter’s research interests include the development and integration of sex and gender-based medical education curriculum for both UME and GME. She has created and implemented novel SGBM didactics for medical students, residents, and faculty and in addition, she has lectured regionally and nationally on this topic. Dr. Walter is on the board of the Sex and Gender Health Collaborative, a national, interdisciplinary group aimed at increasing SGBM awareness and integration into medication education. In addition, Dr. Walter is a national research collaborator with the Society for Academic Emergency Medicine’s (SAEM) Sex and Gender in Emergency Medicine Interest Group and is on the executive planning team for the upcoming 2020 Sex and Gender in Health Education Summit."
-        }, {
-            "moderator": false,
-            "name": "Robert Garofolo, MD, MPH",
-            "affiliation": "Ann and Robert H. Lurie Children’s Hospital of Chicago",
-            "image": "robert_garofalo.jpg",
-            "agenda_image": "robert_garofalo.jpg",
-            "bio": "Dr. Robert Garofalo is a Professor of Pediatrics and Preventive Medicine at Northwestern University’s Feinberg School of Medicine in Chicago, Illinois. He is also an attending physician at the Ann & Robert H. Lurie Children’s Hospital, where he serves as the Director of the Research Center of Excellence for Gender, Sexuality, and HIV Prevention and as the Division Chief of Adolescent Medicine. He co-directs the gender and sexual development clinical program at Lurie Children’s Hospital — the first comprehensive program providing multidisciplinary care to transgender/gender-nonconforming children and adolescents in the Midwest. His research focuses on HIV prevention, mostly targeting either young men who have sex with men (MSM) or transgender individuals. He has more than 25 years of research experience in this field and is a national authority on LGBT health issues, adolescent sexuality, and HIV clinical care and prevention. In 2010, he was appointed to the National Academy of Science/ Institute of Medicine on LGBT Health Issues and Research Gaps and Opportunities. Dr. Garofalo’s research has been generously funded by the National Institutes of Health. He is or has been the Principal Investigator on 13 NIH-funded Investigator initiated research grants and a Co-Investigator on an additional 14 other NIH-funded research projects. He is currently a member of a number of professional organizations and scientific associations including the American Academy of Pediatrics, the Society for Adolescent Medicine, the American Medical Association, and the World Professional Association for Transgender Health. Dr. Garofalo is the Editor-in-Chief of the journal Transgender Health. He has over 150 publications in scholarly journals. In addition to his academic work, Dr. Garofalo is founder of Fred Says (named after his dog), a 501©3 non-profit charity that since 2013 has raised and donated back to the community over $300.000 to support care and services for HIV+ youth. "
-        }, {
-            "moderator": false,
-            "name": "Kim Templeton, MD",
-            "affiliation": "University of Kansas",
-            "image": "kim_templeton.jpg",
-            "agenda_image": "kim_templeton_thumb.jpg",
-            "bio": "Dr. Kim Templeton, MD is Professor of orthopaedic surgery at the University of Kansas Medical Center in Kansas City, specializing in orthopaedic oncology. Dr. Templeton’s research interests include women’s health, medical education, and long-term impact of treatment of pediatric sarcomas on bone health. In 2017, Dr. Templeton was elected to a second term on the National Board of Medical Examiners, after spending several years on various committees and task forces, and is now leading part of the research arm of the RENEW task force, to address stress among medical students related to the USMLE exams. Dr. Templeton is a past-president of the American Medical Women’s Association.  She has also served on the executive committee and chaired the Sex and Gender Women’s Health Collaborative, whose mission is to improve the translation of research into sex- and gender-based differences into clinical practice through education and evaluation.  Dr. Templeton is an invited founding board member of the Academy of Women’s Health.  In 2013, Dr. Templeton was named by the National Academy of Sciences to the musculoskeletal work group, reviewing and recommending new venues for sex and gender research for the National Aeronautic and Space Administration (NASA).  Dr. Templeton has spoken at venues around the country in the area of sex and gender medicine.  She has and continues to serve on expert committees that are working to incorporate this information into health professionals’ education. "
+            ""
         }]
     },
     {
         "type": "normal",
         "title": "Residency Luncheon",
-        "date": "April 7, 2019",
-        "time": "12:30 pm - 2:30 pm",
+        "date": "April 5, 2020",
+        "time": "12:00 pm - 2:00 pm",
         "location": "International Ballroom",
+        "description": "",
+        "apsa": true
+    }
+        {
+        "type": "normal",
+        "title": "APSA Research Pathway Residency Program Directors Meeting",
+        "date": "April 5, 2020",
+        "time": "2:00 pm - 4:30 pm",
+        "location": "State Room",
         "description": "",
         "apsa": true
     }
