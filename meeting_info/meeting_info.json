@@ -1,5 +1,4 @@
-[
-    {
+[{
         "type": "normal",
         "title": "APSA Business Meeting",
         "date": "April 3, 2020",
@@ -57,7 +56,7 @@
         "description": "",
         "apsa": true
     },
-        {
+    {
         "type": "normal",
         "title": "-- Break --",
         "date": "April 3, 2020",
@@ -82,7 +81,7 @@
         "time": "1:00 pm - 6:00 pm",
         "location": "International Ballroom",
         "moderators": [
-            "",
+            ""
         ],
         "apsa": true
     },
@@ -135,7 +134,7 @@
         "description": "",
         "apsa": false
     },
-        {
+    {
         "type": "normal",
         "title": "-- Break --",
         "date": "April 3, 2020",
@@ -144,7 +143,7 @@
         "description": "",
         "apsa": true
     },
-   
+
     {
         "type": "keynote",
         "title": "ASCI Harrington Award Presentation",
@@ -319,9 +318,7 @@
         "date": "April 4, 2020",
         "time": "9:00 am - 11:45 am",
         "location": "International Ballroom",
-        "moderators": [
-            "",
-        ],
+        "moderators": [""],
         "apsa": true
     },
     {
@@ -386,7 +383,7 @@
             "image": "",
             "agenda_image": "",
             "lab_url": "https://www.neuro.duke.edu/research/faculty-labs/dzirasa-lab",
-            "bio": ""
+            "bio": "",
             "time": "9:52 am - 10:00 am"
         }],
         "date": "April 4, 2020",
@@ -411,7 +408,7 @@
         "location": "",
         "description": "",
         "apsa": true
-    },    
+    },
     {
         "type": "keynote",
         "award": "APSA Trainee Oral Abstract Presentation I",
@@ -431,7 +428,7 @@
         "location": "International Ballroom",
         "apsa": true
     },
-        {
+    {
         "type": "keynote",
         "award": "APSA Trainee Oral Abstract Presentation II",
         "title": "",
@@ -470,7 +467,7 @@
         "location": "International Ballroom",
         "apsa": true
     },
-   
+
     {
         "type": "normal",
         "title": "Poster Session with Lunch",
@@ -496,9 +493,7 @@
         "date": "April 4, 2020",
         "time": "1:30 pm - 3:00 pm",
         "location": "Imperial Ballroom",
-        "moderators":[
-            "",
-        ],
+        "moderators": [""],
         "apsa": true
     },
     {
@@ -535,7 +530,7 @@
             "bio": ""
         }],
         "date": "April 4, 2020",
-        "time": "1:45 pm - 2:15 pm ",
+        "time": "1:45 pm - 2:15 pm ",
         "location": "International Ballroom",
         "apsa": true
     },
@@ -573,9 +568,7 @@
         "date": "April 4, 2020",
         "time": "3:15 pm - 5:30 pm",
         "location": "International Ballroom",
-        "moderators":[
-            "",
-        ],
+        "moderators": [""],
         "apsa": true
     },
     {
@@ -640,25 +633,26 @@
         "award": "Kober Medal Presentation",
         "title": "",
         "speaker": [{
-            "speaker_type": "Recipient",
-            "title": "",
-            "name": "Michael J. Welsh, MD",
-            "affiliation": "University of Iowa",
-            "image": "",
-            "agenda_image": "",
-            "lab_url": "",
-            "bio": ""
-        },
-        {
-            "speaker_type": "Presenter",
-            "title": "",
-            "name": "Joseph Zabner, MD, PhD",
-            "affiliation": "University of Iowa",
-            "image": "",
-            "agenda_image": "",
-            "lab_url": "",
-            "bio": ""
-        }],
+                "speaker_type": "Recipient",
+                "title": "",
+                "name": "Michael J. Welsh, MD",
+                "affiliation": "University of Iowa",
+                "image": "",
+                "agenda_image": "",
+                "lab_url": "",
+                "bio": ""
+            },
+            {
+                "speaker_type": "Presenter",
+                "title": "",
+                "name": "Joseph Zabner, MD, PhD",
+                "affiliation": "University of Iowa",
+                "image": "",
+                "agenda_image": "",
+                "lab_url": "",
+                "bio": ""
+            }
+        ],
         "date": "April 4, 2020",
         "time": "4:45 p.m - 5:15 pm.",
         "location": "International Ballroom",
@@ -681,9 +675,7 @@
         "location": "Crystal Room",
         "description": "",
         "apsa": true,
-        "participant": [{
-           "",
-        }, ]
+        "participant": [""]
     },
     {
         "type": "normal",
@@ -808,9 +800,7 @@
         "location": "",
         "description": "As of 2017, women represent >50% of matriculants in MD programs. However, MD/PhD training programs have lagged behind this trend, with women only making up 1/3 of recent matriculants. Additionally, this disparity increases when ascending the academic ladder, with the percentage of women holding full-time academic appointments considerably smaller than the percentage of men. The WIS panel provides a forum to identify challenges that female physician-scientists face throughout their careers and how mentors and mentees – of all genders and backgrounds – can work to overcome these obstacles. ",
         "apsa": true,
-        "participant": [{
-            ""
-        }]
+        "participant": [""]
     },
     {
         "type": "panel",
@@ -820,9 +810,7 @@
         "location": "Gold Room",
         "description": "The goal of the Fellowship and Specialties panel is to promote an open discussion between fellowship directors and prospective applicants. Specific discussions will include the importance of research experience prior to and during the fellowship program, curricular tracks, and questions from the audience. In addition, the panel will help residents gather information on what subspecialty they may be interested in, a timeline for the application process, interviewing for fellowship, and strategies for success in fellowship.",
         "apsa": true,
-        "participant": [{
-            ""
-           }]
+        "participant": [""]
     },
     {
         "type": "panel",
@@ -832,9 +820,7 @@
         "location": "Embassy Room",
         "description": "This panel will focus on critical and social perspectives on big data in healthcare. The panel will feature two medical anthropologists who will explore the ways that social, cultural, and historical factors shape how data is produced and interpreted. Drawing from the humanities and social sciences, this discussion will examine the challenges of using data to make sense of complex health problems.",
         "apsa": true,
-        "participant": [{
-            ""
-        }]
+        "participant": [""]
     },
     {
         "type": "panel",
@@ -844,9 +830,7 @@
         "location": "Gold Room",
         "description": "Ingrained in the biological and psychological makeup of an individual, gender identities, sex identities, and sexual orientations are essential considerations in clinical decision-making. While NIH guidelines stipulate inclusion of sex differences in biomedical research design and analysis, legislative barriers and financial constraints hinder implementation of best practices -  giving rise to inherent gender bias and sex bias in both clinical and pre-clinical medical research. For example, sociocultural shifts have increased public and scientific knowledge of lesbian, gay, bisexual, and transgender (LGBT) patient care, but the need for LGBT content in medical curricula and research studies is evident in the health disparities observed in LGBT patient populations. Guidelines for clinical care have often been developed based on studies of men, contributing to poorer health outcomes for women. This panel calls attention to sex and gender health disparities that exist in medical research, clinical practice, and health policy. We aim to ignite a discussion on policy-driven strategies to address these barriers.",
         "apsa": true,
-        "participant": [{
-            ""
-        }]
+        "participant": [""]
     },
     {
         "type": "normal",
@@ -856,8 +840,8 @@
         "location": "International Ballroom",
         "description": "",
         "apsa": true
-    }
-        {
+    },
+    {
         "type": "normal",
         "title": "APSA Research Pathway Residency Program Directors Meeting",
         "date": "April 5, 2020",
