@@ -283,6 +283,8 @@ The panels and their participants are also displayed in a separate page (`/panel
 ## JSON Structure
 An example of the JSON structure can be found in [`meeting_info/meeting_info.json`](https://github.com/APSA-meeting/2019/blob/gh-pages/meeting_info/meeting_info.json.default).  It's structure is broken down into the 4 key event types:  *normal*, *session*, *keynote*, and *panel*.  All events **must** have a `type` property indicating the type of event in order for the event to display.
 
+**Editing** a JSON file should always be followed by verifying that the JSON Object is still valid, and no mistakes were added in. Tools such as [JSONLint](https://jsonlint.com/) can help highlight errors, line-by-line.
+
 ### Normal
 This event is a standard event with just a title, time, location, and optional description.  The JSON properties available are listed below:
 
