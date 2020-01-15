@@ -31,7 +31,7 @@
             "lab_url": "https://faculty.mdanderson.org/profiles/jennifer_wargo.html",
             "bio": ""
         }],
-        "date": "April 5, 2019",
+        "date": "April 3, 2020",
         "time": "11:00 am - 11:30 am",
         "location": "International Ballroom",
         "description": "",
@@ -42,7 +42,7 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
+            "title": "Defining the Genetic, Genomic and Cellular Architecture of Kidney Disease",
             "name": "Katalin Susztak, MD, PhD",
             "affiliation": "University of Pennsylvania",
             "image": "katalin_susztak.jpg",
@@ -76,7 +76,7 @@
     },
     {
         "type": "session",
-        "title": "Plenary Session I: Big Data",
+        "title": "Plenary Session I: Disruptive Engineering in Medicine",
         "date": "April 3, 2020",
         "time": "1:00 pm - 6:00 pm",
         "location": "International Ballroom",
@@ -169,14 +169,14 @@
         "speaker": [{
             "speaker_type": "",
             "title": "",
-            "name": "",
-            "affiliation": "",
+            "name": "Max D. Cooper, MD",
+            "affiliation": "Emory University",
             "image": "",
             "agenda_image": "",
-            "lab_url": "",
+            "lab_url": "https://winshipcancer.emory.edu/bios/faculty/cooper-max-d.html",
             "bio": ""
         }],
-        "date": "April 3, 2030",
+        "date": "April 3, 2020",
         "time": "4:00 pm - 4:30 pm",
         "location": "International Ballroom",
         "description": "",
@@ -224,7 +224,7 @@
     },
     {
         "type": "normal",
-        "title": "APSA Resident, Fellow, and Junior Faculty Committee Working Session",
+        "title": "APSA-Trainee specific Business Meeting focusing on international training collaborations",
         "date": "April 3, 2020",
         "time": "5:45 pm - 7:00 pm",
         "location": "State",
@@ -233,7 +233,7 @@
     },
     {
         "type": "normal",
-        "title": "ASCI President's Reception",
+        "title": "ASCI President's Reception <i>Honoring Donald Seldin and Holly Smith</i>",
         "date": "April 3, 2020",
         "time": "6:00 pm - 7:00 pm",
         "location": "Gold Room",
@@ -263,13 +263,13 @@
             "bio": ""
         }],
         "date": "April 3, 2020",
-        "time": "7:30 pm - 9:45 pm",
+        "time": "7:00 pm - 9:45 pm",
         "location": "Rouge",
         "apsa": false
     },
     {
         "type": "normal",
-        "title": "APSA Networking Reception with AAP and ASCI (previously Welcome Reception)",
+        "title": "APSA Welcome Reception",
         "date": "April 3, 2020",
         "time": "9:00 pm - 12:00 am",
         "location": "Mid-America Club",
@@ -287,19 +287,10 @@
     },
     {
         "type": "normal",
-        "title": "Research Mentoring Breakfast",
+        "title": "Mentoring Breakfast",
         "date": "April 4, 2020",
         "time": "7:00 am - 8:00 am",
         "location": "Rouge Room",
-        "description": "",
-        "apsa": true
-    },
-    {
-        "type": "normal",
-        "title": "APSA Board of Directors Meeting",
-        "date": "April 4, 2020",
-        "time": "8:00 am - 9:00 am",
-        "location": "Embassy Room",
         "description": "",
         "apsa": true
     },
@@ -327,7 +318,7 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
+            "title": "Disruptor in Neuropsychiatry",
             "name": "Kafui Dzirasa, MD, PhD",
             "affiliation": "Duke University",
             "image": "",
@@ -343,7 +334,7 @@
     },
     {
         "type": "keynote",
-        "title": "",
+        "title": "Panel: Disruption in Physician Scientist Resident Training  ",
         "award": "",
         "speaker": [{
             "speaker_type": "",
@@ -394,7 +385,7 @@
     },
     {
         "type": "normal",
-        "title": "Panel Discussion and Audience Questions (continued from previous)",
+        "title": "Panel Discussion and Audience Questions",
         "date": "April 4, 2020",
         "time": "10:00 am - 10:30 am",
         "location": "International Ballroom",
@@ -454,12 +445,12 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Personal Regulome Navigation",
-            "name": "Howard Y. Chang, MD, PhD",
-            "affiliation": "Stanford University",
+            "title": "",
+            "name": "Svati Shah, MD",
+            "affiliation": "Duke University",
             "image": "",
             "agenda_image": "",
-            "lab_url": "https://profiles.stanford.edu/howard-chang",
+            "lab_url": "",
             "bio": ""
         }],
         "date": "April 4, 2020",
@@ -564,7 +555,7 @@
     },
     {
         "type": "session",
-        "title": "Plenary Session III: Disruptive Data Engineering",
+        "title": "Plenary Session: Disruptive Data Engineering",
         "date": "April 4, 2020",
         "time": "3:15 pm - 5:30 pm",
         "location": "International Ballroom",
@@ -667,19 +658,38 @@
         "description": "",
         "apsa": true
     },
+     {
+        "type": "session",
+        "title": "APSA Resident, Fellow, and Junior Faculty Session I: How to Support and Retain Early Career Physician-Scientists",
+        "date": "April 4, 2020",
+        "time": "5:30 pm - 6:30 pm",
+        "location": "Ambassador Room",
+        "moderators": [""],
+        "apsa": true
+    },
+     {
+        "type": "panel",
+        "title": "APSA PSTP Directors Panel (Medicine, Peds, Psych)",
+        "date": "April 4, 2020",
+        "time": "5:30 pm. - 7:00 pm ",
+        "location": "Gold Room",
+        "description": "",
+        "apsa": true,
+        "participant": [""]
+    },
     {
         "type": "panel",
-        "title": "Team-Based Science",
+        "title": "APSA PSTP Directors Panel (Medicine, Neurology, Surgery)",
         "date": "April 4, 2020",
-        "time": "5:45 pm. - 7:00 pm ",
-        "location": "Crystal Room",
+        "time": "5:30 pm. - 7:00 pm ",
+        "location": "State Room",
         "description": "",
         "apsa": true,
         "participant": [""]
     },
     {
         "type": "normal",
-        "title": "ASCI Food and Science: Featuring Poster Presentations by the ASCI’s 2019 Young Physician-Scientist Award Recipients",
+        "title": "ASCI Food and Science: Featuring Poster Presentations by the ASCI’s 2020 Young Physician-Scientist Award Recipients",
         "date": "April 4, 2020",
         "time": "6:30 pm. - 9:00 pm",
         "location": "Mid America Club",
@@ -744,6 +754,15 @@
         ],
         "apsa": true
     },
+     {
+        "type": "normal",
+        "title": "APSA Board of Directors Meeting",
+        "date": "April 5, 2020",
+        "time": "8:00 am - 9:00 am",
+        "location": "Embassy Room",
+        "description": "",
+        "apsa": true
+    },
     {
         "type": "normal",
         "title": "ASCI IR",
@@ -762,6 +781,15 @@
         "description": "",
         "apsa": true
     },
+     {
+        "type": "normal",
+        "title": "ASCI IR",
+        "date": "April 5, 2020",
+        "time": "8:00 am - 9:30 am",
+        "location": "TBD",
+        "description": "",
+        "apsa": false
+    },
     {
         "type": "normal",
         "title": "Society Leadership Wrap Up Meeting",
@@ -778,8 +806,8 @@
         "speaker": [{
             "speaker_type": "",
             "title": "",
-            "name": "",
-            "affiliation": "",
+            "name": "Jeffrey I. Gordon, MD",
+            "affiliation": "Washington University School of Medicine in St. Louis",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
@@ -794,17 +822,17 @@
 
     {
         "type": "panel",
-        "title": "Women in Science",
+        "title": "Dos and Don'ts of MSTP Admissions",
         "date": "April 5, 2020",
         "time": "10:00 am - 11:00 am",
-        "location": "",
-        "description": "As of 2017, women represent >50% of matriculants in MD programs. However, MD/PhD training programs have lagged behind this trend, with women only making up 1/3 of recent matriculants. Additionally, this disparity increases when ascending the academic ladder, with the percentage of women holding full-time academic appointments considerably smaller than the percentage of men. The WIS panel provides a forum to identify challenges that female physician-scientists face throughout their careers and how mentors and mentees – of all genders and backgrounds – can work to overcome these obstacles. ",
+        "location": "State Room",
+        "description": "",
         "apsa": true,
         "participant": [""]
     },
     {
         "type": "panel",
-        "title": "Fellowship and Specialties Panel",
+        "title": "Fellowship and Specialties Panel I (Medicine, Peds, Psych)",
         "date": "April 5, 2020",
         "time": "10:00 am - 11:00 am",
         "location": "Gold Room",
@@ -812,23 +840,41 @@
         "apsa": true,
         "participant": [""]
     },
-    {
-        "type": "panel",
-        "title": "Social Sciences and Humanities (Big Data: Social and Cultural Perspectives)",
+      {
+        "type": "session",
+        "title": "APSA Resident, Fellow, and Junior Faculty Session II: Individual Opportunity Plan with Dr. Robert Milner",
         "date": "April 5, 2020",
-        "time": "11:00 am - 12:00 pm",
+        "time": "10:00 am - 11:00 am",
+        "location": "Ambassador Room",
+        "moderators": [""],
+        "apsa": true
+    },
+    {
+        "type": "normal",
+        "title": "APSA Research Residency Directors' Meeting (invitation only)",
+        "date": "April 5, 2020",
+        "time": "10:00 am - 12:00 pm",
         "location": "Embassy Room",
-        "description": "This panel will focus on critical and social perspectives on big data in healthcare. The panel will feature two medical anthropologists who will explore the ways that social, cultural, and historical factors shape how data is produced and interpreted. Drawing from the humanities and social sciences, this discussion will examine the challenges of using data to make sense of complex health problems.",
-        "apsa": true,
-        "participant": [""]
+        "description": "",
+        "apsa": true
     },
     {
         "type": "panel",
-        "title": "Policy (Addressing Sex and Gender Health Disparities in Medical Research)",
+        "title": "Policy",
         "date": "April 5, 2020",
         "time": "11:00 am - 12:00 pm",
-        "location": "Gold Room",
-        "description": "Ingrained in the biological and psychological makeup of an individual, gender identities, sex identities, and sexual orientations are essential considerations in clinical decision-making. While NIH guidelines stipulate inclusion of sex differences in biomedical research design and analysis, legislative barriers and financial constraints hinder implementation of best practices -  giving rise to inherent gender bias and sex bias in both clinical and pre-clinical medical research. For example, sociocultural shifts have increased public and scientific knowledge of lesbian, gay, bisexual, and transgender (LGBT) patient care, but the need for LGBT content in medical curricula and research studies is evident in the health disparities observed in LGBT patient populations. Guidelines for clinical care have often been developed based on studies of men, contributing to poorer health outcomes for women. This panel calls attention to sex and gender health disparities that exist in medical research, clinical practice, and health policy. We aim to ignite a discussion on policy-driven strategies to address these barriers.",
+        "location": "State Room",
+        "description": "",
+        "apsa": true,
+        "participant": [""]
+    },
+     {
+        "type": "panel",
+        "title": "Fellowship and Specialties Panel II (Medicine, Neurology, Surgery)",
+        "date": "April 5, 2020",
+        "time": "11:00 am - 12:00 pm",
+        "location": "Embassy Room",
+        "description": "",
         "apsa": true,
         "participant": [""]
     },
@@ -838,15 +884,6 @@
         "date": "April 5, 2020",
         "time": "12:00 pm - 2:00 pm",
         "location": "International Ballroom",
-        "description": "",
-        "apsa": true
-    },
-    {
-        "type": "normal",
-        "title": "APSA Research Pathway Residency Program Directors Meeting",
-        "date": "April 5, 2020",
-        "time": "2:00 pm - 4:30 pm",
-        "location": "State Room",
         "description": "",
         "apsa": true
     }
