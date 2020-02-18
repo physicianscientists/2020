@@ -115,7 +115,7 @@
             "name": "Ralph DeBerardinis, MD, PhD",
             "affiliation": "UT Southwestern",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "ralph_deberardinis_thumb.jpg",
             "lab_url": "https://profiles.utsouthwestern.edu/profile/99018/ralph-deberardinis.html",
             "bio": ""
         }],
@@ -192,7 +192,7 @@
             "name": "Kimryn Rathmell, MD, PhD",
             "affiliation": "Vanderbilt University",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "kimryn_rathmell_thumb.png",
             "lab_url": "",
             "bio": ""
         }],
@@ -309,7 +309,7 @@
         "date": "April 4, 2020",
         "time": "9:00 am - 11:45 am",
         "location": "International Ballroom",
-        "moderators": [""],
+        "moderators": ["Abhik Banerjee, Mary Klotman, Kimryn Rathmell"],
         "apsa": true
     },
     {
@@ -322,7 +322,7 @@
             "name": "Kafui Dzirasa, MD, PhD",
             "affiliation": "Duke University",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "kafui_dzirasa_thumb.jpg",
             "lab_url": "https://www.neuro.duke.edu/research/faculty-labs/dzirasa-lab",
             "bio": ""
         }],
@@ -342,7 +342,7 @@
             "name": "Christopher S. Williams, MD, PhD",
             "affiliation": "Vanderbilt University",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "chris_williams_thumb.png",
             "lab_url": "https://www.vumc.org/williams-lab/person/christopher-s-williams-md-phd",
             "bio": "",
             "time": "9:30 am - 9:40 am"
@@ -352,7 +352,7 @@
             "name": "Sallie Permar, MD, PhD",
             "affiliation": "Duke University",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "sallie_permar_thumb.jpg",
             "lab_url": "https://pediatrics.duke.edu/faculty/sallie-robey-permar-md-phd",
             "bio": "",
             "time": "9:40 am - 9:46 am"
@@ -362,7 +362,7 @@
             "name": "Rebecca M. Baron, MD",
             "affiliation": "Brigham and Women's Hospital",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "rebecca_baron_thumb.jpg",
             "lab_url": "",
             "bio": "",
             "time": "9:46 am - 9:52 am"
@@ -410,8 +410,8 @@
             "title": "Endothelial IQGAP1, Calmodulin, and CaMKIIδ regulate leukocyte transendothelial migration",
             "name": "Prarthana Dalal",
             "affiliation": "Northwestern University Feinberg School of Medicine",
-            "image": "prarthana_dalal.jpg",
-            "agenda_image": "prarthana_dalal_thumb.jpg",
+            "image": "prarthana_dalal.png",
+            "agenda_image": "prarthana_dalal_thumb.png",
             "lab_url": "",
             "bio": "Prarthana Dalal is a MD/PhD student at the Northwestern University Feinberg School of Medicine. Prarthana is interested in vascular biology and immunology and her research focuses on mechanisms of inflammation. Specifically, she has been studying endothelial cell calcium signaling as it relates to leukocyte transendothelial migration and has received awards for her work from the American Society for Investigative Pathology and the Society for Leukocyte Biology. She is currently completing her PhD in the laboratory of William A. Muller, MD PhD. She received her bachelor’s degree in biological sciences from Northwestern University as part of the Honors Program in Medical Education and subsequently joined the Medical Scientist Training Program."
         }],
@@ -482,11 +482,11 @@
 
     {
         "type": "session",
-        "title": "Plenary Session III: Disruptive Technology",
+        "title": "Plenary Session IV: Disruptive Technology",
         "date": "April 4, 2020",
         "time": "1:30 pm - 3:00 pm",
         "location": "Imperial Ballroom",
-        "moderators": [""],
+        "moderators": ["John Carethers, Audra Iness, Kieren Marr"],
         "apsa": true
     },
     {
@@ -495,11 +495,11 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
+            "title": "Therapeutic Bacteriophages: From Petri Dish to Patient ",
             "name": "Robert (Chip) Schooley, MD",
             "affiliation": "UC San Diego",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "chip_schooley_thumb.jpg",
             "lab_url": "https://global.ucsd.edu/deans-office/staff/chip-schooley.html",
             "bio": ""
         }],
@@ -518,7 +518,7 @@
             "name": "Graham F. Hatfull, PhD",
             "affiliation": "University of Pittsburgh",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "graham_hatfull_thumb.jpg",
             "lab_url": "https://www.biology.pitt.edu/person/graham-hatfull",
             "bio": ""
         }],
@@ -537,7 +537,7 @@
             "name": "Daniel Landau, MD, PhD",
             "affiliation": "Weill Cornell Medical College",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "dan_landau_thumb.jpg",
             "lab_url": "https://www.landaulab.org/",
             "bio": ""
         }],
@@ -557,11 +557,11 @@
     },
     {
         "type": "session",
-        "title": "Plenary Session: Disruptive Data Engineering",
+        "title": "Plenary Session V: Disruptive Data Engineering",
         "date": "April 4, 2020",
         "time": "3:15 pm - 5:30 pm",
         "location": "International Ballroom",
-        "moderators": [""],
+        "moderators": ["David Ginsburg Sarah Groover, Sohail Tavazoie"],
         "apsa": true
     },
     {
@@ -570,11 +570,11 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
-            "name": "Joshua C. Denny, MD, MS, FACMI",
-            "affiliation": "Vanderbilt University",
+            "title": "PheWAS: Discovering Gene-disease Associations ",
+            "name": "Joshua C. Denny, MD",
+            "affiliation": "National Institutes of Health",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "josh_denny_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -589,11 +589,11 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
+            "title": "Genetic Data Analytics and Insights From Patients to Uncover New Mechanisms for Vascular Diseases",
             "name": "Dianna M. Milewicz, MD, PhD",
-            "affiliation": "UT Health Science Center at Houston ",
+            "affiliation": "McGovern Medical School",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "Dianna_Milewicz_thumb.jpg",
             "lab_url": "https://med.uth.edu/internalmedicine/faculty/dianna-m-milewicz-md-phd/",
             "bio": ""
         }],
@@ -612,7 +612,7 @@
             "name": "Mary E. Klotman, MD",
             "affiliation": "Duke University",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "mary_klotman_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -631,7 +631,7 @@
                 "name": "Michael J. Welsh, MD",
                 "affiliation": "University of Iowa",
                 "image": "",
-                "agenda_image": "",
+                "agenda_image": "michael_welsh_thumb.jpg",
                 "lab_url": "",
                 "bio": ""
             },
@@ -641,7 +641,7 @@
                 "name": "Joseph Zabner, MD, PhD",
                 "affiliation": "University of Iowa",
                 "image": "",
-                "agenda_image": "",
+                "agenda_image": "joseph_zabner_thumb.jpg",
                 "lab_url": "",
                 "bio": ""
             }
@@ -704,11 +704,11 @@
         "title": "AAP Banquet",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
+            "title": "From Bedside to Bench: Renewing a Path for Medically-Trained Scientists",
+            "name": "Erin K. O'Shea, PhD",
+            "affiliation": "Howard Hughes Medical Institute",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "Erin_OShea_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -723,13 +723,13 @@
         "title": "APSA Dinner and Founder's Award Presentation",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
-            "image": "",
-            "agenda_image": "",
+            "title": "Stem Cells and Genomics for Precision Medicine",
+            "name": "Joseph C. Wu, MD PhD",
+            "affiliation": "Stanford University School of Medicine",
+            "image": "joseph_wu.jpg",
+            "agenda_image": "joseph_wu_thumb.jpg",
             "lab_url": "",
-            "bio": ""
+            "bio": "Joseph C. Wu, MD, PhD is Director of Stanford Cardiovascular Institute and Simon H. Stertzer, MD, Professor of Medicine and Radiology at the Stanford School of Medicine. Dr. Wu received his MD from Yale University. He trained in internal medicine and cardiology at UCLA followed by a PhD in Molecular & Medical Pharmacology. His lab works on biological mechanisms of patient-specific and disease-specific induced pluripotent stem cells (iPSCs). The main goals are to (i) understand basic cardiovascular disease mechanisms, (ii) accelerate drug discovery and screening, (iii) develop “clinical trial in a dish” concept, and (iv) implement precision cardiovascular medicine for prevention and treatment of patients. Dr. Wu has received National Institutes of Health (NIH) Director’s New Innovator Award, NIH Roadmap Transformative Award, American Heart Association (AHA) Innovative Research Award, Presidential Early Career Award for Scientists and Engineers given out by President Obama, AHA Established Investigator Award, Burroughs Wellcome Foundation Innovation in Regulatory Science Award, AHA Merit Award, and AHA Distinguished Scientist Award. Dr. Wu serves on the FDA Cellular, Tissue, and Gene Therapies Advisory Committee, Scientific Advisory Board for the Keystone Symposia, and AHA National Board of Directors. He is also Chair of the AHA National Research Committee. Dr. Wu is an elected member of American Society of Clinical Investigators (ASCI), Association of University Cardiologists (AUC), American Institute for Medical and Biological Engineering (AIMBE), American Association for the Advancement of Science (AAAS), American Association of Physicians (AAP), and National Academy of Medicine (NAM)."
         }],
         "date": "April 4, 2020",
         "time": "7:30 pm - 9:00 pm",
@@ -752,7 +752,7 @@
         "time": "8:00 am - 12:00 pm",
         "location": "International Ballroom",
         "moderators": [
-            ""
+            "Lillian Zhang"
         ],
         "apsa": true
     },
@@ -807,13 +807,13 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
+            "title": "A shared journey developing microbiota-directed therapeutics for childhood undernutrition",
             "name": "Jeffrey I. Gordon, MD",
             "affiliation": "Washington University School of Medicine in St. Louis",
-            "image": "",
-            "agenda_image": "",
-            "lab_url": "",
-            "bio": ""
+            "image": "jeffrey_gordon.jpg",
+            "agenda_image": "jeffrey_gordon_thumb.jpg",
+            "lab_url": "https://pathology.wustl.edu/people/jeffrey-gordon-md/",
+            "bio": "Jeffrey Gordon is the Dr. Robert J. Glaser Distinguished University Professor at Washington University in St. Louis. He received his A.B. from Oberlin College and his M.D. from the University of Chicago. After completing his clinical training in internal medicine and gastroenterology, and doing a post-doctoral fellowship at the NIH, he joined the faculty at Washington University where he has spent his entire career; first as a member of the Departments of Medicine and Biological Chemistry, then as Head of the Department of Molecular Biology and Pharmacology, and for the past decade as founding Director of the University’s interdepartmental Center for Genome Sciences and Systems Biology. Members of his lab have developed gnotobiotic animal models, and new experimental and computational approaches to characterize the assembly, dynamic operations, functional properties, and biological effects of human gut microbial communities. He has combined these models with human studies involving twins as well as members of birth cohorts living in low-, middle- and high-income countries. His group is focused on addressing the global health challenges of obesity and childhood undernutrition through new understanding of the interactions between diets and the gut microbiome and through new ways of promoting healthy development of the gut microbial community during the first several years of postnatal life. To date, he has been the research mentor to 137 PhD and MD/PhD students and post-doctoral fellows. He is a member of the National Academy of Sciences, the American Academy of Arts and Sciences, the National Academy of Medicine, and the American Philosophical Society."
         }],
         "date": "April 5, 2020",
         "time": "9:30 am - 10:00 am",
