@@ -23,13 +23,13 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
+            "title": "Rethinking Cancer and Health in Light of the Microbiome",
             "name": "Jennifer Wargo, MD, MMSc",
             "affiliation": "MD Anderson Cancer Center",
             "image": "jennifer_wargo.jpg",
             "agenda_image": "jennifer_wargo_thumb.jpg",
             "lab_url": "https://faculty.mdanderson.org/profiles/jennifer_wargo.html",
-            "bio": ""
+            "bio": "Dr. Wargo’s career commitment has been to advance the understanding and treatment of disease through science. With a joint appointment in Surgical Oncology and Genomic Medicine, she continues her critical research to better understand responses to therapy and develop novel strategies to combat resistance. This includes her groundbreaking recent work elucidating the role of the gut microbiome in shaping responses to immunotherapy in patients with melanoma and a clinical trial underway exploring optimal methods to manipulate the gut microbiome to enhance responses to cancer therapy"
         }],
         "date": "April 3, 2020",
         "time": "11:00 am - 11:30 am",
@@ -48,7 +48,7 @@
             "image": "katalin_susztak.jpg",
             "agenda_image": "katalin_susztak_thumb.jpg",
             "lab_url": "https://www.med.upenn.edu/susztaklab/",
-            "bio": ""
+            "bio": "Dr. Katalin Susztak is a physician-scientist at the University of Pennsylvania. Her laboratory is interested in understanding the pathomechanism of chronic kidney disease development. Susztak has made discoveries fundamental towards defining critical genes, cell types and mechanisms of chronic kidney disease. She was instrumental in defining genetic, epigenetic transcriptional changes in diseased human kidneys. She identified novel kidney disease genes and demonstrated the contribution of Notch signaling and metabolic dysregulation in kidney disease development. Her lab was the first to map the kidney epigenome and catalogue genotype-driven gene-expression variation (eQTL) in human kidneys. Integration of GWAS, eQTL and epigenome data has been essential to prioritize disease-causing genes and variants. Dr. Susztak generated the first unbiased, comprehensive kidney cell-type atlas using single cell transcriptomics. She identified that specific renal endophenotypes are linked and likely caused by the dysfunction of specific cell types."
         }],
         "date": "April 3, 2020",
         "time": "11:30 am - 12:00 pm",
@@ -81,7 +81,7 @@
         "time": "1:00 pm - 6:00 pm",
         "location": "International Ballroom",
         "moderators": [
-            ""
+            "Hossein Ardehali, Elizabeth McNally, Jose Rodrigues"
         ],
         "apsa": true
     },
@@ -91,13 +91,13 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
+            "title": "How Mitochondria and Lysosomes cause Autoimmune Disease ",
             "name": "Cornelia Weyand, MD, PhD",
             "affiliation": "Stanford University",
-            "image": "",
+            "image": "cornelia_weyand.jpg",
             "agenda_image": "cornelia_weyand_thumb.jpg",
             "lab_url": "https://profiles.stanford.edu/cornelia-weyand?tab=bio",
-            "bio": ""
+            "bio": "Cornelia M. Weyand, M.D., Ph.D. is Professor of Medicine and Director of the Center for Translational Medicine at Stanford University School of Medicine. Dr. Weyand is leading a research team in translational immunology supported continuously through funding from the National Institute of Health. She has a special interest in tissue-damaging immune responses in rheumatoid arthritis, atherosclerosis and large vessel vasculitis. Dr. Weyand’s research team has defined the role of T cells and dendritic cells in deviating immunity from protective to destructive and over the last decade, she has devoted special emphasis to the remodeling of the immune system with aging, how chronic disease ages the immune system, and how aged immune cells cause inflammation. She has defined molecular defects underlying the immune abnormalities driving rheumatoid arthritis, implicating defects in mitochondrial DNA repair and intracellular protein trafficking to lysosomal surfaces. Her team has defined metabolic signatures that are linked to pathogenic behavior of T cells and macrophages, representing novel targets for immunomodulatory therapy."
         }],
         "date": "April 3, 2020",
         "time": "1:00 pm – 1:30 pm",
@@ -318,7 +318,7 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "Disruptor in Neuropsychiatry",
+            "title": "Translating Neuroscience: Obstacles and Opportunities",
             "name": "Kafui Dzirasa, MD, PhD",
             "affiliation": "Duke University",
             "image": "",
@@ -334,11 +334,11 @@
     },
     {
         "type": "keynote",
-        "title": "Panel: Disruption in Physician Scientist Resident Training  ",
+        "title": "Panel: Disruption in Physician Scientist Resident Training",
         "award": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
+            "title": "National Initiatives Supporting Physician Scientist Careers",
             "name": "Christopher S. Williams, MD, PhD",
             "affiliation": "Vanderbilt University",
             "image": "",
@@ -358,7 +358,7 @@
             "time": "9:40 am - 9:46 am"
         }, {
             "speaker_type": "",
-            "title": "",
+            "title": "Disrupting the Approach to Scientific Education During Residency Training",
             "name": "Rebecca M. Baron, MD",
             "affiliation": "Brigham and Women's Hospital",
             "image": "",
@@ -366,16 +366,6 @@
             "lab_url": "",
             "bio": "",
             "time": "9:46 am - 9:52 am"
-        }, {
-            "speaker_type": "",
-            "title": "",
-            "name": "Kafui Dzirasa, MD, PhD",
-            "affiliation": "Duke University",
-            "image": "",
-            "agenda_image": "",
-            "lab_url": "https://www.neuro.duke.edu/research/faculty-labs/dzirasa-lab",
-            "bio": "",
-            "time": "9:52 am - 10:00 am"
         }],
         "date": "April 4, 2020",
         "time": "9:30 am - 10:30 am",
@@ -400,65 +390,77 @@
         "description": "",
         "apsa": true
     },
-    {
-        "type": "keynote",
-        "award": "APSA Trainee Oral Abstract Presentation I",
-        "title": "",
-        "speaker": [{
-            "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
-            "image": "",
-            "agenda_image": "",
-            "lab_url": "",
-            "bio": ""
-        }],
+          {
+        "type": "session",
+        "title": "Plenary Session III: Disruption in Modern Medical Concepts",
         "date": "April 4, 2020",
-        "time": "10:45 am - 11:00 am",
+        "time": "10:45 am - 11:45 am",
         "location": "International Ballroom",
+        "moderators": [
+            "Jeff Chen, Donna Martin and Paul Noble"
+        ],
         "apsa": true
     },
-    {
-        "type": "keynote",
-        "award": "APSA Trainee Oral Abstract Presentation II",
-        "title": "",
-        "speaker": [{
-            "speaker_type": "",
-            "title": "",
-            "name": "",
-            "affiliation": "",
-            "image": "",
-            "agenda_image": "",
-            "lab_url": "",
-            "bio": ""
-        }],
-        "date": "April 4, 2020",
-        "time": "11:00 am - 11:15 am",
-        "location": "International Ballroom",
-        "apsa": true
-    },
-
     {
         "type": "keynote",
         "award": "",
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
-            "name": "Svati Shah, MD",
-            "affiliation": "Duke University",
-            "image": "",
-            "agenda_image": "",
+            "title": "Endothelial IQGAP1, Calmodulin, and CaMKIIδ regulate leukocyte transendothelial migration",
+            "name": "Prarthana Dalal",
+            "affiliation": "Northwestern University Feinberg School of Medicine",
+            "image": "prarthana_dalal.jpg",
+            "agenda_image": "prarthana_dalal_thumb.jpg",
             "lab_url": "",
-            "bio": ""
+            "bio": "Prarthana Dalal is a MD/PhD student at the Northwestern University Feinberg School of Medicine. Prarthana is interested in vascular biology and immunology and her research focuses on mechanisms of inflammation. Specifically, she has been studying endothelial cell calcium signaling as it relates to leukocyte transendothelial migration and has received awards for her work from the American Society for Investigative Pathology and the Society for Leukocyte Biology. She is currently completing her PhD in the laboratory of William A. Muller, MD PhD. She received her bachelor’s degree in biological sciences from Northwestern University as part of the Honors Program in Medical Education and subsequently joined the Medical Scientist Training Program."
+        }],
+        "date": "April 4, 2020",
+        "time": "10:45 am - 11:00 am",
+        "location": "International Ballroom",
+        "description": "",
+        "apsa": true
+    },
+     {
+        "type": "keynote",
+        "award": "",
+        "title": "",
+        "speaker": [{
+            "speaker_type": "",
+            "title": "Unraveling antigen presentation in central nervous system anti-tumor Immunity",
+            "name": "Jay Bowman-Kirigin",
+            "affiliation": "Washington University School of Medicine",
+            "image": "jay_bowman.jpg",
+            "agenda_image": "jay_bowman_thumb.jpg",
+            "lab_url": "",
+            "bio": "During MD/PhD training, I became fascinated by the human immune system, in particular, how the immune system recognizes and interacts with cancer. I was captivated by the premise that the body can recognize and eradicate cells that have gone astray and turned malignant. My thesis project explores how antigen presentation and lymphatic drainage works for brain tumors. The hope is that developing a better understanding of this process could potentially elucidate more effective treatment strategies. I aspire to have a career where I can apply information I learn from lab to patients I see in clinic, and vice versa. My hope is that this interplay between lab and clinic will allow me to more effectively aim scientific inquiry to solve relevant scientific problems and to ultimately improve disease outcomes."
+        }],
+        "date": "April 4, 2020",
+        "time": "11:00 am - 11:15 am",
+        "location": "International Ballroom",
+        "description": "",
+        "apsa": true
+    },
+      {
+        "type": "keynote",
+        "award": "",
+        "title": "",
+        "speaker": [{
+            "speaker_type": "",
+            "title": "",
+            "name": "Svati H. Shah, MD, MHS",
+            "affiliation": "Duke University",
+            "image": "svati_shah.jpg",
+            "agenda_image": "svati_shah_thumb.jpg",
+            "lab_url": "",
+            "bio": "Dr. Svati Shah is a physician scientist and Associate Dean of Genomics, Director of Precision Genomics Collaboratory, Vice-Chief of Translational Research in the Division of Cardiology, Department of Medicine, and a faculty member and Co-Director of Translational Research in the Duke Molecular Physiology Institute (DMPI) and Duke Clinical Research Institute (DCRI). Her research focus is on metabolic and genetic pathways of cardiometabolic diseases, integrating diverse genomic, metabolomic and proteomic techniques for identification of novel mechanisms of disease and biomarkers. Her multi-disciplinary molecular epidemiology lab within the DMPI has quantitative and molecular components and leverages several large cardiovascular biorepositories on which she is PI or co-I to perform discovery studies using omics technologies, with subsequent functional validation for mechanistic insight. Dr. Shah collaborates closely with the DCRI for biomarker discovery in biospecimens from clinical trials and she is the Duke PI for the Verily Project Baseline study. She has partnered with the Duke Global Health Institute (DHGI) to identify disease biomarkers in global populations through a study of metabolic and genomic biomarkers of type II DM and CAD in Gurgaon, India. Dr. Shah is also Director of the Duke Adult Cardiovascular Genetics Clinic where she cares for patients and their families who have, or are at risk of, cardiovascular genetic disorders. Her training includes receiving a M.H.S. in epidemiology from Johns Hopkins School of Public Health, a Master’s degree in Medical Genomics from Duke University, and completing a research fellowship in genetic epidemiology at the Duke Center for Human Genetics."
         }],
         "date": "April 4, 2020",
         "time": "11:15 am - 11:45 am",
         "location": "International Ballroom",
+        "description": "",
         "apsa": true
     },
-
     {
         "type": "normal",
         "title": "Poster Session with Lunch",
