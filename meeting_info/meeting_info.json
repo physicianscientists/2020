@@ -96,7 +96,7 @@
             "affiliation": "Stanford University",
             "image": "",
             "agenda_image": "cornelia_weyand_thumb.jpg",
-            "lab_url": "https://profiles.stanford.edu/cornelia-weyand?tab=bio",
+            "lab_url": "",
             "bio": ""
         }],
         "date": "April 3, 2020",
@@ -224,7 +224,7 @@
     },
     {
         "type": "normal",
-        "title": "APSA-Trainee specific Business Meeting focusing on international training collaborations",
+        "title": "International Consortium of Clinician Scientist Trainee Organizations (ICCSTO) Business Meeting",
         "date": "April 3, 2020",
         "time": "5:45 pm - 7:00 pm",
         "location": "State",
@@ -233,7 +233,7 @@
     },
     {
         "type": "normal",
-        "title": "ASCI President's Reception <i>Honoring Donald Seldin and Holly Smith</i>",
+        "title": "ASCI President's Reception <i>Honoring Drs. Donald W. Seldin and Lloyd H. “Holly” Smith Jr.</i>",
         "date": "April 3, 2020",
         "time": "6:00 pm - 7:00 pm",
         "location": "Gold Room",
@@ -242,7 +242,7 @@
     },
     {
         "type": "normal",
-        "title": "Poster Viewing Only",
+        "title": "Poster Viewing",
         "date": "April 3, 2020",
         "time": "6:15 pm - 9:30 pm",
         "location": "Imperial Ballroom",
@@ -263,7 +263,7 @@
             "bio": ""
         }],
         "date": "April 3, 2020",
-        "time": "7:00 pm - 9:45 pm",
+        "time": "7:30 pm - 9:45 pm",
         "location": "Rouge",
         "apsa": false
     },
@@ -283,7 +283,7 @@
         "time": "7:00 am - 8:00 am",
         "location": "State Room, 2nd Level",
         "description": "",
-        "apsa": true
+        "apsa": false
     },
     {
         "type": "normal",
@@ -291,6 +291,15 @@
         "date": "April 4, 2020",
         "time": "7:00 am - 8:00 am",
         "location": "Rouge Room",
+        "description": "Trainees have breakfast with senior scientists in ASCI and AAP",
+        "apsa": true
+    },
+     {
+        "type": "normal",
+        "title": "APSA Board of Directors Meeting",
+        "date": "April 4, 2020",
+        "time": "8:00 am - 9:00 am",
+        "location": "State Room, 2nd Level",
         "description": "",
         "apsa": true
     },
@@ -413,8 +422,8 @@
             "affiliation": "Northwestern University Feinberg School of Medicine",
             "image": "prarthana_dalal.png",
             "agenda_image": "prarthana_dalal_thumb.png",
-            "lab_url": "",
-            "bio": "Prarthana Dalal is a MD/PhD student at the Northwestern University Feinberg School of Medicine. Prarthana is interested in vascular biology and immunology and her research focuses on mechanisms of inflammation. Specifically, she has been studying endothelial cell calcium signaling as it relates to leukocyte transendothelial migration and has received awards for her work from the American Society for Investigative Pathology and the Society for Leukocyte Biology. She is currently completing her PhD in the laboratory of William A. Muller, MD PhD. She received her bachelor’s degree in biological sciences from Northwestern University as part of the Honors Program in Medical Education and subsequently joined the Medical Scientist Training Program."
+            "lab_url": "https://www.feinberg.northwestern.edu/sites/mstp/current-students/student-profiles.html",
+            "bio": "Prarthana is a MD/PhD student at the Northwestern University Feinberg School of Medicine. Prarthana is interested in vascular biology and immunology and her research focuses on mechanisms of inflammation. Specifically, she has been studying endothelial cell calcium signaling as it relates to leukocyte transendothelial migration and has received awards for her work from the American Society for Investigative Pathology and the Society for Leukocyte Biology. She is currently completing her PhD in the laboratory of William A. Muller, MD PhD. She received her bachelor’s degree in biological sciences from Northwestern University as part of the Honors Program in Medical Education and subsequently joined the Medical Scientist Training Program."
         }],
         "date": "April 4, 2020",
         "time": "10:45 am - 11:00 am",
@@ -433,8 +442,8 @@
             "affiliation": "Washington University School of Medicine",
             "image": "jay_bowman.jpg",
             "agenda_image": "jay_bowman_thumb.jpg",
-            "lab_url": "",
-            "bio": "During MD/PhD training, I became fascinated by the human immune system, in particular, how the immune system recognizes and interacts with cancer. I was captivated by the premise that the body can recognize and eradicate cells that have gone astray and turned malignant. My thesis project explores how antigen presentation and lymphatic drainage works for brain tumors. The hope is that developing a better understanding of this process could potentially elucidate more effective treatment strategies. I aspire to have a career where I can apply information I learn from lab to patients I see in clinic, and vice versa. My hope is that this interplay between lab and clinic will allow me to more effectively aim scientific inquiry to solve relevant scientific problems and to ultimately improve disease outcomes."
+            "lab_url": "http://mstp.wustl.edu/students/Pages/student_bio.aspx?SID=7149",
+            "bio": "Jay is an MD/PhD student working with Dr. Gavin P. Dunn at Washington University School of Medicine. During MD/PhD training, he became fascinated by the human immune system, in particular, how the immune system recognizes and interacts with cancer. He was captivated by the premise that the body can recognize and eradicate cells that have gone astray and turned malignant. His thesis project explores how antigen presentation and lymphatic drainage works for brain tumors. The hope is that developing a better understanding of this process could potentially elucidate more effective treatment strategies. He aspires to have a career where he can apply information he learns from lab to patients he sees in clinic, and vice versa. His hope is that this interplay between lab and clinic will allow him to more effectively aim scientific inquiry to solve relevant scientific problems and to ultimately improve disease outcomes."
         }],
         "date": "April 4, 2020",
         "time": "11:00 am - 11:15 am",
@@ -453,8 +462,8 @@
             "affiliation": "Duke University",
             "image": "svati_shah.jpg",
             "agenda_image": "svati_shah_thumb.jpg",
-            "lab_url": "",
-            "bio": "Dr. Svati Shah is a physician scientist and Associate Dean of Genomics, Director of Precision Genomics Collaboratory, Vice-Chief of Translational Research in the Division of Cardiology, Department of Medicine, and a faculty member and Co-Director of Translational Research in the Duke Molecular Physiology Institute (DMPI) and Duke Clinical Research Institute (DCRI). Her research focus is on metabolic and genetic pathways of cardiometabolic diseases, integrating diverse genomic, metabolomic and proteomic techniques for identification of novel mechanisms of disease and biomarkers. Her multi-disciplinary molecular epidemiology lab within the DMPI has quantitative and molecular components and leverages several large cardiovascular biorepositories on which she is PI or co-I to perform discovery studies using omics technologies, with subsequent functional validation for mechanistic insight. Dr. Shah collaborates closely with the DCRI for biomarker discovery in biospecimens from clinical trials and she is the Duke PI for the Verily Project Baseline study. She has partnered with the Duke Global Health Institute (DHGI) to identify disease biomarkers in global populations through a study of metabolic and genomic biomarkers of type II DM and CAD in Gurgaon, India. Dr. Shah is also Director of the Duke Adult Cardiovascular Genetics Clinic where she cares for patients and their families who have, or are at risk of, cardiovascular genetic disorders. Her training includes receiving a M.H.S. in epidemiology from Johns Hopkins School of Public Health, a Master’s degree in Medical Genomics from Duke University, and completing a research fellowship in genetic epidemiology at the Duke Center for Human Genetics."
+            "lab_url": "https://dmpi.duke.edu/faculty/svati-h-shah-md-mhs",
+            "bio": "Dr. Shah is a physician scientist and Associate Dean of Genomics, Director of Precision Genomics Collaboratory, Vice-Chief of Translational Research in the Division of Cardiology, Department of Medicine, and a faculty member and Co-Director of Translational Research in the Duke Molecular Physiology Institute (DMPI) and Duke Clinical Research Institute (DCRI). Her research focus is on metabolic and genetic pathways of cardiometabolic diseases, integrating diverse genomic, metabolomic and proteomic techniques for identification of novel mechanisms of disease and biomarkers. Her multi-disciplinary molecular epidemiology lab within the DMPI has quantitative and molecular components and leverages several large cardiovascular biorepositories on which she is PI or co-I to perform discovery studies using omics technologies, with subsequent functional validation for mechanistic insight. Dr. Shah collaborates closely with the DCRI for biomarker discovery in biospecimens from clinical trials and she is the Duke PI for the Verily Project Baseline study. She has partnered with the Duke Global Health Institute (DHGI) to identify disease biomarkers in global populations through a study of metabolic and genomic biomarkers of type II DM and CAD in Gurgaon, India. Dr. Shah is also Director of the Duke Adult Cardiovascular Genetics Clinic where she cares for patients and their families who have, or are at risk of, cardiovascular genetic disorders. Her training includes receiving a M.H.S. in epidemiology from Johns Hopkins School of Public Health, a Master’s degree in Medical Genomics from Duke University, and completing a research fellowship in genetic epidemiology at the Duke Center for Human Genetics."
         }],
         "date": "April 4, 2020",
         "time": "11:15 am - 11:45 am",
@@ -665,7 +674,7 @@
         "type": "panel",
         "title": "APSA Resident, Fellow, and Junior Faculty Session I: How to Support and Retain Early Career Physician-Scientists",
         "date": "April 4, 2020",
-        "time": "5:30 pm - 6:30 pm",
+        "time": "5:30 pm - 7:00 pm",
         "location": "Ambassador Room",
         "description": "",
         "apsa": true,
@@ -673,6 +682,7 @@
             {
                 "moderator": true,
                 "name": "Jennifer Kwan, MD, PhD",
+                "affiliation": "Yale University",
                 "image": "jennifer_kwan.PNG",
                 "agenda_image": "jennifer_kwan_thumb.PNG",
                 "bio": "Dr. Kwan is a cardiology fellow at Yale University School of Medicine doing translational research in the area of cardio-oncology. She is an MSTP graduate from the University of Illinois College of Medicine, and has been an active member of APSA’s Executive Council for over a decade. She served as the longest running policy chair for APSA, during which she launched a national survey to assess shortfalls in NIH predoctoral F30 funding. The results were used to successfully advocate for all award granting institute to participate in the F30 funding mechanism. Her career goal is to become an independent investigator and physician scientist cardiologist doing translational, multi-disciplinary research (including advanced imaging) in academic medicine to elucidate mechanisms behind cardiotoxicities of chemotherapeutic agents and find ways to prevent these toxicities so patients may benefit from their treatments."
@@ -680,27 +690,31 @@
             {
                 "moderator": true,
                 "name": "Evan Noch, MD, PhD",
+                "affiliation": "Memorial Sloan Kettering",
                 "image": "evan_noch.jpg",
                 "agenda_image": "evan_noch_thumb.jpg",
-                "bio": ""
+                "bio": "Dr. Noch is a neuro-oncology fellow at Memorial Sloan Kettering Cancer Center and a post-doctoral fellow in Lew Cantley’s lab in the Sandra and Edward Meyer Cancer Center at Weill Cornell Medicine in New York City. In the Cantley lab, he studies the role of lipid kinases in the normal brain and in glioblastoma. He previously served as Chief Resident for Research and Education in the Department of Neurology at Weill Cornell Medicine. He received his BS in Neuroscience from New York University in 2006 and his MD and PhD degrees from Temple University School of Medicine in 2013, where he studied the role of oncogenes in the regulation of oxygen and glucose metabolism in the pathogenesis of glioblastoma and medulloblastoma. During his MD and PhD training, Evan presented abstracts at several meetings, including the 10th Symposium of the International Society for Neurovirology in Milan, Italy, where he received the Volker ter Meulen Investigator-in-Training Award, and a platform presentation at the Society for Neuro-oncology’s 17th Annual Meeting. Upon completion of his PhD, Evan received the Florence Gloria Freedman Award for Cancer Research and the American Academy of Neurology 2013 Medical Student Prize for Excellence in Neurology. Evan has received travel awards to a variety of meetings, including those of the International Society for Neurovirology, the American Academy of Neurology, as well as the Central Society for Clinical and Translational Research and the Midwestern Section of the American Federation for Medical Research. Recently, Evan presented his work at the Annual Meeting of the Society for Neuroscience. Evan has been involved in APSA for 9 years, serving on the PR Committee and then as its Committee Chair before serving as President-Elect and then President. More recently, Evan served as APSA's Resident Liaison for the past 2 years. As a fellow, Evan continues to remain passionate about APSA and is now working on ways to better understand the needs of post-graduate physician-scientist trainees to improve their career development opportunities."
             },
             {
                 "moderator": false,
-                "name": "Kay Lund, PhD",
+                "name": "P. Kay Lund, PhD",
+                "affiliation": "National Institutes of Health",   
                 "image": "kay_lund.png",
                 "agenda_image": "kay_lund_thumb.png",
-                "bio": "As  Director of the Division of Biomedical Research Workforce (DBRW) Dr. P. Kay Lund provides leadership for development, implementation, policy and evaluation of extramural programs related to research training, career development and diversity of the biomedical research workforce, including institutional training grants, individual pre- and postdoctoral fellowships and Career Development (K) awards. Recent emphasis has been on innovative strategies to recruit, retain and accelerate independence for early stage physician/clinician scientists, including new Institutional Research in Residency programs with opportunities for Transitional Scholar K awards during fellowship (Academic Medicine. 2017, 92:1382). Dr. Lund joined NIH from a career in academia including appointments at the Massachusetts General Hospital and Harvard, and the University of North Carolina at Chapel Hill where she held a Sarah Graham Kenan Distinguished Professorship in the Department of Cell and Molecular Physiology, and held joint appointments in Pediatrics and Nutrition. She also interacted with faculty in the Division of Gastroenterology and Neuroscience Center. Throughout her career, she partnered with clinician investigators. Her research and many (>200) publications focused on glucagon-like peptides (GLPs) and insulin-like growth factors (IGFs) including basic molecular biology, gene structure and regulation and roles in intestinal epithelial renewal, regeneration, inflammatory bowel diseases, aging and early stage cancer. Dr. Lund mentored many undergraduates, graduate students, postdocs and early stage faculty, both Ph.D. and clinician scientists a majority of whom are succeeding as independent researchers. She has received many awards (Award for the Advancement of Women, the Davenport award from American Physiological Society and the 2016 Distinguished Mentor Award from the American Gastroenterology Association)."
+                "bio": "As  Director of the Division of Biomedical Research Workforce (DBRW) Dr. Lund provides leadership for development, implementation, policy and evaluation of extramural programs related to research training, career development and diversity of the biomedical research workforce, including institutional training grants, individual pre- and postdoctoral fellowships and Career Development (K) awards. Recent emphasis has been on innovative strategies to recruit, retain and accelerate independence for early stage physician/clinician scientists, including new Institutional Research in Residency programs with opportunities for Transitional Scholar K awards during fellowship (Academic Medicine. 2017, 92:1382). Dr. Lund joined NIH from a career in academia including appointments at the Massachusetts General Hospital and Harvard, and the University of North Carolina at Chapel Hill where she held a Sarah Graham Kenan Distinguished Professorship in the Department of Cell and Molecular Physiology, and held joint appointments in Pediatrics and Nutrition. She also interacted with faculty in the Division of Gastroenterology and Neuroscience Center. Throughout her career, she partnered with clinician investigators. Her research and many (>200) publications focused on glucagon-like peptides (GLPs) and insulin-like growth factors (IGFs) including basic molecular biology, gene structure and regulation and roles in intestinal epithelial renewal, regeneration, inflammatory bowel diseases, aging and early stage cancer. Dr. Lund mentored many undergraduates, graduate students, postdocs and early stage faculty, both Ph.D. and clinician scientists a majority of whom are succeeding as independent researchers. She has received many awards (Award for the Advancement of Women, the Davenport award from American Physiological Society and the 2016 Distinguished Mentor Award from the American Gastroenterology Association)."
             },
             {
                 "moderator": false,
                 "name": "Kirsten Bibbins-Domingo, PhD, MD, MAS",
+                "affiliation": "UCSF",                      
                 "image": "kirsten_bibbins.PNG",
                 "agenda_image": "kirsten_bibbins_thumb.PNG",
-                "bio": "Kirsten Bibbins-Domingo, PhD, MD, MAS is the Lee Goldman, MD Endowed Chair in Medicine, Professor and Chair of the Department of Epidemiology and Biostatistics, and Professor of Medicine at the University of California, San Francisco.   She is the inaugural Vice Dean for Population Health and Health Equity in the UCSF School of Medicine.  She co-founded the UCSF Center for Vulnerable Populations at Zuckerberg San Francisco General Hospital, a research center focused on discovery, implementation, policy, advocacy, and community engagement for communities at risk for poor health and inadequate healthcare.  She is one of the Principle Investigators for the UCSF Clinical and Translational Sciences Institute. Dr. Bibbins-Domingo is a general internist and cardiovascular epidemiologist who uses observational epidemiology, pragmatic trials, and simulation modeling to examine the impact of clinical and public health approaches to cardiovascular disease prevention in the US, in US population subgroups, and in other countries globally.  She is an expert in prevention and previously served on the US Preventive Services Task Force as a member (2010-2017) and as vice chair and chair (2014-2017).  She is an inducted member of the American Society for Clinical Investigation, the Association of American Physicians, and the National Academy of Medicine."
+                "bio": "Dr. Bibbins-Domingo is the Lee Goldman, MD Endowed Chair in Medicine, Professor and Chair of the Department of Epidemiology and Biostatistics, and Professor of Medicine at the University of California, San Francisco. She is the inaugural Vice Dean for Population Health and Health Equity in the UCSF School of Medicine.  She co-founded the UCSF Center for Vulnerable Populations at Zuckerberg San Francisco General Hospital, a research center focused on discovery, implementation, policy, advocacy, and community engagement for communities at risk for poor health and inadequate healthcare. She is one of the Principle Investigators for the UCSF Clinical and Translational Sciences Institute. Dr. Bibbins-Domingo is a general internist and cardiovascular epidemiologist who uses observational epidemiology, pragmatic trials, and simulation modeling to examine the impact of clinical and public health approaches to cardiovascular disease prevention in the US, in US population subgroups, and in other countries globally. She is an expert in prevention and previously served on the US Preventive Services Task Force as a member (2010-2017) and as vice chair and chair (2014-2017).  She is an inducted member of the American Society for Clinical Investigation, the Association of American Physicians, and the National Academy of Medicine."
             },  
             {
                 "moderator": false,
                 "name": "Sindy Escobar-Alvarez, Ph.D.",
+                "affiliation": "Doris Duke Charitable Foundation",                      
                 "image": "sindy_alvarez.jpg",
                 "agenda_image": "sindy_alvarez_thumb.jpg",
                 "bio": "Dr. Escobar-Alvarez is the Senior Program Officer for the Medical Research Program at the Doris Duke Charitable Foundation. Through her work, she aims to advance biomedical research and to promote inclusive and effective grant making. Dr. Escobar-Alvarez manages processes to select awardees of the foundation’s programs to support sickle cell disease research, and the retention of physician scientists who are at the faculty level and conducting clinical research in a broad range of diseases. She liaises with current grantees to understand and facilitate their research, and conducts short- and long-term evaluations of grant program outcomes. In her role, she also supports efforts to inform program strategy for the Medical Research Program. Dr. Escobar-Alvarez is the foundation’s representative for Vivli’s Steering Committee and serves as a member of the Board of Directors of the Health Research Alliance. At the Health Research Alliance, she has been co-Chair of the Program Committee that organizes members’ meetings as well as of working groups concerned with the research workforce and open science. Dr. Escobar-Alvarez has also served as a member of both the Patient Centered Outcomes Research Institute’s Advisory panel on Rare Diseases and Vivli’s External Advisory Committee. Dr. Escobar-Alvarez is a graduate of the Pharmacology Department of the Weill Cornell Medicine Graduate School of Medical Sciences, through which she trained at the Sloan Kettering Institute of Memorial Sloan Kettering Cancer Center. Her research there elucidated a link between mitochondrial translation and energy production in cancer. As a trainee, she contributed her scientific knowledge and familiarity with the biotechnology industry to technology evaluation at the Cornell Center for Technology Enterprise and Commercialization."
@@ -708,6 +722,7 @@
             {
                 "moderator": false,
                 "name": "Robert J. Milner PhD",
+                "affiliation": "University of Massachusetts",                     
                 "image": "robert_milner.jpg",
                 "agenda_image": "robert_milner_thumb.jpg",
                 "bio": ""
@@ -727,6 +742,7 @@
             {
                 "moderator": true,
                 "name": "Audra Iness Christovich",
+                "affiliation": "Virginia Commonwealth University",                    
                 "image": "audra_iness.jpg",
                 "agenda_image": "audra_iness_thumb.jpg",
                 "bio": "Audra is an MD-PhD student at Virginia Commonwealth University (VCU) School of Medicine. Audra obtained her PhD in Clinical and Translational Research, Cancer and Molecular Medicine in 2018 and is now in the clinical clerkship phase of the MD-PhD program. Under the mentorship of Dr. Larisa Litovchick, MD, PhD, Audra studied the oncoprotein B-Myb and its impact on cell cycle regulation by the transcriptional repressor complex, DREAM, in ovarian cancer. Additionally, she enjoys playing soccer and has been a part of a community league for several years. Her involvement in APSA began when she founded a local chapter at VCU and held roles as President and Institutional Representative. At the national level, she has served as Public Relations Chair (2016-2017), President-Elect (2017-2018), and President this past term. Audra was involved in developing several initiatives, including the establishment of the inaugural Burroughs Wellcome Fund-APSA Physician Scientist Trainee Diversity Summit, unifying the community of Physician Scientist Training/Research in Residency Programs, as well as the formation of the International Consortium of Clinician Scientist Trainee Organizations (ICCSTO). She looks forward to supporting the next generation of APSA leaders and her continued commitment to physician scientist trainee advocacy."
@@ -734,6 +750,7 @@
             {
                 "moderator": false,
                 "name": "Olujimi A. Ajijola, MD, PhD",
+                "affiliation": "UCLA",                    
                 "image": "olujimi_ajijola.jpg",
                 "agenda_image": "olujimi_ajijola_thumb.jpg",
                 "bio": "Dr. Ajijola completed his undergraduate studies at the University of Virginia, and received his medical degree from Duke University. He went on to the Massachusetts General Hospital for residency training in internal medicine, and completed clinical fellowships in cardiovascular medicine and cardiac electrophysiology at UCLA. He received a Ph.D. in Molecular, Cellular, and Integrative Physiology at UCLA, as part of the Specialty Training and Advanced Research (STAR) program. From a clinical research perspective, he is interested in neuromodulation, as adjunctive therapies, for treating patients with minor and severe cardiac arrhythmias, and performs invasive cardiac electrophysiological procedures. His translational research lab is focused on understanding how cardiovascular injury induces remodeling within the cardiac neural hierarchy, and how various neuromodulatory strategies may be aimed at treating cardiovascular diseases, including sudden cardiac death. In addition to the NIH Director’s New Innovator award, he is also a recipient of the A. P. Giannini Foundation post-doctoral award, and a Young Physician Scientist Award from the American Society for Clinical Investigation (ASCI). He is a member of the New Voices program of the National Academies of Science, Engineering, and Medicine. He serves as director of the Clinical Autonomic Neuroscience Programs, and Autonomic Testing Laboratory. He also serves on the leadership team of the UCLA Specialty Training and Advanced Research (STAR) program, and directs the UCLA internal medicine residency physician scientist training program (ProSTAR-PSTP)."
@@ -741,6 +758,7 @@
             {
                 "moderator": false,
                 "name": "Robert Brett Lloyd, Jr, MD, PhD",
+                "affiliation": "Northwestern University",                    
                 "image": "brett_lloyd.jpg",
                 "agenda_image": "brett_lloyd_thumb.jpg",
                 "bio": "Dr. Lloyd's primary clinical interests involve the diagnosis and treatment of patients with psychiatric conditions and other medical comorbidities. Specifically, he is interested in the interface between physical medicine and rehabilitation and psychiatry. He is currently involved with a group of researchers at Northwestern evaluating factors that influence the development and maintenance of chronic pelvic pain. He is also interested in improving methods related to medical education with a focus on technology in the classroom."
@@ -748,6 +766,7 @@
             {
                 "moderator": false,
                 "name": "Donald Williams (Will) Parsons, MD, PhD",
+                "affiliation": "Baylor University",                    
                 "image": "will_parsons.jpg",
                 "agenda_image": "will_parsons_thumb.jpg",
                 "bio": "Dr. Parsons is a board-certified pediatric oncologist and the Co-Director of the Pediatrician-Scientist Program at Baylor College of Medicine (BCM) in Houston, Texas. He is the Deputy Director of Texas Children’s Cancer and Hematology Centers and plays multiple other leadership roles including serving as Director of the Precision Oncology Program and Co-Director of the Neuro-Oncology and Cancer Genetics & Genomics Programs at Texas Children’s. Dr. Parsons’ work has been instrumental in the characterizing the genetic landscapes of a variety of pediatric and adult cancers, including the first identification of IDH1 and IDH2 as critical oncogenes in gliomas. Dr. Parsons’ research team is currently engaged in a number of sequencing studies of high-risk and rare pediatric cancers with goals of revealing tumor biology, identifying potential molecular targets for therapy, and facilitating pre-clinical characterization of novel therapeutics. His current research primarily focuses on the clinical application of genomic technologies in pediatric cancer care. Dr. Parsons received his B.A. in chemistry from Princeton University and his M.D. and Ph.D. degrees from The Ohio State University College of Medicine. He completed his pediatric residency at Johns Hopkins University and his oncology/neuro-oncology fellowship training at Johns Hopkins and the National Cancer Institute."
@@ -766,20 +785,23 @@
             {
                 "moderator": true,
                 "name": "Hannah Turbeville",
+                "affiliation": "University of Mississippi",                    
                 "image": "hannah_turbeville.jpg",
                 "agenda_image": "hannah_turbeville_thumb.jpg",
-                "bio": "Hannah is a sixth year MD-PhD student at the University of Mississippi Medical Center, where she studies the effects of preeclampsia on the offspring of affected pregnancies and the therapeutic potential of sildenafil in reducing their chronic disease risk in the lab of Dr. Jennifer Sasser. She previously attended the University of Southern Mississippi and earned a BS in Medical Laboratory Science after completing an honors thesis comparing diagnostic parameters of tumor markers in prostate cancer. Hannah began her journey with APSA in 2016 as a member of the Partnerships committee before moving on to Vice chair and Chair of the same committee. As President-Elect, she looks forward to facilitating diversity initiatives, strengthening partner relations, and ensuring that APSA serves as the voice of physician scientist trainees across the country. Loves: her German shepherd Zeus, Disney World, adventures, black coffee. Hates: pickles, movie spoilers, alarm clocks."
+                "bio": "Hannah is a sixth year MD/PhD student at the University of Mississippi Medical Center, where she studies the effects of preeclampsia on the offspring of affected pregnancies and the therapeutic potential of sildenafil in reducing their chronic disease risk in the lab of Dr. Jennifer Sasser. She previously attended the University of Southern Mississippi and earned a BS in Medical Laboratory Science after completing an honors thesis comparing diagnostic parameters of tumor markers in prostate cancer. Hannah began her journey with APSA in 2016 as a member of the Partnerships committee before moving on to Vice chair and Chair of the same committee. As President-Elect, she looks forward to facilitating diversity initiatives, strengthening partner relations, and ensuring that APSA serves as the voice of physician scientist trainees across the country. Loves: her German shepherd Zeus, Disney World, adventures, black coffee. Hates: pickles, movie spoilers, alarm clocks."
             },
             {
                 "moderator": false,
                 "name": "Patrick Hu, MD, PhD",
+                "affiliation": "Vanderbilt University",                    
                 "image": "patrick_hu.jpg",
                 "agenda_image": "patrick_hu_thumb.jpg",
-                "bio": ""
+                "bio": "Dr. Hu is an Associate Professor of Medicine and Cell and Developmental Biology and Director of the Physician-Scientist Training Program/Harrison Society in the Department of Medicine at Vanderbilt University Medical Center. He earned an A.B. from Harvard College and M.D. and Ph.D. degrees from New York University, where he studied PI 3-kinase signaling in Joseph Schlessinger’s lab. After completing clinical training in Internal Medicine at The Johns Hopkins Hospital and Adult Oncology at the Dana-Farber Cancer Institute and Massachusetts General Hospital, he did postdoctoral research on insulin-like growth factor signaling in the nematode Caenorhabditis elegans in Gary Ruvkun’s lab. He spent eleven years on the faculty of the University of Michigan Medical School prior to his recruitment to Vanderbilt in 2016. Dr. Hu is a member of the American Society for Clinical Investigation."
             },
             {
                 "moderator": false,
                 "name": "Arun Wiita, MD, PhD",
+                "affiliation": "UCSF",                    
                 "image": "arun_wiita.jpg",
                 "agenda_image": "arun_wiita_thumb.jpg",
                 "bio": "Dr. Wiita is a physician-scientist and Associate Professor in the Dept. of Laboratory Medicine at the University of California, San Francisco. Dr. Wiita directs the Physician-Scientist Pathway program within the UCSF Depts. of Pathology and Laboratory Medicine and is a standing member of the NCI K08 study section. Dr. Wiita's research laboratory focuses on mass spectrometry-based proteomics and immunotherapy development in hematologic malignancies, while his clinical duties center on molecular genomic pathology. Dr. Wiita is a prior recipient of a K08 award from the NCI, Clinical Scientist Development Award from the Doris Duke Charitable Foundation, and NIH Director's New Innovator Award, among others. He completed his residency in Clinical Pathology at UCSF, his MSTP at Columbia, and undergraduate studies at Princeton."
@@ -787,6 +809,7 @@
             {
                 "moderator": false,
                 "name": "Elliott Richard Haut, MD, PhD",
+                "affiliation": "Johns Hopkins",                   
                 "image": "elliot_haut.jpg",
                 "agenda_image": "elliot_haut_thumb.jpg",
                 "bio": ""
@@ -795,17 +818,17 @@
     },
     {
         "type": "normal",
-        "title": "ASCI Food and Science: Featuring Poster Presentations by the ASCI’s 2020 Young Physician-Scientist Award Recipients",
+        "title": "ASCI Food and Science Evening",
         "date": "April 4, 2020",
         "time": "6:30 pm. - 9:00 pm",
         "location": "Mid America Club",
-        "description": "",
+        "description": "Featuring Poster Presentations by the ASCI’s 2020 Young Physician-Scientist Award Recipients",
         "apsa": true
     },
     {
         "type": "keynote",
         "award": "",
-        "title": "AAP Banquet",
+        "title": "AAP Banquet and New Member Induction Ceremony",
         "speaker": [{
             "speaker_type": "",
             "title": "From Bedside to Bench: Renewing a Path for Medically-Trained Scientists",
@@ -832,17 +855,17 @@
             "affiliation": "Stanford University School of Medicine",
             "image": "joseph_wu.jpg",
             "agenda_image": "joseph_wu_thumb.jpg",
-            "lab_url": "",
-            "bio": "Joseph C. Wu, MD, PhD is Director of Stanford Cardiovascular Institute and Simon H. Stertzer, MD, Professor of Medicine and Radiology at the Stanford School of Medicine. Dr. Wu received his MD from Yale University. He trained in internal medicine and cardiology at UCLA followed by a PhD in Molecular & Medical Pharmacology. His lab works on biological mechanisms of patient-specific and disease-specific induced pluripotent stem cells (iPSCs). The main goals are to (i) understand basic cardiovascular disease mechanisms, (ii) accelerate drug discovery and screening, (iii) develop “clinical trial in a dish” concept, and (iv) implement precision cardiovascular medicine for prevention and treatment of patients. Dr. Wu has received National Institutes of Health (NIH) Director’s New Innovator Award, NIH Roadmap Transformative Award, American Heart Association (AHA) Innovative Research Award, Presidential Early Career Award for Scientists and Engineers given out by President Obama, AHA Established Investigator Award, Burroughs Wellcome Foundation Innovation in Regulatory Science Award, AHA Merit Award, and AHA Distinguished Scientist Award. Dr. Wu serves on the FDA Cellular, Tissue, and Gene Therapies Advisory Committee, Scientific Advisory Board for the Keystone Symposia, and AHA National Board of Directors. He is also Chair of the AHA National Research Committee. Dr. Wu is an elected member of American Society of Clinical Investigators (ASCI), Association of University Cardiologists (AUC), American Institute for Medical and Biological Engineering (AIMBE), American Association for the Advancement of Science (AAAS), American Association of Physicians (AAP), and National Academy of Medicine (NAM)."
+            "lab_url": "http://med.stanford.edu/wulab.html",
+            "bio": "Dr. Wu is Director of the Stanford Cardiovascular Institute and Simon H. Stertzer, MD, Professor of Medicine and Radiology at the Stanford School of Medicine. Dr. Wu received his MD from Yale University. He trained in internal medicine and cardiology at UCLA followed by a PhD in Molecular & Medical Pharmacology. His lab works on biological mechanisms of patient-specific and disease-specific induced pluripotent stem cells (iPSCs). The main goals are to (i) understand basic cardiovascular disease mechanisms, (ii) accelerate drug discovery and screening, (iii) develop “clinical trial in a dish” concept, and (iv) implement precision cardiovascular medicine for prevention and treatment of patients. Dr. Wu has received National Institutes of Health (NIH) Director’s New Innovator Award, NIH Roadmap Transformative Award, American Heart Association (AHA) Innovative Research Award, Presidential Early Career Award for Scientists and Engineers given out by President Obama, AHA Established Investigator Award, Burroughs Wellcome Foundation Innovation in Regulatory Science Award, AHA Merit Award, and AHA Distinguished Scientist Award. Dr. Wu serves on the FDA Cellular, Tissue, and Gene Therapies Advisory Committee, Scientific Advisory Board for the Keystone Symposia, and AHA National Board of Directors. He is also Chair of the AHA National Research Committee. Dr. Wu is an elected member of American Society of Clinical Investigators (ASCI), Association of University Cardiologists (AUC), American Institute for Medical and Biological Engineering (AIMBE), American Association for the Advancement of Science (AAAS), American Association of Physicians (AAP), and National Academy of Medicine (NAM)."
         }],
         "date": "April 4, 2020",
-        "time": "7:30 pm - 9:00 pm",
+        "time": "7:00 pm - 9:00 pm",
         "location": "Rouge",
         "apsa": true
     },
     {
         "type": "normal",
-        "title": "Dessert Reception and Best Poster Awards (open to all attendees)",
+        "title": "Dessert Reception (open to all attendees)",
         "date": "April 4, 2020",
         "time": "9:45 pm – 11:30 pm",
         "location": "Imperial Lobby",
@@ -858,26 +881,7 @@
         "description": "",
         "apsa": false
     },
-    {
-        "type": "session",
-        "title": "APSA Session II",
-        "date": "April 5, 2020",
-        "time": "8:00 am - 12:00 pm",
-        "location": "International Ballroom",
-        "moderators": [
-            "Lillian Zhang"
-        ],
-        "apsa": true
-    },
-     {
-        "type": "normal",
-        "title": "APSA Board of Directors Meeting",
-        "date": "April 5, 2020",
-        "time": "8:00 am - 9:00 am",
-        "location": "Embassy Room",
-        "description": "",
-        "apsa": true
-    },
+
 
     {
         "type": "normal",
@@ -885,7 +889,7 @@
         "date": "April 5, 2020",
         "time": "8:00 am - 9:30 am",
         "location": "Rouge",
-        "description": "",
+        "description": "Trainees have breakfast with senior scientists based on medical specialty and research interests",
         "apsa": true
     },
 
@@ -925,21 +929,23 @@
         "date": "April 5, 2020",
         "time": "10:00 am - 11:00 am",
         "location": "State Room",
-        "description": "",
+        "description": "Interested in learning more about applying to a dual degree program? Join faculty experts from the University of Pittsburgh/Carnegie Mellon, University of Arizona, and the University of Miami as they discuss the application process and different training programs. You'll learn about their own paths, and what life is like as a physician-scientist.",
         "apsa": true,
         "participant": [""]
     },
     {
         "type": "panel",
-        "title": "Fellowship and Specialties Panel I (Medicine, Pediatrics, Psychiatry)",
-        "date": "April 5, 2020",
-        "time": "10:00 am - 11:00 am",
+        "title": "APSA PSTP Directors Panel (Medicine, Pediatrics, Psychiatry)",
+        "date": "April 4, 2020",
+        "time": "5:30 pm. - 7:00 pm ",
         "location": "Gold Room",
-        "description": "The goal of the Fellowship and Specialties panel is to promote an open discussion between fellowship directors and prospective applicants. Specific discussions will include the importance of research experience prior to and during the fellowship program, curricular tracks, and questions from the audience. In addition, the panel will help residents gather information on what subspecialty they may be interested in, a timeline for the application process, interviewing for fellowship, and strategies for success in fellowship.",
+        "description": "",
         "apsa": true,
-        "participant": [{
+        "participant": [
+            {
                 "moderator": true,
                 "name": "Audra Iness Christovich",
+                "affiliation": "Virginia Commonwealth University",                    
                 "image": "audra_iness.jpg",
                 "agenda_image": "audra_iness_thumb.jpg",
                 "bio": "Audra is an MD-PhD student at Virginia Commonwealth University (VCU) School of Medicine. Audra obtained her PhD in Clinical and Translational Research, Cancer and Molecular Medicine in 2018 and is now in the clinical clerkship phase of the MD-PhD program. Under the mentorship of Dr. Larisa Litovchick, MD, PhD, Audra studied the oncoprotein B-Myb and its impact on cell cycle regulation by the transcriptional repressor complex, DREAM, in ovarian cancer. Additionally, she enjoys playing soccer and has been a part of a community league for several years. Her involvement in APSA began when she founded a local chapter at VCU and held roles as President and Institutional Representative. At the national level, she has served as Public Relations Chair (2016-2017), President-Elect (2017-2018), and President this past term. Audra was involved in developing several initiatives, including the establishment of the inaugural Burroughs Wellcome Fund-APSA Physician Scientist Trainee Diversity Summit, unifying the community of Physician Scientist Training/Research in Residency Programs, as well as the formation of the International Consortium of Clinician Scientist Trainee Organizations (ICCSTO). She looks forward to supporting the next generation of APSA leaders and her continued commitment to physician scientist trainee advocacy."
@@ -947,6 +953,7 @@
             {
                 "moderator": false,
                 "name": "Olujimi A. Ajijola, MD, PhD",
+                "affiliation": "UCLA",                    
                 "image": "olujimi_ajijola.jpg",
                 "agenda_image": "olujimi_ajijola_thumb.jpg",
                 "bio": "Dr. Ajijola completed his undergraduate studies at the University of Virginia, and received his medical degree from Duke University. He went on to the Massachusetts General Hospital for residency training in internal medicine, and completed clinical fellowships in cardiovascular medicine and cardiac electrophysiology at UCLA. He received a Ph.D. in Molecular, Cellular, and Integrative Physiology at UCLA, as part of the Specialty Training and Advanced Research (STAR) program. From a clinical research perspective, he is interested in neuromodulation, as adjunctive therapies, for treating patients with minor and severe cardiac arrhythmias, and performs invasive cardiac electrophysiological procedures. His translational research lab is focused on understanding how cardiovascular injury induces remodeling within the cardiac neural hierarchy, and how various neuromodulatory strategies may be aimed at treating cardiovascular diseases, including sudden cardiac death. In addition to the NIH Director’s New Innovator award, he is also a recipient of the A. P. Giannini Foundation post-doctoral award, and a Young Physician Scientist Award from the American Society for Clinical Investigation (ASCI). He is a member of the New Voices program of the National Academies of Science, Engineering, and Medicine. He serves as director of the Clinical Autonomic Neuroscience Programs, and Autonomic Testing Laboratory. He also serves on the leadership team of the UCLA Specialty Training and Advanced Research (STAR) program, and directs the UCLA internal medicine residency physician scientist training program (ProSTAR-PSTP)."
@@ -954,6 +961,7 @@
             {
                 "moderator": false,
                 "name": "Robert Brett Lloyd, Jr, MD, PhD",
+                "affiliation": "Northwestern University",                    
                 "image": "brett_lloyd.jpg",
                 "agenda_image": "brett_lloyd_thumb.jpg",
                 "bio": "Dr. Lloyd's primary clinical interests involve the diagnosis and treatment of patients with psychiatric conditions and other medical comorbidities. Specifically, he is interested in the interface between physical medicine and rehabilitation and psychiatry. He is currently involved with a group of researchers at Northwestern evaluating factors that influence the development and maintenance of chronic pelvic pain. He is also interested in improving methods related to medical education with a focus on technology in the classroom."
@@ -961,10 +969,12 @@
             {
                 "moderator": false,
                 "name": "Donald Williams (Will) Parsons, MD, PhD",
+                "affiliation": "Baylor University",                    
                 "image": "will_parsons.jpg",
                 "agenda_image": "will_parsons_thumb.jpg",
                 "bio": "Dr. Parsons is a board-certified pediatric oncologist and the Co-Director of the Pediatrician-Scientist Program at Baylor College of Medicine (BCM) in Houston, Texas. He is the Deputy Director of Texas Children’s Cancer and Hematology Centers and plays multiple other leadership roles including serving as Director of the Precision Oncology Program and Co-Director of the Neuro-Oncology and Cancer Genetics & Genomics Programs at Texas Children’s. Dr. Parsons’ work has been instrumental in the characterizing the genetic landscapes of a variety of pediatric and adult cancers, including the first identification of IDH1 and IDH2 as critical oncogenes in gliomas. Dr. Parsons’ research team is currently engaged in a number of sequencing studies of high-risk and rare pediatric cancers with goals of revealing tumor biology, identifying potential molecular targets for therapy, and facilitating pre-clinical characterization of novel therapeutics. His current research primarily focuses on the clinical application of genomic technologies in pediatric cancer care. Dr. Parsons received his B.A. in chemistry from Princeton University and his M.D. and Ph.D. degrees from The Ohio State University College of Medicine. He completed his pediatric residency at Johns Hopkins University and his oncology/neuro-oncology fellowship training at Johns Hopkins and the National Cancer Institute."
-            }]
+            }
+        ]
     },
       {
         "type": "session",
@@ -995,6 +1005,7 @@
         "participant": [{
                 "moderator": true,
                 "name": "Samantha Spellicy",
+                "affiliation": "University of Georgia",                
                 "image": "sam_spellicy.jpg",
                 "agenda_image": "sam_spellicy_thumb.jpg",
                 "bio": "Samantha is a 6th year MD/PhD student at the University of Georgia and Medical College of Georgia at Augusta University. She attained her Bachelor of Science at the University of Maryland in Physiology and Neurobiology. Following graduation, she completed a postbaccalaureate IRTA at the National Institutes of Health, NIAID.  As a member of Dr. Steve Stice’s lab at the Regenerative Bioscience Center, Samantha is in pursuit of her PhD in Neuroscience and is studying the therapeutic efficacy of extracellular vesicles in stroke and other neuroinflammatory diseases. Her professional interests include neurosurgery, neurology, and pediatric neurology. Her involvement in APSA began in 2017 as member of APSA’s Policy Committee where she has served in various roles on the committee ever since. She enjoys playing video games, intramural and recreational sports, and reading in her hammock."
@@ -1002,20 +1013,23 @@
             {
                 "moderator": false,
                 "name": "Saskia Hendriks, MD, PhD",
+                "affiliation": "National Institutes of Health",                    
                 "image": "saskia_hendriks.jpg",
                 "agenda_image": "saskia_hendriks_thumb.jpg",
                 "bio": "Dr. Hendriks is a bioethicist and faculty member in the Department of Bioethics at the NIH Clinical Center. She conducts empirical and conceptual research on the ethical, social and legal implications of emerging medical technologies in reproduction and neuroscience. Dr. Hendriks has a joint appointment in the Neuroethics Program of the National Institute of Neurological Disorders and Stroke (NINDS), where she serves as a neuroethics consultant. In this role, Dr. Hendriks contributes to the efforts to integrate neuroethics into NINDS and the NIH BRAIN Initiative. Dr. Hendriks received her undergraduate degree from Amsterdam University College and her MD-PhD at the University of Amsterdam. She completed a post-doctoral fellowship at the NIH Department of Bioethics before taking up her present position."
             },
             {
                 "moderator": false,
-                "name": "Insoo Hyun , PhD",
+                "name": "Insoo Hyun, PhD",
+                "affiliation": "Case Western Reserve",                    
                 "image": "insoo_hyun.jpg",
                 "agenda_image": "insoo_hyun_thumb.jpg",
-                "bio": "Hyun is Professor of Bioethics and Philosophy at Case Western Reserve University School of Medicine and Faculty Member of the Center for Bioethics at Harvard Medical School. As a Fulbright Scholar and Hastings Center Fellow, Dr. Hyun's interests include ethical and policy issues in stem cell research and new biotechnologies. Currently, Dr. Hyun is the Principal Investigator of a BRAIN Initiative-funded project exploring the ethical issues surrounding human brain organoid research, in collaboration with leading scientists at Harvard and Stanford. He is the Co-Principal Investigator, along with colleagues at the Hastings Center, of an NIH grant identifying ways to improve the oversight of stem cell-based human-animal chimera research. And he is the Principal Investigator of a Greenwall Foundation project seeking to formulate a new bioengineering ethics framework for research involving the use of multi-cellular engineered living systems derived from human cells. This Greenwall project is in collaboration with scientists at Harvard, MIT, and the University of Michigan. Dr. Hyun has been involved for many years with the ISSCR (International Society for Stem Cell Research), for which he has helped draft all of the ISSCR’s international research guidelines and has served as their Chair of the Ethics and Public Policy Committee. He now serves as a member of the Neuroethics Subgroup of the BRAIN 2.0 Working Group of Advisory Committee to the Director, NIH."
+                "bio": "Dr. Hyun is Professor of Bioethics and Philosophy at Case Western Reserve University School of Medicine and Faculty Member of the Center for Bioethics at Harvard Medical School. As a Fulbright Scholar and Hastings Center Fellow, Dr. Hyun's interests include ethical and policy issues in stem cell research and new biotechnologies. Currently, Dr. Hyun is the Principal Investigator of a BRAIN Initiative-funded project exploring the ethical issues surrounding human brain organoid research, in collaboration with leading scientists at Harvard and Stanford. He is the Co-Principal Investigator, along with colleagues at the Hastings Center, of an NIH grant identifying ways to improve the oversight of stem cell-based human-animal chimera research. And he is the Principal Investigator of a Greenwall Foundation project seeking to formulate a new bioengineering ethics framework for research involving the use of multi-cellular engineered living systems derived from human cells. This Greenwall project is in collaboration with scientists at Harvard, MIT, and the University of Michigan. Dr. Hyun has been involved for many years with the ISSCR (International Society for Stem Cell Research), for which he has helped draft all of the ISSCR’s international research guidelines and has served as their Chair of the Ethics and Public Policy Committee. He now serves as a member of the Neuroethics Subgroup of the BRAIN 2.0 Working Group of Advisory Committee to the Director, NIH."
             },
             {
                 "moderator": false,
                 "name": "Fazal Khan, JD, MD",
+                "affiliation": "University of Georgia",                      
                 "image": "fazal_khan.jpg",
                 "agenda_image": "fazal_khan_thumb.jpg",
                 "bio": "Dr. Khan joined the faculty at the University of Georgia School of Law in 2006.  His scholarship and teaching focuses on healthcare law and policy, bioethics, and public health law. Representative articles and research projects include: assessing the impact of elder abuse laws; the digital transformation of healthcare delivery; regulation of epigenetic harms and endocrine disruptors in consumer products; ethical regulations on human drug trials in developing countries; and principles for government accountability during public health emergencies.  In addition, he received a three-year NIH grant to examine the ethical, legal, and social implications of epigenetics research.  Dr. Khan has considerable experience in both legal and medical fields and has been interviewed and called on as an expert by both television and print media on topics ranging from national health care reform, end of life regulations, and governmental response to public health emergencies.  After earning his M.D. and J.D. degrees from the Medical Scholars Program at the University of Illinois at Urbana-Champaign, he practiced law for three years at Jenner & Block in Chicago.  His legal practice focused on mass torts and medical institutional liability.  He completed his undergraduate studies at the University of Chicago."
@@ -1023,30 +1037,33 @@
     },
      {
         "type": "panel",
-        "title": "Fellowship and Specialties Panel II (Medicine, Pathology, Surgery)",
-        "date": "April 5, 2020",
-        "time": "11:00 am - 12:00 pm",
-        "location": "Embassy Room",
+        "title": "APSA PSTP Directors Panel (Medicine, Pathology, Surgery)",
+        "date": "April 4, 2020",
+        "time": "5:30 pm. - 7:00 pm ",
+        "location": "State Room",
         "description": "",
         "apsa": true,
         "participant": [
             {
                 "moderator": true,
                 "name": "Hannah Turbeville",
+                "affiliation": "University of Mississippi",                    
                 "image": "hannah_turbeville.jpg",
                 "agenda_image": "hannah_turbeville_thumb.jpg",
-                "bio": "Hannah is a sixth year MD-PhD student at the University of Mississippi Medical Center, where she studies the effects of preeclampsia on the offspring of affected pregnancies and the therapeutic potential of sildenafil in reducing their chronic disease risk in the lab of Dr. Jennifer Sasser. She previously attended the University of Southern Mississippi and earned a BS in Medical Laboratory Science after completing an honors thesis comparing diagnostic parameters of tumor markers in prostate cancer. Hannah began her journey with APSA in 2016 as a member of the Partnerships committee before moving on to Vice chair and Chair of the same committee. As President-Elect, she looks forward to facilitating diversity initiatives, strengthening partner relations, and ensuring that APSA serves as the voice of physician scientist trainees across the country. Loves: her German shepherd Zeus, Disney World, adventures, black coffee. Hates: pickles, movie spoilers, alarm clocks."
+                "bio": "Hannah is a sixth year MD/PhD student at the University of Mississippi Medical Center, where she studies the effects of preeclampsia on the offspring of affected pregnancies and the therapeutic potential of sildenafil in reducing their chronic disease risk in the lab of Dr. Jennifer Sasser. She previously attended the University of Southern Mississippi and earned a BS in Medical Laboratory Science after completing an honors thesis comparing diagnostic parameters of tumor markers in prostate cancer. Hannah began her journey with APSA in 2016 as a member of the Partnerships committee before moving on to Vice chair and Chair of the same committee. As President-Elect, she looks forward to facilitating diversity initiatives, strengthening partner relations, and ensuring that APSA serves as the voice of physician scientist trainees across the country. Loves: her German shepherd Zeus, Disney World, adventures, black coffee. Hates: pickles, movie spoilers, alarm clocks."
             },
             {
                 "moderator": false,
                 "name": "Patrick Hu, MD, PhD",
+                "affiliation": "Vanderbilt University",                    
                 "image": "patrick_hu.jpg",
                 "agenda_image": "patrick_hu_thumb.jpg",
-                "bio": ""
+                "bio": "Dr. Hu is an Associate Professor of Medicine and Cell and Developmental Biology and Director of the Physician-Scientist Training Program/Harrison Society in the Department of Medicine at Vanderbilt University Medical Center. He earned an A.B. from Harvard College and M.D. and Ph.D. degrees from New York University, where he studied PI 3-kinase signaling in Joseph Schlessinger’s lab. After completing clinical training in Internal Medicine at The Johns Hopkins Hospital and Adult Oncology at the Dana-Farber Cancer Institute and Massachusetts General Hospital, he did postdoctoral research on insulin-like growth factor signaling in the nematode Caenorhabditis elegans in Gary Ruvkun’s lab. He spent eleven years on the faculty of the University of Michigan Medical School prior to his recruitment to Vanderbilt in 2016. Dr. Hu is a member of the American Society for Clinical Investigation."
             },
             {
                 "moderator": false,
                 "name": "Arun Wiita, MD, PhD",
+                "affiliation": "UCSF",                    
                 "image": "arun_wiita.jpg",
                 "agenda_image": "arun_wiita_thumb.jpg",
                 "bio": "Dr. Wiita is a physician-scientist and Associate Professor in the Dept. of Laboratory Medicine at the University of California, San Francisco. Dr. Wiita directs the Physician-Scientist Pathway program within the UCSF Depts. of Pathology and Laboratory Medicine and is a standing member of the NCI K08 study section. Dr. Wiita's research laboratory focuses on mass spectrometry-based proteomics and immunotherapy development in hematologic malignancies, while his clinical duties center on molecular genomic pathology. Dr. Wiita is a prior recipient of a K08 award from the NCI, Clinical Scientist Development Award from the Doris Duke Charitable Foundation, and NIH Director's New Innovator Award, among others. He completed his residency in Clinical Pathology at UCSF, his MSTP at Columbia, and undergraduate studies at Princeton."
@@ -1054,10 +1071,12 @@
             {
                 "moderator": false,
                 "name": "Elliott Richard Haut, MD, PhD",
+                "affiliation": "Johns Hopkins",                   
                 "image": "elliot_haut.jpg",
                 "agenda_image": "elliot_haut_thumb.jpg",
                 "bio": ""
-            }]
+            }                        
+                        ]
     },
     {
         "type": "normal",
@@ -1065,7 +1084,7 @@
         "date": "April 5, 2020",
         "time": "12:00 pm - 2:00 pm",
         "location": "International Ballroom",
-        "description": "",
+        "description": "Trainees can meet with residency directors from around the country to discuss opportunities",
         "apsa": true
     }
 ]
