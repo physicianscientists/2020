@@ -935,11 +935,11 @@
     },
     {
         "type": "panel",
-        "title": "APSA PSTP Directors Panel (Medicine, Pediatrics, Psychiatry)",
-        "date": "April 4, 2020",
-        "time": "5:30 pm. - 7:00 pm ",
+        "title": "Fellowship and Specialties Panel I (Medicine, Pediatrics, Psychiatry)",
+        "date": "April 5, 2020",
+        "time": "10:00 am - 11:00 am",
         "location": "Gold Room",
-        "description": "",
+        "description": "The goal of the Fellowship and Specialties panel is to promote an open discussion between fellowship directors and prospective applicants. Specific discussions will include the importance of research experience prior to and during the fellowship program, curricular tracks, and questions from the audience. In addition, the panel will help residents gather information on what subspecialty they may be interested in, a timeline for the application process, interviewing for fellowship, and strategies for success in fellowship.",
         "apsa": true,
         "participant": [
             {
@@ -1037,11 +1037,11 @@
     },
      {
         "type": "panel",
-        "title": "APSA PSTP Directors Panel (Medicine, Pathology, Surgery)",
-        "date": "April 4, 2020",
-        "time": "5:30 pm. - 7:00 pm ",
-        "location": "State Room",
-        "description": "",
+        "title": "Fellowship and Specialties Panel II (Medicine, Pathology, Surgery)",
+        "date": "April 5, 2020",
+        "time": "11:00 am - 12:00 pm",
+        "location": "Embassy Room",
+        "description": "The goal of the Fellowship and Specialties panel is to promote an open discussion between fellowship directors and prospective applicants. Specific discussions will include the importance of research experience prior to and during the fellowship program, curricular tracks, and questions from the audience. In addition, the panel will help residents gather information on what subspecialty they may be interested in, a timeline for the application process, interviewing for fellowship, and strategies for success in fellowship.",
         "apsa": true,
         "participant": [
             {
