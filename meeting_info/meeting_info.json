@@ -1,11 +1,20 @@
 [{
         "type": "normal",
-        "title": "APSA Business Meeting",
+        "title": "APSA Business Meeting (open to all APSA members)",
         "date": "April 3, 2020",
         "time": "8:30 am - 11:00 am",
         "location": "Rouge",
         "description": "",
         "apsa": true
+    },
+ {
+        "type": "normal",
+        "title": "Networking Workshop for ASCI's Young Physician-Scientist Awardees",
+        "date": "April 3, 2020",
+        "time": "10:00 am - 12:00 pm",
+        "location": "",
+        "description": "",
+        "apsa": false
     },
     {
         "type": "session",
@@ -14,7 +23,7 @@
         "time": "11:00 am - 1:00 pm",
         "location": "International Ballroom",
         "moderators": [
-            ""
+            "Eileen Hu"
         ],
         "apsa": true
     },
@@ -76,12 +85,12 @@
     },
     {
         "type": "session",
-        "title": "Plenary Session I: Disruptive Engineering in Medicine",
+        "title": "Plenary Session I: Disruptive Metabolism in Medicine",
         "date": "April 3, 2020",
         "time": "1:00 pm - 6:00 pm",
         "location": "International Ballroom",
         "moderators": [
-            "Hossein Ardehali, Elizabeth McNally, Jose Rodrigues"
+            "Donna Martin, Elizabeth McNally, Jose Rodrigues"
         ],
         "apsa": true
     },
@@ -168,13 +177,13 @@
         "title": "APSA Lasker Award Winner Lecture",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
+            "title": "Evolution of Alternative Adaptive Immune Systems",
             "name": "Max D. Cooper, MD",
             "affiliation": "Emory University",
-            "image": "",
-            "agenda_image": "",
+            "image": "max_cooper.jpg",
+            "agenda_image": "max_cooper_thumb.jpg",
             "lab_url": "https://winshipcancer.emory.edu/bios/faculty/cooper-max-d.html",
-            "bio": ""
+            "bio": "Dr. Cooper is a Georgia Research Alliance Eminent Scholar, Professor of Pathology and Laboratory Medicine and member of the Vaccine Center at the Emory University School of Medicine. Cooper obtained his medical degree and pediatric residency training at Tulane University Medical School. While at the University of Minnesota from 1963-1967 he worked with Robert Good to establish the dual nature of the immune system. With UAB graduate student Paul Kincade, he discovered antibody class switching by B cells. Dale Bockman and Cooper described the lymphoid follicle-associated epithelial “M” cells in the intestine and their transcytotic function. While on sabbatical at University College London in 1974, he worked with Martin Raff and John Owen to define the fetal liver and bone marrow origin of B cells and pre-B cells. His laboratory currently studies the evolution of adaptive immunity and explores the use of lamprey monoclonal antibodies for diagnosis and therapy of infectious diseases and lymphoid malignancies. Cooper is a former president of the American Association of Immunologists, the Clinical Immunology Society and the Kunkel Society. He is a member of the U.S. National Academy of Sciences, National Academy of Medicine, American Academy of Arts and Sciences, a foreign member of the French Academy of Sciences and the Royal Society of London. Honors include the Society for Experimental Biology and Medicine Founder’s Award (1966), Sandoz Prize in Immunology (1990), American College of Physicians Science Award (1994), American Association of Immunologists (AAI) Lifetime Achievement Award (2000), AAI-Dana Foundation Award in Human Immunology Research (2006), Avery-Landsteiner Prize (2008), Robert Koch Prize (2010), AAI Excellence in Mentoring Award (2012), Japan Prize (2018) and Albert Lasker Basic Medical Research Award (2019)."
         }],
         "date": "April 3, 2020",
         "time": "4:00 pm - 4:30 pm",
@@ -209,10 +218,10 @@
         "speaker": [{
             "speaker_type": "",
             "title": "ASCI/Stanley J. Korsmeyer Award Lecture",
-            "name": "",
-            "affiliation": "",
+            "name": "Judith A. James, MD, PhD",
+            "affiliation": "University of Oklahoma Health Sciences Center and the Oklahoma Medical Research Foundation",
             "image": "",
-            "agenda_image": "",
+            "agenda_image": "judith_james_thumb.jpg",
             "lab_url": "",
             "bio": ""
         }],
@@ -255,8 +264,8 @@
         "speaker": [{
             "speaker_type": "After-Dinner Speaker",
             "title": "",
-            "name": "",
-            "affiliation": "",
+            "name": "William G. Kaelin, Jr., MD",
+            "affiliation": "Dana-Farber Cancer Institute",
             "image": "",
             "agenda_image": "",
             "lab_url": "",
@@ -269,7 +278,7 @@
     },
     {
         "type": "normal",
-        "title": "APSA Welcome Reception",
+        "title": "APSA Welcome Reception (all attendees welcome)",
         "date": "April 3, 2020",
         "time": "9:00 pm - 12:00 am",
         "location": "Mid-America Club",
@@ -294,15 +303,7 @@
         "description": "Trainees have breakfast with senior scientists in ASCI and AAP",
         "apsa": true
     },
-     {
-        "type": "normal",
-        "title": "APSA Board of Directors Meeting",
-        "date": "April 4, 2020",
-        "time": "8:00 am - 9:00 am",
-        "location": "State Room, 2nd Level",
-        "description": "",
-        "apsa": true
-    },
+
     {
         "type": "normal",
         "title": "Poster Session and Continental Breakfast",
@@ -457,7 +458,7 @@
         "title": "",
         "speaker": [{
             "speaker_type": "",
-            "title": "",
+            "title": "Metabolic Pathways in Obesity and Heart Failure: Form and Function",
             "name": "Svati H. Shah, MD, MHS",
             "affiliation": "Duke University",
             "image": "svati_shah.jpg",
@@ -514,29 +515,11 @@
             "bio": ""
         }],
         "date": "April 4, 2020",
-        "time": "1:30 pm – 1:45 pm",
+        "time": "1:30 pm – 2:15 pm",
         "location": "International Ballroom",
         "apsa": false
     },
-    {
-        "type": "keynote",
-        "award": "",
-        "title": "",
-        "speaker": [{
-            "speaker_type": "",
-            "title": "",
-            "name": "Graham F. Hatfull, PhD",
-            "affiliation": "University of Pittsburgh",
-            "image": "",
-            "agenda_image": "graham_hatfull_thumb.jpg",
-            "lab_url": "https://www.biology.pitt.edu/person/graham-hatfull",
-            "bio": ""
-        }],
-        "date": "April 4, 2020",
-        "time": "1:45 pm - 2:15 pm ",
-        "location": "International Ballroom",
-        "apsa": true
-    },
+    
     {
         "type": "keynote",
         "award": "",
@@ -571,7 +554,7 @@
         "date": "April 4, 2020",
         "time": "3:15 pm - 5:30 pm",
         "location": "International Ballroom",
-        "moderators": ["David Ginsburg Sarah Groover, Sohail Tavazoie"],
+        "moderators": ["David Ginsburg, Sarah Groover, Sohail Tavazoie"],
         "apsa": true
     },
     {
@@ -881,7 +864,15 @@
         "description": "",
         "apsa": false
     },
-
+     {
+        "type": "normal",
+        "title": "APSA Board of Directors Meeting",
+        "date": "April 5, 2020",
+        "time": "8:00 am - 9:00 am",
+        "location": "State Room, 2nd Level",
+        "description": "",
+        "apsa": true
+    },
 
     {
         "type": "normal",
@@ -914,7 +905,7 @@
             "image": "jeffrey_gordon.jpg",
             "agenda_image": "jeffrey_gordon_thumb.jpg",
             "lab_url": "https://pathology.wustl.edu/people/jeffrey-gordon-md/",
-            "bio": "Jeffrey Gordon is the Dr. Robert J. Glaser Distinguished University Professor at Washington University in St. Louis. He received his A.B. from Oberlin College and his M.D. from the University of Chicago. After completing his clinical training in internal medicine and gastroenterology, and doing a post-doctoral fellowship at the NIH, he joined the faculty at Washington University where he has spent his entire career; first as a member of the Departments of Medicine and Biological Chemistry, then as Head of the Department of Molecular Biology and Pharmacology, and for the past decade as founding Director of the University’s interdepartmental Center for Genome Sciences and Systems Biology. Members of his lab have developed gnotobiotic animal models, and new experimental and computational approaches to characterize the assembly, dynamic operations, functional properties, and biological effects of human gut microbial communities. He has combined these models with human studies involving twins as well as members of birth cohorts living in low-, middle- and high-income countries. His group is focused on addressing the global health challenges of obesity and childhood undernutrition through new understanding of the interactions between diets and the gut microbiome and through new ways of promoting healthy development of the gut microbial community during the first several years of postnatal life. To date, he has been the research mentor to 137 PhD and MD/PhD students and post-doctoral fellows. He is a member of the National Academy of Sciences, the American Academy of Arts and Sciences, the National Academy of Medicine, and the American Philosophical Society."
+            "bio": "Dr. Gordon is the Dr. Robert J. Glaser Distinguished University Professor at Washington University in St. Louis. He received his A.B. from Oberlin College and his M.D. from the University of Chicago. After completing his clinical training in internal medicine and gastroenterology, and doing a post-doctoral fellowship at the NIH, he joined the faculty at Washington University where he has spent his entire career; first as a member of the Departments of Medicine and Biological Chemistry, then as Head of the Department of Molecular Biology and Pharmacology, and for the past decade as founding Director of the University’s interdepartmental Center for Genome Sciences and Systems Biology. Members of his lab have developed gnotobiotic animal models, and new experimental and computational approaches to characterize the assembly, dynamic operations, functional properties, and biological effects of human gut microbial communities. He has combined these models with human studies involving twins as well as members of birth cohorts living in low-, middle- and high-income countries. His group is focused on addressing the global health challenges of obesity and childhood undernutrition through new understanding of the interactions between diets and the gut microbiome and through new ways of promoting healthy development of the gut microbial community during the first several years of postnatal life. To date, he has been the research mentor to 137 PhD and MD/PhD students and post-doctoral fellows. He is a member of the National Academy of Sciences, the American Academy of Arts and Sciences, the National Academy of Medicine, and the American Philosophical Society."
         }],
         "date": "April 5, 2020",
         "time": "9:30 am - 10:00 am",
@@ -922,17 +913,48 @@
         "description": "",
         "apsa": true
     },
-
-    {
+{
         "type": "panel",
-        "title": "Dos and Don'ts of MSTP Admissions",
+        "title": "Policy Panel: Ethics of Emerging Technologies in Biomedical Research",
         "date": "April 5, 2020",
         "time": "10:00 am - 11:00 am",
         "location": "State Room",
-        "description": "Interested in learning more about applying to a dual degree program? Join faculty experts from the University of Pittsburgh/Carnegie Mellon, University of Arizona, and the University of Miami as they discuss the application process and different training programs. You'll learn about their own paths, and what life is like as a physician-scientist.",
+        "description": "This year's APSA Policy Committee Panel will focus on discussing 'Emerging Technology in Biomedical Research'. Technology has proven critical for the advancement of both science and knowledge throughout history. As we move through the 21st century, cutting-edge technology allows researchers to do more than ever before. From CRISPR-Cas to stem cell regeneration to high-throughput 'omics', new emerging technology has the potential to help us understand and answer science and medicine's most elusive questions. But what is important to consider when utilizing and implementing this technology in both basic research and clinical settings? Our panel will engage experts in the fields of bioethics and biotechnology as well as attendees, to discuss critical considerations surrounding the use and implementation of technology in biomedical research.",
         "apsa": true,
-        "participant": [""]
+        "participant": [{
+                "moderator": true,
+                "name": "Samantha Spellicy",
+                "affiliation": "University of Georgia",                
+                "image": "sam_spellicy.jpg",
+                "agenda_image": "sam_spellicy_thumb.jpg",
+                "bio": "Samantha is a 6th year MD/PhD student at the University of Georgia and Medical College of Georgia at Augusta University. She attained her Bachelor of Science at the University of Maryland in Physiology and Neurobiology. Following graduation, she completed a postbaccalaureate IRTA at the National Institutes of Health, NIAID.  As a member of Dr. Steve Stice’s lab at the Regenerative Bioscience Center, Samantha is in pursuit of her PhD in Neuroscience and is studying the therapeutic efficacy of extracellular vesicles in stroke and other neuroinflammatory diseases. Her professional interests include neurosurgery, neurology, and pediatric neurology. Her involvement in APSA began in 2017 as member of APSA’s Policy Committee where she has served in various roles on the committee ever since. She enjoys playing video games, intramural and recreational sports, and reading in her hammock."
+            },
+            {
+                "moderator": false,
+                "name": "Saskia Hendriks, MD, PhD",
+                "affiliation": "National Institutes of Health",                    
+                "image": "saskia_hendriks.jpg",
+                "agenda_image": "saskia_hendriks_thumb.jpg",
+                "bio": "Dr. Hendriks is a bioethicist and faculty member in the Department of Bioethics at the NIH Clinical Center. She conducts empirical and conceptual research on the ethical, social and legal implications of emerging medical technologies in reproduction and neuroscience. Dr. Hendriks has a joint appointment in the Neuroethics Program of the National Institute of Neurological Disorders and Stroke (NINDS), where she serves as a neuroethics consultant. In this role, Dr. Hendriks contributes to the efforts to integrate neuroethics into NINDS and the NIH BRAIN Initiative. Dr. Hendriks received her undergraduate degree from Amsterdam University College and her MD-PhD at the University of Amsterdam. She completed a post-doctoral fellowship at the NIH Department of Bioethics before taking up her present position."
+            },
+            {
+                "moderator": false,
+                "name": "Insoo Hyun, PhD",
+                "affiliation": "Case Western Reserve",                    
+                "image": "insoo_hyun.jpg",
+                "agenda_image": "insoo_hyun_thumb.jpg",
+                "bio": "Dr. Hyun is Professor of Bioethics and Philosophy at Case Western Reserve University School of Medicine and Faculty Member of the Center for Bioethics at Harvard Medical School. As a Fulbright Scholar and Hastings Center Fellow, Dr. Hyun's interests include ethical and policy issues in stem cell research and new biotechnologies. Currently, Dr. Hyun is the Principal Investigator of a BRAIN Initiative-funded project exploring the ethical issues surrounding human brain organoid research, in collaboration with leading scientists at Harvard and Stanford. He is the Co-Principal Investigator, along with colleagues at the Hastings Center, of an NIH grant identifying ways to improve the oversight of stem cell-based human-animal chimera research. And he is the Principal Investigator of a Greenwall Foundation project seeking to formulate a new bioengineering ethics framework for research involving the use of multi-cellular engineered living systems derived from human cells. This Greenwall project is in collaboration with scientists at Harvard, MIT, and the University of Michigan. Dr. Hyun has been involved for many years with the ISSCR (International Society for Stem Cell Research), for which he has helped draft all of the ISSCR’s international research guidelines and has served as their Chair of the Ethics and Public Policy Committee. He now serves as a member of the Neuroethics Subgroup of the BRAIN 2.0 Working Group of Advisory Committee to the Director, NIH."
+            },
+            {
+                "moderator": false,
+                "name": "Fazal Khan, JD, MD",
+                "affiliation": "University of Georgia",                      
+                "image": "fazal_khan.jpg",
+                "agenda_image": "fazal_khan_thumb.jpg",
+                "bio": "Dr. Khan joined the faculty at the University of Georgia School of Law in 2006.  His scholarship and teaching focuses on healthcare law and policy, bioethics, and public health law. Representative articles and research projects include: assessing the impact of elder abuse laws; the digital transformation of healthcare delivery; regulation of epigenetic harms and endocrine disruptors in consumer products; ethical regulations on human drug trials in developing countries; and principles for government accountability during public health emergencies.  In addition, he received a three-year NIH grant to examine the ethical, legal, and social implications of epigenetics research.  Dr. Khan has considerable experience in both legal and medical fields and has been interviewed and called on as an expert by both television and print media on topics ranging from national health care reform, end of life regulations, and governmental response to public health emergencies.  After earning his M.D. and J.D. degrees from the Medical Scholars Program at the University of Illinois at Urbana-Champaign, he practiced law for three years at Jenner & Block in Chicago.  His legal practice focused on mass torts and medical institutional liability.  He completed his undergraduate studies at the University of Chicago."
+            }]
     },
+   
     {
         "type": "panel",
         "title": "Fellowship and Specialties Panel I (Medicine, Pediatrics, Psychiatry)",
@@ -989,51 +1011,30 @@
         "type": "normal",
         "title": "APSA Research Residency Directors' Meeting (invitation only)",
         "date": "April 5, 2020",
-        "time": "10:00 am - 12:00 pm",
+        "time": "10:00 am - 12:30 pm",
         "location": "Embassy Room",
         "description": "",
         "apsa": true
     },
-    {
+  {
         "type": "panel",
-        "title": "Policy Panel: Ethics of Emerging Technologies in Biomedical Research",
+        "title": "Dos and Don'ts of MSTP Admissions",
         "date": "April 5, 2020",
         "time": "11:00 am - 12:00 pm",
         "location": "State Room",
-        "description": "This year's APSA Policy Committee Panel will focus on discussing 'Emerging Technology in Biomedical Research'. Technology has proven critical for the advancement of both science and knowledge throughout history. As we move through the 21st century, cutting-edge technology allows researchers to do more than ever before. From CRISPR-Cas to stem cell regeneration to high-throughput 'omics', new emerging technology has the potential to help us understand and answer science and medicine's most elusive questions. But what is important to consider when utilizing and implementing this technology in both basic research and clinical settings? Our panel will engage experts in the fields of bioethics and biotechnology as well as attendees, to discuss critical considerations surrounding the use and implementation of technology in biomedical research.",
+        "description": "Interested in learning more about applying to a dual degree program? Join faculty experts from the University of Pittsburgh/Carnegie Mellon, University of Arizona, and the University of Miami as they discuss the application process and different training programs. You'll learn about their own paths, and what life is like as a physician-scientist.",
         "apsa": true,
-        "participant": [{
-                "moderator": true,
-                "name": "Samantha Spellicy",
-                "affiliation": "University of Georgia",                
-                "image": "sam_spellicy.jpg",
-                "agenda_image": "sam_spellicy_thumb.jpg",
-                "bio": "Samantha is a 6th year MD/PhD student at the University of Georgia and Medical College of Georgia at Augusta University. She attained her Bachelor of Science at the University of Maryland in Physiology and Neurobiology. Following graduation, she completed a postbaccalaureate IRTA at the National Institutes of Health, NIAID.  As a member of Dr. Steve Stice’s lab at the Regenerative Bioscience Center, Samantha is in pursuit of her PhD in Neuroscience and is studying the therapeutic efficacy of extracellular vesicles in stroke and other neuroinflammatory diseases. Her professional interests include neurosurgery, neurology, and pediatric neurology. Her involvement in APSA began in 2017 as member of APSA’s Policy Committee where she has served in various roles on the committee ever since. She enjoys playing video games, intramural and recreational sports, and reading in her hammock."
-            },
-            {
-                "moderator": false,
-                "name": "Saskia Hendriks, MD, PhD",
-                "affiliation": "National Institutes of Health",                    
-                "image": "saskia_hendriks.jpg",
-                "agenda_image": "saskia_hendriks_thumb.jpg",
-                "bio": "Dr. Hendriks is a bioethicist and faculty member in the Department of Bioethics at the NIH Clinical Center. She conducts empirical and conceptual research on the ethical, social and legal implications of emerging medical technologies in reproduction and neuroscience. Dr. Hendriks has a joint appointment in the Neuroethics Program of the National Institute of Neurological Disorders and Stroke (NINDS), where she serves as a neuroethics consultant. In this role, Dr. Hendriks contributes to the efforts to integrate neuroethics into NINDS and the NIH BRAIN Initiative. Dr. Hendriks received her undergraduate degree from Amsterdam University College and her MD-PhD at the University of Amsterdam. She completed a post-doctoral fellowship at the NIH Department of Bioethics before taking up her present position."
-            },
-            {
-                "moderator": false,
-                "name": "Insoo Hyun, PhD",
-                "affiliation": "Case Western Reserve",                    
-                "image": "insoo_hyun.jpg",
-                "agenda_image": "insoo_hyun_thumb.jpg",
-                "bio": "Dr. Hyun is Professor of Bioethics and Philosophy at Case Western Reserve University School of Medicine and Faculty Member of the Center for Bioethics at Harvard Medical School. As a Fulbright Scholar and Hastings Center Fellow, Dr. Hyun's interests include ethical and policy issues in stem cell research and new biotechnologies. Currently, Dr. Hyun is the Principal Investigator of a BRAIN Initiative-funded project exploring the ethical issues surrounding human brain organoid research, in collaboration with leading scientists at Harvard and Stanford. He is the Co-Principal Investigator, along with colleagues at the Hastings Center, of an NIH grant identifying ways to improve the oversight of stem cell-based human-animal chimera research. And he is the Principal Investigator of a Greenwall Foundation project seeking to formulate a new bioengineering ethics framework for research involving the use of multi-cellular engineered living systems derived from human cells. This Greenwall project is in collaboration with scientists at Harvard, MIT, and the University of Michigan. Dr. Hyun has been involved for many years with the ISSCR (International Society for Stem Cell Research), for which he has helped draft all of the ISSCR’s international research guidelines and has served as their Chair of the Ethics and Public Policy Committee. He now serves as a member of the Neuroethics Subgroup of the BRAIN 2.0 Working Group of Advisory Committee to the Director, NIH."
-            },
-            {
-                "moderator": false,
-                "name": "Fazal Khan, JD, MD",
-                "affiliation": "University of Georgia",                      
-                "image": "fazal_khan.jpg",
-                "agenda_image": "fazal_khan_thumb.jpg",
-                "bio": "Dr. Khan joined the faculty at the University of Georgia School of Law in 2006.  His scholarship and teaching focuses on healthcare law and policy, bioethics, and public health law. Representative articles and research projects include: assessing the impact of elder abuse laws; the digital transformation of healthcare delivery; regulation of epigenetic harms and endocrine disruptors in consumer products; ethical regulations on human drug trials in developing countries; and principles for government accountability during public health emergencies.  In addition, he received a three-year NIH grant to examine the ethical, legal, and social implications of epigenetics research.  Dr. Khan has considerable experience in both legal and medical fields and has been interviewed and called on as an expert by both television and print media on topics ranging from national health care reform, end of life regulations, and governmental response to public health emergencies.  After earning his M.D. and J.D. degrees from the Medical Scholars Program at the University of Illinois at Urbana-Champaign, he practiced law for three years at Jenner & Block in Chicago.  His legal practice focused on mass torts and medical institutional liability.  He completed his undergraduate studies at the University of Chicago."
-            }]
+        "participant": [""]
+    },
+     {
+        "type": "panel",
+        "title": "Research!America Workshop",
+        "date": "April 5, 2020",
+        "time": "11:00 am - 12:00 pm",
+        "location": "TBD",
+        "description": "",
+        "apsa": true,
+        "participant": [""]
     },
      {
         "type": "panel",
